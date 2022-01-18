@@ -4,9 +4,35 @@
     <title>Lemongrass Repertoire List</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
 </head>
-<body style=" background-color: #303030;">
+<style>
+body {
+    background-color: #303030;
+}
+
+iframe {
+    width: 100%;
+    height: 90vh;
+    filter: invert(1);
+}
+
+div {
+    font-family: "Georgia";
+    color: white;
+}
+
+a {
+    color: Salmon;
+}
+</style>
+<body>
 <center>
-    <iframe id="repertoirelist" src="https://drive.google.com/file/d/11GHYiGdA-Ov5d55qs4bP_4BJtxuAiJXD/preview" style="width: 100%; height: 95vh; filter: invert(1);" frameborder=0></iframe>
+    <div>
+        <a href="https://drive.google.com/file/d/19GI3IbVxMG5AANnkQRJkFiAR3DkYh0jA/preview" target="repertoirelist">Artist Name</a>
+        ← SORT →
+        <a href="https://drive.google.com/file/d/11GHYiGdA-Ov5d55qs4bP_4BJtxuAiJXD/preview" target="repertoirelist">Song Title</a>
+    </div>
+    <br />
+    <iframe name="repertoirelist" src="https://drive.google.com/file/d/11GHYiGdA-Ov5d55qs4bP_4BJtxuAiJXD/preview" frameborder=0></iframe>
 </center>
 </body>
 </html>
