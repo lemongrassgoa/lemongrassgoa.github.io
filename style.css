@@ -54,17 +54,6 @@ body, h1, h2 {
     filter: drop-shadow(0px 0px 2px #fff);
 }
 
-@media (max-width: 600px) {
-    .personal-photo{
-        width: 70%; 
-    }
-}
-
-#repertoirelist {
-    width: 100%;
-    height: 50vw;
-}
-
 .button{
     transition: transform .2s, box-shadow .2s, color .2s;
     font-family: "Georgia";
@@ -116,3 +105,16 @@ body, h1, h2 {
     /* top: 25%; */
     /* opacity: 0.1; */
 }
+
+@media (max-width: 600px) {
+    
+.personal-photo{
+    width: 70%; 
+}
+
+#watermark {
+    width: 80%;
+}
+
+}
+
