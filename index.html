@@ -345,7 +345,7 @@
 </script>
 <!--  -->
 <!-- Messenger Chat plugin Code -->
-    <div id="fb-root" style="filter: invert(1);"></div>
+    <div id="fb-root"></div>
 
     <!-- Your Chat plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
@@ -372,9 +372,6 @@
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.style.filter = 'invert(1)';
-
       }(document, 'script', 'facebook-jssdk'));
     </script>
 
