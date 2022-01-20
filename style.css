@@ -27,7 +27,6 @@ body, h1, h2 {
     font-family: inherit;
 }
 
-
 .mySlides {
     display: block;
 }
@@ -103,8 +102,17 @@ body, h1, h2 {
 }
 
 #logo {
+    pointer-events:none;
     position: fixed; 
     bottom: 20px;
     left: 20px;
     height: 60px;
+}
+
+#watermark {
+    pointer-events:none;
+    width: 50%;
+    /* position: fixed; */
+    /* top: 25%; */
+    /* opacity: 0.1; */
 }
