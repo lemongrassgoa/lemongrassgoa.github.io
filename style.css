@@ -101,9 +101,6 @@ body, h1, h2 {
 #watermark {
     pointer-events:none;
     width: 50%;
-    /* position: fixed; */
-    /* top: 25%; */
-    /* opacity: 0.1; */
 }
 
 @media (max-width: 600px) {
@@ -111,10 +108,6 @@ body, h1, h2 {
 .personal-photo{
     width: 70%;
     display: none;
-}
-
-#band_description {
-    /* display: none; */
 }
 
 #watermark {
