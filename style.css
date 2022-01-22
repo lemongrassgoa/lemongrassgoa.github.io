@@ -105,14 +105,14 @@ body, h1, h2 {
 
 @media (max-width: 600px) {
     
-.personal-photo{
-    width: 70%;
-    display: none;
-}
+    .personal-photo{
+        width: 70%;
+        display: none;
+    }
 
-#watermark {
-    width: 80%;
-}
+    #watermark {
+        width: 80%;
+    }
 
 }
 
