@@ -5,6 +5,7 @@
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <script src="js/csvToTable.js" type="text/javascript"></script>
     <script src="sortable/sortable.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js" type="text/javascript"></script>
     <link href="sortable/sortable.css" rel="stylesheet" />
 </head>
 <script>
@@ -12,6 +13,12 @@
 		csvFile: 'Repertoire.csv' 
 	});
 	csvtotable.run();
+
+    var options = {
+        valueNames: [ 'item0', 'item1', 'item2' ,'item3' ]
+    };
+
+    var songList = new List('repertoire-list', options);
 </script>
 <style>
 body {
@@ -33,18 +40,24 @@ a {
     color: Salmon;
 }
 
+table {
+    font-family: "Trebuchet MS";
+}
+
 </style>
 <body>
 <center>
     <div>
         <a href="../">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<br />
+        <p><small>Click the headers to sort the table!</small></p>
 <!--         <a href="https://drive.google.com/file/d/11GHYiGdA-Ov5d55qs4bP_4BJtxuAiJXD/preview" target="repertoirelist">Song Title</a>
         ← SORT →
         <a href="https://drive.google.com/file/d/19GI3IbVxMG5AANnkQRJkFiAR3DkYh0jA/preview" target="repertoirelist">Artist Name</a> -->
     </div>
-    <br />
     <!-- <iframe name="repertoirelist" src="https://drive.google.com/file/d/11GHYiGdA-Ov5d55qs4bP_4BJtxuAiJXD/preview" frameborder=0></iframe> -->
-    <div id="repertoirelist"></div>
+    <div id="repertoire-list">
+        <!-- <input type="search" class="search" placeholder="Search" /> <br /><br /> -->
+    </div>
 </center>
 </body>
 </html>

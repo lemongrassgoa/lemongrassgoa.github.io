@@ -80,7 +80,7 @@
 	                    table += rowCells[rowCell];
 	                    table += '</th>';
 	                } else {
-	                    table += '<td>';
+	                    table += "<td class=\"item" + rowCell + "\">";
 	                    table += rowCells[rowCell];
 	                    table += '</td>';
 	                }
@@ -88,7 +88,7 @@
 	            if (singleRow === 0) {
 	                table += '</tr>';
 	                table += '</thead>';
-	                table += '<tbody>';
+	                table += '<tbody class="list">';
 	            } else {
 	                table += '</tr>';
 	            }
@@ -97,7 +97,7 @@
 	        table += '</table>';
 
 	        // document.body.innerHTML += table;
-            document.getElementById("repertoirelist").innerHTML += table;
+            document.getElementById("repertoire-list").innerHTML += table;
 	}, function(error){
 			console.error(error);
 		});
