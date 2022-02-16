@@ -1,0 +1,55 @@
+body {
+    background-color: #303030;
+}
+
+div {
+    font-family: "Georgia";
+    color: white;
+}
+
+a {
+    color: Salmon;
+}
+
+table {
+    font-family: "Trebuchet MS";
+    cursor: default;
+}
+
+.button{
+    transition: transform .2s, box-shadow .2s, color .2s;
+    font-family: "Georgia";
+    font-size: 115%;
+	text-align:center;
+    padding: 1em;
+    text-decoration: none;
+	position:fixed;
+	width:200px;
+	height:60px;
+	top:20px;
+	right:20px;
+	background-color: #085;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 3px 3px 4px #333;
+    z-index: 5;
+}
+.button:hover{
+	color:#000;
+    transform: scale(1.1);
+	box-shadow: 4px 4px 5px #666;
+}
+.button:active{
+    transform: scale(1);
+}
+.my-float{
+	margin-bottom:22px;
+}
+#logo {
+    pointer-events:none;
+    position: fixed; 
+    top: 20px;
+    left: 20px;
+    height: 60px;
+}
+
