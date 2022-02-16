@@ -24,8 +24,8 @@
 .sortable th {
   background: #808080;
   color: #fff;
-  cursor: pointer;
-  font-weight: normal;
+  cursor: ns-resize;
+  font-weight: bold;
   text-align: left;
   text-transform: capitalize;
   vertical-align: baseline;
