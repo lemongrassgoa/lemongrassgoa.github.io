@@ -8,7 +8,7 @@ function search(){
     var input, filter, table, tr, td0, td1, i, txtValue0, txtValue1;
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
-    table = document.getElementById("song_table");
+    table = document.getElementById("repertoirelist");
     tr = table.getElementsByTagName("tr");
 
     // Loop through all table rows, and hide those who don't match the search query

@@ -70,7 +70,7 @@ var artists = [];
 	function buildTable() {
 		getCSV.call(this).then(function(response){
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
-	        var table = '<table class="sortable" id="song_table">';
+	        var table = '<table class="sortable" id="repertoirelist">';
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
 	            if (singleRow === 0) {
 	                table += '<thead>';

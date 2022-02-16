@@ -16,6 +16,10 @@ table {
     cursor: default;
 }
 
+#search{
+    text-align: center;
+}
+
 .button{
     transition: transform .2s, box-shadow .2s, color .2s;
     font-family: "Georgia";
