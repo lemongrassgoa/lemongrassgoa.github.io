@@ -14,6 +14,7 @@ a {
 table {
     font-family: "Trebuchet MS";
     cursor: default;
+    padding-bottom: 50px;
 }
 
 #search{
