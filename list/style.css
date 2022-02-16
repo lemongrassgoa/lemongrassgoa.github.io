@@ -18,7 +18,8 @@ table {
 }
 
 #search{
-    text-align: center;
+    /* text-align: center; */
+    border-radius: 0.5em;
 }
 
 .button{
