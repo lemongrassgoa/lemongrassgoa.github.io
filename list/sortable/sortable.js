@@ -80,7 +80,7 @@ document.addEventListener('click', function (e) {
         var dir = up_class
 
         // check if we're sorting up or down, and update the css accordingly
-        if (element.className.indexOf(down_class) !== -1) {
+        if (element.className.indexOf(up_class) !== -1) {
           dir = down_class
         }
 
