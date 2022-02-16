@@ -14,7 +14,7 @@ a {
 table {
     font-family: "Trebuchet MS";
     cursor: default;
-    padding-bottom: 50px;
+    padding-bottom: 2em;
 }
 
 #search{
@@ -25,7 +25,7 @@ table {
     transition: transform .2s, box-shadow .2s, color .2s;
     font-family: "Georgia";
     font-size: 115%;
-	text-align:center;
+	text-align: center;
     padding: 1em;
     text-decoration: none;
 	position:fixed;

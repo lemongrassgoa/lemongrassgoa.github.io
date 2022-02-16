@@ -116,7 +116,6 @@ var artists = [];
                             table += rowCells[rowCell];
                         }
 	                    table += '</td>';
-                        //  .getElementById('form').href = formlink + title + ' - ' + artist;
 	                }
 	            }
 	            if (singleRow === 0) {
@@ -134,10 +133,11 @@ var artists = [];
 	        // document.body.innerHTML += table;
             document.getElementById("repertoire-list").innerHTML += table;
             
-            for(var i = 0; i < artists.length; i++){
-                var form_id = "form" + (i+1);
-                document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
-            }
+        for(var i = 0; i < artists.length; i++){
+            var form_id = "form" + (i+1);
+            document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
+        }
+        
 	}, function(error){
 			console.error(error);
 		});
