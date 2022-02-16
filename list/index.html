@@ -5,8 +5,8 @@
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <script src="js/csvToTable.js" type="text/javascript"></script>
     <script src="sortable/sortable.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js" type="text/javascript"></script>
     <link href="sortable/sortable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 </head>
 <script>
 	var csvtotable = new CsvToTable({
@@ -14,11 +14,6 @@
 	});
 	csvtotable.run();
 
-    var options = {
-        valueNames: [ 'item0', 'item1', 'item2' ,'item3' ]
-    };
-
-    var songList = new List('repertoire-list', options);
 </script>
 <style>
 body {
@@ -44,8 +39,42 @@ table {
     font-family: "Trebuchet MS";
 }
 
+.button{
+    transition: transform .2s, box-shadow .2s, color .2s;
+    font-family: "Georgia";
+    font-size: 115%;
+	text-align:center;
+    padding: 1em;
+    text-decoration: none;
+	position:fixed;
+	width:200px;
+	height:60px;
+	top:20px;
+	right:20px;
+	background-color: #085;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 3px 3px 4px #333;
+    z-index: 5;
+}
+.button:hover{
+	color:#000;
+    transform: scale(1.1);
+	box-shadow: 4px 4px 5px #666;
+}
+.button:active{
+    transform: scale(1);
+}
+.my-float{
+	margin-bottom:22px;
+}
 </style>
 <body>
+
+<a href="https://lemongrassgoa.github.io/request" target="_blank" class="button w3-animate-right">
+    <i class="my-float">Request a song!</i>
+</a>
+
 <center>
     <div>
         <a href="../">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<br />
