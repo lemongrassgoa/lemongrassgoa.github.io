@@ -1,8 +1,10 @@
 // var url="https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.1323424921=Sort+by+%F0%9D%90%92%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A0+%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%A5%F0%9D%90%9E&entry.1953223907=A+Thousand+Miles+-+Vanessa+Carlton"
 // var url="https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.1323424921=Sort+by+%F0%9D%90%92%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A0+%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%A5%F0%9D%90%9E&entry.1953223907=Africa+-+Toto"
-
 (function(){
+var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.2134839446="
 
+var titles = [];
+var artists = [];
 	// Constructor method
 	this.CsvToTable = function(){
 		this.csvFile = null;
@@ -77,15 +79,44 @@
 	                table += '<tr>';
 	            }
 	            var rowCells = allRows[singleRow].split(',');
+                var title = "", artist = "";
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
 	                    table += '<th>';
 	                    table += rowCells[rowCell];
 	                    table += '</th>';
 	                } else {
-	                    table += "<td class=\"item" + rowCell + "\">";
-	                    table += rowCells[rowCell];
+                        if(rowCell === 0){
+                            table += '<td class="title">';
+                            table += '<a target="_blank" id="form'+ singleRow + '">';
+                            titles.push(rowCells[rowCell]);
+                            
+                            table += rowCells[rowCell];
+                            
+                            table += '</a>'
+                        }
+                        else if (rowCell === 1){
+                            table += '<td class="artist">';
+                            artists.push(rowCells[rowCell]);
+                            
+                            table += rowCells[rowCell];
+                        }
+                        else if (rowCell === 2){
+                            table += '<td class="year">';
+                            
+                            table += rowCells[rowCell];
+                        }
+                        else if (rowCell === 3){
+                            table += '<td class="genre">';
+                            
+                            table += rowCells[rowCell];
+                        }
+                        else{
+                            table += '<td>';
+                            table += rowCells[rowCell];
+                        }
 	                    table += '</td>';
+                        //  .getElementById('form').href = formlink + title + ' - ' + artist;
 	                }
 	            }
 	            if (singleRow === 0) {
@@ -95,12 +126,18 @@
 	            } else {
 	                table += '</tr>';
 	            }
+                // table += '<a href="' + formlink + title + ' - ' + artist + '">Click here to request</a>';
 	        }
 	        table += '</tbody>';
 	        table += '</table>';
 
 	        // document.body.innerHTML += table;
             document.getElementById("repertoire-list").innerHTML += table;
+            
+            for(var i = 0; i < artists.length; i++){
+                var form_id = "form" + (i+1);
+                document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
+            }
 	}, function(error){
 			console.error(error);
 		});
