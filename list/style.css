@@ -64,10 +64,11 @@ table {
     height: 100px;
 }
 .upi{
+    text-align: justify;
     position: fixed;
     top: 120px;
-    left: 23px;
-    width: 100px;
+    left: 15px;
+    width: 115px;
     color: #ffffff;
-    font-size: 70%;
+    font-size: 75%;
 }
