@@ -19,7 +19,7 @@ table {
 #search{
     text-align: center;
     border-radius: 0.5em;
-    width: 30%;
+    width: 50%;
 }
 
 .button{
@@ -57,4 +57,3 @@ table {
 	margin-bottom:20px;
     height: 100px;
 }
-
