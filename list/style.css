@@ -1,5 +1,5 @@
 body {
-    background-color: #303030;
+    background-color: #505050;
 }
 
 div {
@@ -52,10 +52,9 @@ table {
 	margin-bottom:22px;
 }
 #logo {
-    pointer-events:none;
-    position: fixed; 
-    top: 20px;
-    left: 20px;
+    /* pointer-events:none; */
+    /* position: fixed;  */
+	margin-top:20px;
     height: 60px;
 }
 
