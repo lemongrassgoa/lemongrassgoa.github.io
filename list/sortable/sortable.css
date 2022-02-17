@@ -3,7 +3,7 @@
 }
 
 .sortable tbody tr:nth-child(odd) {
-  background: #444444;
+  background: #505050;
 }
 
 .sortable td,
