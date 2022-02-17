@@ -58,15 +58,15 @@ table {
     height: 100px;
 }
 #upi_qr{
+    top: 20px;
+    left: 20px;
 	position: fixed;
-	margin-top:20px;
-	margin-left:20px;
     height: 100px;
 }
 .upi{
     position: fixed;
-    margin-top: 120px;
-    margin-left: 23px;
+    top: 120px;
+    left: 23px;
     width: 100px;
     color: #ffffff;
     font-size: 70%;
