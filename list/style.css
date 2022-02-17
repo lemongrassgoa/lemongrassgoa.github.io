@@ -24,13 +24,13 @@ table {
 
 .button{
     transition: transform .2s, box-shadow .2s, color .2s;
-    font-size: 115%;
+    font-size: 100%;
 	text-align: center;
     padding: 1em;
     text-decoration: none;
 	position: fixed;
-	width:200px;
-	height:60px;
+	width:150px;
+	height:50px;
 	top:20px;
 	right:20px;
 	background-color: #085;
@@ -64,6 +64,7 @@ table {
     height: 100px;
 }
 .upi{
+    pointer-events:none;
     text-align: justify;
     position: fixed;
     top: 120px;
