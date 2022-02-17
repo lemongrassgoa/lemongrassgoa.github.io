@@ -1,9 +1,9 @@
-body {
+body, html {
+    font-family: "Trebuchet MS";
     background-color: #333333;
 }
 
 div {
-    font-family: "Georgia";
     color: white;
 }
 
@@ -12,19 +12,18 @@ a {
 }
 
 table {
-    font-family: "Trebuchet MS";
     cursor: default;
     padding-bottom: 2em;
 }
 
 #search{
-    /* text-align: center; */
+    text-align: center;
     border-radius: 0.5em;
+    width: 30%;
 }
 
 .button{
     transition: transform .2s, box-shadow .2s, color .2s;
-    font-family: "Georgia";
     font-size: 115%;
 	text-align: center;
     padding: 1em;
@@ -55,6 +54,7 @@ table {
     /* pointer-events:none; */
     /* position: fixed;  */
 	margin-top:20px;
-    height: 60px;
+	margin-bottom:20px;
+    height: 100px;
 }
 
