@@ -82,9 +82,9 @@ var artists = [];
                 var title = "", artist = "";
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-                        if(rowCell === 0){
+                        if(rowCell === 0)
                             table += '<th class=" dir-u ">';
-                        } else
+                        else
                             table += '<th>';
 	                    table += rowCells[rowCell];
 	                    table += '</th>';
