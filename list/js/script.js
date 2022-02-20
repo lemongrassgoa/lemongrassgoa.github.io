@@ -30,3 +30,43 @@ function search(){
         }
     }
 }
+
+var _text = 0;
+searchBar();
+
+function searchBar(){
+    var delay1 = 2000, delay2 = 200;
+    
+    if (_text > 5)
+        _text = 0;
+    if(_text == 0){
+        document.getElementById("search").placeholder = "Type here to search";
+        _text++;
+        setTimeout(searchBar, delay1);
+    }
+    else if(_text == 1){
+        document.getElementById("search").placeholder = "";
+        _text++;
+        setTimeout(searchBar, delay2);
+    }
+    else if(_text == 2){
+        document.getElementById("search").placeholder = "Tap headers to sort";
+        _text++;
+        setTimeout(searchBar, delay1);
+    }
+    else if(_text == 3){
+        document.getElementById("search").placeholder = "";
+        _text++;
+        setTimeout(searchBar, delay2);
+    }
+    else if(_text == 4){
+        document.getElementById("search").placeholder = "Click a song name to request it";
+        _text++;
+        setTimeout(searchBar, delay1);
+    }
+    else if(_text == 5){
+        document.getElementById("search").placeholder = "";
+        _text++;
+        setTimeout(searchBar, delay2);
+    }
+}
