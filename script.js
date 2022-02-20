@@ -14,7 +14,7 @@ function carousel() {
             myIndex = 1;
         }
             x[myIndex-1].style.display = "block";  
-        setTimeout(carousel, 4000);    
+        setTimeout(carousel, 4000);
     } else {
         x[0].style.display = "block";
     }

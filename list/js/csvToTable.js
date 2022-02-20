@@ -70,7 +70,7 @@ var artists = [];
 	function buildTable() {
 		getCSV.call(this).then(function(response){
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
-	        var table = '<table class="sortable" id="repertoirelist">';
+	        var table = '<table class="w3-animate-opacity sortable" id="repertoirelist">';
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
 	            if (singleRow === 0) {
 	                table += '<thead>';
@@ -135,6 +135,7 @@ var artists = [];
 
 	        // document.body.innerHTML += table;
             document.getElementById("repertoire-list").innerHTML += table;
+            // document.getElementById("search").placeholder = "Type here to search □▪▫◊●◦ Tap headers to sort ▪ Click a song title to request it";
             
         for(var i = 0; i < artists.length; i++){
             var form_id = "form" + (i+1);
