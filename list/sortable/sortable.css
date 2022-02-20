@@ -39,13 +39,13 @@
 .sortable th:hover::after {
   color: inherit;
   font-size: 1.2em;
-  content: ' \025B8';
+  content: ' \021C5';
 }
 
 .sortable th::after {
   font-size: 1.2em;
   color: transparent;
-  content: ' \025B8';
+  content: ' \021C5';
 }
 
 .sortable th.dir-d {
@@ -54,7 +54,7 @@
 
 .sortable th.dir-d::after {
   color: inherit;
-  content: ' \025BE';
+  content: ' \021A7';
 }
 
 .sortable th.dir-u {
@@ -63,5 +63,5 @@
 
 .sortable th.dir-u::after {
   color: inherit;
-  content: ' \025B4';
+  content: ' \021A5';
 }

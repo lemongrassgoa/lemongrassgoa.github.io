@@ -73,7 +73,7 @@ var artists = [];
 	        var table = '<table class="w3-animate-opacity sortable" id="repertoirelist">';
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
 	            if (singleRow === 0) {
-	                table += '<thead>';
+	                table += '<thead class="tooltip-sort">';
 	                table += '<tr>';
 	            } else {
 	                table += '<tr>';
@@ -140,6 +140,8 @@ var artists = [];
         for(var i = 0; i < artists.length; i++){
             var form_id = "form" + (i+1);
             document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
+            if(i === 0)
+                document.getElementById(form_id).className = "tooltip-request";
         }
         
 	}, function(error){
