@@ -32,7 +32,7 @@ function search(){
 }
 
 var _text = 0;
-searchBar();
+// searchBar();
 
 function searchBar(){
     var delay1 = 2000, delay2 = 200;

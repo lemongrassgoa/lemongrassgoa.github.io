@@ -31,8 +31,8 @@ table {
 	position: fixed;
 	width:150px;
 	height:50px;
-	top:20px;
-	right:20px;
+	top:10px;
+	right:10px;
 	background-color: #085;
 	color:#FFF;
 	border-radius:50px;
@@ -48,7 +48,7 @@ table {
     transform: scale(1);
 }
 .my-float{
-	margin-bottom:22px;
+	margin-bottom:15px;
 }
 #logo {
     /* pointer-events:none; */
@@ -73,4 +73,20 @@ table {
     width: 115px;
     color: #ffffff;
     font-size: 75%;
+}
+
+.year, .genre {
+    display: ;
+}
+
+
+@media (max-width: 600px) {
+    .year, .genre {
+        display: none;
+    }
+    .button{
+        transform: scale(0.85);
+        top:5px;
+        right:5px;
+    }
 }

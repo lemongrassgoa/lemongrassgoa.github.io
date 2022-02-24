@@ -78,7 +78,13 @@
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0)
-                            table += '<th class=" dir-u ">';
+                            table += '<th class="title dir-u ">';
+                        else if(rowCell === 1)
+                            table += '<th class="artist">';
+                        else if(rowCell === 2)
+                            table += '<th class="year">';
+                        else if(rowCell === 3)
+                            table += '<th class="genre">';
                         else
                             table += '<th>';
 	                    table += rowCells[rowCell];
