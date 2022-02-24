@@ -1,5 +1,5 @@
 var csvtotable = new CsvToTable({
-    csvFile: 'Repertoire.csv' 
+    csvFile: '../list/Repertoire.csv' 
 });
 csvtotable.run();
 
@@ -28,5 +28,25 @@ function search(){
                 tr[i].style.display = "none";
             }
         }
+    }
+}
+
+var _text = 0;
+searchBar();
+
+function searchBar(){
+    var delay1 = 2000, delay2 = 200;
+    
+    if (_text > 1)
+        _text = 0;
+    if(_text == 0){
+        document.getElementById("search").placeholder = "Type here to search; Tap headers to sort";
+        _text++;
+        setTimeout(searchBar, delay1);
+    }
+    else if(_text == 1){
+        document.getElementById("search").placeholder = "                  Type here to search; Click a song name to request it";
+        _text++;
+        setTimeout(searchBar, delay1);
     }
 }

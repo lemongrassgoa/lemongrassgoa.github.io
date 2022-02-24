@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Lemongrass Song Requests</title>
+    <title>Lemongrass Repertoire List</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
-    <meta http-equiv="Refresh" content="0; url='https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform'" />
+    
+    <script src="js/csvToTable.js" type="text/javascript"></script>
+    <script src="../list/sortable/sortable.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="../list/sortable/sortable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../list/style.css" />
+
+    <link rel="image_src" href="../images/logo1_small.png" />
+
 </head>
-<body style=" background-color: #aaaaaa; height: 100%;">
+<body>
+
+<center>
+    <div>
+        <a href="../"><img src="../images/logo1_small.png" id="logo" alt=""  class="w3-animate-top" /></a><br />
+    </div>
+    <div id="repertoire-list" class="w3-animate-opacity">
+        <input type="text" id="search" class="tooltip-search" onkeyup="search()" placeholder="Type here to search; Click a song title to request it" /> <br /><br />
+        <!-- <div style="color: gray;">Tap the headers to sort!</div> -->
+    </div>
+</center>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform" target="_blank" class="button w3-animate-right">
+    <i class="my-float">Request a song!</i>
+    <br /><br /><small>Click here if your song is not in our list.</small>
+</a>
+<!--  -- >
+<a href="upi://pay?pa=cataclysm9.8@oksbi&pn=Anand Lobo&tn=Lemongrass Trio&cu=INR" target="_blank" class="w3-animate-left">
+    <img id="upi_qr" src="upi_qr.png" />
+</a>
+<p class="upi">Tap here or scan the QR code with any UPI app to leave us a tip!</p>
+<!--  -->
+<p class="w3-small w3-center">
+    Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
+    &copy; <script>document.write(new Date().getFullYear())</script> Anand Lobo. All rights reserved.
+</p>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
