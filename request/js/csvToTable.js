@@ -97,12 +97,12 @@ var artists = [];
 	                } else {
                         if(rowCell === 0){
                             table += '<td class="title">';
-                            table += '<a target="_blank" id="form'+ singleRow + '">';
+                            table += '<i><a target="_blank" id="form'+ singleRow + '">';
                             titles.push(rowCells[rowCell]);
                             
                             table += rowCells[rowCell];
                             
-                            table += '</a>'
+                            table += '</a></i>'
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';

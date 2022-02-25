@@ -32,14 +32,14 @@ body, h1, h2 {
 }
 
 #banner{
-    transition: filter .5s;
+    /* transition: filter .5s; */
     width:100%;
-    filter: blur(1px);
+    /* filter: blur(1px); */
     -webkit-mask-image: linear-gradient(to top, transparent 1%, black 15%);
             mask-image: linear-gradient(to top, transparent 1%, black 15%);
 }
 #banner:hover{
-    filter: blur(0px);
+    /* filter: blur(0px); */
 }
 
 .personal-photo{

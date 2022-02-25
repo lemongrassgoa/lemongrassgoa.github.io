@@ -92,8 +92,11 @@
 	                } else {
                         if(rowCell === 0){
                             table += '<td class="title">';
+                            table += '<i>';
                             
                             table += rowCells[rowCell];
+                            
+                            table += '</i>'
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
