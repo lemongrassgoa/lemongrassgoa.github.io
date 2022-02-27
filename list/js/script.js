@@ -30,3 +30,8 @@ function search(){
         }
     }
 }
+
+function clearSearch(){
+    document.getElementById("search").value = "";
+    search();
+}
