@@ -1,5 +1,3 @@
-// var url="https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.1323424921=Sort+by+%F0%9D%90%92%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A0+%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%A5%F0%9D%90%9E&entry.1953223907=A+Thousand+Miles+-+Vanessa+Carlton"
-// var url="https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.1323424921=Sort+by+%F0%9D%90%92%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A0+%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%A5%F0%9D%90%9E&entry.1953223907=Africa+-+Toto"
 (function(){
 var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.2134839446="
 
