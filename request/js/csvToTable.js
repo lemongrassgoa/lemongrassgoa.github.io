@@ -97,7 +97,7 @@ var artists = [];
 	                } else {
                         if(rowCell === 0){
                             table += '<td class="title">';
-                            table += '<i><a target="_blank" id="form'+ singleRow + '">';
+                            table += '<i><a id="form'+ singleRow + '">';
                             titles.push(rowCells[rowCell]);
                             
                             table += rowCells[rowCell];
