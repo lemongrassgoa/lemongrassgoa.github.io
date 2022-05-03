@@ -111,6 +111,10 @@ body, h1, h2 {
         display: none;
     }
 
+    #logo {
+        height: 30px;
+    }
+    
     #watermark {
         width: 80%;
     }
