@@ -1,0 +1,95 @@
+body, html {
+    font-family: "Trebuchet MS";
+    background-color: #333333;
+}
+
+div {
+    color: white;
+}
+
+a {
+    color: Gold;
+}
+
+table {
+    cursor: default;
+    padding-bottom: 2em;
+}
+
+#search{
+    text-align: center;
+    border-radius: 1em;
+    width: 40%;
+}
+.clear-search{
+    border-radius: 1em;
+}
+
+.button{
+    transition: transform .2s, box-shadow .2s, color .2s;
+    font-size: 100%;
+	text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+	position: fixed;
+	width:180px;
+	height:4.25em;
+	top:10px;
+	right:10px;
+	background-color: #085;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 3px 3px 4px #333;
+    z-index: 5;
+}
+.button:hover{
+	/* color:#000; */
+    transform: scale(1.1);
+	box-shadow: 4px 4px 5px #666;
+}
+.button:active{
+    transform: scale(1);
+}
+.my-float{
+	margin-bottom:15px;
+}
+#logo {
+    /* pointer-events:none; */
+    /* position: fixed;  */
+	margin-top:20px;
+	margin-bottom:20px;
+    height: 100px;
+    background-image: radial-gradient(rgba(255,255,255,1) , rgba(255,255,255,0.75) 40%, rgba(0,0,0,0) 70%);
+}
+#upi_qr{
+    top: 20px;
+    left: 20px;
+	position: fixed;
+    height: 100px;
+}
+.upi{
+    pointer-events:none;
+    text-align: justify;
+    position: fixed;
+    top: 120px;
+    left: 15px;
+    width: 115px;
+    color: #ffffff;
+    font-size: 75%;
+}
+
+.year, .genre {
+    display: ;
+}
+
+
+@media (max-width: 600px) {
+    .year, .genre {
+        display: none;
+    }
+    .button{
+        transform: scale(0.85);
+        top:5px;
+        right:5px;
+    }
+}
