@@ -8,7 +8,7 @@
 /* @import url("https://fonts.googleapis.com/css?family=Marmelad"); */
 /* @import url("https://fonts.googleapis.com/css?family=Overlock"); */
 /* @import url("https://fonts.googleapis.com/css?family=Baloo+Chettan+2"); */
-/* @import url("https://fonts.googleapis.com/css?family=Bellota"); */
+@import url("https://fonts.googleapis.com/css?family=Bellota");
 /* @import url("https://fonts.googleapis.com/css?family=Sniglet"); */
 /* @import url("https://fonts.googleapis.com/css?family=Coda"); */
 /* @import url("https://fonts.googleapis.com/css?family=Fondamento"); */
@@ -92,6 +92,16 @@ body, h1, h2 {
     transform: scale(1.1);
 }
 
+h1 {
+    font-family: "Bellota", "Trebuchet MS";
+    font-style: bold;
+}
+
+.name {
+    font-family: "Bellota", "Trebuchet MS";
+    font-size: 150%;
+}
+
 #logo {
     pointer-events:none;
     position: fixed; 
@@ -109,8 +119,9 @@ body, h1, h2 {
 @media (max-width: 600px) {
     
     .personal-photo{
-        /* width: 70%; */
-        display: none;
+        width: 50%;
+        padding-top: 3em;
+        /* display: none; */
     }
 
     #logo {
