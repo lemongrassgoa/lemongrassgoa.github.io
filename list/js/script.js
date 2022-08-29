@@ -35,3 +35,4 @@ function clearSearch(){
     document.getElementById("search").value = "";
     search();
 }
+

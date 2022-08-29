@@ -38,13 +38,13 @@ function clearSearch(){
     search();
 }
 
-scrollPlaceholder();
+// scrollPlaceholder();
 
 function scrollPlaceholder(){
     var ph = document.getElementById("search").placeholder;
     var temp = ph[0];
     ph = ph.substring(1).concat(temp);
     document.getElementById("search").placeholder = ph;
-    setTimeout(scrollPlaceholder, 50);
+    setTimeout(scrollPlaceholder, 100);
 
 }
