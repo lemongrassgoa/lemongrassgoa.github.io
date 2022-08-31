@@ -107,6 +107,13 @@ table {
     margin-top: 0.3em;
 }
 
+.tooltip-sort {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 5em;
+    z-index: 1;
+}
+
 @media (max-width: 600px) {
     .year, .genre {
         display: none;
