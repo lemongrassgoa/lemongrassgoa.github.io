@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
 body, html {
-    font-family: "Trebuchet MS";
+    font-family: "Ubuntu", "Trebuchet MS";
     background-color: #333333;
 }
 
