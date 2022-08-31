@@ -23,7 +23,7 @@ table {
     width: 100%;
     top: 0;
     padding-top: 0.5em;
-    padding-bottom: 3.5em;
+    padding-bottom: 4.5em;
     position: sticky;
     position: -webkit-sticky;
     height: 3em;
@@ -70,7 +70,7 @@ table {
 }
 #logo {
     transition: transform .2s;
-    /* pointer-events:none; */
+    pointer-events:none;
     /* position: fixed;  */
 	margin: 10px;
     height: 100px;
