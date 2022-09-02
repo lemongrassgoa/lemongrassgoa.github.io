@@ -16,6 +16,7 @@ Angels,Robbie Williams,1997,Rock
 Annie's Song,John Denver,1974,Rock
 Antonio's Song,Michael Franks,1977,Jazz
 April Come She Will,Simon and Garfunkel,1966,Rock
+Are You Gonna Be My Girl,Jet,2003,Rock
 Arms,Christina Perri,2011,Pop
 At My Worst,Pink Sweat$,2021,RnB
 Attention,Charlie Puth,2017,Pop
@@ -24,7 +25,7 @@ Baby One More Time,Britney Spears,1998,Pop
 Beautiful Tango,Hindi Zahra,2010,Soul
 Besame Mucho,Andrea Bocelli,1940,Latin
 Big Bang,Rock Mafia,2010,Pop
-Bistro Fada,Stephane Wrembel,2011,Soundtrack
+Bistro Fada,Stephane Wrembel,2011,Jazz
 Blackbird,Beatles,1968,Folk
 Blinding Lights,Weeknd,2019,RnB
 Blowin' In The Wind,Peter Paul and Mary,1962,Folk
@@ -74,7 +75,6 @@ Fly Me To The Moon,Frank Sinatra,1954,Pop
 Forever,Eric Hutchinson,2014,Rock
 Free Falling,John Mayer,1989,Rock
 Genie In A Bottle,Christina Aguilera,1999,Pop
-Gimme Gimme Gimme,ABBA,1979,Pop
 Good Riddance (Time Of Your Life),Green Day,1997,Rock
 Grayscale,Skye Zentz,2012,Folk
 Green Eyes,Coldplay,2002,Alternative
@@ -115,7 +115,6 @@ Make You Feel My Love,Adele,1997,Rock
 Mamma Mia,ABBA,1975,Pop
 Mary Jane's Last Dance,Tom Petty and The Heartbreakers,1993,Rock
 Michelle,Beatles,1965,Pop
-Money Money Money,ABBA,1976,Pop
 More Than Words,Extreme,1991,Rock
 New Shoes,Paolo Nutini,2006,Pop
 Norwegian Wood,Beatles,1965,Folk Rock
@@ -142,14 +141,12 @@ She Will Be Loved,Maroon 5,2004,Rock
 Simply The Best,Noah Reid,2018,Soundtrack
 Smooth Operator,Sade,1984,Jazz
 Someone Like You,Adele,2011,Pop
-SOS,ABBA,1975,Pop
 Spit On A Stranger,Nickel Creek,1999,Rock
 Strength Of A Woman,Shaggy,2002,Reggae
 Stuck In The Middle With You,Stealer's Wheel,1972,Pop
 Sugar (Honey Honey),Archies,1969,Pop
 Super Trouper,ABBA,1980,Pop
 Superman ("Scrubs" theme),Lazlo Bane,2000,Rock
-Swallowed In The Sea,Coldplay,2005,Rock
 Sway,Various,1953,Latin
 Sweet Child Of Mine,Guns n Roses,1987,Rock
 Take A Chance On Me,ABBA,1977,Pop
@@ -170,15 +167,13 @@ The Winner Takes It All,ABBA,1980,Pop
 There She Goes,Sixpence None The Richer,2002,Rock
 Thinking Out Loud,Ed Sheeran,2014,Rock
 This Love,Maroon 5,2004,Rock
-This Magic Moment,The Drifters,1960,Soul
 Time In A Bottle,Jim Croce,1972,Rock
-Titanium,David Guetta,2011,House
 To Be With You,Mr Big,2001,Rock
 Top Of The World,Carpenters,1972,Pop
 Twist And Shout,Beatles,1961,Rock
 Umbrella,Rihanna,2007,Pop
-Until,Sting,2001,Soundtrack
 Uptown Girl,Billy Joel,1983,Rock
+Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop
 Vanilla Twilight,Owl City,2010,Pop
 Venus,Shocking Blue,1969,Pop
 Viva La Vida,Coldplay,2008,Pop
@@ -195,6 +190,7 @@ Wish You Were Here,Pink Floyd,1975,Rock
 Wonderful Tonight,Eric Clapton,1977,Rock
 Wonderwall,Oasis,1995,Pop
 Yellow,Coldplay,2000,Rock
+Yesterday,Beatles,1965,Pop
 You And Me,Lifehouse,2005,Rock
 You Belong To Me,Bryan Adams,2015,Rock
 Your Song,Elton John,1970,Pop
