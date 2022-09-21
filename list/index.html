@@ -18,7 +18,7 @@
     <link rel="image_src" href="../images/logo1_small.png" />
 
 </head>
-<body>
+<body onload="search();">
 
 <a href="../request/" class="button w3-animate-right">
     <i class="my-float">Request a song!</i>
@@ -28,7 +28,7 @@
         <a href="../"><img src="../images/logo1_small1.png" id="logo" alt=""  class="w3-animate-top" /></a><br />
     </div>
     <div id="search-bar">
-        Search: <input type="text" id="search" onkeyup="search()" placeholder="Type here to search" />
+        Search: <input type="text" id="search" onkeyup="search();" placeholder="Type here to search" />
         <button id="clear-search" onclick="clearSearch();">Clear search</button> <br />
         <div id="tapToRequest">Tap headers to sort!</div>
     </div>
