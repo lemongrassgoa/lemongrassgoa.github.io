@@ -116,6 +116,11 @@ h1 {
     width: 50%;
 }
 
+#calendar {
+    border: 0;
+    width: 100%;
+}
+
 @media (max-width: 600px) {
     
     .personal-photo{
