@@ -68,7 +68,7 @@ table {
     transition: transform .2s, box-shadow .2s, color .2s;
     font-size: 100%;
 	text-align: center;
-    padding: 0.6em;
+    padding: 0.55em;
     text-decoration: none;
 	position: fixed;
 	width:150px;
