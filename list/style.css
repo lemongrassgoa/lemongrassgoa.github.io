@@ -64,6 +64,31 @@ table {
 .button:active{
     transform: scale(1);
 }
+.button1{
+    transition: transform .2s, box-shadow .2s, color .2s;
+    font-size: 100%;
+	text-align: center;
+    padding: 0.6em;
+    text-decoration: none;
+	position: fixed;
+	width:150px;
+	height:60px;
+	top:10px;
+	right:10px;
+	background-color: #085;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 3px 3px 4px #333;
+    z-index: 5;
+}
+.button1:hover{
+	/* color:#000; */
+    transform: scale(1.1);
+	box-shadow: 4px 4px 5px #666;
+}
+.button1:active{
+    transform: scale(1);
+}
 .my-float{
 	margin-bottom:15px;
 }
