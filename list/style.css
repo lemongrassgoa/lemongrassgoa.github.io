@@ -143,9 +143,16 @@ table {
         display: none;
     }
     .button{
-        transform: scale(0.85);
-        top:5px;
-        right:5px;
+        /* transform: scale(0.85); */
+        /* top:5px; */
+        /* right:5px; */
+        display:none;
+    }
+    .button1{
+        position:absolute;
+        transform: scale(0.65);
+        top:30px;
+        right:-10px;
     }
     #tapToRequest {
         padding-right: 0em;
