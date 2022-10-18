@@ -3,6 +3,7 @@ var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp
 
 var titles = [];
 var artists = [];
+var _wip = [];
 	// Constructor method
 	this.CsvToTable = function(){
 		this.csvFile = null;
@@ -70,6 +71,7 @@ var artists = [];
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
 	        var table = '<table class="w3-animate-opacity sortable" id="repertoirelist">';
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+                var table_temp = table, wip = 0;
 	            if (singleRow === 0) {
 	                table += '<thead class="tooltip-sort">';
 	                table += '<tr>';
@@ -77,7 +79,6 @@ var artists = [];
 	                table += '<tr>';
 	            }
 	            var rowCells = allRows[singleRow].split(',');
-                var title = "", artist = "";
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0)
@@ -89,7 +90,7 @@ var artists = [];
                         else if(rowCell === 3)
                             table += '<th class="genre">';
                         else
-                            table += '<th>';
+                            table += '<th style="display:none;">';
 	                    table += rowCells[rowCell];
 	                    table += '</th>';
 	                } else {
@@ -105,6 +106,7 @@ var artists = [];
                         else if (rowCell === 1){
                             table += '<td class="artist">';
                             artists.push(rowCells[rowCell]);
+                            _wip.push(rowCells[7]);
                             
                             table += rowCells[rowCell];
                         }
@@ -119,10 +121,13 @@ var artists = [];
                             table += rowCells[rowCell];
                         }
                         else{
-                            table += '<td>';
+                            table += '<td style="display:none;">';
                             table += rowCells[rowCell];
                         }
 	                    table += '</td>';
+                        if(rowCells[7]){
+                            wip=1;
+                        }
 	                }
 	            }
 	            if (singleRow === 0) {
@@ -132,6 +137,10 @@ var artists = [];
 	            } else {
 	                table += '</tr>';
 	            }
+                if(wip){
+                    table = table_temp;
+                    wip=0;
+                }
 	        }
 	        table += '</tbody>';
 	        table += '</table>';
@@ -140,7 +149,8 @@ var artists = [];
             
         for(var i = 0; i < artists.length; i++){
             var form_id = "form" + (i+1);
-            document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
+            if(!_wip[i])
+                document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
             if(i === 0)
                 document.getElementById(form_id).className = "tooltip-request";
         }

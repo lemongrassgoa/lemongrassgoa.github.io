@@ -1,225 +1,500 @@
-Title,Artist,Year,Genre
-1973,James Blunt,2007,Rock
-A Little More,Eric Hutchinson,2014,Rock
-A Man For All Seasons,Robbie Williams,2003,Soundtrack
-A Thousand Miles,Vanessa Carlton,2002,Pop
-A Thousand Years,Christina Perri,2011,Soundtrack
-Adventure Of A Lifetime,Coldplay,2015,Pop
-Africa,Toto,2002,Rock
-After Midnight,J J Cale,1966,Rock
-All About That Bass,Meghan Trainor,2014,Doo-wop
-All About You,McFly,2005,Rock
-All I Have To Do Is Dream,Everly Brothers,1958,Rock 'n' roll
-All Star,Smash Mouth,1999,Rock
-Angel Of The Morning,Juice Newton,1981,Country
-Angels,Robbie Williams,1997,Rock
-Annie's Song,John Denver,1974,Rock
-Antonio's Song,Michael Franks,1977,Jazz
-April Come She Will,Simon and Garfunkel,1966,Rock
-Are You Gonna Be My Girl,Jet,2003,Rock
-Arms,Christina Perri,2011,Pop
-At My Worst,Pink Sweat$,2021,RnB
-Ave Maria,Beyonce,2008,Pop
-Baby One More Time,Britney Spears,1998,Pop
-Beautiful Tango,Hindi Zahra,2010,Soul
-Besame Mucho,Andrea Bocelli,1940,Latin
-Big Bang,Rock Mafia,2010,Pop
-Bistro Fada,Stephane Wrembel,2011,Jazz
-Blackbird,Beatles,1968,Folk
-Blinding Lights,Weeknd,2019,RnB
-Blowin' In The Wind,Peter Paul and Mary,1962,Folk
-Brandy,Looking Glass,1972,Rock
-Brown Eyed Girl,Van Morrison,1967,Rock
-Budapest,George Ezra,2013,Rock
-Butterfly,Jason Mraz,2008,Pop
-Bye Bye Love,Everly Brothers,1957,Country
-Californication,Red Hot Chili Peppers,1999,Alternative
-Can't Help Falling In Love,Elvis Presley,1961,Rock
-Can't Smile Without You,Barry Manilow,1978,Pop
-Careless Whisper,George Michael,1984,Pop
-Carry You Home,James Blunt,2008,Rock
-Chained To The Rhythm,Katy Perry,2017,Disco
-Cheap Thrills,Sia,2016,Pop
-Chiquitita,ABBA,1979,Pop
-Clocks,Coldplay,2002,Rock
-Closing Time,Semisonic,1998,Rock
-Cloud Number Nine,Bryan Adams,1999,Pop
-Count On Me,Bruno Mars,2010,Pop
-Country Roads,John Denver,1971,Country
-Crazy,Gnarles Barkley,2006,Soul
-Crazy Little Thing Called Love,Queen,1979,Rock
-Dance With Me Tonight,Olly Murs,2011,Pop
-Dancing In The Moonlight,Toploader,1999,Pop
-Dancing Queen,ABBA,1976,Pop
-Daughters,John Mayer,2004,Rock
-Dear Future Husband,Meghan Trainor,2014,Pop
-Die Die Die,Avett Brothers,2007,Folk
-Does Your Mother Know,ABBA,1979,Pop
-Don't Be So Shy,Imany,2015,Soul
-Don't Know Why,Norah Jones,2002,Pop
-Don't Look Back In Anger,Oasis,1995,Pop
-Don't Stop Me Now,Queen,1979,Rock
-Don't Think Twice It's Alright,Bob Dylan,1963,Folk
-Dream A Little Dream Of Me,Laura Fygi,2002,Jazz
-Drive,Incubus,2000,Rock
-Dust in the Wind,Kansas,1978,Rock
-Earth Angel,The Penguins,1954,RnB
-Eight Days A Week,Beatles,1964,Rock
-Enjoy The Ride,Morcheeba,2008,Rock
-Escape (Pina Colada),Rupert Holmes,1979,Rock
-Every Little Thing She Does Is Magic,Eric Hutchinson,1981,Pop
-Everything I Own,Bread,1972,Rock
-Faith,George Michael,1987,Rock
-Fare Thee Well (Dink's Song),Various,2002,Folk
-First Day Of My Life,Bright Eyes,2005,Folk
-Five Hundred Miles,Peter Paul and Mary,1962,Folk
-Fix You,Coldplay,2005,Rock
-Flightless Bird American Mouth,Iron and Wine,2008,Rock
-Fly Me To The Moon,Frank Sinatra,1954,Pop
-For What It's Worth,Buffalo Springfield,1966,Folk
-Forever,Eric Hutchinson,2014,Rock
-Free Falling,John Mayer,1989,Rock
-Genie In A Bottle,Christina Aguilera,1999,Pop
-Give A Little More,Maroon 5,2010,Disco
-Good Riddance (Time Of Your Life),Green Day,1997,Rock
-Grayscale,Skye Zentz,2012,Folk
-Green Eyes,Coldplay,2002,Alternative
-Guitar Man,Bread,1972,Rock
-Hallelujah,Jeff Buckley,1984,Rock
-Happy,Pharell Williams,2013,Pop
-Have You Ever Seen The Rain,CCR,1971,Rock
-Heart Of Gold,Neil Young,1972,Rock
-Hello,Lionel Richie,1983,Pop
-Here Without You,3 Doors Down,2002,Rock
-Hey Jude,Beatles,1968,Rock
-Hey Soul Sister,Train,2002,Rock
-Hey There Delilah,Plain White T's,2004,Pop
-Hotel California,Eagles,1976,Rock
-Hymn For The Weekend,Coldplay,2015,Pop
-I Have A Dream,ABBA,1979,Pop
-I Saw Her Standing There,Beatles,1968,Rock
-I Wanna Hold Your Hand,Beatles,1963,Rock
-I Will Follow You Into The Dark,Death Cab for Cutie,2006,Rock
-I Will Survive,Aretha Franklin,1978,Disco
-I'd Love To Change The World,Ten Years After,2002,Rock
-If,Bread,1971,Folk Rock
-If I Had A Hammer,Peter Paul and Mary,1962,Folk
-I'll Be There For You ("Friends" theme),Rembrandts,1995,Rock
-I'll Have to Say I Love You in a Song,Jim Croce,1973,Folk
-I'm A Believer,Monkees,1967,Pop
-I'm Yours,Jason Mraz,2008,Rock
-In The Summertime,Mungo Jerry,1970,Skiffle
-Instant Crush,Daft Punk,2013,Disco
-Jar Of Hearts,Christina Perri,2011,Pop
-Jolene,Dolly Parton,1973,Pop
-Killing Me Softly,Lori Lieberman,1972,Folk
-Kiss Me,Sixpence None The Richer,2002,Rock
-La Isla Bonita,Madonna,1987,Pop
-Leaving On A Jet Plane,John Denver,1966,Folk
-Lemon Tree,Fool's Garden,1995,Pop
-Let Her Go,Passenger,2012,Rock
-Lonely Stranger,Eric Clapton,1992,Rock
-Long Goodbyes,Kurt Hunter,2009,Jazz
-Long Train Running,Doobie Brothers,1973,Rock
-Lost On You,LP,2015,Rock
-Love You Like A Love Song,Selena Gomez,2011,Pop
-Lucky,Jason Mraz,2009,Pop
-Lucky Lips,Cliff Richard,1957,RnB
-Make You Feel My Love,Adele,1997,Rock
-Mamma Mia,ABBA,1975,Pop
-Maria Maria,Santana,1999,Rock
-Mary Jane's Last Dance,Tom Petty and The Heartbreakers,1993,Rock
-Mi Chico Latino,Geri Halliwell,1999,Dance
-Michelle,Beatles,1965,Pop
-Money Money Money,ABBA,1976,Pop
-More Than A Friend,Michael Learns To Rock,2000,Pop
-More Than Words,Extreme,1991,Rock
-New Shoes,Paolo Nutini,2006,Pop
-Nights In White Satin,Moody Blues,1967,Rock
-Norwegian Wood,Beatles,1965,Folk Rock
-Numb,Linkin Park,2003,Metal
-Objection,Shakira,2002,Pop
-Oh Carol,Neil Sedaka,1995,Rock
-Old Yellow Bricks,Arctic Monkeys,2007,Rock
-One Love,Blue,2002,Pop
-Open Book,Mikey McCleary,2015,Pop
-Paper Roses,Anita Bryant,1960,Pop
-Part-Time Lover,Stevie Wonder,1985,RnB
-Perfect,Ed Sheeran,2017,Pop
-Photographs and Memories,Jim Croce,1972,Rock
-Poetry In Motion,Johnny Tillotson,1960,Doo-wop
-Price Tag,Jessie J,2011,Pop
-Que Sera Sera,Various,1956,Soundtrack
-Rhythm Of Love,Plain White T's,2010,Rock
-Rock 'n' Roll,Eric Hutchinson,2008,Rock
-Rocket Man,Elton John,1972,Rock
-Rockstar,Nickelback,2005,Rock
-Rolling In The Deep,Adele,2011,Pop
-Sad Movies (Make Me Cry),Sue Thompson,1961,Pop
-September,Earth Wind And Fire,1978,Disco
-Seven Nation Army,White Stripes,2003,Rock
-She Bangs,Ricky Martin,1998,Pop
-She Will Be Loved,Maroon 5,2004,Rock
-Simply The Best,Noah Reid,2018,Soundtrack
-Smooth Operator,Sade,1984,Jazz
-Someone Like You,Adele,2011,Pop
-Spit On A Stranger,Nickel Creek,1999,Rock
-Stand By Me,Ben E. King,1961,RnB
-Strength Of A Woman,Shaggy,2002,Reggae
-Stuck In The Middle With You,Stealer's Wheel,1972,Pop
-Sugar (Honey Honey),Archies,1969,Pop
-Super Trouper,ABBA,1980,Pop
-Superman ("Scrubs" theme),Lazlo Bane,2000,Rock
-Sway,Michael Buble,1953,Latin
-Sweet Child Of Mine,Guns n Roses,1987,Rock
-Take A Chance On Me,ABBA,1977,Pop
-Take Five,Dave Brubeck,1959,Jazz
-Take Me To Church,Hozier,2014,Soul
-Tears in Heaven,Eric Clapton,1992,Rock
-Ten Guitars,Engelbert Humperdinck,1966,Pop
-Thank You For The Music,ABBA,1977,Pop
-The Animal Song,Savage Garden,1999,Pop
-The Boxer,Simon and Garfunkel,1970,Rock
-The Joker,Steve Miller Band,2002,Rock
-The Lazy Song,Bruno Mars,2011,Reggae
-The Scientist,Coldplay,2002,Rock
-The Sound Of Silence,Simon and Garfunkel,1964,Folk
-The Tide Is High,Blondie,1980,Reggae
-The Times They Are A-Changin',Bob Dylan,1964,Folk
-The Way I Am,Ingrid Michaelson,2007,Folk
-The Winner Takes It All,ABBA,1980,Pop
-There She Goes,Sixpence None The Richer,2002,Rock
-Thinking Out Loud,Ed Sheeran,2014,Rock
-This Love,Maroon 5,2004,Rock
-Time In A Bottle,Jim Croce,1972,Rock
-To Be With You,Mr Big,2001,Rock
-Top Of The World,Carpenters,1972,Pop
-Toxic,Britney Spears,2003,Pop
-Twist And Shout,Beatles,1961,Rock
-Umbrella,Rihanna,2007,Pop
-Uptown Girl,Billy Joel,1983,Rock
-Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop
-Vanilla Twilight,Owl City,2010,Pop
-Venus,Shocking Blue,1969,Pop
-Viva La Vida,Coldplay,2008,Pop
-Wake Me Up When September Ends,Green Day,2005,Rock
-Watermelon Sugar,Harry Styles,2019,Pop
-We Are Young,fun.,2012,Pop
-What a Wonderful World,Louis Armstrong,1967,Pop
-What's Up,4 Non Blondes,1993,Rock
-White Flag,Dido,2003,Pop
-Wicked Game,Chris Isaak,1988,Rock
-Wild World,Cat Stevens,1970,Rock
-Wisemen,James Blunt,2004,Pop
-Wish You Were Here,Pink Floyd,1975,Rock
-Wonderful Tonight,Eric Clapton,1977,Rock
-Wonderwall,Oasis,1995,Pop
-Yellow,Coldplay,2000,Rock
-Yesterday,Beatles,1965,Pop
-You And Me,Lifehouse,2005,Rock
-You Belong To Me,Bryan Adams,2015,Rock
-Your Song,Elton John,1970,Pop
-You're Beautiful,James Blunt,2005,Rock
-You're Still The One,Shania Twain,1997,Country
-You've Got To Hide Your Love Away,Beatles,1965,Pop
-Zombie,Cranberries,1994,Rock
+Title,Artist,Year,Genre,Energy,Dance,Happiness,WIP
+
+1973,James Blunt,2007,Rock,67,72,77,
+A Little Less Conversation,Elvis Presley,1968,Rock,80,58,84,WIP
+A Little More,Eric Hutchinson,2014,Rock,74,64,94,
+A Man For All Seasons,Robbie Williams,2003,Soundtrack,74,58,82,
+A Thousand Miles,Vanessa Carlton,2002,Pop,83,56,27,
+A Thousand Years,Christina Perri,2011,Soundtrack,41,42,16,
+Adventure Of A Lifetime,Coldplay,2015,Pop,92,64,53,
+Africa,Toto,2002,Rock,37,67,73,
+After Midnight,J J Cale,1966,Rock,31,69,52,
+All About That Bass,Meghan Trainor,2014,Doo-wop,89,81,96,
+All About You,McFly,2005,Rock,56,54,30,
+All I Have To Do Is Dream,Everly Brothers,1958,Rock 'n' roll,46,53,53,
+All Star,Smash Mouth,1999,Rock,87,73,78,
+Angel Of The Morning,Juice Newton,1981,Country,31,45,34,
+Angels,Robbie Williams,1997,Rock,59,43,26,
+Annie's Song,John Denver,1974,Rock,31,30,46,
+Antonio's Song,Michael Franks,1977,Jazz,39,68,65,
+April Come She Will,Simon and Garfunkel,1966,Rock,19,49,35,
+Are You Gonna Be My Girl,Jet,2003,Rock,95,61,54,
+Arms,Christina Perri,2011,Pop,76,46,25,
+At My Worst,Pink Sweat$,2021,RnB,42,81,67,
+Attention,Charlie Puth,2017,Pop,61,78,80,WIP
+Ave Maria,Beyonce,2008,Pop,40,35,20,
+Baby One More Time,Britney Spears,1998,Pop,70,76,91,
+Beautiful Tango,Hindi Zahra,2010,Soul,38,75,65,
+Besame Mucho,Andrea Bocelli,1940,Latin,50,52,38,
+Better When I'm Dancing,Meghan Trainor,2015,Pop,79,76,87,WIP
+Big Bang,Rock Mafia,2010,Pop,82,90,89,
+Bistro Fada,Stephane Wrembel,2011,Jazz,37,76,86,
+Blackbird,Beatles,1968,Folk,11,69,46,
+Blinding Lights,Weeknd,2019,RnB,73,51,33,
+Blowin' In The Wind,Peter Paul and Mary,1962,Folk,8,38,56,
+Brandy,Looking Glass,1972,Rock,63,72,83,
+Brasileirinho,Waldir Azavedo,1947,Choro,52,49,92,WIP
+Breakfast At Tiffany's,Deep Blue Something,1995,Rock,83,62,54,WIP
+Brown Eyed Girl,Van Morrison,1967,Rock,58,49,91,
+Budapest,George Ezra,2013,Rock,46,72,39,
+Butterfly,Jason Mraz,2008,Pop,66,72,80,
+Bye Bye Love,Everly Brothers,1957,Country,52,55,89,
+Calendar Girl,Neil Sedaka,1959,Pop,65,70,86,WIP
+Californication,Red Hot Chili Peppers,1999,Alternative,77,59,33,
+Can't Help Falling In Love,Elvis Presley,1961,Rock,29,40,34,
+Can't Smile Without You,Barry Manilow,1978,Pop,52,42,48,
+Careless Whisper,George Michael,1984,Pop,63,57,80,
+Carry You Home,James Blunt,2008,Rock,51,58,22,
+Catch and Release,Matt Simons,2007,Pop,45,62,61,WIP
+Chained To The Rhythm,Katy Perry,2017,Disco,80,56,47,
+Cheap Thrills,Sia,2016,Pop,70,63,73,
+Chiquitita,ABBA,1979,Pop,55,50,37,
+Clocks,Coldplay,2002,Rock,75,58,26,
+Closing Time,Semisonic,1998,Rock,85,48,27,
+Cloud Number Nine,Bryan Adams,1999,Pop,72,59,62,
+Copacabana,Barry Manilow,1978,Disco,67,76,80,WIP
+Count On Me,Bruno Mars,2010,Pop,39,59,50,
+Country Roads,John Denver,1971,Country,40,46,63,
+Crazy,Gnarles Barkley,2006,Soul,74,84,61,
+Crazy Little Thing Called Love,Queen,1979,Rock,57,63,74,
+Dance With Me Tonight,Olly Murs,2011,Pop,75,67,96,
+Dancing In The Moonlight,Toploader,1999,Pop,86,63,87,
+Dancing Queen,ABBA,1976,Pop,87,54,75,
+Daughters,John Mayer,2004,Rock,41,67,50,
+Dear Future Husband,Meghan Trainor,2014,Pop,78,66,83,
+Die Die Die,Avett Brothers,2007,Folk,70,53,77,
+Does Your Mother Know,ABBA,1979,Pop,87,73,98,
+Don't Be So Shy,Imany,2015,Soul,18,43,30,
+Don't It Make My Brown Eyes Blue,Crystal Gayle,1977,Jazz,32,74,34,WIP
+Don't Know Why,Norah Jones,2002,Pop,22,75,64,
+Don't Let Me Be Lonely Tonight,James Taylor,1972,Rock,14,62,34,WIP
+Don't Look Back In Anger,Oasis,1995,Pop,92,35,21,
+Don't Stop Me Now,Queen,1979,Rock,76,56,64,
+Don't Think Twice It's Alright,Bob Dylan,1963,Folk,24,60,47,
+Doubting Thomas,Nickel Creek,2005,Pop,14,39,27,WIP
+Dream A Little Dream Of Me,Laura Fygi,2002,Jazz,22,65,32,
+Drive,Incubus,2000,Rock,79,65,67,
+Dust in the Wind,Kansas,1978,Rock,32,48,39,
+Earth Angel,The Penguins,1954,RnB,65,23,31,
+Eight Days A Week,Beatles,1964,Rock,2,70,33,
+Enjoy The Ride,Morcheeba,2008,Rock,52,55,46,
+Escape (Pina Colada),Rupert Holmes,1979,Rock,51,84,95,
+Every Little Thing She Does Is Magic,Eric Hutchinson,1981,Pop,56,71,83,
+Everything,Michael Buble,2006,Pop,69,69,49,WIP
+Everything At Once,Lenka,2011,Pop,47,77,84,WIP
+Everything I Own,Bread,1972,Rock,34,37,45,
+Eye Of The Tiger,Survivor,1982,Rock,60,82,55,WIP
+Faith,George Michael,1987,Rock,50,92,55,
+Fare Thee Well (Dink's Song),Various,2002,Folk,43,50,23,
+Feels Like Home,Edwina Hayes,2009,Folk,26,46,50,WIP
+Fifty Ways To Leave Your Lover,Paul Simon,1975,Rock,37,82,29,WIP
+Fire and Rain,James Taylor,1970,Rock,35,61,36,WIP
+First Day Of My Life,Bright Eyes,2005,Folk,25,60,37,
+Five Hundred Miles,Peter Paul and Mary,1962,Folk,7,44,26,
+Fix You,Coldplay,2005,Rock,42,21,12,
+Flightless Bird American Mouth,Iron and Wine,2008,Rock,40,37,18,
+Fly Me To The Moon,Frank Sinatra,1954,Pop,27,62,43,
+For What It's Worth,Buffalo Springfield,1966,Folk,52,65,82,
+Forever,Eric Hutchinson,2014,Rock,80,57,52,
+Free Falling,John Mayer,1989,Rock,62,62,56,
+Genie In A Bottle,Christina Aguilera,1999,Pop,27,62,34,
+Gimme Gimme Gimme,ABBA,1979,Pop,49,75,54,WIP
+Girls Just Want To Have Fun,Mayries,1983,Pop,36,44,36,WIP
+Give A Little More,Maroon 5,2010,Disco,82,75,94,
+Good Riddance (Time Of Your Life),Green Day,1997,Rock,43,48,65,
+Goodnight Goodbye,Eric Hutchinson,2014,Rock,63,68,60,WIP
+Got You Under My Skin,Frank Sinatra,1956,Pop,37,59,63,WIP
+Grayscale,Skye Zentz,2012,Folk,74,38,23,
+Green Eyes,Coldplay,2002,Alternative,41,61,23,
+Guitar Man,Bread,1972,Rock,51,55,51,
+Hallelujah,Jeff Buckley,1984,Rock,14,32,8,
+Halo,Beyonce,2008,Pop,72,51,47,WIP
+Happy,Pharell Williams,2013,Pop,44,79,66,
+Have You Ever Seen The Rain,CCR,1971,Rock,47,74,89,
+Heart Of Gold,Neil Young,1972,Rock,38,43,63,
+Hello,Lionel Richie,1983,Pop,25,49,6,
+Here Without You,3 Doors Down,2002,Rock,53,56,23,
+Hey Jude,Beatles,1968,Rock,63,46,59,
+Hey Soul Sister,Train,2002,Rock,89,67,80,
+Hey There Delilah,Plain White T's,2004,Pop,29,66,30,
+Hit The Road Jack,Ray Charles,1962,R'n'B,57,60,96,WIP
+Homeward Bound,Simon and Garfunkel,1966,Folk,38,49,53,WIP
+Hotel California,Eagles,1976,Rock,16,62,38,
+Hymn For The Weekend,Coldplay,2015,Pop,69,49,41,
+I Have A Dream,ABBA,1979,Pop,37,55,44,
+I Saw Her Standing There,Beatles,1968,Rock,80,49,97,
+I Wanna Hold Your Hand,Beatles,1963,Rock,72,49,87,
+I Will Follow You Into The Dark,Death Cab for Cutie,2006,Rock,21,52,49,
+I Will Survive,Aretha Franklin,1978,Disco,73,62,34,
+I Won't Give Up,Jason Mraz,2012,Pop,30,48,14,WIP
+I'd Love To Change The World,Ten Years After,2002,Rock,48,38,39,
+If,Bread,1971,Folk Rock,18,39,34,
+If I Ain't Got You,Alicia Keys,2003,RnB,44,61,17,WIP
+If I Had A Hammer,Peter Paul and Mary,1962,Folk,39,47,51,
+I'll Be There For You ("Friends" theme),Rembrandts,1995,Rock,71,29,75,
+I'll Have to Say I Love You in a Song,Jim Croce,1973,Folk,45,54,71,
+I'm A Believer,Monkees,1967,Pop,77,50,94,
+I'm Yours,Jason Mraz,2008,Rock,44,70,71,
+In The Summertime,Mungo Jerry,1970,Skiffle,65,64,97,
+Instant Crush,Daft Punk,2013,Disco,59,78,52,
+It's the End of the World As We Know It,REM,1987,Rock,89,38,80,WIP
+Jar Of Hearts,Christina Perri,2011,Pop,35,35,9,
+Johnny B Goode,Chuck Berry,1958,Rock 'n' roll,80,53,97,WIP
+Jolene,Dolly Parton,1973,Pop,54,67,81,
+Just Give Me A Reason,Pink (ft. Nate Ruess),2013,Pop,55,78,44,WIP
+Just The Two Of Us,Bill Withers,1980,Jazz,28,46,59,WIP
+Killing Me Softly,Lori Lieberman,1972,Folk,2,51,26,
+King Of The Road,Roger Miller,1965,Country,27,67,61,WIP
+Kiss Me,Sixpence None The Richer,2002,Rock,75,53,42,
+La Isla Bonita,Madonna,1987,Pop,82,72,96,
+La Vie En Rose,Louis Armstrong,1950,Jazz,7,48,31,WIP
+Layla,Eric Clapton,1971,Rock,68,49,54,WIP
+Leaving On A Jet Plane,John Denver,1966,Folk,28,49,47,
+Lemon Tree,Fool's Garden,1995,Pop,48,66,64,
+Let Her Go,Passenger,2012,Rock,55,48,24,
+Let's Twist Again,Chubby Checker,1961,Rock 'n' roll,71,60,91,WIP
+Like I'm Gonna Lose You,Meghan Trainor,2015,Soul,53,63,42,WIP
+Lonely,Imagine Dragons,2021,Alternative,73,71,87,WIP
+Lonely Stranger,Eric Clapton,1992,Rock,47,74,59,
+Long Goodbyes,Kurt Hunter,2009,Jazz,42,69,64,
+Long Train Running,Doobie Brothers,1973,Rock,91,57,84,
+Losing My Religion,REM,1991,Rock,86,67,80,WIP
+Lost On You,LP,2015,Rock,72,43,69,
+Love You Like A Love Song,Selena Gomez,2011,Pop,68,86,92,
+Love Yourself,Justin Bieber,2015,Pop,38,61,52,WIP
+Lucky,Jason Mraz,2009,Pop,41,63,67,
+Lucky Lips,Cliff Richard,1957,RnB,48,69,90,
+Make You Feel My Love,Adele,1997,Rock,17,32,10,
+Mamma Mia,ABBA,1975,Pop,75,75,83,
+Maria Maria,Santana,1999,Rock,60,78,68,
+Marvin Gaye,Charlie Puth,2016,Pop,62,80,82,WIP
+Mary Jane's Last Dance,Tom Petty and The Heartbreakers,1993,Rock,66,46,53,
+Mi Chico Latino,Geri Halliwell,1999,Dance,91,63,68,
+Michelle,Beatles,1965,Pop,29,58,67,
+Money Money Money,ABBA,1976,Pop,70,79,65,
+Moon River,Various,1961,Easy Listening,18,17,15,WIP
+More Than A Friend,Michael Learns To Rock,2000,Pop,67,73,84,
+More Than Words,Extreme,1991,Rock,13,63,24,
+Mr Blue Sky,Electric Light Orchestra,1977,Rock,34,39,48,WIP
+Mr Bojangles,Nitty Gritty Dirt Band,1968,Folk,72,45,41,WIP
+Mr Brightside,Killers,2003,Rock,91,35,24,WIP
+My Love,Westlife,2000,Pop,59,49,33,WIP
+Never Going Back Again,Fleetwood Mac,1977,Folk Rock,39,61,79,WIP
+New Shoes,Paolo Nutini,2006,Pop,74,75,85,
+Nights In White Satin,Moody Blues,1967,Rock,34,19,22,
+Norwegian Wood,Beatles,1965,Folk Rock,38,60,77,
+Numb,Linkin Park,2003,Metal,86,50,24,
+Objection,Shakira,2002,Pop,86,60,71,
+Oh Carol,Neil Sedaka,1995,Rock,73,73,97,
+Old Yellow Bricks,Arctic Monkeys,2007,Rock,84,66,75,
+One Love,Blue,2002,Pop,72,68,85,
+Only Love Can Hurt Like This,Paloma Faith,2014,Pop,89,57,30,WIP
+Open Book,Mikey McCleary,2015,Pop,36,56,45,
+Operator,Jim Croce,1972,Folk,45,69,83,WIP
+Paper Roses,Anita Bryant,1960,Pop,12,35,32,
+Paradise,Coldplay,2011,Rock,59,45,21,WIP
+Part-Time Lover,Stevie Wonder,1985,RnB,62,66,96,
+Perfect,Ed Sheeran,2017,Pop,45,60,17,
+Photographs and Memories,Jim Croce,1972,Rock,23,58,49,
+Piano Man,Billy Joel,1973,Pop,55,33,43,WIP
+Poetry In Motion,Johnny Tillotson,1960,Doo-wop,71,49,91,
+Pretty Woman,Roy Orbison,1964,Rock,58,61,95,WIP
+Pretty World,Sergio Mendes,1969,Jazz,38,62,89,WIP
+Price Tag,Jessie J,2011,Pop,83,64,69,
+Quando Quando Quando,Engelbert Humperdinck,1962,Bossa nova,59,37,84,WIP
+Que Sera Sera,Various,1956,Soundtrack,42,40,74,
+Rasputin,Boney M,1978,RnB,89,64,97,WIP
+Rhythm Of Love,Plain White T's,2010,Rock,54,53,73,
+Ring Of Fire,Johnny Cash,1962,Folk,59,66,78,WIP
+Rock 'n' Roll,Eric Hutchinson,2008,Rock,79,46,90,
+Rockabye,Clean Bandit,2018,Pop,76,72,77,WIP
+Rocket Man,Elton John,1972,Rock,60,44,24,
+Rockstar,Nickelback,2005,Rock,91,62,69,
+Rolling In The Deep,Adele,2011,Pop,77,73,51,
+Royals,Lorde,2013,Pop,43,67,34,WIP
+Sad Movies (Make Me Cry),Sue Thompson,1961,Pop,27,61,61,
+September,Earth Wind And Fire,1978,Disco,83,70,98,
+Seven Nation Army,White Stripes,2003,Rock,45,74,28,
+She Bangs,Ricky Martin,1998,Pop,94,64,91,
+She Said,Plan B,2010,Soul,54,72,83,WIP
+She Will Be Loved,Maroon 5,2004,Rock,71,71,54,
+Simply The Best,Noah Reid,2018,Soundtrack,14,44,12,
+Skyfall,Adele,2012,Pop,55,35,8,WIP
+Smooth,Santana,1999,Rock,92,61,96,WIP
+Smooth Operator,Sade,1984,Jazz,56,79,96,
+Snow (Hey Oh),Red Hot Chili Peppers,2006,Rock,90,43,60,WIP
+Someone Like You,Adele,2011,Pop,32,56,29,
+Son of a Preacher Man,Dusty Springfield,1969,RnB,50,40,82,WIP
+SOS,ABBA,1975,Pop,72,39,50,WIP
+Spit On A Stranger,Nickel Creek,1999,Rock,34,53,60,
+Stand By Me,Ben E. King,1961,RnB,31,65,61,
+Strength Of A Woman,Shaggy,2002,Reggae,52,75,67,
+Stuck In The Middle With You,Stealer's Wheel,1972,Pop,57,82,96,
+Sugar (Honey Honey),Archies,1969,Pop,87,74,97,
+Sultans Of Swing,Dire Straits,1978,Rock,87,73,92,WIP
+Super Trouper,ABBA,1980,Pop,63,76,96,
+Superman ("Scrubs" theme),Lazlo Bane,2000,Rock,79,54,83,
+Swallowed In The Sea,Coldplay,2005,Rock,38,27,15,WIP
+Sway,Michael Buble,1953,Latin,64,71,74,
+Sweet Child Of Mine,Guns n Roses,1987,Rock,95,45,62,
+Sweet Dreams,Eurhythmics,1982,Pop,71,69,88,WIP
+Take A Chance On Me,ABBA,1977,Pop,68,68,92,
+Take Five,Dave Brubeck,1959,Jazz,26,45,57,
+Take Me To Church,Hozier,2014,Soul,66,57,44,
+Tears in Heaven,Eric Clapton,1992,Rock,24,50,31,
+Ten Guitars,Engelbert Humperdinck,1966,Pop,48,62,85,
+Thank You For The Music,ABBA,1977,Pop,42,28,37,
+The Animal Song,Savage Garden,1999,Pop,67,65,83,
+The Boxer,Simon and Garfunkel,1970,Rock,49,44,63,
+The Cave,Mumford and Sons,2009,Rock,51,60,35,WIP
+The Girl From Ipanema,Getz / Gilberto,1964,Bossa nova,19,66,44,WIP
+The Joker,Steve Miller Band,2002,Rock,45,60,80,
+The Lazy Song,Bruno Mars,2011,Reggae,71,79,96,
+The Reason,Hoobastank,2003,Rock,67,47,7,WIP
+The Scientist,Coldplay,2002,Rock,44,56,21,
+The Sound Of Silence,Simon and Garfunkel,1964,Folk,23,54,34,
+The Tide Is High,Blondie,1980,Reggae,57,81,97,
+The Times They Are A-Changin',Bob Dylan,1964,Folk,40,39,59,
+The Twist,Chubby Checker,1960,RnB,62,57,85,WIP
+The Way I Am,Ingrid Michaelson,2007,Folk,26,88,32,
+The Way You Look Tonight,Frank Sinatra,1961,Jazz,24,62,59,WIP
+The Way You Make Me Feel,Michael Jackson,1987,RnB,82,61,51,WIP
+The Winner Takes It All,ABBA,1980,Pop,79,45,52,
+There She Goes,Sixpence None The Richer,2002,Rock,79,50,46,
+These Boots Are Made For Walkin',Nancy Sinatra,1966,Pop,43,74,34,WIP
+Thinking Out Loud,Ed Sheeran,2014,Rock,45,78,59,
+This Is The Life,Amy MacDonald,2007,Rock,88,62,86,WIP
+This Love,Maroon 5,2004,Rock,86,71,81,
+This Magic Moment,The Drifters,1960,Soul,37,34,62,WIP
+Til There Was You,Beatles,1963,Rock,34,73,65,WIP
+Time After Time,Eva Cassidy,1984,Pop,15,38,22,WIP
+Time In A Bottle,Jim Croce,1972,Rock,27,54,70,
+Titanium,David Guetta,2011,House,79,60,30,WIP
+To Be With You,Mr Big,2001,Rock,41,69,48,
+Top Of The World,Carpenters,1972,Pop,34,38,69,
+Toxic,Britney Spears,2003,Pop,84,77,92,
+Twist And Shout,Beatles,1961,Rock,98,56,30,
+Umbrella,Rihanna,2007,Pop,83,58,57,
+Under The Bridge,Red Hot Chili Peppers,1991,Alternative,35,56,46,WIP
+Under The Sea,Disney,1991,Soundtrack,48,51,82,WIP
+Until,Sting,2001,Soundtrack,27,31,33,WIP
+Uptown Girl,Billy Joel,1983,Rock,94,70,79,
+Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop,83,70,89,
+Vanilla Twilight,Owl City,2010,Pop,53,58,57,
+Venus,Shocking Blue,1969,Pop,76,69,96,
+Viva La Vida,Coldplay,2008,Pop,62,49,42,
+Wake Me Up,Avicii,2013,House,78,53,64,WIP
+Wake Me Up When September Ends,Green Day,2005,Rock,81,55,15,
+Watermelon Sugar,Harry Styles,2019,Pop,82,55,56,
+Way Back Into Love,Hugh Grant,2007,Pop,68,28,56,WIP
+We Are Young,fun.,2012,Pop,64,38,76,
+What a Wonderful World,Louis Armstrong,1967,Pop,17,27,20,
+What's Up,4 Non Blondes,1993,Rock,56,56,45,
+When You Were Young,Killers,2006,Rock,99,47,32,WIP
+Whenever Wherever,Shakira,2001,Pop,83,79,87,WIP
+White Flag,Dido,2003,Pop,54,51,28,
+Wicked Game,Chris Isaak,1988,Rock,30,66,36,
+Wild World,Cat Stevens,1970,Rock,51,48,55,
+Wisemen,James Blunt,2004,Pop,70,63,63,
+Wish You Were Here,Pink Floyd,1975,Rock,26,48,38,
+Wonderful Tonight,Eric Clapton,1977,Rock,21,57,49,
+Wonderwall,Oasis,1995,Pop,85,41,46,
+Yellow,Coldplay,2000,Rock,66,43,28,
+Yesterday,Beatles,1965,Pop,11,48,20,
+You And Me,Lifehouse,2005,Rock,43,46,35,
+You Belong To Me,Bryan Adams,2015,Rock,91,55,46,
+Your Song,Elton John,1970,Pop,32,55,33,
+You're Beautiful,James Blunt,2005,Rock,48,68,45,
+You're Still The One,Shania Twain,1997,Country,49,59,63,
+You've Got To Hide Your Love Away,Beatles,1965,Pop,39,40,38,
+Zombie,Cranberries,1994,Rock,65,31,31,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

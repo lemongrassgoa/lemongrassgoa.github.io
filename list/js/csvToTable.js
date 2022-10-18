@@ -68,6 +68,7 @@
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
 	        var table = '<table class="w3-animate-opacity sortable" id="repertoirelist">';
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+                var table_temp = table, wip = 0;
 	            if (singleRow === 0) {
 	                table += '<thead class="tooltip-sort">';
 	                table += '<tr>';
@@ -85,8 +86,12 @@
                             table += '<th class="year">';
                         else if(rowCell === 3)
                             table += '<th class="genre">';
+                        // else if(rowCell === 4)
+                            // table += '<th class="energy">';
+                        // else if(rowCell === 5)
+                            // table += '<th class="dance">';
                         else
-                            table += '<th>';
+                            table += '<th style="display:none;">';
 	                    table += rowCells[rowCell];
 	                    table += '</th>';
 	                } else {
@@ -113,11 +118,24 @@
                             
                             table += rowCells[rowCell];
                         }
+                        // else if (rowCell === 4){
+                            // table += '<td class="energy">';
+                            
+                            // table += rowCells[rowCell];
+                        // }
+                        // else if (rowCell === 5){
+                            // table += '<td class="dance">';
+                            
+                            // table += rowCells[rowCell];
+                        // }
                         else{
-                            table += '<td>';
+                            table += '<td style="display:none;">';
                             table += rowCells[rowCell];
                         }
 	                    table += '</td>';
+                        if(rowCells[7]){
+                            wip=1;
+                        }
 	                }
 	            }
 	            if (singleRow === 0) {
@@ -127,6 +145,10 @@
 	            } else {
 	                table += '</tr>';
 	            }
+                if(wip){
+                    table = table_temp;
+                    wip=0;
+                }
 	        }
 	        table += '</tbody>';
 	        table += '</table>';

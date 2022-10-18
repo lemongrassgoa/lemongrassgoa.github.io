@@ -139,7 +139,7 @@ table {
 }
 
 @media (max-width: 600px) {
-    .year, .genre {
+    .year, .genre, .energy, .dance {
         display: none;
     }
     .button{
