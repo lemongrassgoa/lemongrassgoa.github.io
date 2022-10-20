@@ -66,9 +66,9 @@ table {
 }
 .button1{
     transition: transform .2s, box-shadow .2s, color .2s;
-    font-size: 100%;
+    font-size: 80%;
 	text-align: center;
-    padding: 0.55em;
+    padding: 0.9em;
     text-decoration: none;
 	position: fixed;
 	width:150px;
