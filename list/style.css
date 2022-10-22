@@ -40,7 +40,7 @@ table {
 }
 
 .button{
-    display:none;
+    display: none;
     transition: transform .2s, box-shadow .2s, color .2s;
     font-size: 100%;
 	text-align: center;
