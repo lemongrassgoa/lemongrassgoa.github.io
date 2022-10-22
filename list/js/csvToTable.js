@@ -105,7 +105,7 @@
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
-                            
+
                             table += rowCells[rowCell];
                         }
                         else if (rowCell === 2){

@@ -1,7 +1,7 @@
-Title,Artist,Year,Genre,Energy,Dance,Happiness,WIP
+Title,Artist,Year,Genre,ENERGY,DANCE,VALENCE,WIP
 
 1973,James Blunt,2007,Rock,67,72,77,
-A Little Less Conversation,Elvis Presley,1968,Rock,80,58,84,WIP
+A Little Less Conversation,Elvis Presley,1968,Rock,80,58,84,
 A Little More,Eric Hutchinson,2014,Rock,74,64,94,
 A Man For All Seasons,Robbie Williams,2003,Soundtrack,74,58,82,
 A Thousand Miles,Vanessa Carlton,2002,Pop,83,56,27,
@@ -16,7 +16,7 @@ All Star,Smash Mouth,1999,Rock,87,73,78,
 Angel Of The Morning,Juice Newton,1981,Country,31,45,34,
 Angels,Robbie Williams,1997,Rock,59,43,26,
 Annie's Song,John Denver,1974,Rock,31,30,46,
-Antonio's Song,Michael Franks,1977,Jazz,39,68,65,
+Antonio's Song,Till Brönner,1977,Jazz,39,68,65,
 April Come She Will,Simon and Garfunkel,1966,Rock,19,49,35,
 Are You Gonna Be My Girl,Jet,2003,Rock,95,61,54,
 Arms,Christina Perri,2011,Pop,76,46,25,
@@ -81,7 +81,7 @@ Enjoy The Ride,Morcheeba,2008,Rock,52,55,46,
 Escape (Pina Colada),Rupert Holmes,1979,Rock,51,84,95,
 Every Little Thing She Does Is Magic,Eric Hutchinson,1981,Pop,56,71,83,
 Everything,Michael Buble,2006,Pop,69,69,49,WIP
-Everything At Once,Lenka,2011,Pop,47,77,84,WIP
+Everything At Once,Lenka,2011,Pop,47,77,84,
 Everything I Own,Bread,1972,Rock,34,37,45,
 Eye Of The Tiger,Survivor,1982,Rock,60,82,55,WIP
 Faith,George Michael,1987,Rock,50,92,55,
@@ -139,7 +139,7 @@ In The Summertime,Mungo Jerry,1970,Skiffle,65,64,97,
 Instant Crush,Daft Punk,2013,Disco,59,78,52,
 It's the End of the World As We Know It,REM,1987,Rock,89,38,80,WIP
 Jar Of Hearts,Christina Perri,2011,Pop,35,35,9,
-Johnny B Goode,Chuck Berry,1958,Rock 'n' roll,80,53,97,WIP
+Johnny B Goode,Chuck Berry,1958,Rock 'n' roll,80,53,97,
 Jolene,Dolly Parton,1973,Pop,54,67,81,
 Just Give Me A Reason,Pink (ft. Nate Ruess),2013,Pop,55,78,44,WIP
 Just The Two Of Us,Bill Withers,1980,Jazz,28,46,59,WIP
@@ -167,7 +167,6 @@ Lucky Lips,Cliff Richard,1957,RnB,48,69,90,
 Make You Feel My Love,Adele,1997,Rock,17,32,10,
 Mamma Mia,ABBA,1975,Pop,75,75,83,
 Maria Maria,Santana,1999,Rock,60,78,68,
-Marvin Gaye,Charlie Puth,2016,Pop,62,80,82,WIP
 Mary Jane's Last Dance,Tom Petty and The Heartbreakers,1993,Rock,66,46,53,
 Mi Chico Latino,Geri Halliwell,1999,Dance,91,63,68,
 Michelle,Beatles,1965,Pop,29,58,67,
@@ -211,7 +210,7 @@ Rockabye,Clean Bandit,2018,Pop,76,72,77,WIP
 Rocket Man,Elton John,1972,Rock,60,44,24,
 Rockstar,Nickelback,2005,Rock,91,62,69,
 Rolling In The Deep,Adele,2011,Pop,77,73,51,
-Royals,Lorde,2013,Pop,43,67,34,WIP
+Royals,Lorde,2013,Pop,43,67,34,
 Sad Movies (Make Me Cry),Sue Thompson,1961,Pop,27,61,61,
 September,Earth Wind And Fire,1978,Disco,83,70,98,
 Seven Nation Army,White Stripes,2003,Rock,45,74,28,
@@ -220,7 +219,7 @@ She Said,Plan B,2010,Soul,54,72,83,WIP
 She Will Be Loved,Maroon 5,2004,Rock,71,71,54,
 Simply The Best,Noah Reid,2018,Soundtrack,14,44,12,
 Skyfall,Adele,2012,Pop,55,35,8,WIP
-Smooth,Santana,1999,Rock,92,61,96,WIP
+Smooth,Santana,1999,Rock,92,61,96,
 Smooth Operator,Sade,1984,Jazz,56,79,96,
 Snow (Hey Oh),Red Hot Chili Peppers,2006,Rock,90,43,60,WIP
 Someone Like You,Adele,2011,Pop,32,56,29,
@@ -256,14 +255,15 @@ The Sound Of Silence,Simon and Garfunkel,1964,Folk,23,54,34,
 The Tide Is High,Blondie,1980,Reggae,57,81,97,
 The Times They Are A-Changin',Bob Dylan,1964,Folk,40,39,59,
 The Twist,Chubby Checker,1960,RnB,62,57,85,WIP
+The Way,Fastball,1998,Alternative,88,65,91,WIP
 The Way I Am,Ingrid Michaelson,2007,Folk,26,88,32,
 The Way You Look Tonight,Frank Sinatra,1961,Jazz,24,62,59,WIP
 The Way You Make Me Feel,Michael Jackson,1987,RnB,82,61,51,WIP
 The Winner Takes It All,ABBA,1980,Pop,79,45,52,
 There She Goes,Sixpence None The Richer,2002,Rock,79,50,46,
-These Boots Are Made For Walkin',Nancy Sinatra,1966,Pop,43,74,34,WIP
+These Boots Are Made For Walkin',Nancy Sinatra,1966,Pop,43,74,34,
 Thinking Out Loud,Ed Sheeran,2014,Rock,45,78,59,
-This Is The Life,Amy MacDonald,2007,Rock,88,62,86,WIP
+This Is The Life,Amy MacDonald,2007,Rock,88,62,86,
 This Love,Maroon 5,2004,Rock,86,71,81,
 This Magic Moment,The Drifters,1960,Soul,37,34,62,WIP
 Til There Was You,Beatles,1963,Rock,34,73,65,WIP
@@ -308,193 +308,3 @@ You're Beautiful,James Blunt,2005,Rock,48,68,45,
 You're Still The One,Shania Twain,1997,Country,49,59,63,
 You've Got To Hide Your Love Away,Beatles,1965,Pop,39,40,38,
 Zombie,Cranberries,1994,Rock,65,31,31,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
