@@ -117,8 +117,13 @@ h1 {
 }
 
 #upcoming_events {
-    width: 100%;
-    height: 600px;
+    horizontal-align: center;
+    width: 75%;
+    height: 300px;
+    /* border:solid 1px #111; */
+    filter: grayscale(100%) invert();
+    /* right: 50%; */
+    transform: translate(12.5%);
 }
 
 @media (max-width: 600px) {
