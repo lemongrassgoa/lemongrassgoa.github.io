@@ -30,7 +30,7 @@ Big Bang,Rock Mafia,2010,Pop,96,82,90,89,12,,Contemporary\Rock Mafia\Big Bang.tx
 Bistro Fada,Stephane Wrembel,2011,Jazz,99,37,76,86,89,,Contemporary\Various\Bistro Fada.txt
 Blackbird,Beatles,1968,Folk,93,11,69,46,76,,Contemporary\The Beatles\Blackbird.txt
 Blinding Lights,Weeknd,2019,RnB,171,73,51,33,0,,Contemporary\The Weeknd\Blinding Lights.txt
-Blowin' In The Wind,Peter Paul and Mary,1962,Folk,155,8,38,56,83,,Contemporary\Peter, Paul, and Mary\Blowin' In The Wind.txt
+Blowin' In The Wind,Peter Paul and Mary,1962,Folk,155,8,38,56,83,,Contemporary\Peter%2c Paul%2c and Mary\Blowin' In The Wind.txt
 Brandy,Looking Glass,1972,Rock,125,63,72,83,40,,Contemporary\Looking Glass\Brandy.txt
 Brasileirinho,Waldir Azavedo,1947,Choro,105,52,49,92,35,WIP,Contemporary\Various\Brasileirinho.txt
 Breakfast At Tiffany's,Deep Blue Something,1995,Rock,110,83,62,54,11,WIP,Contemporary\Deep Blue Something\Breakfast At Tiffany's.txt
@@ -89,7 +89,7 @@ Feels Like Home,Edwina Hayes,2009,Folk,108,26,46,50,87,WIP,Contemporary\Edwina H
 Fifty Ways To Leave Your Lover,Paul Simon,1975,Rock,102,37,82,29,17,WIP,Contemporary\Paul Simon\50 Ways to Leave Your Lover.txt
 Fire and Rain,James Taylor,1970,Rock,76,35,61,36,50,WIP,Contemporary\James Taylor\Fire and Rain.txt
 First Day Of My Life,Bright Eyes,2005,Folk,95,25,60,37,90,,Contemporary\Bright Eyes\First Day Of My Life.txt
-Five Hundred Miles,Peter Paul and Mary,1962,Folk,97,7,44,26,86,,Contemporary\Peter, Paul, and Mary\Five Hundred Miles.txt
+Five Hundred Miles,Peter Paul and Mary,1962,Folk,97,7,44,26,86,,Contemporary\Peter%2c Paul%2c and Mary\Five Hundred Miles.txt
 Fix You,Coldplay,2005,Rock,138,42,21,12,16,,Contemporary\Coldplay\Fix You.txt
 Flightless Bird American Mouth,Iron and Wine,2008,Rock,155,40,37,18,83,,Contemporary\Iron and Wine\Flightless Bird American Mouth.txt
 Fly Me To The Moon,Frank Sinatra,1954,Pop,118,27,62,43,34,,Contemporary\Frank Sinatra\Fly Me To The Moon.txt
@@ -115,7 +115,7 @@ Heart Of Gold,Neil Young,1972,Rock,170,38,43,63,20,,Contemporary\Neil Young\Hear
 Hello,Lionel Richie,1983,Pop,61,25,49,6,41,,Contemporary\Lionel Richie\Hello.txt
 Here Without You,3 Doors Down,2002,Rock,144,53,56,23,5,,Contemporary\3 Doors Down\Here Without You.txt
 Hey Jude,Beatles,1968,Rock,74,63,46,59,9,,Contemporary\The Beatles\Hey Jude.txt
-Hey Soul Sister,Train,2002,Rock,97,89,67,80,19,,Contemporary\Train\Hey, Soul Sister.txt
+Hey Soul Sister,Train,2002,Rock,97,89,67,80,19,,Contemporary\Train\Hey%2c Soul Sister.txt
 Hey There Delilah,Plain White T's,2004,Pop,104,29,66,30,87,,Contemporary\Plain White T's\Hey There Delilah.txt
 Hit The Road Jack,Ray Charles,1962,R'n'B,173,57,60,96,70,WIP,Contemporary\Ray Charles\Hit The Road Jack.txt
 Homeward Bound,Simon and Garfunkel,1966,Folk,93,38,49,53,83,WIP,Contemporary\Simon and Garfunkel\Homeward Bound.txt
@@ -130,7 +130,7 @@ I Won't Give Up,Jason Mraz,2012,Pop,133,30,48,14,69,WIP,Contemporary\Jason Mraz\
 I'd Love To Change The World,Ten Years After,2002,Rock,118,48,38,39,32,,Contemporary\Ten Years After\I'd Love To Change The World.txt
 If,Bread,1971,Folk Rock,98,18,39,34,91,,Contemporary\Bread\If.txt
 If I Ain't Got You,Alicia Keys,2003,RnB,118,44,61,17,60,WIP,Contemporary\Alicia Keys\If I Ain't Got You.txt
-If I Had A Hammer,Peter Paul and Mary,1962,Folk,90,39,47,51,27,,Contemporary\Peter, Paul, and Mary\If I Had A Hammer.txt
+If I Had A Hammer,Peter Paul and Mary,1962,Folk,90,39,47,51,27,,Contemporary\Peter%2c Paul%2c and Mary\If I Had A Hammer.txt
 I'll Be There For You ("Friends" theme),Rembrandts,1995,Rock,191,71,29,75,4,,Contemporary\The Rembrandts\I'll Be There For You.txt
 I'll Have to Say I Love You in a Song,Jim Croce,1973,Folk,134,45,54,71,83,,Contemporary\Jim Croce\I'll Have To Say I Love You In A Song.txt
 I'm A Believer,Monkees,1967,Pop,79,77,50,94,60,,Contemporary\The Monkees\I'm a Believer.txt
@@ -229,7 +229,7 @@ Spit On A Stranger,Nickel Creek,1999,Rock,156,34,53,60,48,,Contemporary\Nickel C
 Stand By Me,Ben E. King,1961,RnB,118,31,65,61,57,,Contemporary\Ben E King\Stand By Me.txt
 Strength Of A Woman,Shaggy,2002,Reggae,86,52,75,67,6,,Contemporary\Shaggy\Strength Of A Woman.txt
 Stuck In The Middle With You,Stealer's Wheel,1972,Pop,124,57,82,96,9,,Contemporary\Stealers Wheel\Stuck In The Middle With You.txt
-Sugar (Honey Honey),Archies,1969,Pop,122,87,74,97,47,,Contemporary\The Archies\Sugar (Honey, Honey).txt
+Sugar (Honey Honey),Archies,1969,Pop,122,87,74,97,47,,Contemporary\The Archies\Sugar (Honey%2c Honey).txt
 Sultans Of Swing,Dire Straits,1978,Rock,148,87,73,92,6,WIP,Contemporary\Dire Straits\Sultans Of Swing.txt
 Super Trouper,ABBA,1980,Pop,118,63,76,96,46,,Contemporary\ABBA\Super Trouper.txt
 Superman ("Scrubs" theme),Lazlo Bane,2000,Rock,162,79,54,83,7,,Contemporary\Lazlo Bane\Superman.txt
@@ -292,7 +292,7 @@ We Are Young,fun.,2012,Pop,184,64,38,76,2,,Contemporary\fun\We Are Young.txt
 What a Wonderful World,Louis Armstrong,1967,Pop,77,17,27,20,73,,Contemporary\Louis Armstrong\What A Wonderful World.txt
 What's Up,4 Non Blondes,1993,Rock,134,56,56,45,16,,Contemporary\4 Non Blondes\What's Up.txt
 When You Were Young,Killers,2006,Rock,130,99,47,32,0,WIP,Contemporary\The Killers\When You Were Young.txt
-Whenever Wherever,Shakira,2001,Pop,108,83,79,87,24,WIP,Contemporary\Shakira\Whenever, Wherever.txt
+Whenever Wherever,Shakira,2001,Pop,108,83,79,87,24,WIP,Contemporary\Shakira\Whenever%2c Wherever.txt
 White Flag,Dido,2003,Pop,170,54,51,28,31,,Contemporary\Dido\White Flag.txt
 Wicked Game,Chris Isaak,1988,Rock,112,30,66,36,68,,Contemporary\Chris Isaak\Wicked Game.txt
 Wild World,Cat Stevens,1970,Rock,152,51,48,55,37,,Contemporary\Cat Stevens\Wild World.txt
