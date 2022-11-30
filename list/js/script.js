@@ -39,3 +39,17 @@ function clearSearch(){
     document.getElementById("search").value = "";
     search();
 }
+
+// THE //
+// Archies
+// Avett Brothers
+// Beatles
+// Carpenters
+// Cranberries
+// Doobie Brothers
+// Everly Brothers
+// Killers
+// Mayries
+// Monkees
+// Rembrandts
+// White Stripes

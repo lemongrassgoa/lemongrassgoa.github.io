@@ -66,16 +66,18 @@ table {
     transform: scale(1);
 }
 .button1{
+    display:block;
     transition: transform .2s, box-shadow .2s, color .2s;
     font-size: 80%;
-	text-align: center;
-    padding: 0.9em;
+	text-align: left;
+    padding-top: 0.2em;
+    padding-left: 1em;
     text-decoration: none;
 	position: fixed;
-	width:150px;
-	height:60px;
-	top:10px;
-	right:10px;
+	width:100px;
+	height:40px;
+	top:20px;
+	right:20px;
 	background-color: #085;
 	color:#FFF;
 	border-radius:50px;
@@ -91,7 +93,16 @@ table {
     transform: scale(1);
 }
 .my-float{
-	margin-bottom:15px;
+	/* margin-bottom:15px; */
+}
+#spotify {
+    pointer-events:none;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    height: inherit;
+    /* background-image: radial-gradient(rgba(255,255,255,0.5) 40%, rgba(0,0,0,0) 70%); */
+    z-index: 6;
 }
 #logo {
     transition: transform .2s;
@@ -125,7 +136,7 @@ table {
     /* display: ; */
 }
 
-#tapToRequest {
+#tapToSort {
     /* position: fixed; */
     font-size: 75%;
     padding-right: 4em;
@@ -150,10 +161,10 @@ table {
         display:none;
     }
     .button1{
-        position:absolute;
-        transform: scale(0.65);
-        top:30px;
-        right:-10px;
+        position: absolute;
+        /* transform: scale(0.65); */
+        top: 30px;
+        right: 0px;
     }
     #tapToRequest {
         padding-right: 0em;
