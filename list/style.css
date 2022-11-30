@@ -71,7 +71,7 @@ table {
     font-size: 80%;
 	text-align: left;
     padding-top: 0.2em;
-    padding-left: 1em;
+    padding-left: 1.25em;
     text-decoration: none;
 	position: fixed;
 	width:100px;
@@ -164,7 +164,7 @@ table {
         position: absolute;
         /* transform: scale(0.65); */
         top: 30px;
-        right: 0px;
+        right: 10px;
     }
     #tapToRequest {
         padding-right: 0em;
