@@ -86,9 +86,10 @@
                         }
 	                } else {
                         if(rowCell < 9){
+                            var wip_format = ' style="background-color: #000;"';
                             if(rowCell === 0){
                                 if(rowCells[9]) 
-                                    table += '<td class="title" style="background-color: grey;">';
+                                    table += '<td class="title"' + wip_format + '">';
                                 else
                                     table += '<td class="title">';
                                 var temp = rowCells[10];
@@ -101,14 +102,12 @@
                             }
                             else {
                                 if(rowCells[9]) 
-                                    table += '<td style="background-color: grey;">'; 
+                                    table += '<td' + wip_format + '">'; 
                                 else
                                     table += '<td>'; 
-                                if(rowCells[9]) table += '<i style="background-color: grey;">';
                                 
                                 table += rowCells[rowCell];
                                 
-                                if(rowCells[9]) table += '</i>';
                                 table += '</td>';
                             }
                         }
