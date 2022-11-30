@@ -66,7 +66,7 @@
 	function buildTable() {
 		getCSV.call(this).then(function(response){
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
-	        var table = '<table class="w3-animate-opacity sortable" id="repertoirelist">';
+	        var table = '<table class="sortable" id="repertoirelist">';
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
                 var wip = 0;
 	            if (singleRow === 0) {
