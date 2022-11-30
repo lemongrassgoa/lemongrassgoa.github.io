@@ -93,7 +93,7 @@
                                     table += '<td class="title">';
                                 var temp = rowCells[10];
                                 console.log(temp);
-                                table += '<i><a style="text-decoration: none;" href="http://localhost:81/'+ rowCells[10] + '">';
+                                table += '<i><a style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
                                 
                                 table += rowCells[rowCell];
                                 
