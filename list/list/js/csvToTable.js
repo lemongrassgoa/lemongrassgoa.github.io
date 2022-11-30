@@ -68,7 +68,7 @@
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
 	        var table = '<table class="w3-animate-opacity sortable" id="repertoirelist">';
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
-                var table_temp = table, wip = 0;
+                var wip = 0;
 	            if (singleRow === 0) {
 	                table += '<thead class="tooltip-sort">';
 	                table += '<tr>';
@@ -78,63 +78,36 @@
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-                        if(rowCell === 0)
-                            table += '<th class="title dir-u ">';
-                        else if(rowCell === 1)
-                            table += '<th class="artist">';
-                        else if(rowCell === 2)
-                            table += '<th class="year">';
-                        else if(rowCell === 3)
-                            table += '<th class="genre">';
-                        // else if(rowCell === 4)
-                            // table += '<th class="energy">';
-                        // else if(rowCell === 5)
-                            // table += '<th class="dance">';
-                        else
-                            table += '<th style="display:none;">';
-	                    table += rowCells[rowCell];
-	                    table += '</th>';
+                        if(rowCell < 9){
+                            table += '<th>';
+                            table += rowCells[rowCell];
+                            table += '</th>';
+                        }
 	                } else {
-                        if(rowCell === 0){
-                            table += '<td class="title">';
-                            table += '<i>';
-                            
-                            table += rowCells[rowCell];
-                            
-                            table += '</i>'
-                        }
-                        else if (rowCell === 1){
-                            table += '<td class="artist">';
-
-                            table += rowCells[rowCell];
-                        }
-                        else if (rowCell === 2){
-                            table += '<td class="year">';
-                            
-                            table += rowCells[rowCell];
-                        }
-                        else if (rowCell === 3){
-                            table += '<td class="genre">';
-                            
-                            table += rowCells[rowCell];
-                        }
-                        // else if (rowCell === 4){
-                            // table += '<td class="energy">';
-                            
-                            // table += rowCells[rowCell];
-                        // }
-                        // else if (rowCell === 5){
-                            // table += '<td class="dance">';
-                            
-                            // table += rowCells[rowCell];
-                        // }
-                        else{
-                            table += '<td style="display:none;">';
-                            table += rowCells[rowCell];
-                        }
-	                    table += '</td>';
-                        if(rowCells[9]){
-                            wip=1;
+                        if(rowCell < 9){
+                            if(rowCell === 0){
+                                if(rowCells[9]) 
+                                    table += '<td class="title" style="background-color: grey;">';
+                                else
+                                    table += '<td class="title">';
+                                table += '<i><a style="text-decoration: none;" href="http://localhost:81/'+ rowCells[10] + '">';
+                                
+                                table += rowCells[rowCell];
+                                
+                                table += '</a></i>'
+                            }
+                            else {
+                                if(rowCells[9]) 
+                                    table += '<td style="background-color: grey;">'; 
+                                else
+                                    table += '<td>'; 
+                                if(rowCells[9]) table += '<i style="background-color: grey;">';
+                                
+                                table += rowCells[rowCell];
+                                
+                                if(rowCells[9]) table += '</i>';
+                                table += '</td>';
+                            }
                         }
 	                }
 	            }
@@ -145,10 +118,6 @@
 	            } else {
 	                table += '</tr>';
 	            }
-                if(wip){
-                    table = table_temp;
-                    wip=0;
-                }
 	        }
 	        table += '</tbody>';
 	        table += '</table>';
