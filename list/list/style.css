@@ -21,7 +21,7 @@ table {
 
 #search-bar{
     width: 100%;
-    top: 0;
+    top: -1px;
     padding-top: 0.5em;
     padding-bottom: 3.5em;
     position: sticky;
@@ -59,3 +59,30 @@ table {
         padding-right: 0em;
     }
 }
+
+audio {
+  /* display: inline-block; */
+  display: none;
+  height: 40px;
+  width: calc( 100% - 650px );
+}
+
+label {
+  background: #f0f0f0;
+  border: 1px solid #999;
+  border-radius: 5px;
+  /* display: inline-block; */
+  /* margin: 5px 10px 0; */
+  /* padding: 8px 40px; */
+  vertical-align: top;
+}
+
+label input {
+  display: none;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+}
+
