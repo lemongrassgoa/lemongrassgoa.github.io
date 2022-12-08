@@ -150,5 +150,14 @@ h1 {
         display: none;
     }
 
+    #upcoming_events {
+        width: 60%;
+        height: 300px;
+        filter: grayscale(100%) invert();
+        transform: scale(1);
+        margin-left  : 20%;
+        margin-top   : 0%;
+        margin-bottom: 0%;
+    }
 }
 
