@@ -117,11 +117,11 @@ h1 {
 }
 
 #upcoming_events {
-    width: 50%;
+    width: 70%;
     height: 300px;
     filter: invert() grayscale(0.5) contrast(2) hue-rotate(180deg);
     transform: scale(1.5);
-    margin-left  : 25%;
+    margin-left  : 15%;
     margin-top   : 10%;
     margin-bottom: 5%;
 }
@@ -151,11 +151,11 @@ h1 {
     }
 
     #upcoming_events {
-        width: 60%;
+        width: 80%;
         height: 300px;
         filter: invert() grayscale(0.5) contrast(2) hue-rotate(180deg);
         transform: scale(1);
-        margin-left  : 20%;
+        margin-left  : 10%;
         margin-top   : 0%;
         margin-bottom: 0%;
     }
