@@ -37,3 +37,12 @@ var modal = document.getElementById('ticketModal');
         modal.style.display = "none";
     }
 }
+
+var d = new Date();
+var yy = d.getFullYear();
+var mm = d.getMonth() + 1;
+var dd = d.getDate();
+var yymmdd = "day-" + yy + (mm<10 ? "0": "") + mm + (dd<10 ? "0": "") + dd;
+console.log(yymmdd);
+
+document.getElementById('today').innerHTML = "Today: " + d.toDateString();
