@@ -22,6 +22,7 @@ Are You Gonna Be My Girl,Jet,2003,Rock,105,95,61,54,0,,Contemporary\Jet\Are You 
 Arms,Christina Perri,2011,Pop,145,76,46,25,11,,Contemporary\Christina Perri\Arms.txt
 At My Worst,Pink Sweat$,2021,RnB,92,42,81,67,78,,Contemporary\Pink Sweats\At My Worst.txt
 Ave Maria,Beyonce,2008,Pop,105,40,35,20,79,,Contemporary\Beyonce\Ave Maria.txt
+Baby,Clean Bandit,2018,Pop,117,42,66,56,74,WIP,Contemporary\Clean Bandit\Baby.txt
 Baby One More Time,Britney Spears,1998,Pop,93,70,76,91,20,,Contemporary\Britney Spears\Baby One More Time.txt
 Beautiful Tango,Hindi Zahra,2010,Soul,126,38,75,65,98,,Contemporary\Hindi Zahra\Beautiful Tango.txt
 Besame Mucho,Andrea Bocelli,1940,Latin,95,50,52,38,89,,Contemporary\Andrea Bocelli\Besame Mucho.txt
@@ -155,6 +156,7 @@ Leaving On A Jet Plane,John Denver,1966,Folk,133,28,49,47,68,,Contemporary\John 
 Lemon Tree,Fool's Garden,1995,Pop,143,48,66,64,64,,Contemporary\Fool's Garden\Lemon Tree.txt
 Let Her Go,Passenger,2012,Rock,75,55,48,24,37,,Contemporary\Passenger\Let Her Go.txt
 Let's Twist Again,Chubby Checker,1961,Rock 'n' roll,168,71,60,91,10,WIP,Contemporary\Chubby Checker\Let's Twist Again.txt
+Lift Me Up,Rihanna,2022,Soundtrack,177,30,25,17,90,WIP,Contemporary\Rihanna\Lift Me Up.txt
 Like I'm Gonna Lose You,Meghan Trainor,2015,Soul,108,53,63,42,40,WIP,Contemporary\Meghan Trainor\Like I'm Gonna Lose You.txt
 Lonely,Imagine Dragons,2021,Alternative,98,73,71,87,3,WIP,Contemporary\Imagine Dragons\Lonely.txt
 Lonely Stranger,Eric Clapton,1992,Rock,75,47,74,59,52,,Contemporary\Eric Clapton\Lonely Stranger.txt
@@ -181,6 +183,7 @@ Mr Bojangles,Nitty Gritty Dirt Band,1968,Folk,154,72,45,41,49,WIP,Contemporary\T
 Mr Brightside,Killers,2003,Rock,148,91,35,24,0,WIP,Contemporary\The Killers\Mr Brightside.txt
 My Love,Westlife,2000,Pop,144,59,49,33,10,WIP,Contemporary\Westlife\My Love.txt
 Never Going Back Again,Fleetwood Mac,1977,Folk Rock,91,39,61,79,76,WIP,Contemporary\Fleetwood Mac\Never Going Back Again.txt
+New Light,John Mayer,2011,Rock,124,69,83,85,32,WIP,Contemporary\John Mayer\New Light.txt
 New Shoes,Paolo Nutini,2006,Pop,150,74,75,85,47,,Contemporary\Paolo Nutini\New Shoes.txt
 Nights In White Satin,Moody Blues,1967,Rock,157,34,19,22,25,,Contemporary\The Moody Blues\Nights in White Satin.txt
 Norwegian Wood,Beatles,1965,Folk Rock,177,37,43,65,18,,Contemporary\The Beatles\Norwegian Wood.txt
@@ -275,12 +278,14 @@ Time In A Bottle,Jim Croce,1972,Rock,134,27,54,70,85,,Contemporary\Jim Croce\Tim
 Titanium,David Guetta,2011,House,126,79,60,30,7,WIP,Contemporary\David Guetta\Titanium.txt
 To Be With You,Mr Big,2001,Rock,84,41,69,48,35,,Contemporary\Mr Big\To Be With You.txt
 Top Of The World,Carpenters,1972,Pop,184,34,38,69,81,,Contemporary\The Carpenters\Top Of The World.txt
-Toxic,Britney Spears,2003,Pop,143,84,77,92,2,,Contemporary\Britney Spears\Toxic.txt
+Toxic,Britney Spears,2003,Pop,143,84,77,92,2,,Contemporary\Shakira\Try Everything.txt
+Try Everything,Shakira,2016,Soundtrack,115,61,71,48,3,WIP,Contemporary\Britney Spears\Toxic.txt
 Twist And Shout,Beatles,1961,Rock,125,85,48,94,64,,Contemporary\The Beatles\Twist And Shout.txt
 Umbrella,Rihanna,2007,Pop,174,83,58,57,1,,Contemporary\Rihanna\Umbrella.txt
 Under The Bridge,Red Hot Chili Peppers,1991,Alternative,85,35,56,46,6,WIP,Contemporary\Red Hot Chili Peppers\Under The Bridge.txt
 Under The Sea,Disney,1991,Soundtrack,99,48,51,82,71,WIP,Contemporary\Various\Under The Sea.txt
 Until,Sting,2001,Soundtrack,136,27,31,33,92,WIP,Contemporary\Sting\Until.txt
+Until I Found You,Stephen Sanchez,2022,Alternative,101,51,54,23,73,WIP,Contemporary\Stephen Sanchez\Until I Found You.txt
 Uptown Girl,Billy Joel,1983,Rock,129,94,70,79,8,,Contemporary\Billy Joel\Uptown Girl.txt
 Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop,106,83,70,89,0,,Contemporary\Amy Winehouse\Valerie.txt
 Vanilla Twilight,Owl City,2010,Pop,166,53,58,57,1,,Contemporary\Owl City\Vanilla Twilight.txt
