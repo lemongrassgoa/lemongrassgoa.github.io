@@ -1,9 +1,11 @@
+
 (function(){
 var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.2134839446="
 
 var titles = [];
 var artists = [];
 var _wip = [];
+
 	// Constructor method
 	this.CsvToTable = function(){
 		this.csvFile = null;
@@ -106,7 +108,7 @@ var _wip = [];
                         else if (rowCell === 1){
                             table += '<td class="artist">';
                             artists.push(rowCells[rowCell]);
-                            _wip.push(rowCells[7]);
+                            _wip.push(rowCells[9]);
                             
                             table += rowCells[rowCell];
                         }
@@ -125,7 +127,7 @@ var _wip = [];
                             table += rowCells[rowCell];
                         }
 	                    table += '</td>';
-                        if(rowCells[7]){
+                        if(rowCells[9]){
                             wip=1;
                         }
 	                }
@@ -151,8 +153,6 @@ var _wip = [];
             var form_id = "form" + (i+1);
             if(!_wip[i])
                 document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
-            if(i === 0)
-                document.getElementById(form_id).className = "tooltip-request";
         }
         
 	}, function(error){
