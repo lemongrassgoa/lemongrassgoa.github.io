@@ -40,7 +40,7 @@ Budapest,George Ezra,2013,Rock,128,46,72,39,8,,Contemporary\George Ezra\Budapest
 Butterfly,Jason Mraz,2008,Pop,108,66,72,80,15,,Contemporary\Jason Mraz\Butterfly.txt
 Bye Bye Love,Everly Brothers,1957,Country,170,52,55,89,72,,Contemporary\Everly Brothers\Bye Bye Love.txt
 Calendar Girl,Neil Sedaka,1959,Pop,123,65,70,86,40,WIP,Contemporary\Neil Sedaka\Calendar Girl.txt
-Californication,Red Hot Chili Peppers,1999,Alternative,96,77,59,33,0,,Contemporary\Red Hot Chili Peppers\Californication.txt
+Californication,Red Hot Chili Peppers,1999,Alternative,96,77,59,33,0,WIP,Contemporary\Red Hot Chili Peppers\Californication.txt
 Can't Help Falling In Love,Elvis Presley,1961,Rock,100,29,40,34,94,,Contemporary\Elvis Presley\Can't Help Falling In Love.txt
 Can't Smile Without You,Barry Manilow,1978,Pop,98,52,42,48,49,,Contemporary\Barry Manilow\Can't Smile Without You.txt
 Careless Whisper,George Michael,1984,Pop,153,63,57,80,13,,Contemporary\George Michael\Careless Whisper.txt
@@ -81,7 +81,7 @@ Enjoy The Ride,Morcheeba,2008,Rock,85,52,55,46,20,,Contemporary\Morcheeba\Enjoy 
 Escape (Pina Colada),Rupert Holmes,1979,Rock,139,51,84,95,47,,Contemporary\Rupert Holmes\Escape.txt
 Every Little Thing She Does Is Magic,Eric Hutchinson,1981,Pop,78,56,71,83,43,,Contemporary\Eric Hutchinson\Every Little Thing She Does Is Magic.txt
 Everything,Michael Buble,2006,Pop,123,69,69,49,39,WIP,Contemporary\Michael Buble\Everything.txt
-Everything At Once,Lenka,2011,Pop,145,47,77,84,33,,Contemporary\Lenka\Everything At Once.txt
+Everything At Once,Lenka,2011,Pop,145,47,77,84,33,WIP,Contemporary\Lenka\Everything At Once.txt
 Everything I Own,Bread,1972,Rock,79,34,37,45,74,,Contemporary\Bread\Everything I Own.txt
 Eye Of The Tiger,Survivor,1982,Rock,109,60,82,55,13,,Contemporary\Survivor\Eye Of The Tiger.txt
 Faith,George Michael,1987,Rock,96,50,92,55,1,,Contemporary\George Michael\Faith.txt
@@ -97,7 +97,7 @@ Fly Me To The Moon,Frank Sinatra,1954,Pop,118,27,62,43,34,,Contemporary\Frank Si
 For What It's Worth,Buffalo Springfield,1966,Folk,99,52,65,82,41,,Contemporary\Buffalo Springfield\For What Its Worth.txt
 Forever,Eric Hutchinson,2014,Rock,144,80,57,52,2,,Contemporary\Eric Hutchinson\Forever.txt
 Free Falling,John Mayer,1989,Rock,84,62,62,56,11,,Contemporary\John Mayer\Free Falling.txt
-Galway Girl,Ed Sheeran,2017,Pop,100,88,62,78,7,,Contemporary\Ed Sheeran\Galway Girl.txt
+Galway Girl,Ed Sheeran,2017,Pop,100,88,62,78,7,WIP,Contemporary\Ed Sheeran\Galway Girl.txt
 Genie In A Bottle,Christina Aguilera,1999,Pop,176,80,63,91,21,,Contemporary\Christina Aguilera\Genie In A Bottle.txt
 Gimme Gimme Gimme,ABBA,1979,Pop,120,49,75,54,2,WIP,Contemporary\ABBA\Gimme Gimme Gimme.txt
 Girls Just Want To Have Fun,Mayries,1983,Pop,186,36,44,36,74,WIP,Contemporary\The Mayries\Girls Just Want To Have Fun.txt
@@ -112,7 +112,7 @@ Green Eyes,Coldplay,2002,Alternative,130,41,61,23,54,,Contemporary\Coldplay\Gree
 Guitar Man,Bread,1972,Rock,143,51,55,51,14,,Contemporary\Bread\The Guitar Man.txt
 Hallelujah,Jeff Buckley,1984,Rock,97,14,32,8,93,,Contemporary\Jeff Buckley\Hallelujah.txt
 Halo,Beyonce,2008,Pop,80,72,51,47,27,WIP,Contemporary\Beyonce\Halo.txt
-Happy,Pharell Williams,2013,Pop,126,44,79,66,73,,Contemporary\Pharell Williams\Happy.txt
+Happy,Pharell Williams,2013,Pop,126,44,79,66,73,WIP,Contemporary\Pharell Williams\Happy.txt
 Have You Ever Seen The Rain,CCR,1971,Rock,116,47,74,89,9,,Contemporary\CCR\Have You Ever Seen The Rain.txt
 Heart Of Gold,Neil Young,1972,Rock,170,38,43,63,20,,Contemporary\Neil Young\Heart Of Gold.txt
 Hello,Lionel Richie,1983,Pop,61,25,49,6,41,,Contemporary\Lionel Richie\Hello.txt
@@ -281,7 +281,7 @@ Top Of The World,Carpenters,1972,Pop,184,34,38,69,81,,Contemporary\The Carpenter
 Toxic,Britney Spears,2003,Pop,143,84,77,92,2,,Contemporary\Shakira\Try Everything.txt
 Try Everything,Shakira,2016,Soundtrack,115,61,71,48,3,WIP,Contemporary\Britney Spears\Toxic.txt
 Twist And Shout,Beatles,1961,Rock,125,85,48,94,64,,Contemporary\The Beatles\Twist And Shout.txt
-Umbrella,Rihanna,2007,Pop,174,83,58,57,1,,Contemporary\Rihanna\Umbrella.txt
+Umbrella,Rihanna,2007,Pop,174,83,58,57,1,WIP,Contemporary\Rihanna\Umbrella.txt
 Under The Bridge,Red Hot Chili Peppers,1991,Alternative,85,35,56,46,6,WIP,Contemporary\Red Hot Chili Peppers\Under The Bridge.txt
 Under The Sea,Disney,1991,Soundtrack,99,48,51,82,71,WIP,Contemporary\Various\Under The Sea.txt
 Until,Sting,2001,Soundtrack,136,27,31,33,92,WIP,Contemporary\Sting\Until.txt
