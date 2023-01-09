@@ -70,16 +70,15 @@
 	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
                 var wip = 0;
 	            if (singleRow === 0) {
-	                table += '<thead class="tooltip-sort">';
-	                table += '<tr>';
-	            } else {
-	                table += '<tr>';
+	                table += '<thead>';
 	            }
+                table += '<tr>';
+                    
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell < 9){
-                            table += '<th style="' + ((rowCell === 4) ? 'display:none;' : '') + '" >';
+                            table += '<th style="' + ((rowCell === 4) ? 'display:none;' : '') + '" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
@@ -110,7 +109,15 @@
 	            } else {
 	                table += '</tr>';
 	            }
+                
 	        }
+            
+            for(var i = 0; i < 3; i++){
+                table += '<tr>';
+                table += '<td colspan="8"></td>';
+                table += '</tr>';
+            }
+            
 	        table += '</tbody>';
 	        table += '</table>';
 
