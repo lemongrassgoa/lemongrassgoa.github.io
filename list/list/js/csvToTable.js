@@ -112,11 +112,15 @@
                 
 	        }
             
-            for(var i = 0; i < 3; i++){
-                table += '<tr>';
-                table += '<td colspan="8"></td>';
-                table += '</tr>';
-            }
+            // for(var i = 0; i < 3; i++){
+                // table += '<tr>';
+                // table += '<td colspan="8"></td>';
+                // table += '</tr>';
+            // }
+            
+            table += '<tr>';
+            table += '<td colspan="8"></td>';
+            table += '</tr>';
             
 	        table += '</tbody>';
 	        table += '</table>';
