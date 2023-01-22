@@ -97,7 +97,7 @@ Fly Me To The Moon,Frank Sinatra,1954,Pop,118,27,62,43,34,,Contemporary\Frank Si
 For What It's Worth,Buffalo Springfield,1966,Folk,99,52,65,82,41,,Contemporary\Buffalo Springfield\For What Its Worth.txt
 Forever,Eric Hutchinson,2014,Rock,144,80,57,52,2,,Contemporary\Eric Hutchinson\Forever.txt
 Free Falling,John Mayer,1989,Rock,84,62,62,56,11,,Contemporary\John Mayer\Free Falling.txt
-Galway Girl,Ed Sheeran,2017,Pop,100,88,62,78,7,WIP,Contemporary\Ed Sheeran\Galway Girl.txt
+Galway Girl,Ed Sheeran,2017,Pop,100,88,62,78,7,,Contemporary\Ed Sheeran\Galway Girl.txt
 Genie In A Bottle,Christina Aguilera,1999,Pop,176,80,63,91,21,,Contemporary\Christina Aguilera\Genie In A Bottle.txt
 Gimme Gimme Gimme,ABBA,1979,Pop,120,49,75,54,2,WIP,Contemporary\ABBA\Gimme Gimme Gimme.txt
 Girls Just Want To Have Fun,Mayries,1983,Pop,186,36,44,36,74,WIP,Contemporary\The Mayries\Girls Just Want To Have Fun.txt
@@ -115,13 +115,15 @@ Halo,Beyonce,2008,Pop,80,72,51,47,27,WIP,Contemporary\Beyonce\Halo.txt
 Happy,Pharell Williams,2013,Pop,126,44,79,66,73,WIP,Contemporary\Pharell Williams\Happy.txt
 Have You Ever Seen The Rain,CCR,1971,Rock,116,47,74,89,9,,Contemporary\CCR\Have You Ever Seen The Rain.txt
 Heart Of Gold,Neil Young,1972,Rock,170,38,43,63,20,,Contemporary\Neil Young\Heart Of Gold.txt
+Heaven,Bryan Adams,1985,Rock,140,59,38,34,5,WIP,Contemporary\Bryan Adams\Heaven.txt
 Hello,Lionel Richie,1983,Pop,61,25,49,6,41,,Contemporary\Lionel Richie\Hello.txt
 Here Without You,3 Doors Down,2002,Rock,144,53,56,23,5,,Contemporary\3 Doors Down\Here Without You.txt
 Hey Jude,Beatles,1968,Rock,74,63,46,59,9,,Contemporary\The Beatles\Hey Jude.txt
 Hey Soul Sister,Train,2002,Rock,97,89,67,80,19,,Contemporary\Train\Hey%2c Soul Sister.txt
 Hey There Delilah,Plain White T's,2004,Pop,104,29,66,30,87,,Contemporary\Plain White T's\Hey There Delilah.txt
 Hit The Road Jack,Ray Charles,1962,R'n'B,173,57,60,96,70,WIP,Contemporary\Ray Charles\Hit The Road Jack.txt
-Homeward Bound,Simon and Garfunkel,1966,Folk,93,38,49,53,83,WIP,Contemporary\Simon and Garfunkel\Homeward Bound.txt
+Hold You In My Arms,Ray LaMontagne,2004,Folk,170,32,50,58,15,WIP,Contemporary\Ray LaMontagne\Hold You In My Arms.txt
+Homeward Bound,Simon and Garfunkel,1966,Folk,93,38,49,53,83,,Contemporary\Simon and Garfunkel\Homeward Bound.txt
 Hotel California,Eagles,1976,Rock,148,16,62,38,99,,Contemporary\The Eagles\Hotel California.txt
 Hymn For The Weekend,Coldplay,2015,Pop,90,69,49,41,21,,Contemporary\Coldplay\Hymn For The Weekend.txt
 I Have A Dream,ABBA,1979,Pop,104,37,55,44,60,,Contemporary\ABBA\I Have A Dream.txt
@@ -174,7 +176,7 @@ Maria Maria,Santana,1999,Rock,98,60,78,68,4,,Contemporary\Santana\Maria Maria.tx
 Mary Jane's Last Dance,Tom Petty and The Heartbreakers,1993,Rock,170,66,46,53,3,,Contemporary\Tom Petty and The Heartbreakers\Mary Jane's Last Dance.txt
 Mi Chico Latino,Geri Halliwell,1999,Dance,102,91,63,68,49,,Contemporary\Geri Halliwell\Mi Chico Latino.txt
 Michelle,Beatles,1965,Pop,117,29,58,67,65,,Contemporary\The Beatles\Michelle.txt
-Money Money Money,ABBA,1976,Pop,121,70,79,65,54,,Contemporary\ABBA\Money Money Money.txt
+Money Money Money,ABBA,1976,Pop,121,70,79,65,54,WIP,Contemporary\ABBA\Money Money Money.txt
 Moon River,Various,1961,Easy Listening,138,18,17,15,6,WIP,Contemporary\Various\Moon River.txt
 More Than A Friend,Michael Learns To Rock,2000,Pop,93,67,73,84,27,,Contemporary\Michael Learns To Rock\More Than A Friend.txt
 More Than Words,Extreme,1991,Rock,92,13,63,24,47,,Contemporary\Extreme\More Than Words.txt
@@ -183,7 +185,7 @@ Mr Bojangles,Nitty Gritty Dirt Band,1968,Folk,154,72,45,41,49,WIP,Contemporary\T
 Mr Brightside,Killers,2003,Rock,148,91,35,24,0,WIP,Contemporary\The Killers\Mr Brightside.txt
 My Love,Westlife,2000,Pop,144,59,49,33,10,WIP,Contemporary\Westlife\My Love.txt
 Never Going Back Again,Fleetwood Mac,1977,Folk Rock,91,39,61,79,76,WIP,Contemporary\Fleetwood Mac\Never Going Back Again.txt
-New Light,John Mayer,2011,Rock,124,69,83,85,32,WIP,Contemporary\John Mayer\New Light.txt
+New Light,John Mayer,2011,Rock,124,69,83,85,32,,Contemporary\John Mayer\New Light.txt
 New Shoes,Paolo Nutini,2006,Pop,150,74,75,85,47,,Contemporary\Paolo Nutini\New Shoes.txt
 Nights In White Satin,Moody Blues,1967,Rock,157,34,19,22,25,,Contemporary\The Moody Blues\Nights in White Satin.txt
 Norwegian Wood,Beatles,1965,Folk Rock,177,37,43,65,18,,Contemporary\The Beatles\Norwegian Wood.txt
@@ -256,7 +258,7 @@ The Joker,Steve Miller Band,2002,Rock,83,45,60,80,37,,Contemporary\The Steve Mil
 The Lazy Song,Bruno Mars,2011,Reggae,175,71,79,96,30,,Contemporary\Bruno Mars\The Lazy Song.txt
 The Reason,Hoobastank,2003,Rock,83,67,47,7,1,WIP,Contemporary\Hoobastank\The Reason.txt
 The Scientist,Coldplay,2002,Rock,146,44,56,21,73,,Contemporary\Coldplay\The Scientist.txt
-The Show,Lenka,2008,Pop,123,59,75,59,26,,Contemporary\Lenka\The Show.txt
+The Show,Lenka,2008,Pop,123,59,75,59,26,WIP,Contemporary\Lenka\The Show.txt
 The Sound Of Silence,Simon and Garfunkel,1964,Folk,107,23,54,34,87,,Contemporary\Simon and Garfunkel\The Sound of Silence.txt
 The Tide Is High,Blondie,1980,Reggae,96,57,81,97,28,,Contemporary\Blondie\The Tide Is High.txt
 The Times They Are A-Changin',Bob Dylan,1964,Folk,172,40,39,59,89,,Contemporary\Bob Dylan\The Times They Are A-Changin'.txt
@@ -266,7 +268,7 @@ The Way I Am,Ingrid Michaelson,2007,Folk,120,26,88,32,77,,Contemporary\Ingrid Mi
 The Way You Look Tonight,Frank Sinatra,1961,Jazz,132,24,62,59,80,WIP,Contemporary\Frank Sinatra\The Way You Look Tonight.txt
 The Way You Make Me Feel,Michael Jackson,1987,RnB,114,82,61,51,4,WIP,Contemporary\Michael Jackson\The Way You Make Me Feel.txt
 The Winner Takes It All,ABBA,1980,Pop,126,79,45,52,57,,Contemporary\ABBA\The Winner Takes It All.txt
-There She Goes,Sixpence None The Richer,2002,Rock,120,79,50,46,0,,Contemporary\Sixpence None The Richer\There She Goes.txt
+There She Goes,Sixpence None The Richer,2002,Rock,120,79,50,46,0,WIP,Contemporary\Sixpence None The Richer\There She Goes.txt
 These Boots Are Made For Walkin',Nancy Sinatra,1966,Pop,83,43,74,34,40,,Contemporary\Nancy Sinatra\These Boots Are Made For Walkin'.txt
 Thinking Out Loud,Ed Sheeran,2014,Rock,79,45,78,59,47,,Contemporary\Ed Sheeran\Thinking Out Loud.txt
 This Is The Life,Amy MacDonald,2007,Rock,95,88,62,86,27,,Contemporary\Amy MacDonald\This Is The Life.txt
@@ -287,7 +289,7 @@ Under The Sea,Disney,1991,Soundtrack,99,48,51,82,71,WIP,Contemporary\Various\Und
 Until,Sting,2001,Soundtrack,136,27,31,33,92,WIP,Contemporary\Sting\Until.txt
 Until I Found You,Stephen Sanchez,2022,Alternative,101,51,54,23,73,WIP,Contemporary\Stephen Sanchez\Until I Found You.txt
 Uptown Girl,Billy Joel,1983,Rock,129,94,70,79,8,,Contemporary\Billy Joel\Uptown Girl.txt
-Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop,106,83,70,89,0,,Contemporary\Amy Winehouse\Valerie.txt
+Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop,106,83,70,89,0,WIP,Contemporary\Amy Winehouse\Valerie.txt
 Vanilla Twilight,Owl City,2010,Pop,166,53,58,57,1,,Contemporary\Owl City\Vanilla Twilight.txt
 Venus,Shocking Blue,1969,Pop,128,76,69,96,46,,Contemporary\Shocking Blue\Venus.txt
 Viva La Vida,Coldplay,2008,Pop,138,62,49,42,10,,Contemporary\Coldplay\Viva La Vida.txt
