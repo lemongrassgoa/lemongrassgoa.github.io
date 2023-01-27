@@ -78,7 +78,7 @@
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell < 9){
-                            table += '<th style="' + ((rowCell === 4) ? 'display:none;' : '') + '" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
+                            table += '<th style="' + ((rowCell === 4) ? 'display:none;' : '') + '" class="' + ((rowCell === 0) ? '' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
