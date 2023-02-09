@@ -1,3 +1,14 @@
+const links_ = [
+    ["Antonio's Song", "https://www.youtube.com/watch?v=JiX2QH73VpY"],
+    ["Beautiful Tango", "https://www.youtube.com/watch?v=tLOTEd5d5IY"],
+    ["Big Bang", "https://www.youtube.com/watch?v=SxclfMiybFg"],
+    ["Brown Eyed Girl", "https://www.youtube.com/watch?v=A6-7TkAp-NA"],
+    ["Smooth Operator", "https://www.youtube.com/watch?v=nz85NleFjFs"],
+    ["Superman", "https://www.youtube.com/watch?v=WK-rqcgoYIQ"],
+    ["The Boxer", "https://www.youtube.com/watch?v=BdTnrxEp12E"],
+    ["Zombie", "https://www.youtube.com/watch?v=3a5HVi8I9As"]
+];
+
 
 (function(){
 
@@ -100,8 +111,13 @@
                             table += '<i>';
                             
                             table += rowCells[rowCell];
-                            
-                            table += '</i>'
+                           
+                            for(var i = 0; i < links_.length; i++){
+                                if(rowCells[rowCell].search(links_[i][0]) != -1){
+                                    table += ' <small><a style="text-decoration: none;" target="_blank" href="' + links_[i][1] + '"> &nbsp; <img src="yt.png" height="15" /> </a></small>';
+                                }
+                            }
+                            table += '</i>';
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
