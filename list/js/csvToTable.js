@@ -104,19 +104,25 @@ const links_ = [
                             // table += '<th class="dance">';
                         else
                             table += '<th style="display:none;">';
+
 	                    table += rowCells[rowCell];
+                     
 	                    table += '</th>';
 	                } else {
                         if(rowCell === 0){
-                            table += '<td class="title"' + ((rowCells[rowCell].search(links_[i][0]) != -1) ? ' yt_link' : '') + '>';
+                            var yt_link = -1;
+                            for(var i = 0; i < links_.length; i++){
+                                if(rowCells[rowCell].search(links_[i][0]) != -1){
+                                    yt_link = i;
+                                }
+                            }
+
+                            table += '<td class="title' + (yt_link > -1 ? ' yt_link' : '') + '">';
                             table += '<i>';
                             
                             table += rowCells[rowCell];
-                           
-                            for(var i = 0; i < links_.length; i++){
-                                if(rowCells[rowCell].search(links_[i][0]) != -1){
-                                    table += ' <small><a style="text-decoration: none;" target="_blank" href="' + links_[i][1] + '"> &nbsp; <img src="yt.png" height="15" /> </a></small>';
-                                }
+                            if(yt_link > -1){
+                                table += ' <small><a style="text-decoration: none;" target="_blank" href="' + links_[yt_link][1] + '"> <img style="float: right; padding-left: 5px;" src="yt.svg" height="20" /> </a></small>';
                             }
                             table += '</i>';
                         }
