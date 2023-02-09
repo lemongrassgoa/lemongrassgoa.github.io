@@ -108,7 +108,7 @@ const links_ = [
 	                    table += '</th>';
 	                } else {
                         if(rowCell === 0){
-                            table += '<td class="title">';
+                            table += '<td class="title"' + ((rowCells[rowCell].search(links_[i][0]) != -1) ? ' yt_link' : '') + '>';
                             table += '<i>';
                             
                             table += rowCells[rowCell];
