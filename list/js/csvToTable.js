@@ -3,6 +3,7 @@ const links_ = [
     ["Beautiful Tango", "https://www.youtube.com/watch?v=tLOTEd5d5IY"],
     ["Big Bang", "https://www.youtube.com/watch?v=SxclfMiybFg"],
     ["Brown Eyed Girl", "https://www.youtube.com/watch?v=A6-7TkAp-NA"],
+    ["Hey Soul Sister", "https://www.youtube.com/watch?v=5L9UUjnicmA"],
     ["Smooth Operator", "https://www.youtube.com/watch?v=nz85NleFjFs"],
     ["Superman", "https://www.youtube.com/watch?v=WK-rqcgoYIQ"],
     ["The Boxer", "https://www.youtube.com/watch?v=BdTnrxEp12E"],
