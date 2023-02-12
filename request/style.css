@@ -21,7 +21,7 @@ table {
 
 #search-bar{
     width: 100%;
-    top: 0;
+    top: -1px;
     padding-top: 0.5em;
     padding-bottom: 4.5em;
     position: sticky;
@@ -110,7 +110,7 @@ table {
 .tooltip-sort {
     position: sticky;
     position: -webkit-sticky;
-    top: 5em;
+    top: 4.99em;
     z-index: 1;
 }
 
