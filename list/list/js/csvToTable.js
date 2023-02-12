@@ -78,7 +78,7 @@
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell < 9){
-                            table += '<th style="' + ((rowCell === 4) ? 'display:none;' : '') + '" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
+                            table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
@@ -93,7 +93,7 @@
                                 table += '</a></i>'
                             }
                             else {
-                                table += '<td style="' + (rowCells[9] ? wip_format : '') + ((rowCell === 4) ? 'display:none;' : '') + '">'; 
+                                table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
                                 
                                 table += rowCells[rowCell];
                                 
