@@ -45,7 +45,17 @@ function clearSearch(){
 const yt_filter = document.getElementById('yt_filter');
 
 yt_filter.addEventListener( 'change', () => {
+    show_hide_yt();
+});
+
+function yt_filter_click(){
+    yt_filter.checked = !yt_filter.checked;
+    show_hide_yt();
+}
+
+function show_hide_yt(){
     if(yt_filter.checked){
+        document.getElementById("search").value = "";
         var song_links = document.getElementsByClassName("title");
         for(var i = 1; i < song_links.length; i++){
             song_links[i].parentElement.style.display = "none";
@@ -64,9 +74,7 @@ yt_filter.addEventListener( 'change', () => {
         }
         document.getElementById("clear-search").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
     }
-
-});
-
+}
 
 // THE //
 // Archies
