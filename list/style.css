@@ -150,6 +150,17 @@ table {
     z-index: 1;
 }
 
+#yt_filter {
+    padding-top: -1em;
+}
+
+.yt_link_img {
+    transition: transform .2s;
+}
+.yt_link_img:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 600px) {
     .year, .genre, .energy, .dance {
         display: none;

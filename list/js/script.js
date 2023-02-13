@@ -40,6 +40,29 @@ function clearSearch(){
     search();
 }
 
+const yt_filter = document.getElementById('yt_filter');
+
+yt_filter.addEventListener( 'change', () => {
+    if(yt_filter.checked){
+        var song_links = document.getElementsByClassName("title");
+        for(var i = 0; i < song_links.length; i++){
+            song_links[i].parentElement.style.display = "none";
+        }
+        var song_links = document.getElementsByClassName("yt_link");
+        for(var i = 0; i < song_links.length; i++){
+            song_links[i].parentElement.style.display = "";
+        }
+    }
+    else{
+        console.log("fuck");
+        var song_links = document.getElementsByClassName("title");
+        for(var i = 0; i < song_links.length; i++){
+            song_links[i].parentElement.style.display = "";
+        }
+    }
+});
+
+
 // THE //
 // Archies
 // Avett Brothers

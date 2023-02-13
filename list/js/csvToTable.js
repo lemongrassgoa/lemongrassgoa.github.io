@@ -91,13 +91,13 @@ const links_ = [
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0)
-                            table += '<th class="title dir-u ">';
+                            table += '<th class=" dir-u ">';
                         else if(rowCell === 1)
-                            table += '<th class="artist">';
+                            table += '<th class="">';
                         else if(rowCell === 2)
-                            table += '<th class="year">';
+                            table += '<th class="">';
                         else if(rowCell === 3)
-                            table += '<th class="genre">';
+                            table += '<th class="">';
                         // else if(rowCell === 4)
                             // table += '<th class="energy">';
                         // else if(rowCell === 5)
@@ -122,7 +122,7 @@ const links_ = [
                             
                             table += rowCells[rowCell];
                             if(yt_link > -1){
-                                table += ' <small><a style="text-decoration: none;" target="_blank" href="' + links_[yt_link][1] + '"> <img style="float: right; padding-left: 5px;" src="yt.svg" height="20" /> </a></small>';
+                                table += ' <small><a style="text-decoration: none;" target="_blank" href="' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="20" /> </a></small>&nbsp;';
                             }
                             table += '</i>';
                         }
