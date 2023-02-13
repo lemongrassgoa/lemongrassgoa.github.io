@@ -33,6 +33,7 @@ function search(){
         }
     }
     document.getElementById("clear-search").innerHTML = results + " song" + (results == 1 ? "" : "s");
+    document.getElementById('yt_filter').checked = 0;
 }
 
 function clearSearch(){
@@ -45,11 +46,8 @@ const yt_filter = document.getElementById('yt_filter');
 
 yt_filter.addEventListener( 'change', () => {
     if(yt_filter.checked){
-        document.getElementById("search").value = "";
-        search();
-        
         var song_links = document.getElementsByClassName("title");
-        for(var i = 0; i < song_links.length; i++){
+        for(var i = 1; i < song_links.length; i++){
             song_links[i].parentElement.style.display = "none";
         }
         var song_links = document.getElementsByClassName("yt_link");
@@ -59,7 +57,7 @@ yt_filter.addEventListener( 'change', () => {
         document.getElementById("clear-search").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
     }
     else{
-        var song_links = document.getElementsByClassName("title");
+        clearSearch();
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
             song_links[i].parentElement.style.display = "";

@@ -91,13 +91,13 @@ const links_ = [
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0)
-                            table += '<th class=" dir-u ">';
+                            table += '<th class="title dir-u ">';
                         else if(rowCell === 1)
-                            table += '<th class="">';
+                            table += '<th class="artist">';
                         else if(rowCell === 2)
-                            table += '<th class="">';
+                            table += '<th class="year">';
                         else if(rowCell === 3)
-                            table += '<th class="">';
+                            table += '<th class="genre">';
                         // else if(rowCell === 4)
                             // table += '<th class="energy">';
                         // else if(rowCell === 5)
