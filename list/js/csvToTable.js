@@ -1,13 +1,14 @@
 const links_ = [
-    ["Antonio's Song", "https://www.youtube.com/watch?v=JiX2QH73VpY"],
-    ["Beautiful Tango", "https://www.youtube.com/watch?v=tLOTEd5d5IY"],
-    ["Big Bang", "https://www.youtube.com/watch?v=SxclfMiybFg"],
-    ["Brown Eyed Girl", "https://www.youtube.com/watch?v=A6-7TkAp-NA"],
-    ["Hey Soul Sister", "https://www.youtube.com/watch?v=5L9UUjnicmA"],
-    ["Smooth Operator", "https://www.youtube.com/watch?v=nz85NleFjFs"],
-    ["Superman", "https://www.youtube.com/watch?v=WK-rqcgoYIQ"],
-    ["The Boxer", "https://www.youtube.com/watch?v=BdTnrxEp12E"],
-    ["Zombie", "https://www.youtube.com/watch?v=3a5HVi8I9As"]
+    ["Antonio's Song",      "JiX2QH73VpY"],
+    ["Beautiful Tango",     "tLOTEd5d5IY"],
+    ["Big Bang",            "SxclfMiybFg"],
+    ["Brown Eyed Girl",     "A6-7TkAp-NA"],
+    ["Hey Soul Sister",     "5L9UUjnicmA"],
+    ["Smooth Operator",     "nz85NleFjFs"],
+    ["Superman",            "WK-rqcgoYIQ"],
+    ["The Boxer",           "BdTnrxEp12E"],
+    ["Zombie",              "3a5HVi8I9As"],
+    ["_","_"]
 ];
 
 
@@ -122,7 +123,7 @@ const links_ = [
                             
                             table += rowCells[rowCell];
                             if(yt_link > -1){
-                                table += ' <small><a style="text-decoration: none;" target="_blank" href="' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="20" /> </a></small>&nbsp;';
+                                table += ' <small><a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="20" /> </a></small>&nbsp;';
                             }
                             table += '</i>';
                         }
