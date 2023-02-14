@@ -88,7 +88,7 @@ function getQueryVariable(variable)
 }
 
 function urlQuery(){
-    if(getQueryVariable("yt_links")){
+    if(getQueryVariable("yt")){
         yt_filter_click();
     }
 }
