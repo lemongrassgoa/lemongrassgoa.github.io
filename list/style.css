@@ -20,9 +20,9 @@ table {
 
 #search-bar{
     width: 100%;
-    top: 0;
+    top: -1px;
     padding-top: 0.5em;
-    padding-bottom: 3.5em;
+    padding-bottom: 3.6em;
     position: sticky;
     position: -webkit-sticky;
     height: 3em;
