@@ -114,7 +114,7 @@ const links_ = [
 	                } else {
                         if(rowCell === 0){
                             var yt_link = -1;
-                            for(var i = 0; i < links_.length; i++){
+                            for(var i = 0; i < links_.length-1; i++){
                                 if(rowCells[rowCell].search(links_[i][0]) != -1){
                                     yt_link = i;
                                 }
