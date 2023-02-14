@@ -72,7 +72,7 @@ function show_hide_yt(){
         for(var i = 0; i < song_links.length; i++){
             song_links[i].parentElement.style.display = "";
         }
-        document.getElementById("clear-search").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
+        document.getElementById("clear-search").innerHTML = song_links.length-1 + " song" + (song_links.length == 1 ? "" : "s");
     }
 }
 
