@@ -82,6 +82,11 @@
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
+                        // if(rowCell === 11){
+                            // table += '<th class="tags">';
+                            // table += rowCells[rowCell];
+                            // table += '</th>';
+                        // }
 	                } else {
                         if(rowCell < 9){
                             var wip_format = 'background-color: #000;';
@@ -100,6 +105,11 @@
                                 table += '</td>';
                             }
                         }
+                        // if(rowCell === 11){
+                            // table += '<td class="tags" style="font-size: 1em;">';
+                            // table += rowCells[rowCell];
+                            // table += '</td>';
+                        // }
 	                }
 	            }
 	            if (singleRow === 0) {

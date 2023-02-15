@@ -102,6 +102,8 @@ const links_ = [
                             table += '<th class="year">';
                         else if(rowCell === 3)
                             table += '<th class="genre">';
+                        else if(rowCell === 11)
+                            table += '<th class="tags" style="display:none;">';
                         // else if(rowCell === 4)
                             // table += '<th class="energy">';
                         // else if(rowCell === 5)
@@ -142,6 +144,11 @@ const links_ = [
                         }
                         else if (rowCell === 3){
                             table += '<td class="genre">';
+                            
+                            table += rowCells[rowCell];
+                        }
+                        else if (rowCell === 11){
+                            table += '<td class="tags" style="display:none;">';
                             
                             table += rowCells[rowCell];
                         }
