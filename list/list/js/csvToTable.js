@@ -77,7 +77,7 @@
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-                        if(rowCell < 8){
+                        if(rowCell < 9){
                             table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
@@ -88,7 +88,7 @@
                             table += '</th>';
                         }
 	                } else {
-                        if(rowCell < 8){
+                        if(rowCell < 9){
                             var wip_format = 'background-color: #000;';
                             if(rowCell === 0){
                                 table += '<td class="title" style="' + (rowCells[9] ? wip_format : '') + '">';
