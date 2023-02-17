@@ -128,7 +128,19 @@ const links_ = [
                             
                             table += rowCells[rowCell];
                             if(yt_link > -1){
-                                table += ' <small><a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" /> </a></small>&nbsp;';
+                                // table += ' <small><a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" /> </a></small>&nbsp;';
+                                table += ' <small><a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal' + yt_link + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" /> </a></small>&nbsp;';
+                                table += '<!-- Modal -->';
+                                table += '<div id="myModal' + yt_link + '" class="modal fade" role="dialog">';
+                                table += '  <div class="modal-dialog">';
+
+                                table += '    <!-- Modal content-->';
+                                table += '    <div class="modal-content" style="background-color: rgba(0,0,0,0);">';
+                                table += '        <iframe id="video_embed" style="width:320px; height:240px;display:block;margin:auto;" src="//www.youtube.com/embed/' + links_[yt_link][1] + '" frameborder="0" allowfullscreen></iframe> ';
+                                table += '    </div>';
+
+                                table += '  </div>';
+                                table += '</div>';
                             }
                             table += '</i>';
                         }
