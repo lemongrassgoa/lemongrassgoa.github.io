@@ -128,7 +128,7 @@ const links_ = [
                             
                             table += rowCells[rowCell];
                             if(yt_link > -1){
-                                table += ' <small><a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="20" /> </a></small>&nbsp;';
+                                table += ' <small><a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" /> </a></small>&nbsp;';
                             }
                             table += '</i>';
                         }
