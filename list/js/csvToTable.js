@@ -5,6 +5,7 @@ const links_ = [
     ["Brown Eyed Girl",     "A6-7TkAp-NA"],
     ["Fly Me To The Moon",  "hgdjepk5hco"],
     ["Hey Soul Sister",     "5L9UUjnicmA"],
+    ["If I Had A Hammer",   "5OXSHCDvq2M"],
     ["Norwegian Wood",      "iXiUKRlUfE4"],
     ["Smooth Operator",     "nz85NleFjFs"],
     ["Snow",                "R41hAQg_hXI"],
