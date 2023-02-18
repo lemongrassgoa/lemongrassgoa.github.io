@@ -182,3 +182,10 @@ table {
         padding-right: 0em;
     }
 }
+
+#video_embed{
+    width:320px;
+    height:240px;
+    display:block;
+    margin:auto;
+}
