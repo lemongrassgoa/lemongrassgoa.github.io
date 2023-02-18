@@ -200,3 +200,4 @@ var yt_link;
 
 function modalVideo(_index){
     document.getElementById("video_embed").src = "https://www.youtube.com/embed/" + links_[_index][1];
+}
