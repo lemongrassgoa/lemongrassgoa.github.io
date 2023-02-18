@@ -1,10 +1,10 @@
-
-(function(){
-var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?usp=pp_url&entry.2134839446="
-
+var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?embedded=true&usp=pp_url&entry.2134839446="
 var titles = [];
 var artists = [];
 var _wip = [];
+
+(function(){
+
 
 	// Constructor method
 	this.CsvToTable = function(){
@@ -98,7 +98,7 @@ var _wip = [];
 	                } else {
                         if(rowCell === 0){
                             table += '<td class="title">';
-                            table += '<i><a id="form'+ singleRow + '">';
+                            table += '<i><a id="form'+ singleRow + '" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalForm('+ singleRow + ');">';
                             titles.push(rowCells[rowCell]);
                             
                             table += rowCells[rowCell];
@@ -151,8 +151,8 @@ var _wip = [];
             
         for(var i = 0; i < artists.length; i++){
             var form_id = "form" + (i+1);
-            if(!_wip[i])
-                document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
+            // if(!_wip[i])
+                // document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
         }
         
 	}, function(error){
@@ -160,3 +160,8 @@ var _wip = [];
 		});
 	}
 }());
+
+function modalForm(line_number){
+    document.getElementById("form_embed").src = formlink + titles[line_number-1] + ' - ' + artists[line_number-1];
+    console.log(document.getElementById("form_embed").src);
+}

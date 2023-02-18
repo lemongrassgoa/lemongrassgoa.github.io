@@ -13,6 +13,10 @@ a {
     color: Gold;
     text-decoration: none;
 }
+a:hover{
+    color: Gold;
+    text-decoration: none;
+}
 
 table {
     cursor: default;
@@ -37,6 +41,7 @@ table {
 }
 #clear-search{
     border-radius: 1em;
+    color: black;
 }
 
 .button{
@@ -110,8 +115,14 @@ table {
 .tooltip-sort {
     position: sticky;
     position: -webkit-sticky;
-    top: 4.99em;
+    top: 4.9em;
     z-index: 1;
+}
+
+#form_embed{
+    width: 60vw;
+    height: 70vh;
+    filter: invert(1);
 }
 
 @media (max-width: 600px) {
@@ -126,4 +137,10 @@ table {
     #tapToRequest {
         padding-right: 0em;
     }
+    #form_embed{
+        width: 80vw;
+        height: 70vh;
+        filter: invert(1);
+    }
 }
+
