@@ -9,8 +9,9 @@ div {
     color: white;
 }
 
-a {
-    color: Gold;
+a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 table {
@@ -94,7 +95,7 @@ table {
     transform: scale(1);
 }
 .my-float{
-    text-decoration: none;
+	/* margin-bottom:15px; */
 }
 #spotify {
     pointer-events:none;
