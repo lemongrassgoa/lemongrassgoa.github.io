@@ -162,5 +162,5 @@ var _wip = [];
 }());
 
 function modalForm(line_number){
-    document.getElementById("form_embed").src = formlink + titles[line_number-1] + ' - ' + artists[line_number-1];
+    document.getElementById("form_embed").src = formlink + titles[line_number-1] + ' - ' + artists[line_number-1] + '%0A%0AFrom:+%0ATo:+';
 }
