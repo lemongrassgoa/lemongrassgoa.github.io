@@ -94,7 +94,7 @@ table {
     transform: scale(1);
 }
 .my-float{
-	/* margin-bottom:15px; */
+    text-decoration: none;
 }
 #spotify {
     pointer-events:none;
