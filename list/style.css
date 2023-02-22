@@ -11,7 +11,7 @@ div {
 
 a:hover{
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 table {
@@ -157,10 +157,11 @@ table {
 }
 
 .yt_link_img {
-    transition: transform .2s;
+    /* transition: transform .2s; */
+    animation: pulse 2s infinite;
 }
 .yt_link_img:hover {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 
 @media (max-width: 600px) {
@@ -189,4 +190,10 @@ table {
     height:240px;
     display:block;
     margin:auto;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(1);   }
+    70%  { transform: scale(1.1); }
+    100% { transform: scale(1);   }
 }
