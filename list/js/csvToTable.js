@@ -128,10 +128,11 @@ var yt_link;
                             table += '<td class="title' + (yt_link > -1 ? ' yt_link' : '') + '">';
                             table += '<i>';
                             
-                            table += rowCells[rowCell];
+                            // table += rowCells[rowCell];
                             if(yt_link > -1){
-                                // table += ' <small><a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=' + links_[yt_link][1] + '"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" /> </a></small>&nbsp;';
-                                table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" /> </a>';
+                                table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" />' + rowCells[rowCell] + '</a>';
+                            }else{
+                                table += rowCells[rowCell];
                             }
                             table += '</i>';
                         }
