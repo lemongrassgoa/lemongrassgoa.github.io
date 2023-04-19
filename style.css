@@ -127,6 +127,11 @@ h1 {
     margin-bottom: 5%;
 }
 
+#gallery{
+    width: 60%;
+    height: 85vh;
+}
+
 @media (max-width: 600px) {
     
     .personal-photo{
@@ -160,6 +165,9 @@ h1 {
         margin-left  : 10%;
         margin-top   : 0%;
         margin-bottom: 0%;
+    }
+    #gallery{
+        width: 80%;
     }
 }
 
