@@ -130,6 +130,7 @@ h1 {
 #gallery{
     width: 60%;
     height: 85vh;
+    pointer-events: none;
 }
 
 @media (max-width: 600px) {
