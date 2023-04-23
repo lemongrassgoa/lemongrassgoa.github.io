@@ -9,7 +9,7 @@ const links_ = [
     ["Norwegian Wood",      "iXiUKRlUfE4"],
     ["Smooth Operator",     "nz85NleFjFs"],
     ["Snow",                "R41hAQg_hXI"],
-    ["Superman",            "WK-rqcgoYIQ"],
+    ["Superman",            "IJQls99Ut1s"],
     ["The Boxer",           "BdTnrxEp12E"],
     ["Zombie",              "3a5HVi8I9As"],
     ["_","_"]
