@@ -43,6 +43,41 @@ function search(){
 function clearSearch(){
     document.getElementById("search").value = "";
     search();
+    document.getElementById('wip').checked = 0;
+}
+
+const wip_filter = document.getElementById('wip');
+
+wip_filter.addEventListener( 'change', () => {
+    show_hide_wip();
+});
+
+function wip_filter_click(){
+    wip_filter.checked = !wip_filter.checked;
+    show_hide_wip();
+}
+
+function show_hide_wip(){
+    if(wip.checked){
+        document.getElementById("search").value = "";
+        var song_links = document.getElementsByClassName("title");
+        for(var i = 0; i < song_links.length; i++){
+            song_links[i].parentElement.style.display = "none";
+        }
+        var song_links = document.getElementsByClassName("wip");
+        for(var i = 0; i < song_links.length; i++){
+            song_links[i].parentElement.style.display = "";
+        }
+        document.getElementById("clear-search").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
+    }
+    else{
+        clearSearch();
+        var song_links = document.getElementsByClassName("title");
+        for(var i = 0; i < song_links.length; i++){
+            song_links[i].parentElement.style.display = "";
+        }
+        document.getElementById("clear-search").innerHTML = song_links.length-1 + " song" + (song_links.length == 1 ? "" : "s");
+    }
 }
 
 // THE //
