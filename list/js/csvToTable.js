@@ -81,13 +81,13 @@ var yt_link;
       };
     }
 
-	function buildTable() {
+	function buildTable() {     // build the table
 		getCSV.call(this).then(function(response){
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
 	        var table = '<table class="w3-animate-opacity sortable" id="repertoirelist">';
-	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) { // iterate through all the rows
                 var table_temp = table, wip = 0;
-	            if (singleRow === 0) {
+	            if (singleRow === 0) { // if first row, mark as header
 	                table += '<thead class="tooltip-sort">';
 	                table += '<tr>';
 	            } else {
