@@ -80,6 +80,14 @@ function show_hide_wip(){
     }
 }
 
+function title_clicked(element){
+    var temp = element.parentElement.style.backgroundColor;
+    if(temp == "")
+        element.parentElement.style.backgroundColor = "#aaa";
+    else
+        element.parentElement.style.backgroundColor = "";
+}
+
 // THE //
 // Archies
 // Avett Brothers

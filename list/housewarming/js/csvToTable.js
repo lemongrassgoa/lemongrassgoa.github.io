@@ -72,7 +72,7 @@
 	            if (singleRow === 0) {
 	                table += '<thead class="tooltip-sort">';
 	            }
-                table += '<tr>';
+                table += '<tr class="row_select">';
                     
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
@@ -91,7 +91,7 @@
                         if(rowCell < 9){
                             var wip_format = 'background-color: #000;';
                             if(rowCell === 0){
-                                table += '<td class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
+                                table += '<td class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '" onclick="title_clicked(this);">';
 
                                 table += '<i><a style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
                                 table += rowCells[rowCell];
