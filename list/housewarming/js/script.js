@@ -1,5 +1,5 @@
 var csvtotable = new CsvToTable({
-    csvFile: 'wedding.csv' 
+    csvFile: 'housewarming.csv' 
 });
 csvtotable.run();
 
