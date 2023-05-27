@@ -23,7 +23,7 @@ table {
     width: 100%;
     top: -1px;
     padding-top: 0.5em;
-    padding-bottom: 3.5em;
+    padding-bottom: 0.5em;
     position: sticky;
     position: -webkit-sticky;
     height: 3em;
@@ -50,7 +50,7 @@ table {
 .tooltip-sort {
     position: sticky;
     position: -webkit-sticky;
-    top: 4em;
+    top: 3em;
     z-index: 1;
 }
 
