@@ -120,7 +120,7 @@ h1 {
     width: 70%;
     height: 300px;
     filter: invert() grayscale(0) contrast(1.5) hue-rotate(180deg);
-    clip-path: inset(10% 1% 10% 3%);
+    clip-path: inset(1% 1% 10% 3%);
     transform: scale(1.5);
     margin-left  : 15%;
     margin-top   : 10%;
