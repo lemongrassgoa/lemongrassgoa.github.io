@@ -113,7 +113,7 @@ h1 {
 
 #watermark {
     pointer-events:none;
-    width: 50%;
+    width: 450px;
 }
 
 #upcoming_events {
@@ -173,17 +173,18 @@ h1 {
 }
 
 .social {
-    padding: 2px;
+    text-decoration: none;
+    padding: 3px;
     margin: 6px;
     border-radius: 3px;
-    transform: scale(1.2);
+    transition: background-color .2s ease-in-out;
 }
-.fa-facebook-official:hover{
+.fb-link:hover{
     background-color: #3C5A98;
 }
-.fa-instagram:hover{
+.insta-link:hover{
     background-color: #C13584;
 }
-.fa-youtube:hover{
+.yt-link:hover{
     background-color: #BF2E25;
 }
