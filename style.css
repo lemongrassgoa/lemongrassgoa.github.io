@@ -133,7 +133,7 @@ h1 {
     pointer-events: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     
     .personal-photo{
         width: 50%;
