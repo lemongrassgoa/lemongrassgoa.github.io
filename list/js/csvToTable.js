@@ -130,7 +130,7 @@ var yt_link;
                             
                             // table += rowCells[rowCell];
                             if(yt_link > -1){
-                                table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="yt.svg" height="20" />' + rowCells[rowCell] + '</a>';
+                                table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="20" />' + rowCells[rowCell] + '</a>';
                             }else{
                                 table += rowCells[rowCell];
                             }
