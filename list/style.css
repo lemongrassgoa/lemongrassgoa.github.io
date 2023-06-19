@@ -9,9 +9,11 @@ div {
     color: white;
 }
 
+a{
+    color: gold;
+}
 a:hover{
-    color: white;
-    /* text-decoration: none; */
+    color: gold;
 }
 
 table {
@@ -195,6 +197,6 @@ table {
 
 @keyframes pulse {
     0%   { transform: scale(1);   }
-    70%  { transform: scale(1.1); }
+    70%  { transform: scale(1.2); }
     100% { transform: scale(1);   }
 }
