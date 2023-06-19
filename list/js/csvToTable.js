@@ -1,17 +1,25 @@
 const links_ = [
-    ["Antonio's Song",      "JiX2QH73VpY"],
-    ["Beautiful Tango",     "tLOTEd5d5IY"],
-    ["Big Bang",            "SxclfMiybFg"],
-    ["Brown Eyed Girl",     "A6-7TkAp-NA"],
-    ["Fly Me To The Moon",  "hgdjepk5hco"],
-    ["Hey Soul Sister",     "5L9UUjnicmA"],
-    ["If I Had A Hammer",   "5OXSHCDvq2M"],
-    ["Norwegian Wood",      "iXiUKRlUfE4"],
-    ["Smooth Operator",     "nz85NleFjFs"],
-    ["Snow",                "R41hAQg_hXI"],
-    ["Superman",            "IJQls99Ut1s"],
-    ["The Boxer",           "BdTnrxEp12E"],
-    ["Zombie",              "3a5HVi8I9As"],
+    // full vids
+    ["Antonio's Song",        "JiX2QH73VpY", 0],
+    ["Beautiful Tango",       "tLOTEd5d5IY", 0],
+    ["Big Bang",              "SxclfMiybFg", 0],
+    ["Does Your Mother Know", "UaIfr62co04", 0],
+    ["Brown Eyed Girl",       "A6-7TkAp-NA", 0],
+    ["Fly Me To The Moon",    "hgdjepk5hco", 0],
+    ["Hey Soul Sister",       "5L9UUjnicmA", 0],
+    ["If I Had A Hammer",     "5OXSHCDvq2M", 0],
+    ["Norwegian Wood",        "iXiUKRlUfE4", 0],
+    ["Smooth Operator",       "nz85NleFjFs", 0],
+    ["Snow",                  "R41hAQg_hXI", 0],
+    ["Superman",              "IJQls99Ut1s", 0],
+    ["The Boxer",             "BdTnrxEp12E", 0],
+    ["Zombie",                "3a5HVi8I9As", 0],
+    // shorts
+    ["A Thousand Miles",      "n4lz35UmUps", 1],
+    ["Budapest",              "JqvshMcDONY", 1],
+    ["Instant Crush",         "cjedEvll0Yo", 1],
+    ["Kiss Me",               "_I2Pj_n49jY", 1],
+    ["Wish You Were Here",    "1qnsTsDFX2Y", 1],
     ["_","_"]
 ];
 
@@ -130,7 +138,11 @@ var yt_link;
                             
                             // table += rowCells[rowCell];
                             if(yt_link > -1){
-                                table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="20" />' + rowCells[rowCell] + '</a>';
+                                if (links_[yt_link][2] < 1){
+                                    table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="20" />' + rowCells[rowCell] + '</a>';
+                                }else{
+                                    table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="ytshorts.png" height="20" />' + rowCells[rowCell] + '</a>';
+                                }
                             }else{
                                 table += rowCells[rowCell];
                             }
