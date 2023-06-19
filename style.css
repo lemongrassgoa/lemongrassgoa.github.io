@@ -172,3 +172,18 @@ h1 {
     }
 }
 
+.social {
+    padding: 2px;
+    margin: 6px;
+    border-radius: 3px;
+    transform: scale(1.2);
+}
+.fa-facebook-official:hover{
+    background-color: #3C5A98;
+}
+.fa-instagram:hover{
+    background-color: #C13584;
+}
+.fa-youtube:hover{
+    background-color: #BF2E25;
+}
