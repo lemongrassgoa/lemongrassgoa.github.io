@@ -81,8 +81,8 @@ table {
 	position: fixed;
 	width:100px;
 	height:40px;
-	top:20px;
-	right:20px;
+	top:10px;
+	right:10px;
 	background-color: #085;
 	color:#FFF;
 	border-radius:50px;
@@ -178,10 +178,14 @@ table {
         display:none;
     }
     .button1{
-        position: absolute;
+        position: fixed;
         /* transform: scale(0.65); */
-        top: 30px;
+        top: 10px;
         right: 10px;
+        width: 40px;
+    }
+    .my-float{
+        display:none;
     }
     #tapToSort {
         padding-right: 0em;
