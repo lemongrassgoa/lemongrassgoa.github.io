@@ -1,25 +1,25 @@
 const links_ = [
     // full vids
-    ["Antonio's Song",        "JiX2QH73VpY", 0],
-    ["Beautiful Tango",       "tLOTEd5d5IY", 0],
-    ["Big Bang",              "SxclfMiybFg", 0],
-    ["Does Your Mother Know", "UaIfr62co04", 0],
-    ["Brown Eyed Girl",       "A6-7TkAp-NA", 0],
-    ["Fly Me To The Moon",    "hgdjepk5hco", 0],
-    ["Hey Soul Sister",       "5L9UUjnicmA", 0],
-    ["If I Had A Hammer",     "5OXSHCDvq2M", 0],
-    ["Norwegian Wood",        "iXiUKRlUfE4", 0],
-    ["Smooth Operator",       "nz85NleFjFs", 0],
-    ["Snow",                  "R41hAQg_hXI", 0],
-    ["Superman",              "IJQls99Ut1s", 0],
-    ["The Boxer",             "BdTnrxEp12E", 0],
-    ["Zombie",                "3a5HVi8I9As", 0],
+    ["Antonio's Song",        "https://www.youtube.com/embed/JiX2QH73VpY", 0],
+    ["Beautiful Tango",       "https://www.youtube.com/embed/tLOTEd5d5IY", 0],
+    ["Big Bang",              "https://www.youtube.com/embed/SxclfMiybFg", 0],
+    ["Does Your Mother Know", "https://www.youtube.com/embed/UaIfr62co04", 0],
+    ["Brown Eyed Girl",       "https://www.youtube.com/embed/A6-7TkAp-NA", 0],
+    ["Fly Me To The Moon",    "https://www.youtube.com/embed/hgdjepk5hco", 0],
+    ["Hey Soul Sister",       "https://www.youtube.com/embed/5L9UUjnicmA", 0],
+    ["If I Had A Hammer",     "https://www.youtube.com/embed/5OXSHCDvq2M", 0],
+    ["Norwegian Wood",        "https://www.youtube.com/embed/iXiUKRlUfE4", 0],
+    ["Smooth Operator",       "https://www.youtube.com/embed/nz85NleFjFs", 0],
+    ["Snow",                  "https://www.youtube.com/embed/R41hAQg_hXI", 0],
+    ["Superman",              "https://www.youtube.com/embed/IJQls99Ut1s", 0],
+    ["The Boxer",             "https://www.youtube.com/embed/BdTnrxEp12E", 0],
+    ["Zombie",                "https://www.youtube.com/embed/3a5HVi8I9As", 0],
     // shorts
-    ["A Thousand Miles",      "n4lz35UmUps", 1],
-    ["Budapest",              "JqvshMcDONY", 1],
-    ["Instant Crush",         "cjedEvll0Yo", 1],
-    ["Kiss Me",               "_I2Pj_n49jY", 1],
-    ["Wish You Were Here",    "1qnsTsDFX2Y", 1],
+    ["A Thousand Miles",      "https://www.youtube.com/embed/5ufhpSomAxE", 1],
+    ["Budapest",              "https://www.youtube.com/embed/JqvshMcDONY", 1],
+    ["Instant Crush",         "https://www.youtube.com/embed/cjedEvll0Yo", 1],
+    ["Kiss Me",               "https://www.youtube.com/embed/_I2Pj_n49jY", 1],
+    ["Wish You Were Here",    "https://www.youtube.com/embed/1qnsTsDFX2Y", 1],
     ["_","_"]
 ];
 
@@ -213,7 +213,7 @@ var yt_link;
 }());
 
 function modalVideo(_index){
-    document.getElementById("video_embed").src = "https://www.youtube.com/embed/" + links_[_index][1] + "?enablejsapi=1";
+    document.getElementById("video_embed").src = links_[_index][1] + "?enablejsapi=1";
 }
 
 var stopAllYouTubeVideos = () => { 
