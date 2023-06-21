@@ -204,3 +204,11 @@ table {
     70%  { transform: scale(1.2); }
     100% { transform: scale(1);   }
 }
+
+.tab-bar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0px;
+}

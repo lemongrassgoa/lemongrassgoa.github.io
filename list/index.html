@@ -49,21 +49,38 @@
         <a href="../"><img src="logo.png" id="logo" alt=""  class="w3-animate-top" /></a><br />
         <input type="checkbox" id="yt_filter"><img id="yt_filter_img" class="" style="padding-left: 5px; padding-bottom: 5px;" src="youtube.svg" height="20" onclick="yt_filter_click();" /> </a></small></input>
     </div>
+    <!-- Search bar -->
     <div id="search-bar">
         Search: <input type="text" id="search" onkeyup="search();" placeholder="Type here to search" />
         <button id="clear-search" onclick="clearSearch();">Clear search</button> <br />
         <div id="tapToSort">Tap headers to sort!</div>
     </div>
-    
-    <div id="repertoire-list" class="w3-animate-opacity">
-        <!-- <div style="color: gray;">Tap the headers to sort!</div> -->
+    <!-- Hindi table -->
+    <div id="hindi-list" class="w3-animate-opacity music-table">
     </div>
+    <!-- Repertoire table -->
+    <div id="repertoire-list" class="w3-animate-opacity music-table">
+    </div>
+    <!-- Classical table -->
+    <div id="classical-list" class="w3-animate-opacity music-table">
+    </div>
+    <!-- Selector -->
 </center>
+<br />
 
-<p class="w3-small w3-center">
+<p class="w3-small w3-center" style="color: black;">
     Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
     &copy; <script>document.write(new Date().getFullYear())</script> Anand Lobo. All rights reserved.
 </p>
+<!--  - ->
+    <div class="tab-bar">
+    <span class="tab-bar w3-small w3-bar w3-animate-opacity" id="tabs">
+        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(1)" id="tab1">Hindi</button>
+        <button class="w3-bar-item w3-button w3-white" onclick="openTab(2)" id="tab2">English</button>
+        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(3)" id="tab3">Classical</button>
+    </span>
+    </div>
+<!--  -->
     <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>

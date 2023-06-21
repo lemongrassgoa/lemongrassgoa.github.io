@@ -95,6 +95,34 @@ function urlQuery(){
 
 setTimeout(urlQuery, 1000);
 
+function openTab(option){
+    console.log(option);
+    if(option == 1){
+        document.getElementById("hindi-list").style.display = "";
+        document.getElementById("repertoire-list").style.display = "none";
+        document.getElementById("classical-list").style.display = "none";
+        document.getElementById("tab1").classList.replace("w3-gray", "w3-white");
+        document.getElementById("tab2").classList.replace("w3-white", "w3-gray");
+        document.getElementById("tab3").classList.replace("w3-white", "w3-gray");
+    }
+    else if(option == 2){
+        document.getElementById("hindi-list").style.display = "none";
+        document.getElementById("repertoire-list").style.display = "";
+        document.getElementById("classical-list").style.display = "none";
+        document.getElementById("tab1").classList.replace("w3-white", "w3-gray");
+        document.getElementById("tab2").classList.replace("w3-gray", "w3-white");
+        document.getElementById("tab3").classList.replace("w3-white", "w3-gray");
+    }
+    else if(option == 3){
+        document.getElementById("hindi-list").style.display = "none";
+        document.getElementById("repertoire-list").style.display = "none";
+        document.getElementById("classical-list").style.display = "";
+        document.getElementById("tab1").classList.replace("w3-white", "w3-gray");
+        document.getElementById("tab2").classList.replace("w3-white", "w3-gray");
+        document.getElementById("tab3").classList.replace("w3-gray", "w3-white");
+    }
+}
+
 // THE //
 // Archies
 // Avett Brothers
