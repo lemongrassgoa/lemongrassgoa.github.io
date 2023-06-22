@@ -20,6 +20,9 @@ table {
     cursor: default;
     padding-bottom: 2em;
 }
+tr{
+    transition: visibility 0.2s ease-in, opacity 0.2s ease-in;
+}
 
 #search-bar{
     width: 100%;
@@ -156,7 +159,12 @@ table {
 }
 
 #yt_filter {
-    padding-top: -1em;
+    /* padding: 5em; */
+    transform: scale(1.2);
+}
+#yt_filter_img {
+    padding-left: 5px; 
+    padding-bottom: 5px;
 }
 
 .yt_link_img {
@@ -211,4 +219,14 @@ table {
     position: sticky;
     position: -webkit-sticky;
     bottom: 0px;
+}
+
+#repertoire-list{
+    display: initial;
+}
+#hindi-list{
+    display: none;
+}
+#classical-list{
+    display: none;
 }

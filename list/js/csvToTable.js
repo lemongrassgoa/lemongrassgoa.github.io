@@ -16,6 +16,7 @@ const links_ = [
     ["Zombie",                      "3a5HVi8I9As", 0],
     // shorts
     ["A Thousand Miles",            "5ufhpSomAxE", 1],
+    ["All About That Bass",         "ENQJRNgJ0KU", 1],
     ["Budapest",                    "JqvshMcDONY", 1],
     ["Dancing In The Moonlight",    "wT6s1rnQ7ck", 1],
     ["Instant Crush",               "cjedEvll0Yo", 1],
@@ -24,7 +25,7 @@ const links_ = [
     ["_","_"]
 ];
 
-var yt_link;
+var yt_link, table_target;
 
 (function(){
 
@@ -35,6 +36,7 @@ var yt_link;
 		// Create options by extending defaults with the passed in arugments
     	if (arguments[0] && typeof arguments[0] === "object") {
       		this.options = arguments[0];
+            table_target = this.options.target;
     	}
 
 	}
@@ -178,7 +180,7 @@ var yt_link;
 	        table += '</tbody>';
 	        table += '</table>';
 
-            document.getElementById("repertoire-list").innerHTML += table;
+            document.getElementById(table_target).innerHTML += table;
             
         
 	}, function(error){
@@ -187,15 +189,3 @@ var yt_link;
 	}
 }());
 
-function modalVideo(_index){
-    document.getElementById("video_embed").src = "https://www.youtube.com/embed/" + links_[_index][1] + "?enablejsapi=1";
-}
-
-var stopAllYouTubeVideos = () => { 
-    var iframes = document.querySelectorAll('iframe');
-    Array.prototype.forEach.call(iframes, iframe => { 
-        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', 
-        func: 'stopVideo' }), '*');
-    });
-}
-stopAllYouTubeVideos();
