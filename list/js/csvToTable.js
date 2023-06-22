@@ -105,6 +105,7 @@ var yt_link;
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
+                        
                         if(rowCell === 0)
                             table += '<th class="title dir-u ">';
                         else if(rowCell === 1)
@@ -113,24 +114,16 @@ var yt_link;
                             table += '<th class="year">';
                         else if(rowCell === 3)
                             table += '<th class="genre">';
-                        else if(rowCell === 11)
-                            table += '<th class="tags" style="display:none;">';
-                        // else if(rowCell === 4)
-                            // table += '<th class="energy">';
-                        // else if(rowCell === 5)
-                            // table += '<th class="dance">';
-                        else
-                            table += '<th style="display:none;">';
-
-	                    table += rowCells[rowCell];
-                     
+                        if(rowCell < 4)
+                            table += rowCells[rowCell];
 	                    table += '</th>';
+                        
 	                } else {
                         if(rowCell === 0){
-                            yt_link = -1;
+                            yt_link = -1;   // search for title matches in the list of videos
                             for(var i = 0; i < links_.length-1; i++){
                                 if(rowCells[rowCell].search(links_[i][0]) != -1){
-                                    yt_link = i;
+                                    yt_link = i;    // if found, store the index of the youtube link
                                 }
                             }
 
@@ -138,51 +131,32 @@ var yt_link;
                             table += '<i>';
                             
                             // table += rowCells[rowCell];
-                            if(yt_link > -1){
-                                if (links_[yt_link][2] < 1){
-                                    table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="20" />' + rowCells[rowCell] + '</a>';
+                            if(yt_link > -1){       // if a match was found, is it a full vid or short
+                                // call the modal function with the correct index of the youtube array
+                                var link1 = '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')">';
+                                var link2 = '';
+                                if (links_[yt_link][2] < 1){    // youtube logo on right, shorts logo on left
+                                    link2 = '<img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="20" />';
                                 }else{
-                                    table += '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')"> <img class="yt_link_img" style="float: left; padding-right: 5px;" src="ytshorts.png" height="20" />' + rowCells[rowCell] + '</a>';
+                                    link2 = '<img class="yt_link_img" style="float: left; padding-right: 5px;" src="ytshorts.png" height="20" />';
                                 }
+                                table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
                             }else{
-                                table += rowCells[rowCell];
+                                table += rowCells[rowCell]; // song name, no link
                             }
                             table += '</i>';
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
-
-                            table += rowCells[rowCell];
                         }
                         else if (rowCell === 2){
                             table += '<td class="year">';
-                            
-                            table += rowCells[rowCell];
                         }
                         else if (rowCell === 3){
                             table += '<td class="genre">';
-                            
-                            table += rowCells[rowCell];
                         }
-                        else if (rowCell === 11){
-                            table += '<td class="tags" style="display:none;">';
-                            
+                        if(rowCell > 0 && rowCell < 4)
                             table += rowCells[rowCell];
-                        }
-                        // else if (rowCell === 4){
-                            // table += '<td class="energy">';
-                            
-                            // table += rowCells[rowCell];
-                        // }
-                        // else if (rowCell === 5){
-                            // table += '<td class="dance">';
-                            
-                            // table += rowCells[rowCell];
-                        // }
-                        else{
-                            table += '<td style="display:none;">';
-                            table += rowCells[rowCell];
-                        }
 	                    table += '</td>';
                         if(rowCells[9]){
                             wip=1;
