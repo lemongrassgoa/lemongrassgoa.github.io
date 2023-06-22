@@ -11,6 +11,7 @@ div {
 
 a{
     color: gold;
+    cursor:pointer;
 }
 a:hover{
     color: gold;
