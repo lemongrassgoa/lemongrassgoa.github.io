@@ -160,12 +160,14 @@ tr{
 }
 
 #yt_filter {
-    /* padding: 5em; */
-    transform: scale(1.2);
+    margin-right: 10px;
+    transform: scale(1.5);
 }
 #yt_filter_img {
     padding-left: 5px; 
     padding-bottom: 5px;
+    transform: scale(1.2);
+
 }
 
 .yt_link_img {
