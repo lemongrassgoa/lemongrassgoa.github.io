@@ -25,25 +25,33 @@ function search(){
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
             if(unfilter){   // if 'unfilter' hide search matches
-                if      (txtValue0.toUpperCase().indexOf(filter) > -1)
-                    tr[i].style.display = "none";
-                else if (txtValue1.toUpperCase().indexOf(filter) > -1)
-                    tr[i].style.display = "none";
-                else if (txtValue2.toUpperCase().indexOf(filter) > -1)
-                    tr[i].style.display = "none";
-                else {
-                    tr[i].style.display = "";
+                if      (txtValue0.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "0";
+                    tr[i].style.visibility = "collapse";
+                } else if (txtValue1.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "0";
+                    tr[i].style.visibility = "collapse";
+                } else if (txtValue2.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "0";
+                    tr[i].style.visibility = "collapse";
+                } else {
+                    tr[i].style.opacity = "";
+                    tr[i].style.visibility = "";
                     results++;
                 }
             }else{      // else hide non-matches
-                if      (txtValue0.toUpperCase().indexOf(filter) > -1)
-                    tr[i].style.display = "";
-                else if (txtValue1.toUpperCase().indexOf(filter) > -1)
-                    tr[i].style.display = "";
-                else if (txtValue2.toUpperCase().indexOf(filter) > -1)
-                    tr[i].style.display = "";
-                else {
-                    tr[i].style.display = "none";
+                if      (txtValue0.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "";
+                    tr[i].style.visibility = "";
+                } else if (txtValue1.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "";
+                    tr[i].style.visibility = "";
+                } else if (txtValue2.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "";
+                    tr[i].style.visibility = "";
+                } else {
+                    tr[i].style.opacity = "0";
+                    tr[i].style.visibility = "collapse";
                     results--;
                 }
             }
