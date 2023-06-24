@@ -54,6 +54,9 @@ function search(){
                 } else if (txtValue2.toUpperCase().indexOf(filter) > -1){
                     tr[i].style.opacity = "";
                     tr[i].style.visibility = "";
+                } else if (txtValue3.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "";
+                    tr[i].style.visibility = "";
                 } else {
                     tr[i].style.opacity = "0";
                     tr[i].style.visibility = "collapse";
