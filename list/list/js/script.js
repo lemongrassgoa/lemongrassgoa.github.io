@@ -64,6 +64,7 @@ function clearSearch(){
     document.getElementById("search").value = "";
     search();
     document.getElementById('wip').checked = 0;
+    // document.getElementsByClassName('init dir-u')[0].click();
 }
 
 const wip_filter = document.getElementById('wip');
