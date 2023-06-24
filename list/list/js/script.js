@@ -5,7 +5,7 @@ csvtotable.run();
 
 function search(){
     // Declare variables
-    var input, filter, unfilter, table, tr, td0, td1, td2, i, txtValue0, txtValue1, txtValue2;
+    var input, filter, unfilter, table, tr, td0, td1, td2, td3, i, txtValue0, txtValue1, txtValue2, txtValue3;
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
     unfilter = (filter.charAt(0) === '-' ? true : false); // use '-' to trigger show/hide
@@ -19,11 +19,13 @@ function search(){
     for (i = 0; i < tr.length; i++) {
         td0 = tr[i].getElementsByTagName("td")[0];
         td1 = tr[i].getElementsByTagName("td")[1];
-        td2 = tr[i].getElementsByTagName("td")[9];
-        if (td0 || td1 || td2) {
+        td2 = tr[i].getElementsByTagName("td")[2];
+        td3 = tr[i].getElementsByTagName("td")[9];
+        if (td0 || td1 || td3) {
             txtValue0 = td0.textContent || td0.innerText;
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
+            txtValue3 = td3.textContent || td3.innerText;
             if(unfilter){   // if 'unfilter' hide search matches
                 if      (txtValue0.toUpperCase().indexOf(filter) > -1){
                     tr[i].style.opacity = "0";
@@ -32,6 +34,9 @@ function search(){
                     tr[i].style.opacity = "0";
                     tr[i].style.visibility = "collapse";
                 } else if (txtValue2.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.opacity = "0";
+                    tr[i].style.visibility = "collapse";
+                } else if (txtValue3.toUpperCase().indexOf(filter) > -1){
                     tr[i].style.opacity = "0";
                     tr[i].style.visibility = "collapse";
                 } else {
