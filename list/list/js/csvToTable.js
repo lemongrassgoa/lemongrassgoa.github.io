@@ -83,7 +83,7 @@
                             table += '</th>';
                         }
                         if(rowCell === 11){
-                            table += '<th class="tags" style="display: none;">';
+                            table += '<th class="tags" style="">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
@@ -106,7 +106,7 @@
                             }
                         }
                         if(rowCell === 11){
-                            table += '<td class="tags" style="width: 5em; font-size: 80%; word-wrap: break-word; display: none;">';
+                            table += '<td class="tags" style="width: 1em; font-size: 70%; word-wrap: break-word;">';
                             table += rowCells[rowCell];
                             table += '</td>';
                         }
