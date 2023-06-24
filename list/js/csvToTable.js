@@ -22,6 +22,7 @@ const links_ = [
     ["Dancing In The Moonlight",    "wT6s1rnQ7ck", 1],
     ["Instant Crush",               "cjedEvll0Yo", 1],
     ["Kiss Me",                     "_I2Pj_n49jY", 1],
+    ["New Shoes",                   "yJfxQRy1HCU", 1],
     ["Wish You Were Here",          "1qnsTsDFX2Y", 1],
     ["_","_"]
 ];
