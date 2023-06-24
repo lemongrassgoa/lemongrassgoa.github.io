@@ -5,13 +5,15 @@ csvtotable.run();
 
 function search(){
     // Declare variables
-    var input, filter, table, tr, td0, td1, td2, i, txtValue0, txtValue1, txtValue2;
+    var input, filter, unfilter, table, tr, td0, td1, td2, i, txtValue0, txtValue1, txtValue2;
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
+    unfilter = (filter.charAt(0) === '-' ? true : false); // use '-' to trigger show/hide
+    if(unfilter) filter = filter.substr(1);     // ignore '-'
     table = document.getElementById("repertoirelist");
     tr = table.getElementsByTagName("tr");
     
-    var results = tr.length-1;
+    var results = unfilter ? 0 : tr.length-1;
 
     // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
@@ -22,18 +24,28 @@ function search(){
             txtValue0 = td0.textContent || td0.innerText;
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
-            if      (txtValue0.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            }
-            else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            }
-            else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            }
-            else {
-                tr[i].style.display = "none";
-                results--;
+            if(unfilter){   // if 'unfilter' hide search matches
+                if      (txtValue0.toUpperCase().indexOf(filter) > -1)
+                    tr[i].style.display = "none";
+                else if (txtValue1.toUpperCase().indexOf(filter) > -1)
+                    tr[i].style.display = "none";
+                else if (txtValue2.toUpperCase().indexOf(filter) > -1)
+                    tr[i].style.display = "none";
+                else {
+                    tr[i].style.display = "";
+                    results++;
+                }
+            }else{      // else hide non-matches
+                if      (txtValue0.toUpperCase().indexOf(filter) > -1)
+                    tr[i].style.display = "";
+                else if (txtValue1.toUpperCase().indexOf(filter) > -1)
+                    tr[i].style.display = "";
+                else if (txtValue2.toUpperCase().indexOf(filter) > -1)
+                    tr[i].style.display = "";
+                else {
+                    tr[i].style.display = "none";
+                    results--;
+                }
             }
         }
     }
