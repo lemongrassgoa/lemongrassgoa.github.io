@@ -103,12 +103,13 @@ h1 {
 }
 
 #logo {
-    pointer-events:none;
+    /* pointer-events:none; */
     position: fixed; 
     bottom: 20px;
     left: 20px;
     height: 60px;
     /* background-image: radial-gradient(rgba(255,255,255,0.5) 40%, rgba(0,0,0,0) 70%); */
+    z-index: 9;
 }
 
 #watermark {
@@ -142,7 +143,7 @@ h1 {
     }
 
     #logo {
-        height: 30px;
+        height: 40px;
     }
     
     #watermark {

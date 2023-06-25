@@ -42,7 +42,7 @@ function search(){
             }
         }
     }
-    document.getElementById("clear-search").innerHTML = results + " song" + (results == 1 ? "" : "s");
+    document.getElementById("clear-search").innerHTML =  "&#8630; Reset | " + results /*+ " song" + (results == 1 ? "" : "s") */+ " &#8659;";
     document.getElementById('yt_filter').checked = 0;
 }
 

@@ -41,10 +41,10 @@ function search(){
             }
         }
     }
-    document.getElementById("clear-search").innerHTML = results + " song" + (results == 1 ? "" : "s");
+    document.getElementById("clear-search").innerHTML =  "&#8630; Reset | " + results /*+ " song" + (results == 1 ? "" : "s") */+ " &#8659;";
 }
 
-var _text = 0;
+search();
 
 function clearSearch(){
     document.getElementById("search").value = "";
