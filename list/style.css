@@ -102,9 +102,7 @@ tr{
 .button1:active{
     transform: scale(1);
 }
-.my-float{
-	/* margin-bottom:15px; */
-}
+
 #spotify {
     pointer-events:none;
     position: absolute; 
