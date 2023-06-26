@@ -91,11 +91,13 @@ function show_hide_wip(){
         document.getElementById("search").value = "";
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
-            song_links[i].parentElement.style.display = "none";
+            song_links[i].parentElement.style.opacity = "0";
+            song_links[i].parentElement.style.visibility = "collapse";
         }
         var song_links = document.getElementsByClassName("wip");
         for(var i = 0; i < song_links.length; i++){
-            song_links[i].parentElement.style.display = "";
+            song_links[i].parentElement.style.opacity = "";
+            song_links[i].parentElement.style.visibility = "";
         }
         document.getElementById("clear-search").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
     }
@@ -103,7 +105,8 @@ function show_hide_wip(){
         clearSearch();
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
-            song_links[i].parentElement.style.display = "";
+            song_links[i].parentElement.style.opacity = "";
+            song_links[i].parentElement.style.visibility = "";
         }
         document.getElementById("clear-search").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
     }
