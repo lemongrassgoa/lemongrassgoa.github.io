@@ -180,7 +180,8 @@ var yt_link, table_target;
                                 rowCells[rowCell] == "Weeknd" ||
                                 rowCells[rowCell] == "White Stripes"
                             ){
-                                table += '<img class="" style="float: left; padding: 0px 3px 1px 0px; height: 1em;" src="js/the.png" />';
+                                // table += '<img class="" style="float: left; padding: 0px 4px 2px 0px; height: 1em;" src="js/the.png" />';
+                                table += '<img class="" style="float: left; padding: 0px 4px 2.1px 0px; height: 1em;" src="js/the.svg" />';
                             }
                             table += rowCells[rowCell];
                         }
