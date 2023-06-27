@@ -160,7 +160,6 @@ var yt_link, table_target;
                             table += '<td class="genre">';
                         }
                         if(rowCell > 0 && rowCell < 4){
-                            table += rowCells[rowCell];
                             if (
                                 rowCells[rowCell] == "Archies" ||
                                 rowCells[rowCell] == "Avett Brothers" ||
@@ -174,6 +173,7 @@ var yt_link, table_target;
                                 rowCells[rowCell] == "Mayries" ||
                                 rowCells[rowCell] == "Monkees" ||
                                 rowCells[rowCell] == "Penguins" ||
+                                rowCells[rowCell] == "Red Hot Chili Peppers" ||
                                 rowCells[rowCell] == "Rembrandts" ||
                                 rowCells[rowCell] == "Steve Miller Band" ||
                                 rowCells[rowCell] == "Verve" ||
@@ -182,6 +182,7 @@ var yt_link, table_target;
                             ){
                                 table += '<img class="" style="float: left; padding: 0px 3px 1px 0px; height: 1em;" src="js/the.png" />';
                             }
+                            table += rowCells[rowCell];
                         }
 	                    table += '</td>';
                         if(rowCells[9]){
