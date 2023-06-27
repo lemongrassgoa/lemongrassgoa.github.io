@@ -137,7 +137,7 @@ var _wip = [];
                                 rowCells[rowCell] == "White Stripes"
                             ){
                                 // table += '<img class="" style="float: left; padding: 0px 4px 2px 0px; height: 1em;" src="js/the.png" />';
-                                table += '<img class="" style="float: left; padding: 0.15em 0.3em 0px 0px; height: 0.95em;" src="js/the.svg" />';
+                                table += '<img class="" style="float: left; padding: 0.15em 0.3em 0px 0px; height: 0.95em;" src="js/the.svg" />';
                             }
                             table += rowCells[rowCell];
                         }
