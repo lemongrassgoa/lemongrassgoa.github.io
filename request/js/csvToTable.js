@@ -91,9 +91,8 @@ var _wip = [];
                             table += '<th class="year">';
                         else if(rowCell === 3)
                             table += '<th class="genre">';
-                        else
-                            table += '<th style="display:none;">';
-	                    table += rowCells[rowCell];
+                        if(rowCell < 4)
+                            table += rowCells[rowCell];
 	                    table += '</th>';
 	                } else {
                         if(rowCell === 0){
@@ -109,23 +108,15 @@ var _wip = [];
                             table += '<td class="artist">';
                             artists.push(rowCells[rowCell]);
                             _wip.push(rowCells[9]);
-                            
-                            table += rowCells[rowCell];
                         }
                         else if (rowCell === 2){
                             table += '<td class="year">';
-                            
-                            table += rowCells[rowCell];
                         }
                         else if (rowCell === 3){
                             table += '<td class="genre">';
-                            
-                            table += rowCells[rowCell];
                         }
-                        else{
-                            table += '<td style="display:none;">';
+                        if(rowCell > 0 && rowCell < 4)
                             table += rowCells[rowCell];
-                        }
 	                    table += '</td>';
                         if(rowCells[9]){
                             wip=1;
