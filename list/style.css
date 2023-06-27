@@ -3,7 +3,7 @@
 body, html {
     font-family: "Ubuntu", "Trebuchet MS";
     background-color: #333333;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 div {
@@ -188,7 +188,7 @@ tr{
 }
 
 @media (max-width: 600px) {
-    .year, .genre, .energy, .dance {
+    .genre, .energy, .dance {
         display: none;
     }
     .button{
