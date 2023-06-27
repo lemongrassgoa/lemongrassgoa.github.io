@@ -140,9 +140,9 @@ var yt_link, table_target;
                                 var link1 = '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')">';
                                 var link2 = '';
                                 if (links_[yt_link][2] < 1){    // youtube logo on right, shorts logo on left
-                                    link2 = '<img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="20" />';
+                                    link2 = '<img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="15" />';
                                 }else{
-                                    link2 = '<img class="yt_link_img" style="float: left; padding-right: 5px;" src="ytshorts.png" height="20" />';
+                                    link2 = '<img class="yt_link_img" style="float: left; padding-right: 5px;" src="ytshorts.png" height="15" />';
                                 }
                                 table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
                             }else{

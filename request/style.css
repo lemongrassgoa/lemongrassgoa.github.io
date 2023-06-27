@@ -3,6 +3,7 @@
 body, html {
     font-family: "Ubuntu", "Trebuchet MS";
     background-color: #333333;
+    line-height: 1;
 }
 
 div {
@@ -29,8 +30,7 @@ tr{
 #search-bar{
     width: 100%;
     top: -1px;
-    padding-top: 0.5em;
-    padding-bottom: 3.5em;
+    padding-bottom: 3em;
     position: sticky;
     position: -webkit-sticky;
     height: 3em;
@@ -126,7 +126,7 @@ tr{
 .tooltip-sort {
     position: sticky;
     position: -webkit-sticky;
-    top: 3.9em;
+    top: 2.9em;
     z-index: 1;
 }
 
