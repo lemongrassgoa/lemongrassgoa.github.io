@@ -115,8 +115,30 @@ var _wip = [];
                         else if (rowCell === 3){
                             table += '<td class="genre">';
                         }
-                        if(rowCell > 0 && rowCell < 4)
+                        if(rowCell > 0 && rowCell < 4){
                             table += rowCells[rowCell];
+                            if (
+                                rowCells[rowCell] == "Archies" ||
+                                rowCells[rowCell] == "Avett Brothers" ||
+                                rowCells[rowCell] == "Beatles" ||
+                                rowCells[rowCell] == "Carpenters" ||
+                                rowCells[rowCell] == "Cranberries" ||
+                                rowCells[rowCell] == "Doobie Brothers" ||
+                                rowCells[rowCell] == "Eagles" ||
+                                rowCells[rowCell] == "Everly Brothers" ||
+                                rowCells[rowCell] == "Killers" ||
+                                rowCells[rowCell] == "Mayries" ||
+                                rowCells[rowCell] == "Monkees" ||
+                                rowCells[rowCell] == "Penguins" ||
+                                rowCells[rowCell] == "Rembrandts" ||
+                                rowCells[rowCell] == "Steve Miller Band" ||
+                                rowCells[rowCell] == "Verve" ||
+                                rowCells[rowCell] == "Weeknd" ||
+                                rowCells[rowCell] == "White Stripes"
+                            ){
+                                table += '<img class="" style="float: left; padding: 0px 3px 1.2px 0px; height: 1em;" src="js/the.png" />';
+                            }
+                        }
 	                    table += '</td>';
                         if(rowCells[9]){
                             wip=1;
@@ -155,3 +177,17 @@ var _wip = [];
 function modalForm(line_number){
     document.getElementById("form_embed").src = formlink + titles[line_number-1] + ' - ' + artists[line_number-1] + '%0A%0AFrom:+%0ATo:+';
 }
+
+// THE //
+// Archies
+// Avett Brothers
+// Beatles
+// Carpenters
+// Cranberries
+// Doobie Brothers
+// Everly Brothers
+// Killers
+// Mayries
+// Monkees
+// Rembrandts
+// White Stripes

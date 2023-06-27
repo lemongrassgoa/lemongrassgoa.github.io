@@ -3,7 +3,7 @@
 body, html {
     font-family: "Ubuntu", "Trebuchet MS";
     background-color: #333333;
-    line-height: 1.3;
+    /* line-height: 1.3; */
 }
 
 div {
