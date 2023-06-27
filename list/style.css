@@ -163,7 +163,7 @@ tr{
 .tooltip-sort {
     position: sticky;
     position: -webkit-sticky;
-    top: 3.5em;
+    top: 3.4em;
     z-index: 10;
 }
 
