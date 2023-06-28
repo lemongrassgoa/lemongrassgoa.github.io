@@ -138,9 +138,9 @@ tr{
 }
 
 .the{}
-.the:before{
-    content: "The ";
-}
+    .the:before{
+        content: "The ";
+    }
 
 @media (max-width: 600px) {
     .genre {

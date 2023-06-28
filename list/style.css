@@ -187,16 +187,16 @@ tr{
 }
 .yt-img{
     float: right;
-    /* padding-left: 5px; */
+    padding-left: 0.5em;
 }
 .yt-short{
     float: left;
     padding-right: 0.5em;
 }
 .the{}
-.the:before{
-    content: "The ";
-}
+    .the:before{
+        content: "The ";
+    }
 @media (max-width: 600px) {
     .genre, .energy, .dance {
         display: none;
