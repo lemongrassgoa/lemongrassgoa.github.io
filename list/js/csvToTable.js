@@ -172,6 +172,7 @@ var yt_link, table_target;
                                 rowCells[rowCell] == "Killers" ||
                                 rowCells[rowCell] == "Mayries" ||
                                 rowCells[rowCell] == "Monkees" ||
+                                rowCells[rowCell] == "Moody Blues" ||
                                 rowCells[rowCell] == "Penguins" ||
                                 rowCells[rowCell] == "Plain White T's" ||
                                 rowCells[rowCell] == "Red Hot Chili Peppers" ||
@@ -181,7 +182,7 @@ var yt_link, table_target;
                                 rowCells[rowCell] == "Weeknd" ||
                                 rowCells[rowCell] == "White Stripes"
                             ){
-                                table += '<img class="the" src="js/the.svg" />';
+                                table += '<span class="the"></span>';
                             }
                             table += rowCells[rowCell];
                         }

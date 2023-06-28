@@ -137,6 +137,11 @@ tr{
     filter: invert(1);
 }
 
+.the{}
+.the:before{
+    content: "The ";
+}
+
 @media (max-width: 600px) {
     .genre {
         display: none;
@@ -154,9 +159,4 @@ tr{
         height: 70vh;
         filter: invert(1);
     }
-}
-.the {
-    float: left;
-    height: 1em;
-    padding: 0.17em 0.3em 0.07em 0px;
 }

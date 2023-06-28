@@ -123,11 +123,14 @@ var _wip = [];
                                 rowCells[rowCell] == "Carpenters" ||
                                 rowCells[rowCell] == "Cranberries" ||
                                 rowCells[rowCell] == "Doobie Brothers" ||
+                                rowCells[rowCell] == "Drifters" ||
                                 rowCells[rowCell] == "Eagles" ||
                                 rowCells[rowCell] == "Everly Brothers" ||
                                 rowCells[rowCell] == "Killers" ||
                                 rowCells[rowCell] == "Mayries" ||
                                 rowCells[rowCell] == "Monkees" ||
+                                rowCells[rowCell] == "Moody Blues" ||
+                                rowCells[rowCell] == "Nitty Gritty Dirt Band" ||
                                 rowCells[rowCell] == "Penguins" ||
                                 rowCells[rowCell] == "Plain White T's" ||
                                 rowCells[rowCell] == "Red Hot Chili Peppers" ||
@@ -137,7 +140,7 @@ var _wip = [];
                                 rowCells[rowCell] == "Weeknd" ||
                                 rowCells[rowCell] == "White Stripes"
                             ){
-                                table += '<img class="the" src="js/the.svg" />';
+                                table += '<span class="the"></span>';
                             }
                             table += rowCells[rowCell];
                         }

@@ -193,10 +193,9 @@ tr{
     float: left;
     padding-right: 0.5em;
 }
-.the {
-    float: left;
-    height: 1em;
-    padding: 0.1em 0.3em 0.1em 0px;
+.the{}
+.the:before{
+    content: "The ";
 }
 @media (max-width: 600px) {
     .genre, .energy, .dance {
