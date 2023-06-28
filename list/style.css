@@ -175,18 +175,24 @@ tr{
 #yt_filter_img {
     padding-left: 5px; 
     padding-bottom: 5px;
-    transform: scale(1.2);
-
+    /* transform: scale(1.2); */
+    height: 1.5em;
 }
 
-.yt_link_img {
+.yt-img-animate {
     /* transition: transform .2s; */
     animation: pulse 2s infinite;
+    height: 1em;
+    vertical-align: middle;
 }
-.yt_link_img:hover {
-    /* transform: scale(1.2); */
+.yt-img{
+    float: right;
+    /* padding-left: 5px; */
 }
-
+.yt-short{
+    float: left;
+    padding-right: 0.5em;
+}
 @media (max-width: 600px) {
     .genre, .energy, .dance {
         display: none;

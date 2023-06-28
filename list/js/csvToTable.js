@@ -140,9 +140,9 @@ var yt_link, table_target;
                                 var link1 = '<a style="text-decoration: none;" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalVideo('+yt_link+')">';
                                 var link2 = '';
                                 if (links_[yt_link][2] < 1){    // youtube logo on right, shorts logo on left
-                                    link2 = '<img class="yt_link_img" style="float: right; padding-left: 5px;" src="yt.svg" height="15" />';
+                                    link2 = '<img class="yt-img-animate yt-img" src="yt.svg" />';
                                 }else{
-                                    link2 = '<img class="yt_link_img" style="float: left; padding-right: 5px;" src="ytshorts.png" height="15" />';
+                                    link2 = '<img class="yt-img-animate yt-short" src="ytshorts.png" />';
                                 }
                                 table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
                             }else{
@@ -181,7 +181,7 @@ var yt_link, table_target;
                                 rowCells[rowCell] == "White Stripes"
                             ){
                                 // table += '<img class="" style="float: left; padding: 0px 4px 2px 0px; height: 1em;" src="js/the.png" />';
-                                table += '<img class="" style="float: left; padding: 0.15em 0.3em 0px 0px; height: 0.95em;" src="js/the.svg" />';
+                                table += '<img class="" style="float: left; padding: 0.1em 0.3em 0.3px 0px; height: 0.95em;" src="js/the.svg" />';
                             }
                             table += rowCells[rowCell];
                         }
