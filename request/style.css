@@ -155,4 +155,8 @@ tr{
         filter: invert(1);
     }
 }
-
+.the {
+    float: left;
+    height: 1em;
+    padding: 0.17em 0.3em 0.07em 0px;
+}

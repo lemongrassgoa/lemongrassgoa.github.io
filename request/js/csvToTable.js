@@ -129,6 +129,7 @@ var _wip = [];
                                 rowCells[rowCell] == "Mayries" ||
                                 rowCells[rowCell] == "Monkees" ||
                                 rowCells[rowCell] == "Penguins" ||
+                                rowCells[rowCell] == "Plain White T's" ||
                                 rowCells[rowCell] == "Red Hot Chili Peppers" ||
                                 rowCells[rowCell] == "Rembrandts" ||
                                 rowCells[rowCell] == "Steve Miller Band" ||
@@ -136,8 +137,7 @@ var _wip = [];
                                 rowCells[rowCell] == "Weeknd" ||
                                 rowCells[rowCell] == "White Stripes"
                             ){
-                                // table += '<img class="" style="float: left; padding: 0px 4px 2px 0px; height: 1em;" src="js/the.png" />';
-                                table += '<img class="" style="float: left; padding: 0.1em 0.3em 0.3px 0px; height: 0.95em;" src="js/the.svg" />';
+                                table += '<img class="the" src="js/the.svg" />';
                             }
                             table += rowCells[rowCell];
                         }

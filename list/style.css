@@ -193,6 +193,11 @@ tr{
     float: left;
     padding-right: 0.5em;
 }
+.the {
+    float: left;
+    height: 1em;
+    padding: 0.1em 0.3em 0.1em 0px;
+}
 @media (max-width: 600px) {
     .genre, .energy, .dance {
         display: none;
@@ -216,6 +221,9 @@ tr{
     /* #tapToSort { */
         /* padding-right: 0em; */
     /* } */
+    .the {
+        padding: 0.15em 0.3em 0.05em 0px;
+    }
 }
 
 #video_embed{
