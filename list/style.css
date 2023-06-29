@@ -187,13 +187,12 @@ tr{
 }
 .yt-img{
     float: right;
-    padding-left: 0.5em;
+    padding-left: 0.3em;
 }
 .yt-short{
-    float: right;
-    padding-left: 0.5em;
+    float: left;
+    padding-right: 0.3em;
 }
-
 .the{}
     .the:before{
         content: "The ";
