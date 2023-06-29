@@ -19,9 +19,6 @@ table {
     padding-bottom: 0em;
     font-size: 90%;
 }
-tr{
-    transition: visibility 0.3s ease-in, opacity 0.3s ease-in;
-}
 
 #search-bar{
     width: 100%;
