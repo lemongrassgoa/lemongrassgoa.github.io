@@ -193,6 +193,7 @@ tr{
     float: left;
     padding-right: 0.3em;
 }
+
 .the{}
     .the:before{
         content: "The ";
