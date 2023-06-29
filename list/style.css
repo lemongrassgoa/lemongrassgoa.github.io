@@ -190,8 +190,8 @@ tr{
     padding-left: 0.5em;
 }
 .yt-short{
-    float: left;
-    padding-right: 0.5em;
+    float: right;
+    padding-left: 0.5em;
 }
 .the{}
     .the:before{
