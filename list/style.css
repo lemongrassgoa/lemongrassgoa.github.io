@@ -197,6 +197,7 @@ tr{
     .the:before{
         content: "The ";
     }
+
 @media (max-width: 600px) {
     .genre, .energy, .dance {
         display: none;
