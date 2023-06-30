@@ -1,7 +1,6 @@
 var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?embedded=true&usp=pp_url&entry.2134839446="
 var titles = [];
 var artists = [];
-var _wip = [];
 
 const the_array = [
     "Archies",
@@ -122,7 +121,7 @@ const the_array = [
 	                } else {
                         if(rowCell === 0){
                             table += '<td class="title">';
-                            table += '<i><a id="form'+ singleRow + '" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalForm('+ singleRow + ');">';
+                            table += '<i><a id="form'+ singleRow + '" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalForm('+ (singleRow-1) + ');">';
                             titles.push(rowCells[rowCell]);
                             
                             table += rowCells[rowCell];
@@ -131,8 +130,13 @@ const the_array = [
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
-                            artists.push(rowCells[rowCell]);
-                            _wip.push(rowCells[9]);
+                            
+                            var temp = "";
+                            for(var i = 0; i < the_array.length-1; i++){
+                                if(rowCells[rowCell] == the_array[i])
+                                    temp = "The ";
+                            }
+                            artists.push(temp + rowCells[rowCell]);
                         }
                         else if (rowCell === 2){
                             table += '<td class="year">';
@@ -172,8 +176,6 @@ const the_array = [
             
         for(var i = 0; i < artists.length; i++){
             var form_id = "form" + (i+1);
-            // if(!_wip[i])
-                // document.getElementById(form_id).href = formlink + titles[i] + ' - ' + artists[i];
         }
         
 	}, function(error){
@@ -182,8 +184,8 @@ const the_array = [
 	}
 }());
 
-function modalForm(line_number){
-    document.getElementById("form_embed").src = formlink + titles[line_number-1] + ' - ' + artists[line_number-1] + '%0A%0AFrom:+%0ATo:+';
+function modalForm(n){
+    document.getElementById("form_embed").src = formlink + titles[n] + ' - ' + artists[n] + '%0A%0AFrom:+%0ATo:+';
 }
 
 // THE //
