@@ -23,6 +23,7 @@ const links_ = [
     ["Instant Crush",               "cjedEvll0Yo", 1],
     ["Kiss Me",                     "_I2Pj_n49jY", 1],
     ["New Shoes",                   "yJfxQRy1HCU", 1],
+    ["Rocket Man",                  "qzWAF1x-FG0", 1],
     ["Wish You Were Here",          "1qnsTsDFX2Y", 1],
     ["_","_"]
 ];
