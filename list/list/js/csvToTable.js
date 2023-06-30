@@ -1,3 +1,26 @@
+const the_array = [
+    "Archies",
+    "Avett Brothers",
+    "Beatles",
+    "Carpenters",
+    "Cranberries",
+    "Doobie Brothers",
+    "Eagles",
+    "Everly Brothers",
+    "Killers",
+    "Mayries",
+    "Monkees",
+    "Moody Blues",
+    "Penguins",
+    "Plain White T's",
+    "Red Hot Chili Peppers",
+    "Rembrandts",
+    "Steve Miller Band",
+    "Verve",
+    "Weeknd",
+    "White Stripes",
+    "_"
+];
 
 (function(){
 
@@ -99,6 +122,10 @@
                             }
                             else {
                                 table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
+                                for(var i = 0; i < the_array.length-1; i++){
+                                    if(rowCells[rowCell] == the_array[i])
+                                        table += '<span class="the"></span>';
+                                }
                                 
                                 table += rowCells[rowCell];
                                 

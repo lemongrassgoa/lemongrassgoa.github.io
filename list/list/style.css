@@ -90,3 +90,8 @@ canvas {
 .songlink{
     /* font-size: 110%; */
 }
+.the{}
+    .the:before{
+        content: "The ";
+    }
+

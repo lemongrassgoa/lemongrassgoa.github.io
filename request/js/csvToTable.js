@@ -3,6 +3,31 @@ var titles = [];
 var artists = [];
 var _wip = [];
 
+const the_array = [
+    "Archies",
+    "Avett Brothers",
+    "Beatles",
+    "Carpenters",
+    "Cranberries",
+    "Doobie Brothers",
+    "Eagles",
+    "Everly Brothers",
+    "Killers",
+    "Mayries",
+    "Monkees",
+    "Moody Blues",
+    "Penguins",
+    "Plain White T's",
+    "Red Hot Chili Peppers",
+    "Rembrandts",
+    "Steve Miller Band",
+    "Verve",
+    "Weeknd",
+    "White Stripes",
+    "_"
+];
+
+
 (function(){
 
 
@@ -116,31 +141,9 @@ var _wip = [];
                             table += '<td class="genre">';
                         }
                         if(rowCell > 0 && rowCell < 4){
-                            if (
-                                rowCells[rowCell] == "Archies" ||
-                                rowCells[rowCell] == "Avett Brothers" ||
-                                rowCells[rowCell] == "Beatles" ||
-                                rowCells[rowCell] == "Carpenters" ||
-                                rowCells[rowCell] == "Cranberries" ||
-                                rowCells[rowCell] == "Doobie Brothers" ||
-                                rowCells[rowCell] == "Drifters" ||
-                                rowCells[rowCell] == "Eagles" ||
-                                rowCells[rowCell] == "Everly Brothers" ||
-                                rowCells[rowCell] == "Killers" ||
-                                rowCells[rowCell] == "Mayries" ||
-                                rowCells[rowCell] == "Monkees" ||
-                                rowCells[rowCell] == "Moody Blues" ||
-                                rowCells[rowCell] == "Nitty Gritty Dirt Band" ||
-                                rowCells[rowCell] == "Penguins" ||
-                                rowCells[rowCell] == "Plain White T's" ||
-                                rowCells[rowCell] == "Red Hot Chili Peppers" ||
-                                rowCells[rowCell] == "Rembrandts" ||
-                                rowCells[rowCell] == "Steve Miller Band" ||
-                                rowCells[rowCell] == "Verve" ||
-                                rowCells[rowCell] == "Weeknd" ||
-                                rowCells[rowCell] == "White Stripes"
-                            ){
-                                table += '<span class="the"></span>';
+                            for(var i = 0; i < the_array.length-1; i++){
+                                if(rowCells[rowCell] == the_array[i])
+                                    table += '<span class="the"></span>';
                             }
                             table += rowCells[rowCell];
                         }
