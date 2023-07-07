@@ -94,4 +94,6 @@ canvas {
     .the:before{
         content: "The ";
     }
-
+.tags{
+    display: none;
+}

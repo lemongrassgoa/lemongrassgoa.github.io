@@ -2,6 +2,7 @@ const the_array = [
     "Archies",
     "Avett Brothers",
     "Beatles",
+    "Bee Gees",
     "Carpenters",
     "Cranberries",
     "Doobie Brothers",
