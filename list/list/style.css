@@ -97,3 +97,10 @@ canvas {
 .tags{
     display: none;
 }
+
+#upButton{
+    height: 30px;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}

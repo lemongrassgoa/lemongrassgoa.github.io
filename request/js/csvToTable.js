@@ -1,4 +1,5 @@
-var formlink = "https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?embedded=true&usp=pp_url&entry.2134839446="
+var formlink = 'https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?embedded=true&usp=pp_url&entry.2134839446=';
+var formlink1 = '%0A%0AFrom:+%0ATo:+';
 var titles = [];
 var artists = [];
 
@@ -6,6 +7,7 @@ const the_array = [
     "Archies",
     "Avett Brothers",
     "Beatles",
+    "Bee Gees",
     "Carpenters",
     "Cranberries",
     "Doobie Brothers",
@@ -185,7 +187,7 @@ const the_array = [
 }());
 
 function modalForm(n){
-    document.getElementById("form_embed").src = formlink + titles[n] + ' - ' + artists[n] + '%0A%0AFrom:+%0ATo:+';
+    document.getElementById("form_embed").src = formlink + titles[n] + ' - ' + artists[n] + formlink1;
 }
 
 // THE //
