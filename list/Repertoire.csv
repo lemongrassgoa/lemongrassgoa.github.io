@@ -1,6 +1,7 @@
 Title,Artist,Year,Genre,BPM,Energy,Dance,Valence,Popularity,WIP,File Path,Tags
 
-1973,James Blunt,2007,Rock,123,67,72,77,73,,Contemporary\James Blunt\1973.txt,neo mellow;pop rock;pop;alternative;love;dance
+1973,James Blunt,2007,Rock,123,67,72,77,72,,Contemporary\James Blunt\1973.txt,neo mellow;pop rock;pop;alternative;love;dance
+A Hard Day's Night,Beatles,1964,Rock,139,82,55,76,58,,Contemporary\The Beatles\Hard Day's Night.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;dance;jive;fast;groovy;love;oldies;retro
 A Little Less Conversation,Elvis Presley,1968,Rock,114,80,58,84,61,,Contemporary\Elvis Presley\A Little Less Conversation.txt,rock-and-roll;rockabilly;dance;jive;fast;groovy;love;oldies;retro
 A Little More,Eric Hutchinson,2014,Rock,80,74,64,94,52,,Contemporary\Eric Hutchinson\A Little More.txt,acoustic pop;neo mellow;fast;dance;groovy;alternative
 A Man For All Seasons,Robbie Williams,2003,Soundtrack,124,74,58,82,42,,Contemporary\Robbie Williams\A Man For All Seasons.txt,german soundtrack;orchestral soundtrack;soundtrack;dance rock;europop;dance;groovy
@@ -15,27 +16,27 @@ All I Have To Do Is Dream,Everly Brothers,1958,Rock 'n' roll,96,46,53,53,71,,Con
 All Star,Smash Mouth,1999,Rock,104,87,73,78,83,,Contemporary\Smash Mouth\All Star.txt,pop rock;post-grunge;alternative
 Angel Of The Morning,Juice Newton,1981,Country,76,31,45,34,62,,Contemporary\Juice Newton\Angel of the Morning.txt,classic country pop;country dawn;soft rock;love;slow;oldies;retro
 Angels,Robbie Williams,1997,Rock,150,59,43,26,66,,Contemporary\Robbie Williams\Angels.txt,dance rock;europop;love;slow
-Annie's Song,John Denver,1974,Rock,146,31,30,46,75,,Contemporary\John Denver\Annie's Song.txt,classic country pop;folk;folk rock;mellow gold;singer-songwriter;soft rock;love;slow;oldies;retro;waltz
+Annie's Song,John Denver,1974,Rock,146,31,30,46,74,,Contemporary\John Denver\Annie's Song.txt,classic country pop;folk;folk rock;mellow gold;singer-songwriter;soft rock;love;slow;oldies;retro;waltz
 Another Day In Paradise,Phil Collins,1989,Rock,102,57,78,37,78,WIP,Contemporary\Phil Collins\Another Day In Paradise.txt,rock drums;soft rock;alternative;groovy
 Antonio's Song,Till Brönner,1977,Jazz,114,39,68,65,22,,Contemporary\Michael Franks\Antonio's Song.txt,german jazz;jazz brass;jazz trumpet;groovy;jazz;slow;oldies;retro
 April Come She Will,Simon and Garfunkel,1966,Rock,102,19,49,35,72,,Contemporary\Simon and Garfunkel\April Come She Will.txt,classic rock;folk;folk rock;melancholia;mellow gold;rock;soft rock;acoustic;retro;oldies
 Are You Gonna Be My Girl,Jet,2003,Rock,105,95,61,54,80,,Contemporary\Jet\Are You Gonna Be My Girl.txt,garage rock;modern rock;pop rock;dance;love;fast
 Arms,Christina Perri,2011,Pop,145,76,46,25,62,,Contemporary\Christina Perri\Arms.txt,pop;love
 At My Worst,Pink Sweat$,2021,RnB,92,42,81,67,75,,Contemporary\Pink Sweats\At My Worst.txt,bedroom soul;love;dance
-Ave Maria,Beyonce,2008,Pop,105,40,35,20,51,,Contemporary\Beyonce\Ave Maria.txt,pop;r&b;love;groovy
+Ave Maria,Beyonce,2008,Pop,105,40,35,20,50,,Contemporary\Beyonce\Ave Maria.txt,pop;r&b;love;groovy
 Baby,Clean Bandit,2018,Pop,117,42,66,56,24,WIP,Contemporary\Clean Bandit\Baby.txt,pop;uk dance;uk funky;metropopolis;pov: indie;uk alternative pop;latin pop;puerto rican pop;
 Baby One More Time,Britney Spears,1998,Pop,93,70,76,91,83,,Contemporary\Britney Spears\Baby One More Time.txt,dance pop;pop;love;groovy;dance
 Bachelor Boy,Cliff Richard,1962,Pop,201,23,36,90,21,,Contemporary\Cliff Richard\Bachelor Boy.txt,merseybeat;rock-and-roll;rockabilly;oldies;retro;dance;waltz;sweet;fast
 Beautiful Tango,Hindi Zahra,2010,Soul,126,38,75,65,24,,Contemporary\Hindi Zahra\Beautiful Tango.txt,world;alternative;acoustic
 Believer,Imagine Dragons,2017,Rock,125,78,78,67,91,WIP,Contemporary\Imagine Dragons\Believer.txt,modern rock;pop;rock;alternative
-Besame Mucho,Andrea Bocelli,1940,Latin,95,50,52,38,62,,Contemporary\Andrea Bocelli\Besame Mucho.txt,classical tenor;italian tenor;operatic pop;love;slow;jazz;bossa;oldies;retro
+Besame Mucho,Andrea Bocelli,1940,Latin,95,50,52,38,61,,Contemporary\Andrea Bocelli\Besame Mucho.txt,classical tenor;italian tenor;operatic pop;love;slow;jazz;bossa;oldies;retro
 Better When I'm Dancing,Meghan Trainor,2015,Pop,128,79,76,87,49,WIP,Contemporary\Meghan Trainor\Better When I'm Dancing.txt,hip pop;pop;dance;fast
 Big Bang,Rock Mafia,2010,Pop,96,82,90,89,62,,Contemporary\Rock Mafia\Big Bang.txt,;pop;dance;alternative
 Big Yellow Taxi,Joni Mitchell,1970,Rock,86,47,61,97,67,WIP,Contemporary\Joni Mitchell\Big Yellow Taxi.txt,canadian singer-songwriter;folk;folk rock;singer-songwriter;pop;acoustic;alternative;retro;oldies
 Biomusicology,Koji,2001,Alternative,145,32,51,36,0,WIP,Contemporary\Koji\Biomusicology.txt,alternative emo;groovy;alternative;acoustic;love
 Bistro Fada,Stephane Wrembel,2011,Jazz,99,37,76,86,58,,Contemporary\Various\Bistro Fada.txt,gypsy jazz;instrumental;waltz
-Bitter Sweet Symphony,Verve,1997,Rock,171,92,36,52,84,,Contemporary\The Verve\Bittersweet Symphony.txt,britpop;permanent wave;rock;shoegaze;alternative
-Blackbird,Beatles,1968,Folk,93,11,69,46,31,,Contemporary\The Beatles\Blackbird.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;oldies;retro;acoustic;alternative;folk
+Bitter Sweet Symphony,Verve,1997,Rock,171,92,36,52,83,,Contemporary\The Verve\Bittersweet Symphony.txt,britpop;permanent wave;rock;shoegaze;alternative
+Blackbird,Beatles,1968,Folk,93,11,69,46,30,,Contemporary\The Beatles\Blackbird.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;oldies;retro;acoustic;alternative;folk
 Blinding Lights,Weeknd,2019,RnB,171,73,51,33,94,,Contemporary\The Weeknd\Blinding Lights.txt,canadian contemporary r&b;canadian pop;pop;groovy;dance;fast;love
 Blowin' In The Wind,Peter Paul and Mary,1962,Folk,155,8,38,56,58,,Contemporary\Peter%2c Paul%2c and Mary\Blowin' In The Wind.txt,american folk revival;folk;folk rock;mellow gold;singer-songwriter;soft rock;acoustic;oldies;retro;folk
 Brand New Key,Melanie Safka,2010,Pop,84,41,67,82,55,,Contemporary\Melanie\Brand New Key.txt,folk;persian pop;acoustic;love
@@ -52,7 +53,7 @@ Calypso Queen,Calypso Rose,2016,Reggae,96,77,59,33,86,WIP,Contemporary\Calypso R
 Can't Help Falling In Love,Elvis Presley,1961,Rock,100,29,40,34,82,,Contemporary\Elvis Presley\Can't Help Falling In Love.txt,rock-and-roll;rockabilly;love;slow;oldies;retro;waltz
 Can't Smile Without You,Barry Manilow,1978,Pop,98,52,42,48,65,,Contemporary\Barry Manilow\Can't Smile Without You.txt,adult standards;mellow gold;soft rock;yacht rock;oldies;retro;love;sweet
 Careless Whisper,George Michael,1984,Pop,153,63,57,80,83,,Contemporary\George Michael\Careless Whisper.txt,new wave pop;oldies;retro
-Carry You Home,James Blunt,2008,Rock,83,51,58,22,66,,Contemporary\James Blunt\Carry You Home.txt,neo mellow;pop rock;love;alternative
+Carry You Home,James Blunt,2008,Rock,83,51,58,22,65,,Contemporary\James Blunt\Carry You Home.txt,neo mellow;pop rock;love;alternative
 Catch and Release,Matt Simons,2007,Pop,87,45,62,61,60,,Contemporary\Matt Simons\Catch and Release.txt,neo-singer-songwriter;slow;love
 Chained To The Rhythm,Katy Perry,2017,Disco,95,80,56,47,73,,Contemporary\Katy Perry\Chained To The Rhythm.txt,pop;modern reggae;groovy;dance;fast
 Cheap Thrills,Sia,2016,Pop,90,70,63,73,74,,Contemporary\Sia\Cheap Thrills.txt,australian dance;australian pop;pop;groovy;dance;fast
@@ -62,13 +63,13 @@ Closing Time,Semisonic,1998,Rock,92,85,48,27,77,,Contemporary\Semisonic\Closing 
 Cloud Number Nine,Bryan Adams,1999,Pop,110,72,59,62,56,,Contemporary\Bryan Adams\Cloud Number Nine.txt,canadian pop;canadian singer-songwriter;classic canadian rock;heartland rock;mellow gold;soft rock;love;dance;sweet;groovy
 Copacabana,Barry Manilow,1978,Disco,108,67,76,80,59,WIP,Contemporary\Barry Manilow\Copacabana.txt,adult standards;mellow gold;soft rock;yacht rock;acoustic;love;dance;groovy;oldies;retro
 Count On Me,Bruno Mars,2010,Pop,89,39,59,50,78,,Contemporary\Bruno Mars\Count On Me.txt,dance pop;pop;groovy;acoustic;love;fast;sweet
-Country Roads,John Denver,1971,Country,82,40,46,63,78,,Contemporary\John Denver\Country Roads.txt,classic country pop;folk;folk rock;mellow gold;singer-songwriter;soft rock;oldies;retro;groovy
+Country Roads,John Denver,1971,Country,82,40,46,63,77,,Contemporary\John Denver\Country Roads.txt,classic country pop;folk;folk rock;mellow gold;singer-songwriter;soft rock;oldies;retro;groovy
 Crazy,Gnarles Barkley,2006,Soul,112,74,84,61,76,,Contemporary\Gnarls Barkley\Crazy.txt,atl hip hop;neo soul;alternative;groovy
 Crazy Little Thing Called Love,Queen,1979,Rock,77,57,63,74,51,,Contemporary\Queen\Crazy Little Thing Called Love.txt,classic rock;glam rock;rock;groovy;dance;fast;oldies;retro
 Dance With Me Tonight,Olly Murs,2011,Pop,164,75,67,96,74,,Contemporary\Olly Murs\Dance With Me Tonight.txt,dance pop;pop;talent show;dance;fast;love;groovy;sweet
-Dancing In The Moonlight,Toploader,1999,Pop,119,86,63,87,82,,Contemporary\Toploader\Dancing in the Moonlight.txt,british alternative rock;groovy;dance
-Dancing Queen,ABBA,1976,Pop,101,87,54,75,88,,Contemporary\ABBA\Dancing Queen.txt,europop;swedish pop;groovy;dance;jive;oldies;retro;fast
-Daughters,John Mayer,2004,Rock,125,41,67,50,71,,Contemporary\John Mayer\Daughters.txt,neo mellow;singer-songwriter;groovy;slow;alternative
+Dancing In The Moonlight,Toploader,1999,Pop,119,86,63,87,81,,Contemporary\Toploader\Dancing in the Moonlight.txt,british alternative rock;groovy;dance
+Dancing Queen,ABBA,1976,Pop,101,87,54,75,87,,Contemporary\ABBA\Dancing Queen.txt,europop;swedish pop;groovy;dance;jive;oldies;retro;fast
+Daughters,John Mayer,2004,Rock,125,41,67,50,70,,Contemporary\John Mayer\Daughters.txt,neo mellow;singer-songwriter;groovy;slow;alternative
 Dear Future Husband,Meghan Trainor,2014,Pop,79,78,66,83,78,,Contemporary\Meghan Trainor\Dear Future Husband.txt,hip pop;pop;dance;groovy;love;sweet
 Diana,Paul Anka,1957,Rock,143,41,57,96,52,,Contemporary\Paul Anka\Diana.txt,adult standards;canadian pop;easy listening;rock-and-roll;dance;groovy;love;sweet;oldies;retro
 Die Die Die,Avett Brothers,2007,Folk,119,70,53,77,42,,Contemporary\The Avett Brothers\Die Die Die.txt,indie folk;new americana;north carolina indie;north carolina roots;progressive bluegrass;stomp and holler;alternative;groovy;acoustic
@@ -78,7 +79,7 @@ Don't It Make My Brown Eyes Blue,Crystal Gayle,1977,Jazz,85,32,74,34,66,WIP,Cont
 Don't Know Why,Norah Jones,2002,Pop,89,22,75,64,79,,Contemporary\Norah Jones\Don't Know Why.txt,contemporary vocal jazz;jazz pop;vocal jazz;groovy;slow;love
 Don't Let Me Be Lonely Tonight,James Taylor,1972,Rock,75,15,62,34,47,WIP,Contemporary\James Taylor\Don't Let Me Be Lonely Tonight.txt,classic rock;folk;folk rock;heartland rock;mellow gold;singer-songwriter;soft rock;groovy;slow;love;oldies;retro
 Don't Look Back In Anger,Oasis,1995,Pop,164,92,35,21,70,,Contemporary\Oasis\Don't Look Back In Anger.txt,beatlesque;britpop;madchester;permanent wave;rock;groovy;slow;alternative;acoustic
-Don't Make Me Miss You,Ray Dalton,2021,Pop,92,80,65,88,43,WIP,Contemporary\Ray Dalton\Don't Make Me Miss You.txt,pop dance;
+Don't Make Me Miss You,Ray Dalton,2021,Pop,92,80,65,88,42,WIP,Contemporary\Ray Dalton\Don't Make Me Miss You.txt,pop dance;
 Don't Stop Me Now,Queen,1979,Rock,156,76,56,64,64,,Contemporary\Queen\Don't Stop Me Now.txt,classic rock;glam rock;rock;dance;fast;love;groovy;oldies;retro
 Don't Think Twice It's Alright,Bob Dylan,1963,Folk,111,24,60,47,68,,Contemporary\Bob Dylan\Don't Think Twice It's Alright.txt,classic rock;country rock;folk;folk rock;rock;roots rock;singer-songwriter;acoustic;alternative;love;oldies;retro;folk
 Doubting Thomas,Nickel Creek,2005,Pop,146,14,39,27,42,WIP,Contemporary\Nickel Creek\Doubting Thomas.txt,bluegrass;instrumental bluegrass;mandolin;progressive bluegrass;
@@ -92,7 +93,7 @@ Enjoy The Ride,Morcheeba,2008,Rock,85,52,55,46,62,,Contemporary\Morcheeba\Enjoy 
 Escape (Pina Colada),Rupert Holmes,1979,Rock,139,51,84,95,80,,Contemporary\Rupert Holmes\Escape.txt,yacht rock;groovy;love;dance;oldies;retro
 Every Little Thing She Does Is Magic,Eric Hutchinson,1981,Pop,78,56,71,83,44,,Contemporary\Eric Hutchinson\Every Little Thing She Does Is Magic.txt,acoustic pop;neo mellow;alternative;dance;fast;love
 Everything,Michael Buble,2006,Pop,123,69,69,49,74,WIP,Contemporary\Michael Buble\Everything.txt,adult standards;canadian pop;jazz pop;lounge;groovy;dance
-Everything At Once,Lenka,2011,Pop,145,47,77,84,63,WIP,Contemporary\Lenka\Everything At Once.txt,;alternative;dance
+Everything At Once,Lenka,2011,Pop,145,47,77,84,62,WIP,Contemporary\Lenka\Everything At Once.txt,;alternative;dance
 Everything I Own,Bread,1972,Rock,79,34,37,45,74,,Contemporary\Bread\Everything I Own.txt,folk rock;mellow gold;singer-songwriter;soft rock;love;slow;oldies;retro
 Eye Of The Tiger,Survivor,1982,Rock,109,60,82,55,80,,Contemporary\Survivor\Eye Of The Tiger.txt,album rock;glam metal;hard rock;soft rock;groovy;dance;fast;oldies;retro
 Faith,George Michael,1987,Rock,96,50,92,55,57,,Contemporary\George Michael\Faith.txt,new wave pop;groovy;dance;fast;oldies;retro;love
@@ -100,17 +101,17 @@ Family Tree,Ben Kweller,2000,Alternative,108,63,67,53,26,WIP,Contemporary\Ben Kw
 Fare Thee Well (Dink's Song),Various,2002,Folk,82,43,50,23,55,,Contemporary\Various\Fare Thee Well.txt,movie tunes;british singer-songwriter;acoustic;slow;alternative;folk
 Feels Like Home,Edwina Hayes,2009,Folk,108,26,46,50,48,WIP,Contemporary\Edwina Hayes\Feels Like Home.txt,;slow;love
 Fifty Ways To Leave Your Lover,Paul Simon,1975,Rock,102,37,82,29,74,WIP,Contemporary\Paul Simon\50 Ways to Leave Your Lover.txt,classic rock;folk;folk rock;mellow gold;permanent wave;rock;singer-songwriter;soft rock;oldies;retro;love;groovy
-Fire and Rain,James Taylor,1970,Rock,76,35,61,36,56,WIP,Contemporary\James Taylor\Fire and Rain.txt,classic rock;folk;folk rock;heartland rock;mellow gold;singer-songwriter;soft rock;oldies;retro;love;acoustic;groovy
+Fire and Rain,James Taylor,1970,Rock,76,35,61,36,55,WIP,Contemporary\James Taylor\Fire and Rain.txt,classic rock;folk;folk rock;heartland rock;mellow gold;singer-songwriter;soft rock;oldies;retro;love;acoustic;groovy
 First Day Of My Life,Bright Eyes,2005,Folk,95,25,60,37,72,,Contemporary\Bright Eyes\First Day Of My Life.txt,chamber pop;indie rock;melancholia;omaha indie;stomp and holler;alternative;acoustic;love;sweet
 Five Hundred Miles,Peter Paul and Mary,1962,Folk,97,7,44,26,56,,Contemporary\Peter%2c Paul%2c and Mary\Five Hundred Miles.txt,american folk revival;folk;folk rock;mellow gold;singer-songwriter;soft rock;slow;love;acoustic;alternative;oldies;retro;waltz;folk
 Fix You,Coldplay,2005,Rock,138,42,21,12,87,WIP,Contemporary\Coldplay\Fix You.txt,permanent wave;pop;love;slow
 Flightless Bird American Mouth,Iron and Wine,2008,Rock,155,40,37,18,71,,Contemporary\Iron and Wine\Flightless Bird American Mouth.txt,acoustic pop;chamber pop;indie folk;indie rock;stomp and holler;love;slow;alternative
-Flowers,Miley Cyrus,2023,Pop,118,68,71,65,97,,Contemporary\Miley Cyrus\Flowers.txt,pop;love;dance;groovy;fast
+Flowers,Miley Cyrus,2023,Pop,118,68,71,65,96,,Contemporary\Miley Cyrus\Flowers.txt,pop;love;dance;groovy;fast
 Fly Me To The Moon,Frank Sinatra,1954,Pop,118,27,62,43,60,,Contemporary\Frank Sinatra\Fly Me To The Moon.txt,adult standards;easy listening;lounge;jazz;love;groovy;dance;oldies;retro
-For What It's Worth,Buffalo Springfield,1966,Folk,99,52,65,82,83,,Contemporary\Buffalo Springfield\For What Its Worth.txt,album rock;blues rock;british blues;classic rock;country rock;folk;folk rock;heartland rock;mellow gold;psychedelic rock;rock;soft rock;southern rock;alternative;groovy;dance;oldies;retro;folk;slow
-Forever,Eric Hutchinson,2014,Rock,144,80,57,52,27,,Contemporary\Eric Hutchinson\Forever.txt,acoustic pop;neo mellow;love;dance;fast
+For What It's Worth,Buffalo Springfield,1966,Folk,99,52,65,82,82,,Contemporary\Buffalo Springfield\For What Its Worth.txt,album rock;blues rock;british blues;classic rock;country rock;folk;folk rock;heartland rock;mellow gold;psychedelic rock;rock;soft rock;southern rock;alternative;groovy;dance;oldies;retro;folk;slow
+Forever,Eric Hutchinson,2014,Rock,144,80,57,52,26,,Contemporary\Eric Hutchinson\Forever.txt,acoustic pop;neo mellow;love;dance;fast
 Free Falling,John Mayer,1989,Rock,84,62,62,56,39,,Contemporary\John Mayer\Free Falling.txt,album rock;classic rock;hard rock;heartland rock;mellow gold;rock;singer-songwriter;soft rock;alternative;acoustic;oldies;retro;love
-Galway Girl,Ed Sheeran,2017,Pop,100,88,62,78,83,WIP,Contemporary\Ed Sheeran\Galway Girl.txt,pop;singer-songwriter pop;uk pop;alternative;dance;fast;love
+Galway Girl,Ed Sheeran,2017,Pop,100,88,62,78,82,WIP,Contemporary\Ed Sheeran\Galway Girl.txt,pop;singer-songwriter pop;uk pop;alternative;dance;fast;love
 Genie In A Bottle,Christina Aguilera,1999,Pop,176,80,63,91,77,,Contemporary\Christina Aguilera\Genie In A Bottle.txt,dance pop;pop;love;dance;fast;groovy
 Gimme Gimme Gimme,ABBA,1979,Pop,120,49,75,54,84,WIP,Contemporary\ABBA\Gimme Gimme Gimme.txt,europop;swedish pop;retro;oldies;dance;groovy;love
 Girls Just Want To Have Fun,Mayries,1983,Pop,186,36,44,36,58,WIP,Contemporary\The Mayries\Girls Just Want To Have Fun.txt,acoustic cover;acoustic pop;acoustic;alternative;love;retro;oldies
@@ -141,24 +142,25 @@ Hotel California,Eagles,1976,Rock,148,16,62,38,51,,Contemporary\The Eagles\Hotel
 How Deep Is Your Love,Bee Gees,1977,Rock,105,36,63,67,79,,Contemporary\Bee Gees\How Deep Is Your Love.txt,disco;mellow gold;soft rock;retro;oldies;groovy;love;dance
 Hymn For The Weekend,Coldplay,2015,Pop,90,69,49,41,87,,Contemporary\Coldplay\Hymn For The Weekend.txt,permanent wave;pop;dance;alternative;groovy;love
 I Have A Dream,ABBA,1979,Pop,104,37,55,44,68,,Contemporary\ABBA\I Have A Dream.txt,europop;swedish pop;slow;retro;oldies
-I Saw Her Standing There,Beatles,1968,Rock,160,80,49,97,71,,Contemporary\The Beatles\I Saw Her Standing There.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;dance;fast;love;groovy;retro;oldies
+I Saw Her Standing There,Beatles,1968,Rock,160,80,49,97,70,,Contemporary\The Beatles\I Saw Her Standing There.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;dance;fast;love;groovy;retro;oldies
 I Wanna Hold Your Hand,Beatles,1963,Rock,131,72,49,87,74,,Contemporary\The Beatles\I Wanna Hold Your Hand.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;dance;fast;love;groovy;retro;oldies
 I Will Follow You Into The Dark,Death Cab for Cutie,2006,Rock,80,21,52,49,69,,Contemporary\Death Cab for Cutie\I Will Follow You Into The Dark.txt,alternative rock;chamber pop;indie rock;indietronica;modern rock;seattle indie;washington indie;acoustic;love;alternative
 I Will Survive,Gloria Gaynor,1978,Disco,123,73,62,34,36,,Contemporary\Aretha Franklin\I Will Survive.txt,classic soul;jazz blues;memphis soul;neo soul;soul;southern soul;vocal jazz;retro;oldies;dance;groovy;love
 I Won't Give Up,Jason Mraz,2012,Pop,133,30,48,14,73,WIP,Contemporary\Jason Mraz\I Won't Give Up.txt,acoustic pop;dance pop;neo mellow;pop;slow;love;dance;waltz
 I'd Love To Change The World,Ten Years After,1971,Rock,118,48,38,39,31,,Contemporary\Ten Years After\I'd Love To Change The World.txt,blues rock;british blues;classic rock;country rock;electric blues;folk rock;hard rock;progressive rock;psychedelic rock;alternative;fast;oldies;retro
-If,Bread,1971,Folk Rock,98,18,39,34,70,,Contemporary\Bread\If.txt,folk rock;mellow gold;singer-songwriter;soft rock;love;slow;oldies;retro;sweet
+If,Bread,1971,Folk Rock,98,18,39,34,69,,Contemporary\Bread\If.txt,folk rock;mellow gold;singer-songwriter;soft rock;love;slow;oldies;retro;sweet
 If I Ain't Got You,Alicia Keys,2003,RnB,118,44,61,17,84,WIP,Contemporary\Alicia Keys\If I Ain't Got You.txt,neo soul;pop;r&b;jazz;slow;love;waltz
 If I Had A Hammer,Peter Paul and Mary,1962,Folk,90,39,47,51,15,,Contemporary\Peter%2c Paul%2c and Mary\If I Had A Hammer.txt,american folk revival;folk;folk rock;mellow gold;singer-songwriter;soft rock;fast;dance;groovy;retro;oldies;folk
 I'll Be There For You ("Friends" theme),Rembrandts,1995,Rock,191,71,29,75,0,,Contemporary\The Rembrandts\I'll Be There For You.txt,pop rock;dance;fast;love;groovy
 I'll Have to Say I Love You in a Song,Jim Croce,1973,Folk,134,45,54,71,71,,Contemporary\Jim Croce\I'll Have To Say I Love You In A Song.txt,classic rock;country rock;folk;folk rock;heartland rock;mellow gold;singer-songwriter;soft rock;acoustic;love;slow;groovy;oldies;retro;sweet;folk
 I'm A Believer,Monkees,1967,Pop,79,77,50,94,60,,Contemporary\The Monkees\I'm a Believer.txt,album rock;beatlesque;bubblegum pop;classic rock;folk rock;heartland rock;mellow gold;psychedelic rock;rock-and-roll;singer-songwriter;soft rock;sunshine pop;oldies;retro;fast;dance;groovy;love
 I'm Yours,Jason Mraz,2008,Rock,151,44,70,71,83,,Contemporary\Jason Mraz\I'm Yours.txt,acoustic pop;dance pop;neo mellow;pop;love;groovy;dance
+In My Life,Beatles,1965,Rock,103,44,69,44,78,WIP,Contemporary\The Beatles\In My Life.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;love;dance;groovy
 In The Summertime,Mungo Jerry,1970,Skiffle,164,65,64,97,75,,Contemporary\Mungo Jerry\In The Summertime.txt,british blues;classic uk pop;alternative;dance;groovy;oldies;retro
 Instant Crush,Daft Punk,2013,Disco,110,59,78,52,79,,Contemporary\Daft Punk\Instant Crush.txt,electro;filter house;rock;indie rock;alternative;dance;love
 It's the End of the World As We Know It,R.E.M.,1987,Rock,206,89,38,80,73,WIP,Contemporary\REM\Its the End of the World As We Know It.txt,alternative rock;athens indie;permanent wave;rock;dance;fast;groovy
-Jailhouse Rock,Elvis Presley,1957,Rock 'n' roll,167,66,66,88,38,WIP,Contemporary\Elvis Presley\Jailhouse Rock.txt,rock-and-roll;rockabilly;oldies;retro;dance;fast;groovy
-Jar Of Hearts,Christina Perri,2011,Pop,75,35,35,9,76,,Contemporary\Christina Perri\Jar Of Hearts.txt,pop;alternative;slow;love
+Jailhouse Rock,Elvis Presley,1957,Rock 'n' roll,167,66,66,88,37,WIP,Contemporary\Elvis Presley\Jailhouse Rock.txt,rock-and-roll;rockabilly;oldies;retro;dance;fast;groovy
+Jar Of Hearts,Christina Perri,2011,Pop,75,35,35,9,75,,Contemporary\Christina Perri\Jar Of Hearts.txt,pop;alternative;slow;love
 Johnny B Goode,Chuck Berry,1958,Rock 'n' roll,168,80,53,97,80,,Contemporary\Chuck Berry\Johnny B Goode.txt,blues;blues rock;classic rock;rock;rock-and-roll;rockabilly;soul;dance;fast;oldies;retro;groovy
 Jolene,Dolly Parton,1973,Pop,111,54,67,81,76,,Contemporary\Dolly Parton\Jolene.txt,classic country pop;country;country dawn;dance;fast;retro;oldies;alternative;acoustic
 Just Give Me A Reason,Pink (ft. Nate Ruess),2013,Pop,95,55,78,44,85,WIP,Contemporary\P!nk\Just Give Me A Reason.txt,dance pop;pop;modern rock;dance;love;groovy
@@ -168,7 +170,7 @@ Killing Me Softly,Lori Lieberman,1972,Folk,100,2,51,26,36,,Contemporary\Lori Lie
 King Of The Road,Roger Miller,1965,Country,118,27,67,61,66,WIP,Contemporary\Roger Miller\King Of The Road.txt,classic country pop;classic oklahoma country;nashville sound;oldies;retro;groovy
 Kiss Me,Sixpence None The Richer,2002,Rock,100,75,53,42,82,,Contemporary\Sixpence None The Richer\Kiss Me.txt,lilith;pop rock;dance;groovy;love;acoustic;alternative;sweet
 La Isla Bonita,Madonna,1987,Pop,100,82,72,96,75,,Contemporary\Madonna\La Isla Bonita.txt,dance pop;pop;dance;fast;love;groovy
-La Vie En Rose,Louis Armstrong,1950,Jazz,70,7,48,31,31,,Contemporary\Louis Armstrong\La Vie En Rose.txt,adult standards;dixieland;harlem renaissance;jazz trumpet;new orleans jazz;soul;swing;vocal jazz;slow;love;dance;jazz;oldies;retro;acoustic;waltz;sweet
+La Vie En Rose,Louis Armstrong,1950,Jazz,70,7,48,31,30,,Contemporary\Louis Armstrong\La Vie En Rose.txt,adult standards;dixieland;harlem renaissance;jazz trumpet;new orleans jazz;soul;swing;vocal jazz;slow;love;dance;jazz;oldies;retro;acoustic;waltz;sweet
 Layla,Eric Clapton,1971,Rock,116,68,49,54,42,WIP,Contemporary\Eric Clapton\Layla.txt,album rock;blues rock;classic rock;electric blues;mellow gold;rock;singer-songwriter;soft rock;acoustic;alternative;love;groovy;oldies;retro
 Leaving On A Jet Plane,John Denver,1966,Folk,133,28,49,47,55,,Contemporary\John Denver\Leaving On A Jet Plane.txt,classic country pop;folk;folk rock;mellow gold;singer-songwriter;soft rock;slow;oldies;retro;love;acoustic
 Lemon Tree,Fool's Garden,1995,Pop,143,48,66,64,9,,Contemporary\Fool's Garden\Lemon Tree.txt,german pop rock;alternative;acoustic
@@ -185,15 +187,15 @@ Long Train Running,Doobie Brothers,1973,Rock,117,91,58,84,77,,Contemporary\Doobi
 Losing My Religion,R.E.M.,1991,Rock,126,86,67,80,88,WIP,Contemporary\REM\Losing My Religion.txt,alternative rock;athens indie;permanent wave;rock;alternative;groovy
 Lost On You,LP,2015,Rock,174,72,43,69,78,,Contemporary\LP\Lost On You.txt,la pop;women's music;alternative;groovy;slow;love
 Love You Like A Love Song,Selena Gomez,2011,Pop,117,68,86,92,84,,Contemporary\Selena Gomez\Love You Like A Love Song.txt,pop;love;dance;fast
-Love Yourself,Justin Bieber,2015,Pop,100,38,61,52,89,WIP,Contemporary\Justin Bieber\Love Yourself.txt,canadian pop;pop;acoustic;alternative
-Lover Of The Light,Mumford and Sons,2012,Folk,106,69,31,38,56,WIP,Contemporary\Mumford And Sons\Lover Of The Light.txt,modern folk rock;modern rock;neo mellow;stomp and holler;uk americana;alternative;acoustic;folk
-Lucky,Jason Mraz,2009,Pop,130,41,63,67,77,,Contemporary\Jason Mraz\Lucky.txt,acoustic pop;dance pop;neo mellow;pop;alternative;love;acoustic;groovy;sweet
-Lucky Lips,Cliff Richard,1957,RnB,145,48,69,90,39,,Contemporary\Cliff Richard\Lucky Lips.txt,merseybeat;rock-and-roll;rockabilly;oldies;retro;love;dance;fast;groovy;sweet
+Love Yourself,Justin Bieber,2015,Pop,100,38,61,52,88,WIP,Contemporary\Justin Bieber\Love Yourself.txt,canadian pop;pop;acoustic;alternative
+Lover Of The Light,Mumford and Sons,2012,Folk,106,69,31,38,55,WIP,Contemporary\Mumford And Sons\Lover Of The Light.txt,modern folk rock;modern rock;neo mellow;stomp and holler;uk americana;alternative;acoustic;folk
+Lucky,Jason Mraz,2009,Pop,130,41,63,67,76,,Contemporary\Jason Mraz\Lucky.txt,acoustic pop;dance pop;neo mellow;pop;alternative;love;acoustic;groovy;sweet
+Lucky Lips,Cliff Richard,1957,RnB,145,48,69,90,38,,Contemporary\Cliff Richard\Lucky Lips.txt,merseybeat;rock-and-roll;rockabilly;oldies;retro;love;dance;fast;groovy;sweet
 Made You Look,Meghan Trainor,2022,Pop,145,53,84,88,88,WIP,Contemporary\Meghan Trainor\Made You Look.txt,hip pop;pop;dance;groovy
 Make You Feel My Love,Adele,1997,Rock,65,17,32,10,76,,Contemporary\Adele\Make You Feel My Love.txt,british soul;pop;pop soul;uk pop;slow;love;acoustic;alternative;oldies;retro
 Mamma Mia,ABBA,1975,Pop,138,75,75,83,82,,Contemporary\ABBA\Mamma Mia.txt,europop;swedish pop;oldies;retro;dance;jive;groovy
-Maria Maria,Santana,1999,Rock,98,60,78,68,71,,Contemporary\Santana\Maria Maria.txt,blues rock;classic rock;mexican classic rock;groovy;dance;love
-Mary Jane's Last Dance,Tom Petty and The Heartbreakers,1993,Rock,170,66,46,53,78,,Contemporary\Tom Petty and The Heartbreakers\Mary Jane's Last Dance.txt,album rock;classic rock;hard rock;heartland rock;mellow gold;rock;singer-songwriter;soft rock;groovy;dance;slow
+Maria Maria,Santana,1999,Rock,98,60,78,68,70,,Contemporary\Santana\Maria Maria.txt,blues rock;classic rock;mexican classic rock;groovy;dance;love
+Mary Jane's Last Dance,Tom Petty and The Heartbreakers,1993,Rock,170,66,46,53,77,,Contemporary\Tom Petty and The Heartbreakers\Mary Jane's Last Dance.txt,album rock;classic rock;hard rock;heartland rock;mellow gold;rock;singer-songwriter;soft rock;groovy;dance;slow
 Mi Chico Latino,Geri Halliwell,1999,Dance,102,91,63,68,50,,Contemporary\Geri Halliwell\Mi Chico Latino.txt,bubblegum dance;dance pop;europop;talent show;groovy;dance;fast;love
 Michelle,Beatles,1965,Pop,117,29,58,67,70,,Contemporary\The Beatles\Michelle.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;love;groovy;oldies;retro;acoustic
 Money Money Money,ABBA,1976,Pop,121,70,79,65,78,WIP,Contemporary\ABBA\Money Money Money.txt,europop;swedish pop;oldies;retro;dance;jive;fast
@@ -209,9 +211,9 @@ Never Going Back Again,Fleetwood Mac,1977,Folk Rock,91,39,61,79,41,WIP,Contempor
 New Light,John Mayer,2011,Rock,124,69,83,85,78,,Contemporary\John Mayer\New Light.txt,neo mellow;singer-songwriter;dance;fast;love;acoustic
 New Shoes,Paolo Nutini,2006,Pop,150,74,75,85,71,,Contemporary\Paolo Nutini\New Shoes.txt,british soul;neo mellow;scottish singer-songwriter;dance;fast;love
 New Rules,Dua Lipa,2017,Pop,116,70,76,61,84,WIP,Contemporary\Dua Lipa\New Rules.txt,dance pop;pop;uk pop;dance;fast;love
-Nights In White Satin,Moody Blues,1967,Rock,157,34,19,22,61,,Contemporary\The Moody Blues\Nights in White Satin.txt,album rock;art rock;british invasion;classic rock;country rock;flute rock;folk rock;heartland rock;mellow gold;progressive rock;rock;singer-songwriter;soft rock;symphonic rock;slow;oldies;retro;love;acoustic;waltz
+Nights In White Satin,Moody Blues,1967,Rock,157,34,19,22,60,,Contemporary\The Moody Blues\Nights in White Satin.txt,album rock;art rock;british invasion;classic rock;country rock;flute rock;folk rock;heartland rock;mellow gold;progressive rock;rock;singer-songwriter;soft rock;symphonic rock;slow;oldies;retro;love;acoustic;waltz
 Norwegian Wood,Beatles,1965,Folk Rock,177,37,43,65,75,,Contemporary\The Beatles\Norwegian Wood.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;oldies;retro;acoustic;love;groovy;folk
-Numb,Linkin Park,2003,Metal,110,86,50,24,89,,Contemporary\Linkin Park\Numb.txt,alternative metal;nu metal;post-grunge;rap metal;rock;alternative;acoustic;groovy
+Numb,Linkin Park,2003,Metal,110,86,50,24,88,,Contemporary\Linkin Park\Numb.txt,alternative metal;nu metal;post-grunge;rap metal;rock;alternative;acoustic;groovy
 Objection,Shakira,2002,Pop,179,86,60,71,60,,Contemporary\Shakira\Objection.txt,colombian pop;dance pop;latin pop;pop;dance;fast;love;groovy
 Oh Carol,Neil Sedaka,1995,Rock,135,73,73,97,63,,Contemporary\Neil Sedaka\Oh Carol.txt,adult standards;brill building pop;bubblegum pop;easy listening;rockabilly;soft rock;dance;groovy;love;sweet
 Old Yellow Bricks,Arctic Monkeys,2007,Rock,135,84,66,75,62,,Contemporary\Arctic Monkeys\Old Yellow Bricks.txt,garage rock;modern rock;permanent wave;rock;sheffield indie;alternative;dance;fast
@@ -231,7 +233,7 @@ Poetry In Motion,Johnny Tillotson,1960,Doo-wop,135,71,49,91,26,,Contemporary\Joh
 Pretty Woman,Roy Orbison,1964,Rock,127,58,61,95,68,,Contemporary\Roy Orbison\Pretty Woman.txt,adult standards;classic rock;folk rock;mellow gold;rock-and-roll;rockabilly;singer-songwriter;dance;fast;groovy;retro;oldies;love
 Pretty World,Sergio Mendes,1969,Jazz,122,38,62,89,34,WIP,Contemporary\Sergio Mendes\Pretty World.txt,;jazz;dance;oldies;retro;love
 Price Tag,Jessie J,2011,Pop,175,83,64,69,67,,Contemporary\Jessie J\Price Tag.txt,dance pop;pop;atl hip hop;pop rap;rap;southern hip hop;dance;groovy;love
-Quando Quando Quando,Engelbert Humperdinck,1962,Bossa nova,176,59,37,84,63,WIP,Contemporary\Engelbert Humperdinck\Quando Quando Quando.txt,adult standards;jazz;dance;groovy;retro;oldies
+Quando Quando Quando,Engelbert Humperdinck,1962,Bossa nova,176,59,37,84,62,WIP,Contemporary\Engelbert Humperdinck\Quando Quando Quando.txt,adult standards;jazz;dance;groovy;retro;oldies
 Que Sera Sera,Various,1956,Soundtrack,176,42,40,74,54,,Contemporary\Various\Que Sera Sera.txt,adult standards;easy listening;lounge;vocal jazz;man's orchestra;oldies;retro;love;dance;acoustic;waltz;sweet
 Raindrops Keep Falling On My Head,BJ Thomas,1969,Pop,107,50,55,73,43,WIP,Contemporary\BJ Thomas\Raindrops Keep Fallin On My Head.txt,adult standards;bubblegum pop;classic country pop;folk rock;mellow gold;soft rock;oldies;retro;dance;groovy;sweet
 Rasputin,Boney M,1978,RnB,126,89,64,97,67,WIP,Contemporary\Boney M\Rasputin.txt,europop;oldies;retro
@@ -240,7 +242,7 @@ Ring Of Fire,Johnny Cash,1962,Folk,104,59,66,78,75,WIP,Contemporary\Johnny Cash\
 Rock 'n' Roll,Eric Hutchinson,2008,Rock,201,79,46,90,16,,Contemporary\Eric Hutchinson\Rock 'n' Roll.txt,acoustic pop;neo mellow;acoustic;dance;groovy
 Rockabye,Clean Bandit,2018,Pop,102,76,72,77,60,WIP,Contemporary\Clean Bandit\Rockabye.txt,pop;uk dance;uk funky;dance pop;dancehall;pop rap;alternative;groovy;love
 Rocket Man,Elton John,1972,Rock,138,60,44,24,41,,Contemporary\Elton John\Rocket Man.txt,glam rock;mellow gold;piano rock;rock;slow;dance;love;acoustic;retro;oldies
-Rockstar,Nickelback,2005,Rock,144,91,62,69,73,,Contemporary\Nickelback\Rockstar.txt,alternative metal;canadian rock;post-grunge;alternative;groovy;dance
+Rockstar,Nickelback,2005,Rock,144,91,62,69,72,,Contemporary\Nickelback\Rockstar.txt,alternative metal;canadian rock;post-grunge;alternative;groovy;dance
 Rolling In The Deep,Adele,2011,Pop,105,77,73,51,83,,Contemporary\Adele\Rolling In The Deep.txt,british soul;pop;pop soul;uk pop;dance;groove;love
 Royals,Lorde,2013,Pop,85,43,67,34,83,,Contemporary\Lorde\Royals.txt,art pop;metropopolis;nz pop;pop;groove;dance
 Sad Movies (Make Me Cry),Sue Thompson,1961,Pop,107,27,61,61,41,,Contemporary\Sue Thompson\Sad Movies.txt,deep adult standards;oldies;retro;groovy;acoustic;sweet
@@ -254,7 +256,7 @@ Simply The Best,Noah Reid,2018,Soundtrack,85,14,44,12,58,,Contemporary\Noah Reid
 Skyfall,Adele,2012,Pop,76,55,35,8,82,WIP,Contemporary\Adele\Skyfall.txt,british soul;pop;pop soul;uk pop;dance;slow
 Smooth,Santana,1999,Rock,116,92,61,96,74,WIP,Contemporary\Santana\Smooth.txt,blues rock;classic rock;mexican classic rock;neo mellow;pop rock;post-grunge;groovy;dance;love
 Smooth Operator,Sade,1984,Jazz,120,56,79,96,64,,Contemporary\Sade\Smooth Operator.txt,british soul;sophisti-pop;jazz;dance;love;groovy
-Snow (Hey Oh),Red Hot Chili Peppers,2006,Rock,105,90,43,60,83,,Contemporary\Red Hot Chili Peppers\Snow.txt,alternative rock;funk metal;funk rock;permanent wave;rock;alternative;fast;dance;groovy
+Snow (Hey Oh),Red Hot Chili Peppers,2006,Rock,105,90,43,60,82,,Contemporary\Red Hot Chili Peppers\Snow.txt,alternative rock;funk metal;funk rock;permanent wave;rock;alternative;fast;dance;groovy
 Somebody That I Used To Know,Gotye,2011,Pop,129,50,86,72,79,WIP,Contemporary\Gotye\Somebody That I Used To Know.txt,australian pop;bergen indie;electropop;nz pop;alternative;acoustic
 Someone Like You,Adele,2011,Pop,135,32,56,29,82,,Contemporary\Adele\Someone Like You.txt,british soul;pop;pop soul;uk pop;slow;love;acoustic;alternative
 Son of a Preacher Man,Dusty Springfield,1969,RnB,182,50,40,82,71,WIP,Contemporary\Dusty Springfield\Son of a Preacher Man.txt,adult standards;british invasion;soul;groovy;dance;oldies;retro;love
@@ -284,45 +286,46 @@ The Boxer,Simon and Garfunkel,1970,Rock,93,49,44,63,74,,Contemporary\Simon and G
 The Cave,Mumford and Sons,2009,Rock,142,51,60,35,8,WIP,Contemporary\Mumford And Sons\The Cave.txt,modern folk rock;modern rock;neo mellow;stomp and holler;uk americana;acoustic;alternative
 The Girl From Ipanema,Getz / Gilberto,1964,Bossa nova,130,19,66,44,63,WIP,Contemporary\Various\The Girl From Ipanema.txt,bebop;bossa nova;cool jazz;jazz;jazz saxophone;latin jazz;samba-jazz;vocal jazz;oldies;retro;acoustic;jazz;groovy
 The Joker,Steve Miller Band,2002,Rock,83,45,60,80,79,,Contemporary\The Steve Miller Band\The Joker.txt,album rock;classic rock;hard rock;heartland rock;mellow gold;rock;singer-songwriter;soft rock;acoustic;groovy;dance;slow
-The Lazy Song,Bruno Mars,2011,Reggae,175,71,79,96,78,,Contemporary\Bruno Mars\The Lazy Song.txt,dance pop;pop;groovy;dance;acoustic;alternative
+The Lazy Song,Bruno Mars,2011,Reggae,175,71,79,96,77,,Contemporary\Bruno Mars\The Lazy Song.txt,dance pop;pop;groovy;dance;acoustic;alternative
 The Reason,Hoobastank,2003,Rock,83,67,47,7,85,WIP,Contemporary\Hoobastank\The Reason.txt,alternative metal;funk metal;nu metal;pop rock;post-grunge;alternative;acoustic
 The Scientist,Coldplay,2002,Rock,146,44,56,21,88,,Contemporary\Coldplay\The Scientist.txt,permanent wave;pop;alternative;slow;acoustic;love
 The Show,Lenka,2008,Pop,123,59,75,59,59,WIP,Contemporary\Lenka\The Show.txt,;alternative;acoustic;love
 The Sound Of Silence,Simon and Garfunkel,1964,Folk,107,23,54,34,65,,Contemporary\Simon and Garfunkel\The Sound of Silence.txt,classic rock;folk;folk rock;melancholia;mellow gold;rock;soft rock;acoustic;slow;oldies;retro;alternative;folk
+The Temple Of The King,Rainbow,1975,Rock,82,49,49,37,65,,Contemporary\Rainbow\The Temple Of The King.txt,album rock;classic rock;glam metal;hard rock;metal;rock;alternative;groovy
 The Tide Is High,Blondie,1980,Reggae,96,58,81,97,55,,Contemporary\Blondie\The Tide Is High.txt,candy pop;new wave pop;permanent wave;power pop;rock;synthpop;groovy;dance;acoustic;alternative;sweet;love
 The Times They Are A-Changin',Bob Dylan,1964,Folk,172,40,39,59,70,,Contemporary\Bob Dylan\The Times They Are A-Changin'.txt,classic rock;country rock;folk;folk rock;rock;roots rock;singer-songwriter;oldies;retro;acoustic;folk
 The Twist,Chubby Checker,1960,RnB,157,62,57,85,65,WIP,Contemporary\Chubby Checker\The Twist.txt,rock-and-roll;rockabilly;oldies;retro;dance;jive
-The Way,Fastball,1998,Alternative,121,88,65,91,69,WIP,Contemporary\Fastball\The Way.txt,pop rock;post-grunge;
+The Way,Fastball,1998,Alternative,121,88,65,91,68,WIP,Contemporary\Fastball\The Way.txt,pop rock;post-grunge;
 The Way I Am,Ingrid Michaelson,2007,Folk,120,26,88,32,58,,Contemporary\Ingrid Michaelson\The Way I Am.txt,acoustic pop;ectofolk;lilith;neo mellow;slow;acoustic;groovy;love
 The Way You Look Tonight,Frank Sinatra,1961,Jazz,132,24,62,59,70,WIP,Contemporary\Frank Sinatra\The Way You Look Tonight.txt,adult standards;easy listening;lounge;jazz;acoustic;groovy;oldies;retro;love
 The Way You Make Me Feel,Michael Jackson,1987,RnB,114,82,61,51,59,,Contemporary\Michael Jackson\The Way You Make Me Feel.txt,r&b;soul;dance;love;groovy
 The Winner Takes It All,ABBA,1980,Pop,126,79,45,52,78,,Contemporary\ABBA\The Winner Takes It All.txt,europop;swedish pop;retro;oldies;jive;dance;groovy
-There She Goes,Sixpence None The Richer,2002,Rock,120,79,50,46,69,WIP,Contemporary\Sixpence None The Richer\There She Goes.txt,lilith;pop rock;acoustic;alternative;groovy;love
-These Boots Are Made For Walkin',Nancy Sinatra,1966,Pop,83,43,74,34,61,,Contemporary\Nancy Sinatra\These Boots Are Made For Walkin'.txt,lounge;sunshine pop;groovy;dance;oldies;retro;love
-Those Were The Days,Mary Hopkin,1969,Folk,170,29,37,50,53,WIP,Contemporary\Mary Hopkin\Those Were The Days.txt,classic uk pop;merseybeat;alternative;retro;oldies;dance
+There She Goes,Sixpence None The Richer,2002,Rock,120,79,50,46,68,WIP,Contemporary\Sixpence None The Richer\There She Goes.txt,lilith;pop rock;acoustic;alternative;groovy;love
+These Boots Are Made For Walkin',Nancy Sinatra,1966,Pop,83,43,74,34,60,,Contemporary\Nancy Sinatra\These Boots Are Made For Walkin'.txt,lounge;sunshine pop;groovy;dance;oldies;retro;love
+Those Were The Days,Mary Hopkin,1969,Folk,170,29,37,50,52,WIP,Contemporary\Mary Hopkin\Those Were The Days.txt,classic uk pop;merseybeat;alternative;retro;oldies;dance
 Thinking Out Loud,Ed Sheeran,2014,Rock,79,45,78,59,86,,Contemporary\Ed Sheeran\Thinking Out Loud.txt,pop;singer-songwriter pop;uk pop;slow;acoustic;alternative;love
-This Is The Life,Amy MacDonald,2007,Rock,95,88,62,86,55,,Contemporary\Amy MacDonald\This Is The Life.txt,scottish singer-songwriter;dance;fast;alternative;acoustic
+This Is The Life,Amy MacDonald,2007,Rock,95,88,62,86,54,,Contemporary\Amy MacDonald\This Is The Life.txt,scottish singer-songwriter;dance;fast;alternative;acoustic
 This Love,Maroon 5,2004,Rock,95,86,71,81,83,,Contemporary\Maroon 5\This Love.txt,pop;alternative;groovy;love
 This Magic Moment,Drifters,1960,Soul,139,37,34,62,54,WIP,Contemporary\The Drifters\This Magic Moment.txt,adult standards;doo-wop;rock-and-roll;rockabilly;soul;oldies;retro;love;groovy;sweet
 Til There Was You,Beatles,1963,Rock,122,34,73,65,66,WIP,Contemporary\The Beatles\Til There Was You.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;oldies;retro;love;dance;acoustic
 Time After Time,Eva Cassidy,1984,Pop,181,15,38,22,56,WIP,Contemporary\Eva Cassidy\Time After Time.txt,;slow;love;acoustic
 Time In A Bottle,Jim Croce,1972,Rock,134,27,54,70,77,,Contemporary\Jim Croce\Time In A Bottle.txt,classic rock;country rock;folk;folk rock;heartland rock;mellow gold;singer-songwriter;soft rock;oldies;retro;slow;acoustic;love
 Titanium,Sia,2011,House,126,79,60,30,74,WIP,Contemporary\David Guetta\Titanium.txt,big room;dance pop;edm;pop;pop dance;australian dance;australian pop;alternative;groovy;dance
-To Be With You,Mr Big,2001,Rock,84,41,69,48,61,,Contemporary\Mr Big\To Be With You.txt,glam metal;hard rock;alternative;acoustic;dance;love
+To Be With You,Mr Big,2001,Rock,84,41,69,48,60,,Contemporary\Mr Big\To Be With You.txt,glam metal;hard rock;alternative;acoustic;dance;love
 Top Of The World,Carpenters,1972,Pop,184,34,38,69,71,,Contemporary\The Carpenters\Top Of The World.txt,adult standards;mellow gold;soft rock;oldies;retro;dance;love;fast;sweet
 Toxic,Britney Spears,2003,Pop,143,84,77,92,86,,Contemporary\Britney Spears\Toxic.txt,dance pop;pop;groovy;dance;acoustic;alternative;love;fast
 Twist And Shout,Beatles,1961,Rock,125,85,48,94,80,WIP,Contemporary\The Beatles\Twist And Shout.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;dance;fast;groocy;retro;oldies
-Umbrella,Rihanna,2007,Pop,174,83,58,58,87,WIP,Contemporary\Rihanna\Umbrella.txt,barbadian pop;pop;urban contemporary;east coast hip hop;gangster rap;hip hop;pop rap;rap;groovy;dance;alternative;love
+Umbrella,Rihanna,2007,Pop,174,83,58,58,86,WIP,Contemporary\Rihanna\Umbrella.txt,barbadian pop;pop;urban contemporary;east coast hip hop;gangster rap;hip hop;pop rap;rap;groovy;dance;alternative;love
 Under The Bridge,Red Hot Chili Peppers,1991,Alternative,85,35,56,46,86,WIP,Contemporary\Red Hot Chili Peppers\Under The Bridge.txt,alternative rock;funk metal;funk rock;permanent wave;rock;alternative;groovy;acoustic
 Under The Sea,Disney,1991,Soundtrack,99,48,51,82,72,WIP,Contemporary\Various\Under The Sea.txt,movie tunes;children's music;dance;fast;groovy
 Until,Sting,2001,Soundtrack,136,27,31,33,31,WIP,Contemporary\Sting\Until.txt,permanent wave;soft rock;sophisti-pop;string quartet;love;slow;acoustic;waltz
 Until I Found You,Stephen Sanchez,2022,Alternative,101,51,54,23,86,WIP,Contemporary\Stephen Sanchez\Until I Found You.txt,gen z singer-songwriter;slow;acoustic;alternative;love
-Uptown Girl,Billy Joel,1983,Rock,129,94,70,79,84,,Contemporary\Billy Joel\Uptown Girl.txt,album rock;classic rock;heartland rock;mellow gold;piano rock;rock;singer-songwriter;soft rock;dance;fast;acoustic;love
-Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop,106,83,70,89,81,WIP,Contemporary\Amy Winehouse\Valerie.txt,pop soul;british soul;neo soul;dance;fast;acoustic;love
+Uptown Girl,Billy Joel,1983,Rock,129,94,70,79,83,,Contemporary\Billy Joel\Uptown Girl.txt,album rock;classic rock;heartland rock;mellow gold;piano rock;rock;singer-songwriter;soft rock;dance;fast;acoustic;love
+Valerie,Amy Winehouse ft. Mark Ronson,2007,Pop,106,83,70,89,80,WIP,Contemporary\Amy Winehouse\Valerie.txt,pop soul;british soul;neo soul;dance;fast;acoustic;love
 Vanilla Twilight,Owl City,2010,Pop,166,53,58,57,64,,Contemporary\Owl City\Vanilla Twilight.txt,indietronica;pop;alternative;acoustic;groovy
 Venus,Shocking Blue,1969,Pop,128,76,69,96,67,,Contemporary\Shocking Blue\Venus.txt,nederpop;dance;fast;love;groovy;oldies;retro
 Vincent,Don Mclean,1971,Alternative,92,9,42,46,72,WIP,Contemporary\Don Mclean\Vincent.txt,classic rock;folk;folk rock;heartland rock;mellow gold;singer-songwriter;soft rock;alternative;acoustic
-Viva La Vida,Coldplay,2008,Pop,138,62,49,42,91,,Contemporary\Coldplay\Viva La Vida.txt,permanent wave;pop;groovy;dance;fast
+Viva La Vida,Coldplay,2008,Pop,138,62,49,42,90,,Contemporary\Coldplay\Viva La Vida.txt,permanent wave;pop;groovy;dance;fast
 Wake Me Up,Avicii,2013,House,124,78,53,64,90,WIP,Contemporary\Avicii\Wake Me Up.txt,edm;pop;pop dance;dance;fast;love
 Wake Me Up When September Ends,Green Day,2005,Rock,105,81,55,15,80,,Contemporary\Green Day\Wake Me Up When September Ends.txt,modern rock;permanent wave;punk;rock;acoustic;alternative;slow
 Watermelon Sugar,Harry Styles,2019,Pop,95,82,55,56,92,,Contemporary\Harry Styles\Watermelon Sugar.txt,pop;dance;fast;love;groovy;acoustic
@@ -332,7 +335,7 @@ What a Wonderful World,Louis Armstrong,1967,Pop,77,17,27,20,80,,Contemporary\Lou
 What's Up,4 Non Blondes,1993,Rock,134,56,57,45,84,,Contemporary\4 Non Blondes\What's Up.txt,new wave pop;pop rock;slow;groovy;alternative
 When You Say Nothing At All,Ronan Keating,1999,Pop,174,45,46,42,76,WIP,Contemporary\Ronan Keating\When You Say Nothing At All.txt,europop;groovy;dance;love;acoustic
 When You Were Young,Killers,2006,Rock,130,99,47,32,81,WIP,Contemporary\The Killers\When You Were Young.txt,alternative rock;dance rock;modern rock;permanent wave;rock;alternative;acoustic;love
-Whenever Wherever,Shakira,2001,Pop,108,83,79,87,84,WIP,Contemporary\Shakira\Whenever%2c Wherever.txt,colombian pop;dance pop;latin pop;pop;groovy;dance;fast;love
+Whenever Wherever,Shakira,2001,Pop,108,83,79,87,83,WIP,Contemporary\Shakira\Whenever%2c Wherever.txt,colombian pop;dance pop;latin pop;pop;groovy;dance;fast;love
 White Flag,Dido,2003,Pop,170,54,51,28,61,,Contemporary\Dido\White Flag.txt,dance pop;europop;lilith;neo mellow;pop rock;slow;love;acoustic
 Wicked Game,Chris Isaak,1988,Rock,112,30,66,36,82,,Contemporary\Chris Isaak\Wicked Game.txt,mellow gold;slow;oldies;retro;love;acoustic
 Wild World,Cat Stevens,1970,Rock,152,51,48,55,26,,Contemporary\Cat Stevens\Wild World.txt,british folk;classic rock;folk;folk rock;mellow gold;singer-songwriter;slow;oldies;retro;love;acoustic
@@ -346,7 +349,7 @@ Yesterday,Beatles,1965,Pop,94,11,48,20,50,,Contemporary\The Beatles\Yesterday.tx
 You And Me,Lifehouse,2005,Rock,140,43,46,35,78,,Contemporary\Lifehouse\You and Me.txt,neo mellow;pop rock;post-grunge;slow;love;acoustic;alternative;groovy;waltz
 You Belong To Me,Bryan Adams,2015,Rock,100,91,55,46,36,,Contemporary\Bryan Adams\You Belong To Me.txt,canadian pop;canadian singer-songwriter;classic canadian rock;heartland rock;mellow gold;soft rock;fast;dance;groovy;love
 Your Song,Elton John,1970,Pop,128,32,55,33,83,,Contemporary\Elton John\Your Song.txt,glam rock;mellow gold;piano rock;rock;slow;love;oldies;retro
-You're Beautiful,James Blunt,2005,Rock,82,48,68,45,80,,Contemporary\James Blunt\You're Beautiful.txt,neo mellow;pop rock;love;slow;alternative
+You're Beautiful,James Blunt,2005,Rock,82,48,68,45,79,,Contemporary\James Blunt\You're Beautiful.txt,neo mellow;pop rock;love;slow;alternative
 You're Still The One,Shania Twain,1997,Country,134,49,59,63,81,,Contemporary\Shania Twain\You're Still The One.txt,canadian country;canadian pop;contemporary country;country;country dawn;dance;love;slow
-You've Got To Hide Your Love Away,Beatles,1965,Pop,184,39,40,38,73,,Contemporary\The Beatles\You've Got To Hide Your Love Away.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;oldies;retro;love;groovy;dance;waltz
-Zombie,Cranberries,1994,Rock,167,65,31,31,86,,Contemporary\The Cranberries\Zombie.txt,irish rock;pop rock;rock;slow;groovy;alternative
+You've Got To Hide Your Love Away,Beatles,1965,Pop,184,39,40,38,72,,Contemporary\The Beatles\You've Got To Hide Your Love Away.txt,beatlesque;british invasion;classic rock;merseybeat;psychedelic rock;rock;oldies;retro;love;groovy;dance;waltz
+Zombie,Cranberries,1994,Rock,167,65,31,31,85,,Contemporary\The Cranberries\Zombie.txt,irish rock;pop rock;rock;slow;groovy;alternative
