@@ -97,6 +97,11 @@ canvas {
 .tags{
     display: none;
 }
+.spotifylink{
+    float: right;
+    padding-left: 0.3em;
+    height: 1.5em;
+}
 
 #upButton{
     height: 30px;

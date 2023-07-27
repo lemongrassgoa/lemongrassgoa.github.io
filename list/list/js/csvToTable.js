@@ -120,6 +120,7 @@ const the_array = [
                                 table += '<i><a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
                                 table += rowCells[rowCell];
                                 table += '</a></i>'
+                                table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="spotify.png" /></a>';
                             }
                             else {
                                 table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
