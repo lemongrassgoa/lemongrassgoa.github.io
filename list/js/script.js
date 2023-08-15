@@ -24,20 +24,24 @@ function search(){
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.opacity = "";
-                tr[i].style.visibility = "";
+                // tr[i].style.opacity = "";
+                // tr[i].style.visibility = "";
+                tr[i].style.display = "";
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.opacity = "";
-                tr[i].style.visibility = "";
+                // tr[i].style.opacity = "";
+                // tr[i].style.visibility = "";
+                tr[i].style.display = "";
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.opacity = "";
-                tr[i].style.visibility = "";
+                // tr[i].style.opacity = "";
+                // tr[i].style.visibility = "";
+                tr[i].style.display = "";
             }
             else {
-                tr[i].style.opacity = "0";
-                tr[i].style.visibility = "collapse";
+                // tr[i].style.opacity = "0";
+                // tr[i].style.visibility = "collapse";
+                tr[i].style.display = "none";
                 results--;
             }
         }
@@ -68,13 +72,15 @@ function show_hide_yt(){
         document.getElementById("search").value = "";
         var song_links = document.getElementsByClassName("title");
         for(var i = 1; i < song_links.length; i++){
-            song_links[i].parentElement.style.opacity = "0";
-            song_links[i].parentElement.style.visibility = "collapse";
+            // song_links[i].parentElement.style.opacity = "0";
+            // song_links[i].parentElement.style.visibility = "collapse";
+            song_links[i].parentElement.style.display = "none";
         }
         var song_links = document.getElementsByClassName("yt_link");
         for(var i = 0; i < song_links.length; i++){
-            song_links[i].parentElement.style.opacity = "";
-            song_links[i].parentElement.style.visibility = "";
+            // song_links[i].parentElement.style.opacity = "";
+            // song_links[i].parentElement.style.visibility = "";
+            song_links[i].parentElement.style.display = "";
         }
         document.getElementById("clear-search").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
     }
@@ -82,8 +88,9 @@ function show_hide_yt(){
         clearSearch();
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
-            song_links[i].parentElement.style.opacity = "";
-            song_links[i].parentElement.style.visibility = "";
+            // song_links[i].parentElement.style.opacity = "";
+            // song_links[i].parentElement.style.visibility = "";
+            song_links[i].parentElement.style.display = "";
         }
         document.getElementById("clear-search").innerHTML = song_links.length-1 + " song" + (song_links.length == 1 ? "" : "s");
     }

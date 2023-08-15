@@ -23,20 +23,24 @@ function search(){
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.opacity = "";
-                tr[i].style.visibility = "";
+                // tr[i].style.opacity = "";
+                // tr[i].style.visibility = "";
+                tr[i].style.display = "";
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.opacity = "";
-                tr[i].style.visibility = "";
+                // tr[i].style.opacity = "";
+                // tr[i].style.visibility = "";
+                tr[i].style.display = "";
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.opacity = "";
-                tr[i].style.visibility = "";
+                // tr[i].style.opacity = "";
+                // tr[i].style.visibility = "";
+                tr[i].style.display = "";
             }
             else {
-                tr[i].style.opacity = "0";
-                tr[i].style.visibility = "collapse";
+                // tr[i].style.opacity = "0";
+                // tr[i].style.visibility = "collapse";
+                tr[i].style.display = "none";
                 results--;
             }
         }

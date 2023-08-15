@@ -43,6 +43,7 @@ tr{
     text-align: center;
     border-radius: 1em;
     width: 40%;
+    margin-top: 2px;
 }
 #clear-search{
     color: black;
