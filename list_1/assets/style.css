@@ -134,7 +134,7 @@ a {
 .yt-img{
     filter: invert(1);
     height: 1.2em;
-    /* float: right; */
+    float: right;
     z-index: 0;
     cursor: pointer;
     /* filter: drop-shadow(1px 1px 1px cyan) invert(1); */
@@ -149,10 +149,17 @@ a {
 }
 #yt_filter:checked + label:before{
     height: 1.3em;
+    filter: invert(1);
 }
 #video_embed{
     height: 90%;
     width: 90%;
+}
+#upButton{
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
 }
 
 dialog {
