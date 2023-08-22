@@ -134,11 +134,12 @@ a {
 .yt-img{
     filter: invert(1);
     height: 1.2em;
-    float: right;
+    /* float: right; */
     z-index: 0;
     cursor: pointer;
-    /* filter: drop-shadow(1px 1px 1px white); */
+    /* filter: drop-shadow(1px 1px 1px cyan) invert(1); */
     transform: scale(1.5);
+    margin-left: 1em;
 }
 #yt_filter{
     display: none;
