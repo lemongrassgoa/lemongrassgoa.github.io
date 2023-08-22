@@ -54,7 +54,7 @@ function search(){
     }
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
     document.getElementById('yt_filter').checked = 0;
-    document.getElementById("yt-checkbox-img").style.filter = "invert(1)";
+    document.getElementById("yt-checkbox-img").style.filter = "drop-shadow(1px 1px 1px cyan) invert(1)";
 }
 
 function artistSort(){
@@ -96,7 +96,7 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.visibility = "";
             song_links[i].parentElement.style.display = "";
         }
-        document.getElementById("yt-checkbox-img").style.filter = "invert(0)";
+        document.getElementById("yt-checkbox-img").style.filter = "drop-shadow(1px 1px 1px red) invert(0)";
         document.getElementById("search-results").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
     }
     else{
@@ -106,15 +106,16 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.visibility = "";
             song_links[i].parentElement.style.display = "";
         }
-        document.getElementById("yt-checkbox-img").style.filter = "invert(1)";
+        document.getElementById("yt-checkbox-img").style.filter = " drop-shadow(1px 1px 1px cyan) invert(1)";
         document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
     }
 }
 
-function show_yt_modal(_index){
-    console.log(_index);
-    document.getElementById("yt-modal").showModal();
-    document.getElementById("video_embed").src = "https://www.youtube.com/embed/" + links_[_index][1] + "?enablejsapi=1";
+function show_yt_modal(_index, element){
+    console.log(element.parentElement.parentElement);
+    var em = element.parentElement.parentElement;
+    // document.getElementById("yt-modal").show();
+    // document.getElementById("video_embed").src = "https://www.youtube.com/embed/" + links_[_index][1] + "?enablejsapi=1";
 }
 
 var stopAllYouTubeVideos = () => { 
