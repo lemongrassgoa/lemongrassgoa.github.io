@@ -22,17 +22,18 @@ th, td{
 }
 a {
     color: gold;
-    cursor: pointer;
-    /* filter: drop-shadow(1px 1px 0.5px black); */
+    cursor: default;
 }
 #logo{
     height: 3.5em;
     transform: scale(1.8);
     z-index: 3;
+    margin-left: 1em;
 }
 #spotify{
     z-index: 3;
     height: 3em;
+    margin-right: 1em;
 }
 
 /* ::placeholder { */

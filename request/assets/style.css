@@ -32,10 +32,12 @@ a:hover{
     height: 3.5em;
     transform: scale(1.8);
     z-index: 3;
+    margin-left: 1em;
 }
 #spotify{
     z-index: 3;
     height: 3em;
+    margin-right: 1em;
 }
 
 /* ::placeholder { */
