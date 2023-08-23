@@ -137,36 +137,44 @@ var yt_link;
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-                        if(rowCell === 0)                                // table HEADER section
-                            table += '<th id="title" class=" dir-u ">';
-                        else if(rowCell === 1)
-                            table += '<th id="artist" class="">';
-                        else if(rowCell === 2)
-                            table += '<th id="year" class="">';
-                        if(rowCell < 3)
+                        if(rowCell < 9){
+                            table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
-	                    table += '</th>';
-	                } else {                                            // table BODY section
-                        if(rowCell === 0){
-                            table += '<td class="artist">';
+                            table += '</th>';
                         }
-                        else if (rowCell === 1){
-                            table += '<td class="artist">';
+                        if(rowCell === 11){
+                            table += '<th class="tags" style="">';
+                            table += rowCells[rowCell];
+                            table += '</th>';
                         }
-                        else if (rowCell === 2){
-                            table += '<td class="year">';
-                        }
-                        if(rowCell < 3){
-                            for(var i = 0; i < the_array.length-1; i++){
-                                if(rowCells[rowCell] == the_array[i])
-                                    table += '<span class="the"></span>';
+	                } else {
+                        if(rowCell < 9){
+                            var wip_format = 'background-color: #000;';
+                            if(rowCell === 0){
+                                table += '<td class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
+
+                                table += '<i><a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
+                                table += rowCells[rowCell];
+                                table += '</a></i>'
+                                table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="../img/spotify.png" /></a>';
                             }
+                            else {
+                                table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
+                                for(var i = 0; i < the_array.length-1; i++){
+                                    if(rowCells[rowCell] == the_array[i])
+                                        table += '<span class="the"></span>';
+                                }
+                                
+                                table += rowCells[rowCell];
+                                
+                                table += '</td>';
+                            }
+                        }
+                        if(rowCell === 11){
+                            table += '<td class="tags" style="width: 1em; font-size: 70%; word-wrap: break-word;">';
                             table += rowCells[rowCell];
+                            table += '</td>';
                         }
-                        if(rowCells[9]){
-                            wip=1;
-                        }
-	                    table += '</td>';
 	                }
 	            }
 	            if (singleRow === 0) {

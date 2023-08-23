@@ -55,39 +55,12 @@ function search(){
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
 }
 
-function show_hide_yt(){
-    document.getElementById("search").value = "";
-    if(!yt_filter.checked){
-        var song_links = document.getElementsByClassName("title");
-        for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "0";
-            // song_links[i].parentElement.style.visibility = "collapse";
-            song_links[i].parentElement.style.display = "none";
-        }
-        var song_links = document.getElementsByClassName("yt_link");
-        for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "";
-            // song_links[i].parentElement.style.visibility = "";
-            song_links[i].parentElement.style.display = "";
-        }
-        document.getElementById("search-results").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
-    }
-    else{
-        var song_links = document.getElementsByClassName("title");
-        for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "";
-            // song_links[i].parentElement.style.visibility = "";
-            song_links[i].parentElement.style.display = "";
-        }
-        document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
-    }
-}
+// Get the modal
+var modal = document.getElementById('modal-request');
 
-var stopAllYouTubeVideos = () => { 
-    var iframes = document.querySelectorAll('iframe');
-    Array.prototype.forEach.call(iframes, iframe => { 
-        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', 
-        func: 'stopVideo' }), '*');
-    });
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
-stopAllYouTubeVideos();

@@ -53,6 +53,32 @@ function search(){
         }
     }
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
+    document.getElementById('yt_filter').checked = 0;
+    document.getElementById("yt-checkbox-img").style.filter = "invert(1)";
+}
+
+function artistSort(){
+    const el = document.getElementById('artist');
+    if (el) {
+      el.click();
+    }
+}
+function titleSort(){
+    const el = document.getElementById('title');
+    if (el) {
+      el.click();
+    }    
+}
+// setTimeout(artistSort, 1000);
+// setTimeout(titleSort, 2000);
+
+// yt_filter.addEventListener( 'change', () => {
+    // show_hide_yt();
+// });
+
+function yt_filter_click(){
+    // yt_filter.checked = !yt_filter.checked;
+    show_hide_yt();
 }
 
 function show_hide_yt(){
@@ -70,6 +96,7 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.visibility = "";
             song_links[i].parentElement.style.display = "";
         }
+        document.getElementById("yt-checkbox-img").style.filter = "invert(0)";
         document.getElementById("search-results").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
     }
     else{
@@ -79,8 +106,16 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.visibility = "";
             song_links[i].parentElement.style.display = "";
         }
+        document.getElementById("yt-checkbox-img").style.filter = "invert(1)";
         document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
     }
+}
+
+function show_yt_modal(_index, element){
+    console.log(element.parentElement.parentElement);
+    var em = element.parentElement.parentElement;
+    // document.getElementById("yt-modal").show();
+    // document.getElementById("video_embed").src = "https://www.youtube.com/embed/" + links_[_index][1] + "?enablejsapi=1";
 }
 
 var stopAllYouTubeVideos = () => { 
@@ -91,3 +126,25 @@ var stopAllYouTubeVideos = () => {
     });
 }
 stopAllYouTubeVideos();
+
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+
+function urlQuery(){
+    if(getQueryVariable("yt")){
+        show_hide_yt();
+    }else{
+        // setTimeout(yt_filter_click, 500);
+        // setTimeout(yt_filter_click, 1000);
+    }
+}
+
+setTimeout(urlQuery, 1000);

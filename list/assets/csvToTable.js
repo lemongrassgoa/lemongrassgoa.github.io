@@ -138,7 +138,8 @@ var yt_link;
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0)                                // table HEADER section
-                            table += '<th id="title" class=" dir-u ">';
+                            // table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img-animate yt-img" id="yt-checkbox-img" style="" src="img/yt.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
+                            table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img-animate yt-img" id="yt-checkbox-img" style="" src="img/yt_select.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
                         else if(rowCell === 1)
                             table += '<th id="artist" class="">';
                         else if(rowCell === 2)
@@ -148,7 +149,32 @@ var yt_link;
 	                    table += '</th>';
 	                } else {                                            // table BODY section
                         if(rowCell === 0){
-                            table += '<td class="artist">';
+                            yt_link = -1;   // search for title matches in the list of videos
+                            for(var i = 0; i < links_.length-1; i++){
+                                if(rowCells[rowCell].search(links_[i][0]) != -1){
+                                    yt_link = i;    // if found, store the index of the youtube link
+                                }
+                            }
+
+                            table += '<td class="title' + (yt_link > -1 ? ' yt_link' : '') + '">';
+                            table += '<i>';
+                            
+                            // table += rowCells[rowCell];
+                            if(yt_link > -1){       // if a match was found, is it a full vid or short
+                                // call the modal function with the correct index of the youtube array
+                                // var link1 = '<a style="text-decoration: none;" target="_blank" onclick="show_yt_modal('+yt_link+', this)">';
+                                var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
+                                var link2 = '<img class="yt-img-animate yt-img" src="img/yt.png" />';
+                                table += link1 + rowCells[rowCell] + link2 + '</a>'; // generate song name with video link
+                                // table += '<table class="yt_link" style="padding: 0 !important;"><tr style="padding: 0 !important;">';
+                                // table += '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
+                                // table += '<td style="padding: 0 !important;">' + rowCells[rowCell] + '</td>';
+                                // table += '<td style="padding: 0 !important;"><img class="yt-img-animate yt-img" src="img/yt.png" /></td>';
+                                // table += '<a></tr></table>';
+                            }else{
+                                table += rowCells[rowCell]; // song name, no link
+                            }
+                            table += '</i>';
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
@@ -156,7 +182,7 @@ var yt_link;
                         else if (rowCell === 2){
                             table += '<td class="year">';
                         }
-                        if(rowCell < 3){
+                        if(rowCell > 0 && rowCell < 3){
                             for(var i = 0; i < the_array.length-1; i++){
                                 if(rowCells[rowCell] == the_array[i])
                                     table += '<span class="the"></span>';

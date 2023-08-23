@@ -1,33 +1,7 @@
-const links_ = [
-    // full vids
-    ["Antonio's Song",              "JiX2QH73VpY", 0],
-    ["Beautiful Tango",             "tLOTEd5d5IY", 0],
-    ["Big Bang",                    "SxclfMiybFg", 0],
-    ["Does Your Mother Know",       "UaIfr62co04", 0],
-    ["Brown Eyed Girl",             "A6-7TkAp-NA", 0],
-    ["Fly Me To The Moon",          "hgdjepk5hco", 0],
-    ["Hey Soul Sister",             "5L9UUjnicmA", 0],
-    ["If I Had A Hammer",           "5OXSHCDvq2M", 0],
-    ["Norwegian Wood",              "iXiUKRlUfE4", 0],
-    ["Smooth Operator",             "nz85NleFjFs", 0],
-    ["Snow",                        "R41hAQg_hXI", 0],
-    ["Superman",                    "IJQls99Ut1s", 0],
-    ["The Boxer",                   "BdTnrxEp12E", 0],
-    ["Zombie",                      "3a5HVi8I9As", 0],
-    // shorts
-    ["A Thousand Miles",            "5ufhpSomAxE", 1],
-    ["All About That Bass",         "ENQJRNgJ0KU", 1],
-    ["Budapest",                    "JqvshMcDONY", 1],
-    ["Country Roads",               "pHtKLxAnq8U", 1],
-    ["Dancing In The Moonlight",    "wT6s1rnQ7ck", 1],
-    ["Instant Crush",               "cjedEvll0Yo", 1],
-    ["Kiss Me",                     "_I2Pj_n49jY", 1],
-    ["Make You Feel My Love",       "pSNBaXiuOfI", 1],
-    ["New Shoes",                   "yJfxQRy1HCU", 1],
-    ["Rocket Man",                  "qzWAF1x-FG0", 1],
-    ["Wish You Were Here",          "1qnsTsDFX2Y", 1],
-    ["_","_"]
-];
+var formlink = 'https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?embedded=true&usp=pp_url&entry.2134839446=';
+var formlink1 = '%0A%0AFrom:+%0ATo:+';
+var titles = [];
+var artists = [];
 
 const the_array = [
     "Archies",
@@ -55,7 +29,6 @@ const the_array = [
 ];
 
 var table_target;
-var yt_link;
 
 (function(){
     
@@ -137,36 +110,49 @@ var yt_link;
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-                        if(rowCell === 0)                                // table HEADER section
-                            table += '<th id="title" class=" dir-u ">';
+                        if(rowCell === 0)
+                            table += '<th class=" dir-u ">';
                         else if(rowCell === 1)
-                            table += '<th id="artist" class="">';
+                            table += '<th class="artist">';
                         else if(rowCell === 2)
-                            table += '<th id="year" class="">';
+                            table += '<th class="year">';
                         if(rowCell < 3)
                             table += rowCells[rowCell];
 	                    table += '</th>';
-	                } else {                                            // table BODY section
+	                } else {
                         if(rowCell === 0){
-                            table += '<td class="artist">';
+                            table += '<td class="title">';
+                            table += '<i><a id="form'+ singleRow + '" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalForm('+ (singleRow-1) + ');">';
+                            titles.push(rowCells[rowCell]);
+                            
+                            table += rowCells[rowCell];
+                            
+                            table += '</a></i>'
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
+                            
+                            var temp = "";
+                            for(var i = 0; i < the_array.length-1; i++){
+                                if(rowCells[rowCell] == the_array[i])
+                                    temp = "The ";
+                            }
+                            artists.push(temp + rowCells[rowCell]);
                         }
                         else if (rowCell === 2){
                             table += '<td class="year">';
                         }
-                        if(rowCell < 3){
+                        if(rowCell > 0 && rowCell < 3){
                             for(var i = 0; i < the_array.length-1; i++){
                                 if(rowCells[rowCell] == the_array[i])
                                     table += '<span class="the"></span>';
                             }
                             table += rowCells[rowCell];
                         }
+	                    table += '</td>';
                         if(rowCells[9]){
                             wip=1;
                         }
-	                    table += '</td>';
 	                }
 	            }
 	            if (singleRow === 0) {
@@ -190,3 +176,8 @@ var yt_link;
 		});
 	}
 }());
+
+function modalForm(n){
+    document.getElementById('modal-request').style.display='block';
+    document.getElementById("form_embed").src = formlink + titles[n] + ' - ' + artists[n] + formlink1;
+}

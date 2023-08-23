@@ -40,11 +40,13 @@
   color: inherit;
   content: ' \021A5';
 }
-/* * /
+
 .sortable {
-  --stripe-color: #505050;
+  /* --stripe-color: #505050; */
+  --stripe-color: #2e3939;
   --th-color: #fff;
-  --th-bg: #808080;
+  /* --th-bg: #808080; */
+  --th-bg: #556666;
   --td-color: #fff;
   --td-on-stripe-color: #fff;
   border-spacing: 0;
@@ -83,5 +85,5 @@
 .sortable th.dir-d {
   color: #000;
 }
-/* */
+
 /*# sourceMappingURL=sortable.css.map */
