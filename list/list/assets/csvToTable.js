@@ -121,9 +121,9 @@ var yt_link;
                             var wip_format = 'background-color: #000;';
                             if(rowCell === 0){
                                 table += '<td class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
-                                table += '<i><a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
+                                table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
                                 table += rowCells[rowCell];
-                                table += '</a></i>'
+                                table += '</a>'
                             }
                             else {
                                 table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 

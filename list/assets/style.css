@@ -132,22 +132,20 @@ a {
 }
 .yt-img{
     filter: invert(1);
-    height: 1.2em;
+    height: 1.3em;
     float: right;
     z-index: 0;
     cursor: pointer;
-    filter: drop-shadow(1px 1px 1px cyan) invert(1);
+    filter: drop-shadow(2px 2px 1px cyan) invert(1);
     transform: scale(1.4);
-    /* margin-left: 2em; */
-    /* display: none; */
-}
-.yt_link{
-    /* display: block; */
+    padding-left: 0.5em;
+    /* display: inline; */
 }
 #yt-checkbox-img{
     filter: invert(1);
     transform: scale(1.5);
     animation: pulse 2s 3;
+    float: right;
 }
 #yt_filter{
     display: none;

@@ -122,12 +122,12 @@ var table_target;
 	                } else {
                         if(rowCell === 0){
                             table += '<td class="title">';
-                            table += '<i><a id="form'+ singleRow + '" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalForm('+ (singleRow-1) + ');">';
+                            table += '<a id="form'+ singleRow + '" target="_blank" data-toggle="modal" data-target="#myModal" onclick="modalForm('+ (singleRow-1) + ');">';
                             titles.push(rowCells[rowCell]);
                             
                             table += rowCells[rowCell];
                             
-                            table += '</a></i>'
+                            table += '</a>'
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';

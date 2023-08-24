@@ -139,7 +139,7 @@ var yt_link;
 	                if(singleRow === 0){
                         if(rowCell === 0)                                // table HEADER section
                             // table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img-animate yt-img" id="yt-checkbox-img" style="" src="img/yt.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
-                            table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img-animate yt-img" id="yt-checkbox-img" style="" src="img/yt_select.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
+                            table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img yt-checkbox-img" id="yt-checkbox-img" style="" src="img/yt_select.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
                         else if(rowCell === 1)
                             table += '<th id="artist" class="">';
                         else if(rowCell === 2)
@@ -157,24 +157,21 @@ var yt_link;
                             }
 
                             table += '<td class="title' + (yt_link > -1 ? ' yt_link' : '') + '">';
-                            table += '<i>';
                             
-                            // table += rowCells[rowCell];
                             if(yt_link > -1){       // if a match was found, is it a full vid or short
                                 // call the modal function with the correct index of the youtube array
                                 // var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
-                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo('+yt_link+', this)">';
-                                var link2 = '<img class="yt-img-animate yt-img" src="img/yt.png" />';
-                                // table += link1 + rowCells[rowCell] + link2 + '</a>'; // generate song name with video link
+                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo('+yt_link+')">';
+                                var link2 = '<img class="yt-img" src="img/yt.png" />';
+                                table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
 
-                                var link3 = '<span class="w3-row"> <span class="w3-col s9">';
-                                var link4 = '</span> <span class="w3-col s3">';
-                                var link5 = '</span></span> </a>'
-                                table += link1 + link3 + rowCells[rowCell] + link4 + link2 + link5; // generate song name with video link
+                                // var link3 = '<span class="w3-row"> <span class="w3-col s9">';
+                                // var link4 = '</span> <span class="w3-col s3">';
+                                // var link5 = '</span></span> </a>'
+                                // table += link1 + link3 + rowCells[rowCell] + link4 + link2 + link5; // generate song name with video link
                             }else{
                                 table += rowCells[rowCell]; // song name, no link
                             }
-                            table += '</i>';
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
