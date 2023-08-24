@@ -24,8 +24,10 @@ a {
     cursor: default;
 }
 .spotifylink{
-    height: 1.5em;
+    height: 1em;
     float: right;
+    transform: scale(1.5);
+    /* transform-origin: top; */
 }
 #search{ /* search bar field */
     text-align: center;
@@ -58,12 +60,8 @@ a {
     position: fixed;
     margin-top: 1em;
     left: 5em;
-    color: gray;
-}
-#titlebar{
-    position: fixed;
-    margin-top: -4em;
     color: silver;
+    transform: scale(1.2);
 }
 #table-header{ /* table header */
     position: sticky;

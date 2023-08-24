@@ -76,11 +76,13 @@ a:hover{
     position: fixed;
     margin-top: 4em;
     color: gray;
+    transform: scale(1.2);
 }
 #titlebar{
     position: fixed;
     margin-top: -4em;
     color: silver;
+    transform: scale(1.2);
 }
 #table-header{ /* table header */
     position: sticky;

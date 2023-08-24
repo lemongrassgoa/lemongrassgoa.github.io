@@ -69,11 +69,13 @@ a {
     z-index: 1;
 }
 #search-results{
+    transform: scale(1.2);
     position: fixed;
     margin-top: 4em;
     color: gray;
 }
 #titlebar{
+    transform: scale(1.2);
     position: fixed;
     margin-top: -4em;
     color: silver;
