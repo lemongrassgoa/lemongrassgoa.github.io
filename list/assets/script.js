@@ -48,6 +48,7 @@ function search(){
                 // tr[i].style.opacity = "0";
                 // tr[i].style.visibility = "collapse";
                 tr[i].style.display = "none";
+                tr[i].classList.add("row-hide");
                 results--;
             }
         }
