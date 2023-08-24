@@ -68,3 +68,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function closeModal(){
+    document.getElementById('modal-video').style.display='none';
+}
