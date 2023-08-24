@@ -162,16 +162,15 @@ var yt_link;
                             // table += rowCells[rowCell];
                             if(yt_link > -1){       // if a match was found, is it a full vid or short
                                 // call the modal function with the correct index of the youtube array
-                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo('+yt_link+', this)">';
                                 // var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
-                                // var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalForm('+links_[yt_link][1]+');">';
+                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo('+yt_link+', this)">';
                                 var link2 = '<img class="yt-img-animate yt-img" src="img/yt.png" />';
-                                table += link1 + rowCells[rowCell] + link2 + '</a>'; // generate song name with video link
-                                // table += '<table class="yt_link" style="padding: 0 !important;"><tr style="padding: 0 !important;">';
-                                // table += '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
-                                // table += '<td style="padding: 0 !important;">' + rowCells[rowCell] + '</td>';
-                                // table += '<td style="padding: 0 !important;"><img class="yt-img-animate yt-img" src="img/yt.png" /></td>';
-                                // table += '<a></tr></table>';
+                                // table += link1 + rowCells[rowCell] + link2 + '</a>'; // generate song name with video link
+
+                                var link3 = '<div class="w3-row"> <div class="w3-col s9">';
+                                var link4 = '</div> <div class="w3-col s3">';
+                                var link5 = '</div></div> </a>'
+                                table += link1 + link3 + rowCells[rowCell] + link4 + link2 + link5; // generate song name with video link
                             }else{
                                 table += rowCells[rowCell]; // song name, no link
                             }
