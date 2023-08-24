@@ -140,15 +140,19 @@ a {
     100% { opacity: 0; }
 }
 .yt-img{
-    filter: invert(1);
-    height: 1.3em;
+    height: 1.2em;
     float: right;
     z-index: 0;
     cursor: pointer;
-    filter: drop-shadow(-1px 2px 1px cyan) invert(1);
-    transform: scale(1.4);
+    /* filter: drop-shadow(-1px 2px 1px cyan) invert(1); */
+    filter: drop-shadow(3px 3px 1px black) opacity(0.8);
     padding-left: 0.5em;
+    transform: scale(1);
+    /* opacity: 0.7; */
     /* display: inline; */
+}
+.yt-img:hover{
+    filter: drop-shadow(3px 3px 1px black) opacity(1);
 }
 #yt-checkbox-img{
     filter: invert(1);

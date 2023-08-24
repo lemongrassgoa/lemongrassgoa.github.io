@@ -162,7 +162,7 @@ var yt_link;
                                 // call the modal function with the correct index of the youtube array
                                 // var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
                                 var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo('+yt_link+')">';
-                                var link2 = '<img class="yt-img" src="img/yt.png" />';
+                                var link2 = '<img class="yt-img" src="img/yt.svg" />';
                                 table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
 
                                 // var link3 = '<span class="w3-row"> <span class="w3-col s9">';
