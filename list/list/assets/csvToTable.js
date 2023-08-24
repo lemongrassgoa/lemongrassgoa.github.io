@@ -1,34 +1,3 @@
-const links_ = [
-    // full vids
-    ["Antonio's Song",              "JiX2QH73VpY", 0],
-    ["Beautiful Tango",             "tLOTEd5d5IY", 0],
-    ["Big Bang",                    "SxclfMiybFg", 0],
-    ["Does Your Mother Know",       "UaIfr62co04", 0],
-    ["Brown Eyed Girl",             "A6-7TkAp-NA", 0],
-    ["Fly Me To The Moon",          "hgdjepk5hco", 0],
-    ["Hey Soul Sister",             "5L9UUjnicmA", 0],
-    ["If I Had A Hammer",           "5OXSHCDvq2M", 0],
-    ["Norwegian Wood",              "iXiUKRlUfE4", 0],
-    ["Smooth Operator",             "nz85NleFjFs", 0],
-    ["Snow",                        "R41hAQg_hXI", 0],
-    ["Superman",                    "IJQls99Ut1s", 0],
-    ["The Boxer",                   "BdTnrxEp12E", 0],
-    ["Zombie",                      "3a5HVi8I9As", 0],
-    // shorts
-    ["A Thousand Miles",            "5ufhpSomAxE", 1],
-    ["All About That Bass",         "ENQJRNgJ0KU", 1],
-    ["Budapest",                    "JqvshMcDONY", 1],
-    ["Country Roads",               "pHtKLxAnq8U", 1],
-    ["Dancing In The Moonlight",    "wT6s1rnQ7ck", 1],
-    ["Instant Crush",               "cjedEvll0Yo", 1],
-    ["Kiss Me",                     "_I2Pj_n49jY", 1],
-    ["Make You Feel My Love",       "pSNBaXiuOfI", 1],
-    ["New Shoes",                   "yJfxQRy1HCU", 1],
-    ["Rocket Man",                  "qzWAF1x-FG0", 1],
-    ["Wish You Were Here",          "1qnsTsDFX2Y", 1],
-    ["_","_"]
-];
-
 const the_array = [
     "Archies",
     "Avett Brothers",
@@ -137,7 +106,7 @@ var yt_link;
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-                        if(rowCell < 9){
+                        if(rowCell < 9 && rowCell !== 3){
                             table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
@@ -148,18 +117,19 @@ var yt_link;
                             table += '</th>';
                         }
 	                } else {
-                        if(rowCell < 9){
+                        if(rowCell < 9 && rowCell !== 3){
                             var wip_format = 'background-color: #000;';
                             if(rowCell === 0){
                                 table += '<td class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
-
                                 table += '<i><a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
                                 table += rowCells[rowCell];
                                 table += '</a></i>'
-                                table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="../img/spotify.png" /></a>';
                             }
                             else {
                                 table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
+                                if(rowCell === 1){
+                                    table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="../img/spotify.png" /></a>';
+                                }
                                 for(var i = 0; i < the_array.length-1; i++){
                                     if(rowCells[rowCell] == the_array[i])
                                         table += '<span class="the"></span>';
