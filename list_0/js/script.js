@@ -1,5 +1,5 @@
 var csvtotable = new CsvToTable({
-    csvFile: 'Repertoire.csv',
+    csvFile: '../list/Repertoire.csv',
     target: 'repertoire-list'
 });
 csvtotable.run();

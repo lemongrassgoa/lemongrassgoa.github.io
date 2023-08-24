@@ -5,10 +5,12 @@ var csvtotable = new CsvToTable({
 });
 csvtotable.run();
 
+// on load, run the search to find and display the number of songs in the list
 function onload(){
     setTimeout(search, 500);
 }
-  
+
+// search function
 function search(){
     // Declare variables
     var input, filter, table, tr, td0, td1, td2, i, txtValue0, txtValue1, txtValue2;
@@ -52,42 +54,6 @@ function search(){
             }
         }
     }
+    // update the number of songs matching results
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
 }
-
-function show_hide_yt(){
-    document.getElementById("search").value = "";
-    if(!yt_filter.checked){
-        var song_links = document.getElementsByClassName("title");
-        for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "0";
-            // song_links[i].parentElement.style.visibility = "collapse";
-            song_links[i].parentElement.style.display = "none";
-        }
-        var song_links = document.getElementsByClassName("yt_link");
-        for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "";
-            // song_links[i].parentElement.style.visibility = "";
-            song_links[i].parentElement.style.display = "";
-        }
-        document.getElementById("search-results").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
-    }
-    else{
-        var song_links = document.getElementsByClassName("title");
-        for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "";
-            // song_links[i].parentElement.style.visibility = "";
-            song_links[i].parentElement.style.display = "";
-        }
-        document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
-    }
-}
-
-var stopAllYouTubeVideos = () => { 
-    var iframes = document.querySelectorAll('iframe');
-    Array.prototype.forEach.call(iframes, iframe => { 
-        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', 
-        func: 'stopVideo' }), '*');
-    });
-}
-stopAllYouTubeVideos();
