@@ -160,8 +160,10 @@ a {
     height: 1.3em;
 }
 #video_embed{
-    height: 90%;
-    width: 90%;
+    width: 100%;
+    height: 70vh;
+    padding-top: 0.5em;
+    vertical-align: middle;
 }
 #upButton{
     height: 40px;
@@ -170,24 +172,12 @@ a {
     position: fixed;
 }
 
-dialog {
-    border: none;
-    background-color: #333;
-    height: 70vh;
-    width: 90vw;
-}
-dialog::backdrop {
-    background-color: black;
-    opacity: 0.4;
-    display: none;
-}
-#yt-modal-close{
-    margin-top: 1em;
-    /* padding: 0.5em; */
-}
-
 @keyframes pulse{
     0%   { transform: scale(1.5); }
     70%  { transform: scale(1.8); }
     100% { transform: scale(1.5); }
+}
+#modalClose{
+    transform: scale(1.5); 
+    transform-origin: bottom right;
 }

@@ -111,13 +111,6 @@ function show_hide_yt(){
     }
 }
 
-function show_yt_modal(_index, element){
-    console.log(element.parentElement.parentElement);
-    var em = element.parentElement.parentElement;
-    // document.getElementById("yt-modal").show();
-    // document.getElementById("video_embed").src = "https://www.youtube.com/embed/" + links_[_index][1] + "?enablejsapi=1";
-}
-
 var stopAllYouTubeVideos = () => { 
     var iframes = document.querySelectorAll('iframe');
     Array.prototype.forEach.call(iframes, iframe => { 
@@ -148,3 +141,28 @@ function urlQuery(){
 }
 
 setTimeout(urlQuery, 1000);
+
+// Get the modal
+var modal = document.getElementById('modal-video');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+        stopAllYouTubeVideos();
+    }
+}
+function closeModal(){
+    document.getElementById('modal-video').style.display='none';
+    stopAllYouTubeVideos();
+}
+
+var stopAllYouTubeVideos = () => { 
+    var iframes = document.querySelectorAll('iframe');
+    Array.prototype.forEach.call(iframes, iframe => { 
+        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', 
+        func: 'stopVideo' }), '*');
+    });
+}
+stopAllYouTubeVideos();
+

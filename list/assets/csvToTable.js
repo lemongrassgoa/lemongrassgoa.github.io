@@ -162,8 +162,9 @@ var yt_link;
                             // table += rowCells[rowCell];
                             if(yt_link > -1){       // if a match was found, is it a full vid or short
                                 // call the modal function with the correct index of the youtube array
-                                // var link1 = '<a style="text-decoration: none;" target="_blank" onclick="show_yt_modal('+yt_link+', this)">';
-                                var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
+                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo('+yt_link+', this)">';
+                                // var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
+                                // var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalForm('+links_[yt_link][1]+');">';
                                 var link2 = '<img class="yt-img-animate yt-img" src="img/yt.png" />';
                                 table += link1 + rowCells[rowCell] + link2 + '</a>'; // generate song name with video link
                                 // table += '<table class="yt_link" style="padding: 0 !important;"><tr style="padding: 0 !important;">';
@@ -216,3 +217,9 @@ var yt_link;
 		});
 	}
 }());
+
+function modalVideo(_index){
+    document.getElementById('modal-video').style.display='block';
+    document.getElementById("video_embed").src = "https://youtube.com/embed/" + links_[_index][1] + "?enablejsapi=1";
+}
+
