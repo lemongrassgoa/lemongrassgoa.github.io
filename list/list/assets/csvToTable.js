@@ -111,11 +111,13 @@ var yt_link;
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
+                        /*  * /
                         if(rowCell === 11){
                             table += '<th class="tags" style="">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
+                        /*  */
 	                } else {
                         if(rowCell < 9 && rowCell !== 3){
                             var wip_format = 'background-color: #000;';
@@ -140,11 +142,13 @@ var yt_link;
                                 table += '</td>';
                             }
                         }
+                        /* * /
                         if(rowCell === 11){
                             table += '<td class="tags" style="width: 1em; font-size: 70%; word-wrap: break-word;">';
                             table += rowCells[rowCell];
                             table += '</td>';
                         }
+                        /* */
 	                }
 	            }
 	            if (singleRow === 0) {

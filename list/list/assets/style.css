@@ -26,6 +26,7 @@ a {
 .spotifylink{
     height: 1em;
     float: right;
+    margin-left: 0.5em;
     transform: scale(1.5);
     /* transform-origin: top; */
 }
