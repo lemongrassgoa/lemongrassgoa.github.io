@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Itim");
 
 html, body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", monospace;
     background-color: #1f2424;
     line-height: 1.2em;
     /* color: gray; */
@@ -54,7 +54,7 @@ a {
     outline: none;
 }
 #search-bar{  /* search bar div */
-    font-family: "Itim", sans-serif;
+    font-family: "Itim", monospace;
     background-color: #1f2424;
     position: sticky;
     position: -webkit-sticky;
@@ -66,7 +66,7 @@ a {
     justify-content: center;
     width: 100%;
     height: 6em;
-    max-width: 600px;
+    /* max-width: 600px; */
     z-index: 1;
 }
 #search-results{

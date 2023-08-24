@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Itim");
 
 html, body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", monospace;
     background-color: #1f2424;
     line-height: 1.2em;
     color: white;
@@ -21,17 +21,12 @@ th, td{
 }
 a {
     color: gold;
-    cursor: pointer;
-    /* filter: drop-shadow(1px 1px 0.5px black); */
+    cursor: default;
 }
 .spotifylink{
     height: 1.5em;
     float: right;
 }
-/* ::placeholder { */
-    /* color: teal; */
-    /* opacity: 1; */
-/* } */
 #search{ /* search bar field */
     text-align: center;
     border-radius: 0.7em;
@@ -46,7 +41,7 @@ a {
     outline: none;
 }
 #search-bar{  /* search bar div */
-    font-family: "Itim", sans-serif;
+    font-family: "Itim", monospace;
     background-color: #1f2424;
     position: sticky;
     position: -webkit-sticky;
