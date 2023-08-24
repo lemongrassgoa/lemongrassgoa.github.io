@@ -70,5 +70,5 @@ window.onclick = function(event) {
 }
 
 function closeModal(){
-    document.getElementById('modal-video').style.display='none';
+    document.getElementById('modal-request').style.display='none';
 }
