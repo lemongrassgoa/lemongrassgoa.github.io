@@ -105,7 +105,7 @@ var table_target;
 	                table += '<thead id="table-header">';
 	                table += '<tr>';
 	            } else {
-	                table += '<tr>';
+	                table += '<tr class="tr-hover">';
 	            }
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){

@@ -20,6 +20,10 @@ thead{
 th, td{
     vertical-align: middle;
 }
+.tr-hover:hover{
+    background-color: rgba(127,155,157, 0.3) !important;
+    text-shadow: 2px 2px 2px black;
+}
 a {
     color: gold;
     cursor: default;
