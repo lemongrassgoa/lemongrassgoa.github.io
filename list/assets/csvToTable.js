@@ -139,7 +139,7 @@ var yt_link;
 	                if(singleRow === 0){
                         if(rowCell === 0)                                // table HEADER section
                             // table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img-animate yt-img" id="yt-checkbox-img" style="" src="img/yt.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
-                            table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img yt-checkbox-img" id="yt-checkbox-img" style="" src="img/yt_select.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
+                            table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img yt-checkbox-img" id="yt-checkbox-img" style="" src="img/yt_select.png" /></label>';
                         else if(rowCell === 1)
                             table += '<th id="artist" class="">';
                         else if(rowCell === 2)

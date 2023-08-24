@@ -90,15 +90,6 @@ a {
     position: -webkit-sticky;
     top: 6em;
 }
-#sortTooltip{
-    /* display: none; */
-    /* animation: fadeout 4s 2; */
-    opacity: 0;
-    color: #333;
-    font-size: smaller;
-    float: right;
-    margin-right: 10%;
-}
 .title {
     font-style: italic;
 }
@@ -134,11 +125,6 @@ a {
     }
 }
 
-@keyframes fadeout {
-    0%   { opacity: 0; }
-    50%  { opacity: 1; }
-    100% { opacity: 0; }
-}
 .yt-img{
     height: 1.2em;
     float: right;
