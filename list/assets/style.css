@@ -20,6 +20,11 @@ thead{
 th, td{
     vertical-align: middle;
 }
+tr:hover{
+    /* filter: contrast(2) !important; */
+    background-color: rgba(127,155,157, 0.3) !important;
+    text-shadow: 2px 2px 2px black;
+}
 a {
     color: gold;
     cursor: default;
@@ -97,6 +102,8 @@ a {
 .title {
     font-style: italic;
 }
+.title:hover{
+}
 /* add the word "The" before marked artist names without affecting sorting order */
 .the{}    
     .the:before{
@@ -138,7 +145,7 @@ a {
     float: right;
     z-index: 0;
     cursor: pointer;
-    filter: drop-shadow(2px 2px 1px cyan) invert(1);
+    filter: drop-shadow(-1px 2px 1px cyan) invert(1);
     transform: scale(1.4);
     padding-left: 0.5em;
     /* display: inline; */
