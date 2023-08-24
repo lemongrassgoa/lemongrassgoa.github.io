@@ -33,16 +33,19 @@ function search(){
                 // tr[i].style.opacity = "";
                 // tr[i].style.visibility = "";
                 tr[i].style.display = "";
+                tr[i].classList.remove("row-hide");
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "";
                 // tr[i].style.visibility = "";
                 tr[i].style.display = "";
+                tr[i].classList.remove("row-hide");
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "";
                 // tr[i].style.visibility = "";
                 tr[i].style.display = "";
+                tr[i].classList.remove("row-hide");
             }
             else {
                 // tr[i].style.opacity = "0";
@@ -90,12 +93,14 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.opacity = "0";
             // song_links[i].parentElement.style.visibility = "collapse";
             song_links[i].parentElement.style.display = "none";
+            song_links[i].parentElement.classList.add("row-hide");
         }
         var song_links = document.getElementsByClassName("yt_link");
         for(var i = 0; i < song_links.length; i++){
             // song_links[i].parentElement.style.opacity = "";
             // song_links[i].parentElement.style.visibility = "";
             song_links[i].parentElement.style.display = "";
+            song_links[i].parentElement.classList.remove("row-hide");
         }
         document.getElementById("yt-checkbox-img").style.filter = "invert(0)";
         document.getElementById("search-results").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
@@ -106,6 +111,7 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.opacity = "";
             // song_links[i].parentElement.style.visibility = "";
             song_links[i].parentElement.style.display = "";
+            song_links[i].parentElement.classList.remove("row-hide");
         }
         document.getElementById("yt-checkbox-img").style.filter = "invert(1)";
         document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");

@@ -51,7 +51,7 @@
   --td-on-stripe-color: #fff;
   border-spacing: 0;
 }
-.sortable tbody tr:nth-child(odd) {
+.sortable tbody tr:nth-child(odd of :not(.row-hide)) {
   background-color: var(--stripe-color);
   color: var(--td-on-stripe-color);
 }

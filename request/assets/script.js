@@ -33,21 +33,25 @@ function search(){
                 // tr[i].style.opacity = "";
                 // tr[i].style.visibility = "";
                 tr[i].style.display = "";
+                tr[i].classList.remove("row-hide");
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "";
                 // tr[i].style.visibility = "";
                 tr[i].style.display = "";
+                tr[i].classList.remove("row-hide");
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "";
                 // tr[i].style.visibility = "";
                 tr[i].style.display = "";
+                tr[i].classList.remove("row-hide");
             }
             else {
                 // tr[i].style.opacity = "0";
                 // tr[i].style.visibility = "collapse";
                 tr[i].style.display = "none";
+                tr[i].classList.add("row-hide");
                 results--;
             }
         }
