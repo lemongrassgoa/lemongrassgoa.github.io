@@ -178,6 +178,7 @@ var yt_link;
                         }
                         else if (rowCell === 2){
                             table += '<td class="year">';
+                            // table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="img/spotify.png" /></a>';
                         }
                         if(rowCell > 0 && rowCell < 3){
                             for(var i = 0; i < the_array.length-1; i++){
