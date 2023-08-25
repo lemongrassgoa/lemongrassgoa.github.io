@@ -117,8 +117,11 @@ a:hover{
     bottom: 20px;
     right: 20px;
     position: fixed;
+    transition: filter 300ms ease-in;
 }
-
+#upButton:hover{
+    filter: invert(1);
+}
 @media (max-width: 600px) {
     #form_embed{
         height: 75vh;
