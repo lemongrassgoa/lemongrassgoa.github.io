@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Itim");
 
 html, body {
-    font-family: "Ubuntu", monospace;
+    font-family: "Ubuntu", "Tahoma", system-ui;
     background-color: #1f2424;
     line-height: 1.2em;
     /* color: gray; */
@@ -21,7 +21,7 @@ th, td{
     vertical-align: middle;
 }
 .tr-hover{
-    transition: visibility 0.2s ease-out, opacity 0.2s ease-out, scale 0.5s;
+    transition: visibility 300ms, opacity 300ms, filter 300ms;
 }
 .tr-hover:hover{
     background-color: rgba(127,155,157, 0.3) !important;
@@ -48,7 +48,13 @@ a {
     /* transform: scale(1.5); */
     /* transform-origin: top; */
 }
-
+::placeholder{
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+:focus::placeholder{
+    opacity: 0.2; 
+}
 #search{ /* search bar field */
     text-align: center;
     border-radius: 0.7em;
@@ -63,7 +69,7 @@ a {
     outline: none;
 }
 #search-bar{  /* search bar div */
-    font-family: "Itim", monospace;
+    font-family: "Itim", "Tahoma", system-ui;
     background-color: #1f2424;
     position: sticky;
     position: -webkit-sticky;
@@ -107,30 +113,6 @@ a {
         content: "The ";
     }
 
-@media (max-width: 600px) {
-    #search-bar{
-        
-    }
-    #logo{
-        /* margin-left: 0.5em; */
-    }
-    #spotify{
-        margin-right: 0.5em;
-    }
-}
-
-@media (max-width: 350px) {
-    #logo{
-        display: none;
-    }
-    #spotify{
-        display: none;
-    }
-    #sortTooltip{
-        display: none;
-    }
-}
-
 .yt-img{
     height: 1.2em;
     float: right;
@@ -164,7 +146,7 @@ a {
 #video_embed{
     width: 100%;
     height: 70vh;
-    padding-top: 0.5em;
+    padding: 1em 1em 3.5em 1em;
     vertical-align: middle;
 }
 #upButton{
@@ -172,6 +154,10 @@ a {
     bottom: 20px;
     right: 20px;
     position: fixed;
+    transition: filter 300ms ease-in;
+}
+#upButton:hover{
+    filter: invert(1);
 }
 
 @keyframes pulse{
@@ -185,3 +171,16 @@ a {
     background-color: rgba(255, 255, 255, 0.3);
     z-index: 1;
 }
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 350px) {
+    #logo{
+        display: none;
+    }
+    #spotify{
+        display: none;
+    }
+}
+
