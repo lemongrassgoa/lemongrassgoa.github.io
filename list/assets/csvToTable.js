@@ -208,6 +208,8 @@ var yt_link;
 	        table += '</tbody>';
 	        table += '</table>';
 
+
+
             document.getElementById(table_target).innerHTML += table;
 		}, function(error){
 			console.error(error);
