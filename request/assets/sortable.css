@@ -3,7 +3,7 @@
   cursor: ns-resize;
 }
 .sortable thead th:not(.no-sort)::after, .sortable thead th:not(.no-sort)::before {
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
   font-size: 1.3em;
   color: transparent;
   animation: flash 2s 3;
