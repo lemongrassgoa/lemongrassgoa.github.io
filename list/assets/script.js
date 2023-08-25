@@ -58,7 +58,7 @@ function search(){
     }
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
     document.getElementById('yt_filter').checked = 0;
-    document.getElementById("yt-checkbox-img").style.filter = "invert(1)";
+    // document.getElementById("yt-checkbox-img").style.filter = "grayscale(0)";
 }
 
 function artistSort(){
@@ -102,7 +102,7 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.display = "";
             song_links[i].parentElement.classList.remove("row-hide");
         }
-        document.getElementById("yt-checkbox-img").style.filter = "invert(0)";
+        document.getElementById("yt-checkbox-img").style.filter = "grayscale(1) drop-shadow(2px 2px 1px white)";
         document.getElementById("search-results").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
     }
     else{
@@ -113,7 +113,7 @@ function show_hide_yt(){
             // song_links[i].parentElement.style.display = "";
             song_links[i].parentElement.classList.remove("row-hide");
         }
-        document.getElementById("yt-checkbox-img").style.filter = "invert(1)";
+        document.getElementById("yt-checkbox-img").style.filter = "grayscale(0) drop-shadow(2px 2px 1px black)";
         document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
     }
 }
@@ -155,12 +155,12 @@ var modal = document.getElementById('modal-video');
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
-        modal.style.display = "none";
-        stopAllYouTubeVideos();
+        closeModal();
     }
 }
 function closeModal(){
     document.getElementById('modal-video').style.display='none';
+    document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
     stopAllYouTubeVideos();
 }
 

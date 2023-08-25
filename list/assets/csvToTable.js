@@ -140,7 +140,8 @@ var yt_link;
 	                if(singleRow === 0){
                         if(rowCell === 0)                                // table HEADER section
                             // table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img-animate yt-img" id="yt-checkbox-img" style="" src="img/yt.png" /></label> <span id="sortTooltip">&lArr; Sort &rArr;</span>';
-                            table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img yt-checkbox-img" id="yt-checkbox-img" style="" src="img/yt_select.png" /></label>';
+                            // table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"><img class="yt-img yt-checkbox-img" id="yt-checkbox-img" style="" src="img/yt_select.png" /></label>';
+                            table += '<th id="title" class=" dir-u "> <input type="checkbox" id="yt_filter" /> <label for="yt_filter" id="yt_filter_label"  onclick="show_hide_yt()"> <img class="yt-img yt-checkbox-img" id="yt-checkbox-img" src="img/yt.svg" />&#x1F50E;&#xFE0E;</label>';
                         else if(rowCell === 1)
                             table += '<th id="artist" class="">';
                         else if(rowCell === 2)
@@ -162,7 +163,7 @@ var yt_link;
                             if(yt_link > -1){       // if a match was found, is it a full vid or short
                                 // call the modal function with the correct index of the youtube array
                                 // var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
-                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo(\''+links_[yt_link][1]+'\')">';
+                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo(\''+links_[yt_link][1]+'\', this)">';
                                 var link2 = '<img class="yt-img" src="img/yt.svg" />';
                                 table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
 
@@ -218,9 +219,16 @@ var yt_link;
 	}
 }());
 
-function modalVideo(url){
-    console.log(url);
-    document.getElementById('modal-video').style.display='block';
-    document.getElementById("video_embed").src = "https://youtube.com/embed/" + url + "/?enablejsapi=1";
+var _url = '';
+function modalVideo(url, e){
+    console.log(e.childNodes[0]);
+    e.childNodes[0].classList.add('yt-img-clicked');
+    _url = url;
+    setTimeout(openModal, 300);
 }
 
+function openModal(){
+    document.getElementById('modal-video').style.display='block';
+    document.getElementById("video_embed").src = "https://youtube.com/embed/" + _url + "/?enablejsapi=1";
+    document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
+}
