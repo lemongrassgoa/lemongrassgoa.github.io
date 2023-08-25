@@ -84,6 +84,8 @@ a:hover{
     margin-top: 4em;
     color: gray;
     transform: scale(1.2);
+    opacity: 0;
+    transition: opacity 1s;
 }
 #titlebar{
     position: fixed;
