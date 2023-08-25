@@ -45,8 +45,6 @@ a {
     height: 1em;
     margin-left: 0.5em;
     float: right;
-    /* transform: scale(1.5); */
-    /* transform-origin: top; */
 }
 ::placeholder{
     opacity: 1;
@@ -104,6 +102,10 @@ a {
     position: -webkit-sticky;
     top: 6em;
 }
+#repertoire-list{
+    opacity: 0;
+    transition: opacity 300ms;
+}
 .title {
     font-style: italic;
 }
@@ -124,7 +126,7 @@ a {
     padding-left: 0.5em;
     /* opacity: 0.7; */
     /* display: inline; */
-    transition: opacity 300ms ease-in, transform 300ms ease-in;
+    transition: opacity 100ms ease-in, transform 100ms ease-in;
     transform: scale(1);
     opacity: 1;
 }
@@ -132,8 +134,8 @@ a {
     /* filter: drop-shadow(3px 3px 1px black) opacity(1); */
 }
 .yt-img-clicked{
-    opacity: 0;
-    transform: scale(10);    
+    /* opacity: 0; */
+    transform: scale(2);    
 }
 #yt-checkbox-img{
     transform: scale(1.2);

@@ -9,6 +9,7 @@ function onload(){
     setTimeout(search, 500);
     setTimeout(function(){
         document.getElementById("search-results").style.opacity = "1";
+        document.getElementById("repertoire-list").style.opacity = "1";
     }, 500);
 }
   

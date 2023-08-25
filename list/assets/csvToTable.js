@@ -224,11 +224,13 @@ function modalVideo(url, e){
     console.log(e.childNodes[0]);
     e.childNodes[0].classList.add('yt-img-clicked');
     _url = url;
-    setTimeout(openModal, 300);
+    setTimeout(openModal, 100);
 }
 
 function openModal(){
-    document.getElementById('modal-video').style.display='block';
-    document.getElementById("video_embed").src = "https://youtube.com/embed/" + _url + "/?enablejsapi=1";
     document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
+    setTimeout(function(){
+        document.getElementById('modal-video').style.display='block';
+        document.getElementById("video_embed").src = "https://youtube.com/embed/" + _url + "/?enablejsapi=1";
+    }, 200);
 }
