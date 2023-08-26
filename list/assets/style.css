@@ -21,7 +21,7 @@ th, td{
     vertical-align: middle;
 }
 .tr-hover{
-    transition: transform 300ms ease-in-out, visibility 100ms ease-in-out;
+    transition: background-color 200ms linear, transform 300ms ease-in-out, visibility 100ms ease-in-out;
     transform-origin: center top;
 }
 .tr-hover:hover{
