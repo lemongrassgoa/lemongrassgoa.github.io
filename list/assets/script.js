@@ -122,15 +122,6 @@ function show_hide_yt(){
     }
 }
 
-var stopAllYouTubeVideos = () => { 
-    var iframes = document.querySelectorAll('iframe');
-    Array.prototype.forEach.call(iframes, iframe => { 
-        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', 
-        func: 'stopVideo' }), '*');
-    });
-}
-stopAllYouTubeVideos();
-
 function getQueryVariable(variable)
 {
        var query = window.location.search.substring(1);
@@ -145,35 +136,41 @@ function getQueryVariable(variable)
 function urlQuery(){
     if(getQueryVariable("yt")){
         show_hide_yt();
-    }else{
-        // setTimeout(yt_filter_click, 500);
-        // setTimeout(yt_filter_click, 1000);
     }
 }
 
 setTimeout(urlQuery, 1000);
 
+var stopAllYouTubeVideos = () => { 
+    var iframes = document.querySelectorAll('iframe');
+    Array.prototype.forEach.call(iframes, iframe => { 
+        iframe.contentWindow.postMessage(JSON.stringify({
+            event: 'command',
+            func: 'stopVideo'
+        }), '*');
+    });
+}
+stopAllYouTubeVideos();
+
 // Get the modal
 var modal = document.getElementById('modal-video');
 
+function closeModal(){
+    document.getElementById('modal-video').style.display='none';
+    document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
+    stopAllYouTubeVideos();
+}
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         closeModal();
     }
 }
-function closeModal(){
-    document.getElementById('modal-video').style.display='none';
-    document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
-    stopAllYouTubeVideos();
-}
-
-var stopAllYouTubeVideos = () => { 
-    var iframes = document.querySelectorAll('iframe');
-    Array.prototype.forEach.call(iframes, iframe => { 
-        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', 
-        func: 'stopVideo' }), '*');
-    });
-}
-stopAllYouTubeVideos();
-
+document.addEventListener('keyup', (event) => {
+  var name = event.key;
+  var code = event.code;
+  // Alert the key name and key code on keydown
+  // alert(`Key pressed ${name} \r\n Key code value: ${code}`);
+  if(code === "Escape")
+      closeModal();
+}, false);

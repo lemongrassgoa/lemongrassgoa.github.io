@@ -1,3 +1,5 @@
+var fromName = "", toName = "";
+
 // Generate HTML table from CSV
 var csvtotable = new CsvToTable({
     csvFile: '../list/Repertoire.csv',
@@ -76,3 +78,12 @@ window.onclick = function(event) {
 function closeModal(){
     document.getElementById('modal-request').style.display='none';
 }
+
+document.addEventListener('keyup', (event) => {
+  var name = event.key;
+  var code = event.code;
+  // Alert the key name and key code on keydown
+  // alert(`Key pressed ${name} \r\n Key code value: ${code}`);
+  if(code === "Escape")
+      closeModal();
+}, false);
