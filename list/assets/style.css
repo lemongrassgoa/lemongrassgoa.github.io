@@ -21,7 +21,8 @@ th, td{
     vertical-align: middle;
 }
 .tr-hover{
-    transition: visibility 100ms, opacity 200ms, filter 200ms;
+    /* transition: visibility 100ms, opacity 200ms, filter 200ms; */
+    transition: transform 300ms ease-in-out, visibility 300ms ease-in-out;
 }
 .tr-hover:hover{
     background-color: rgba(127,155,157, 0.3) !important;
