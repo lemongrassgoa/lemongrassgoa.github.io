@@ -66,7 +66,7 @@ function search(){
     }
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
     document.getElementById('yt_filter').checked = 0;
-    // document.getElementById("yt-checkbox-img").style.filter = "grayscale(0)";
+    document.getElementById("yt-checkbox-img").style.filter = "grayscale(0) drop-shadow(2px 2px 1px black)";
 }
 
 function artistSort(){
