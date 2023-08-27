@@ -21,7 +21,7 @@ th, td{
     vertical-align: middle;
 }
 tr{
-    transition: background-color 200ms linear, transform 300ms ease-in-out, visibility 100ms ease-in-out;
+    transition: background-color 200ms linear, transform 300ms ease-in-out;
     transform-origin: center top;
 }
 .tr-hover:hover{
@@ -41,11 +41,6 @@ a {
     z-index: 3;
     height: 3em;
     margin-right: 1em;
-}
-.spotifylink{
-    height: 1em;
-    margin-left: 0.5em;
-    float: right;
 }
 ::placeholder{
     opacity: 1;

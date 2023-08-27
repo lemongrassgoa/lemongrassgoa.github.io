@@ -69,27 +69,7 @@ function search(){
     document.getElementById("yt-checkbox-img").style.filter = "grayscale(0) drop-shadow(2px 2px 1px black)";
 }
 
-function artistSort(){
-    const el = document.getElementById('artist');
-    if (el) {
-      el.click();
-    }
-}
-function titleSort(){
-    const el = document.getElementById('title');
-    if (el) {
-      el.click();
-    }    
-}
-// setTimeout(artistSort, 1000);
-// setTimeout(titleSort, 2000);
-
-// yt_filter.addEventListener( 'change', () => {
-    // show_hide_yt();
-// });
-
 function yt_filter_click(){
-    // yt_filter.checked = !yt_filter.checked;
     show_hide_yt();
 }
 

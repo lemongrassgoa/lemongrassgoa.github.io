@@ -1,5 +1,3 @@
-var fromName = "", toName = "";
-
 // Generate HTML table from CSV
 var csvtotable = new CsvToTable({
     csvFile: '../list/Repertoire.csv',
@@ -12,7 +10,7 @@ function onload(){
     setTimeout(function(){
         document.getElementById("search-results").style.opacity = "1";
         document.getElementById("repertoire-list").style.opacity = "1";
-    }, 500);
+    }, 300);
 }
   
 function search(){
