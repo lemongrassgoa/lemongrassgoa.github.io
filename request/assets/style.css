@@ -19,15 +19,16 @@ thead{
 th, td{
     vertical-align: middle;
 }
-tr:hover {
-    background-color: rgba(127,155,157, 0.3) !important;
-}
-.tr-hover {
-    transition: background-color 200ms linear, transform 300ms ease-in-out, opacity 100ms ease-in-out;
+tr{
+    transform: scaleY(1);
+    transition: background-color 200ms linear, transform 300ms ease-in-out, visibility 200ms ease-in-out, opacity 100ms ease-in-out;
     transform-origin: center top;
 }
-.tr-hover:hover .request-indicator {
+tr:hover {
+    background-color: rgba(127,155,157, 0.4) !important;
     text-shadow: 2px 2px 2px black;
+}
+.tr-hover:hover .request-indicator {
     opacity: 1;
 }
 a {

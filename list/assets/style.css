@@ -21,11 +21,11 @@ th, td{
     vertical-align: middle;
 }
 tr{
-    transition: background-color 200ms linear, transform 300ms ease-in-out;
+    transition: background-color 200ms linear, transform 300ms ease-in-out, visibility 200ms ease-in-out, opacity 100ms ease-in-out;
     transform-origin: center top;
 }
-.tr-hover:hover{
-    background-color: rgba(127,155,157, 0.3) !important;
+tr:hover{
+    background-color: rgba(127,155,157, 0.4) !important;
     text-shadow: 2px 2px 2px black;
 }
 a {
