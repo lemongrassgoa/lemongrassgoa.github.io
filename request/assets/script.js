@@ -35,21 +35,21 @@ function search(){
             txtValue2 = td2.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "1";
-                tr[i].style.transform = "scaleY(1)";
+                tr[i].style.transform = "";
                 tr[i].style.visibility = "";
                 // tr[i].style.display = "";
                 tr[i].classList.remove("row-hide");
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "1";
-                tr[i].style.transform = "scaleY(1)";
+                tr[i].style.transform = "";
                 tr[i].style.visibility = "";
                 // tr[i].style.display = "";
                 tr[i].classList.remove("row-hide");
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "1";
-                tr[i].style.transform = "scaleY(1)";
+                tr[i].style.transform = "";
                 tr[i].style.visibility = "";
                 // tr[i].style.display = "";
                 tr[i].classList.remove("row-hide");

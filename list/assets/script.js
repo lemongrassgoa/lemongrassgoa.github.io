@@ -35,21 +35,21 @@ function search(){
             txtValue2 = td2.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "1";
-                tr[i].style.transform = "scaleY(1)";
+                tr[i].style.transform = "";
                 tr[i].style.visibility = "";
                 // tr[i].style.display = "";
                 tr[i].classList.remove("row-hide");
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "1";
-                tr[i].style.transform = "scaleY(1)";
+                tr[i].style.transform = "";
                 tr[i].style.visibility = "";
                 // tr[i].style.display = "";
                 tr[i].classList.remove("row-hide");
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
                 // tr[i].style.opacity = "1";
-                tr[i].style.transform = "scaleY(1)";
+                tr[i].style.transform = "";
                 tr[i].style.visibility = "";
                 // tr[i].style.display = "";
                 tr[i].classList.remove("row-hide");
@@ -87,7 +87,7 @@ function show_hide_yt(){
         var song_links = document.getElementsByClassName("yt_link");
         for(var i = 0; i < song_links.length; i++){
             // song_links[i].parentElement.style.opacity = "1";
-            song_links[i].parentElement.style.transform = "scaleY(1)";
+            song_links[i].parentElement.style.transform = "";
             song_links[i].parentElement.style.visibility = "";
             // song_links[i].parentElement.style.display = "";
             song_links[i].parentElement.classList.remove("row-hide");
@@ -99,7 +99,7 @@ function show_hide_yt(){
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
             // song_links[i].parentElement.style.opacity = "1";
-            song_links[i].parentElement.style.transform = "scaleY(1)";
+            song_links[i].parentElement.style.transform = "";
             song_links[i].parentElement.style.visibility = "";
             // song_links[i].parentElement.style.display = "";
             song_links[i].parentElement.classList.remove("row-hide");

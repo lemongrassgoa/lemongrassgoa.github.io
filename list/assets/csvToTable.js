@@ -131,7 +131,7 @@ var yt_link;
                 var table_temp = table, wip = 0;
 	            if (singleRow === 0) {
 	                table += '<thead id="table-header">';
-	                table += '<tr>';
+	                table += '<tr class id="_th">';
 	            } else {
 	                table += '<tr class="tr-hover">';
 	            }

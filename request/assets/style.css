@@ -24,9 +24,11 @@ tr{
     transition: background-color 200ms linear, transform 300ms ease-in-out, visibility 200ms ease-in-out, opacity 100ms ease-in-out;
     transform-origin: center top;
 }
-tr:hover {
-    background-color: rgba(127,155,157, 0.4) !important;
+tbody > tr:hover {
     text-shadow: 2px 2px 2px black;
+    background-color: rgba(127,155,157, 0.4) !important;
+}
+.tr-hover{
 }
 .tr-hover:hover .request-indicator {
     opacity: 1;
