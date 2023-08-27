@@ -164,7 +164,7 @@ var modal = document.getElementById('modal-video');
 
 function closeModal(){
     document.getElementById('modal-video').style.display='none';
-    document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
+    // document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
     stopAllYouTubeVideos();
 }
 // When the user clicks anywhere outside of the modal, close it

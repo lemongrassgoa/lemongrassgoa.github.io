@@ -221,7 +221,7 @@ var yt_link;
 
 var _url = '';
 function modalVideo(url, e){
-    console.log(e.childNodes[0]);
+    // console.log(e.childNodes[0]);
     e.childNodes[0].classList.add('yt-img-clicked');
     _url = url;
     setTimeout(openModal, 100);

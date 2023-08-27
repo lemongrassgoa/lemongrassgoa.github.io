@@ -121,13 +121,11 @@ a {
 .yt-img{
     height: 1.2em;
     float: right;
-    z-index: 0;
+    z-index: 1;
     cursor: default;
     filter: drop-shadow(3px 3px 1px black);
     padding-left: 0.5em;
-    /* opacity: 0.7; */
-    /* display: inline; */
-    transition: opacity 100ms ease-in, transform 100ms ease-in;
+    transition: transform 100ms ease-in;
     transform: scale(1);
     opacity: 1;
 }
@@ -135,8 +133,7 @@ a {
     /* filter: drop-shadow(3px 3px 1px black) opacity(1); */
 }
 .yt-img-clicked{
-    /* opacity: 0; */
-    transform: scale(2);    
+    transform: scale(1.8);
 }
 #yt-checkbox-img{
     transition: filter 300ms;
