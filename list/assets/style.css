@@ -20,7 +20,7 @@ thead{
 th, td{
     vertical-align: middle;
 }
-.tr-hover{
+tr{
     transition: background-color 200ms linear, transform 300ms ease-in-out, visibility 100ms ease-in-out;
     transform-origin: center top;
 }
@@ -122,7 +122,7 @@ a {
     height: 1.2em;
     float: right;
     z-index: 0;
-    cursor: pointer;
+    cursor: default;
     filter: drop-shadow(3px 3px 1px black);
     padding-left: 0.5em;
     /* opacity: 0.7; */
@@ -139,6 +139,7 @@ a {
     transform: scale(2);    
 }
 #yt-checkbox-img{
+    transition: filter 300ms;
     transform: scale(1.2);
     filter: drop-shadow(2px 2px 1px black);
     float: right;
