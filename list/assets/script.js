@@ -164,8 +164,9 @@ var modal = document.getElementById('modal-video');
 
 function closeModal(){
     document.getElementById('modal-video').style.display='none';
-    // document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
     stopAllYouTubeVideos();
+    // console.log(document.getElementById("video_embed").src);
+    // history.back();
 }
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -181,3 +182,4 @@ document.addEventListener('keyup', (event) => {
   if(code === "Escape")
       closeModal();
 }, false);
+
