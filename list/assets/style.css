@@ -135,6 +135,9 @@ a {
 .yt-img-clicked{
     transform: scale(1.8);
 }
+.yt-short{
+    /* clip-path: polygon(55% 0, 90% 0, 75% 100%, 40% 100%); */
+}
 #yt-checkbox-img{
     transition: filter 300ms;
     transform: scale(1.2);

@@ -128,9 +128,7 @@ var table_target;
                             table += rowCells[rowCell];
                             
                             table += '</a>'
-                            // if(singleRow === 1){
-                                // table += '<span> <img id="request-indicator" src="img/hand_left.svg" /> </span>';
-                            // }
+                            table += '<span> <img class="tr-hover request-indicator" src="img/hand_left.svg" /> </span>';
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';

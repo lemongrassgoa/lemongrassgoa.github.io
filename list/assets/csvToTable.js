@@ -1,32 +1,32 @@
 const links_ = [
     // full vids
-    ["Antonio's Song",           "JiX2QH73VpY"],
-    ["Beautiful Tango",          "tLOTEd5d5IY"],
-    ["Big Bang",                 "SxclfMiybFg"],
-    ["Does Your Mother Know",    "UaIfr62co04"],
-    ["Brown Eyed Girl",          "A6-7TkAp-NA"],
-    ["Fly Me To The Moon",       "hgdjepk5hco"],
-    ["Hey Soul Sister",          "5L9UUjnicmA"],
-    ["If I Had A Hammer",        "5OXSHCDvq2M"],
-    ["Norwegian Wood",           "iXiUKRlUfE4"],
-    ["Smooth Operator",          "nz85NleFjFs"],
-    ["Snow",                     "R41hAQg_hXI"],
-    ["Superman",                 "IJQls99Ut1s"],
-    ["The Boxer",                "BdTnrxEp12E"],
-    ["Zombie",                   "3a5HVi8I9As"],
+    ["Antonio's Song",           "JiX2QH73VpY", 0],
+    ["Beautiful Tango",          "tLOTEd5d5IY", 0],
+    ["Big Bang",                 "SxclfMiybFg", 0],
+    ["Does Your Mother Know",    "UaIfr62co04", 0],
+    ["Brown Eyed Girl",          "A6-7TkAp-NA", 0],
+    ["Fly Me To The Moon",       "hgdjepk5hco", 0],
+    ["Hey Soul Sister",          "5L9UUjnicmA", 0],
+    ["If I Had A Hammer",        "5OXSHCDvq2M", 0],
+    ["Norwegian Wood",           "iXiUKRlUfE4", 0],
+    ["Smooth Operator",          "nz85NleFjFs", 0],
+    ["Snow",                     "R41hAQg_hXI", 0],
+    ["Superman",                 "IJQls99Ut1s", 0],
+    ["The Boxer",                "BdTnrxEp12E", 0],
+    ["Zombie",                   "3a5HVi8I9As", 0],
     // shorts
-    ["A Thousand Miles",         "5ufhpSomAxE"],
-    ["All About That Bass",      "ENQJRNgJ0KU"],
-    ["Budapest",                 "JqvshMcDONY"],
-    ["Country Roads",            "pHtKLxAnq8U"],
-    ["Dancing In The Moonlight", "wT6s1rnQ7ck"],
-    ["Flowers",                  "tyop7NNf0IA"],
-    ["Instant Crush",            "cjedEvll0Yo"],
-    ["Kiss Me",                  "_I2Pj_n49jY"],
-    ["Make You Feel My Love",    "pSNBaXiuOfI"],
-    ["New Shoes",                "yJfxQRy1HCU"],
-    ["Rocket Man",               "qzWAF1x-FG0"],
-    ["Wish You Were Here",       "1qnsTsDFX2Y"],
+    ["A Thousand Miles",         "5ufhpSomAxE", 1],
+    ["All About That Bass",      "ENQJRNgJ0KU", 1],
+    ["Budapest",                 "JqvshMcDONY", 1],
+    ["Country Roads",            "pHtKLxAnq8U", 1],
+    ["Dancing In The Moonlight", "wT6s1rnQ7ck", 1],
+    ["Flowers",                  "tyop7NNf0IA", 1],
+    ["Instant Crush",            "cjedEvll0Yo", 1],
+    ["Kiss Me",                  "_I2Pj_n49jY", 1],
+    ["Make You Feel My Love",    "pSNBaXiuOfI", 1],
+    ["New Shoes",                "yJfxQRy1HCU", 1],
+    ["Rocket Man",               "qzWAF1x-FG0", 1],
+    ["Wish You Were Here",       "1qnsTsDFX2Y", 1],
     ["_","_"]
 ];
 
@@ -163,14 +163,20 @@ var yt_link;
                             if(yt_link > -1){       // if a match was found, is it a full vid or short
                                 // call the modal function with the correct index of the youtube array
                                 // var link1 = '<a style="text-decoration: none;" target="_blank" href="https://youtu.be/'+links_[yt_link][1]+'">';
+
+                                // var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo(\''+links_[yt_link][1]+'\', this)">';
+                                // var link2 = '<img class="yt-img" src="img/yt.svg" />';
+                                // table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
+
                                 var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo(\''+links_[yt_link][1]+'\', this)">';
-                                var link2 = '<img class="yt-img" src="img/yt.svg" />';
+                                var link2 = '';
+                                if (links_[yt_link][2] < 1){
+                                    link2 = '<img class="yt-img" src="img/yt.svg" />';
+                                }else{
+                                    link2 = '<img class="yt-img yt-short" src="img/yt_shorts.svg" style="padding-right: 0.4em;"/>';
+                                }
                                 table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
 
-                                // var link3 = '<span class="w3-row"> <span class="w3-col s9">';
-                                // var link4 = '</span> <span class="w3-col s3">';
-                                // var link5 = '</span></span> </a>'
-                                // table += link1 + link3 + rowCells[rowCell] + link4 + link2 + link5; // generate song name with video link
                             }else{
                                 table += rowCells[rowCell]; // song name, no link
                             }
@@ -180,7 +186,6 @@ var yt_link;
                         }
                         else if (rowCell === 2){
                             table += '<td class="year">';
-                            // table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="img/spotify.png" /></a>';
                         }
                         if(rowCell > 0 && rowCell < 3){
                             for(var i = 0; i < the_array.length-1; i++){
