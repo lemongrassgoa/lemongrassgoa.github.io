@@ -126,7 +126,7 @@ var table_target, total = 0;
                             if(rowCell === 0){
                                 var temp = "row" + singleRow;
                                 if(!wip)
-                                    table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'"; font-size: 80%;color: silver; float: right; padding-right: 0.3em;} </style>';
+                                    table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'"; transform: scale(1.5); padding-left: 0.2em; color: rgb(192 192 192 / 40%); float: right; text-shadow: none;}</style>';
                                 
                                 table += '<td id="_'+temp+'" class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
                                 table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';

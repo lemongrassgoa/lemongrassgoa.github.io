@@ -142,10 +142,13 @@ a:hover{
         height: 75vh;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     body {
         font-size: 85%;
         line-height: 1.1em;
+    }
+    .request-indicator{
+        display: none;
     }
 }
 

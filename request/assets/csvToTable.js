@@ -130,7 +130,7 @@ var table_target, total=0;
                             table += rowCells[rowCell];
                             
                             table += '</a>'
-                            // table += '<img class="tr-hover request-indicator" src="img/hand_left.svg" />';
+                            table += '<img class="tr-hover request-indicator" src="img/hand_left.svg" />';
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
