@@ -23,8 +23,7 @@ const the_array = [
     "_"
 ];
 
-var table_target;
-var yt_link;
+var table_target, total = 0;
 
 (function(){
     
@@ -121,8 +120,15 @@ var yt_link;
 	                } else {
                         if(rowCell < 9 && rowCell !== 3){
                             var wip_format = 'background-color: #000;';
+                            if(rowCells[9]){
+                                wip=1;
+                            }
                             if(rowCell === 0){
-                                table += '<td class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
+                                var temp = "row" + singleRow;
+                                if(!wip)
+                                    table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'"; font-size: 80%;color: silver; float: right; padding-right: 0.3em;} </style>';
+                                
+                                table += '<td id="_'+temp+'" class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
                                 table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
                                 table += rowCells[rowCell];
                                 table += '</a>'
@@ -159,8 +165,8 @@ var yt_link;
 	                table += '</tr>';
 	            }
                 if(wip){
-                    table = table_temp;
                     wip=0;
+                    total++;
                 }
 	        }
 	        table += '</tbody>';
