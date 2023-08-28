@@ -122,7 +122,7 @@ var table_target, total=0;
 	                } else {
                         if(rowCell === 0){
                             var temp = "form" + singleRow;
-                            table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'"; font-size: 80%;color: silver; float: left; position: relative; right: 0.5em; } @media (max-width: 450px) {#_'+temp+'::before{ display:none;}}</style>';
+                            table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'"; transform: scale(1.5); color: rgb(192 192 192 / 50%); float: right; } @media (max-width: 450px) {#_'+temp+'::before{ /*display:none;*/}}</style>';
                             table += '<td class="title" id="_'+temp+'">';
                             table += '<a id="'+ temp + '" target="_blank" onclick="modalForm('+ (singleRow-1) + ');">';
                             titles.push(rowCells[rowCell]);

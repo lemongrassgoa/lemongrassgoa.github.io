@@ -142,6 +142,13 @@ a:hover{
         height: 75vh;
     }
 }
+@media (max-width: 400px) {
+    body {
+        font-size: 85%;
+        line-height: 1.1em;
+    }
+}
+
 #modalClose{
     transform: scale(1.5); 
     transform-origin: bottom right;
