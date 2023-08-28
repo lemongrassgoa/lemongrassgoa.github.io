@@ -233,7 +233,7 @@ function modalVideo(n, e){
 }
 
 function openModal(){
-    history.pushState({}, '', '#video' + _url)
+    history.pushState({}, '', '#video' + _url);
     document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
     setTimeout(function(){
         document.getElementById('modal-video').style.display='block';
