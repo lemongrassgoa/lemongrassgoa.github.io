@@ -168,7 +168,7 @@ var yt_link;
                                 // var link2 = '<img class="yt-img" src="img/yt.svg" />';
                                 // table += link1 + link2 + rowCells[rowCell] + '</a>'; // generate song name with video link
 
-                                var link1 = '<a style="text-decoration: none;" target="_blank" onclick="modalVideo(\''+links_[yt_link][1]+'\', this)">';
+                                var link1 = '<a id="video' + yt_link + '" style="text-decoration: none;" target="_blank" onclick="modalVideo('+yt_link+', this)">';
                                 var link2 = '';
                                 if (links_[yt_link][2] < 1){
                                     link2 = '<img class="yt-img" src="img/yt.svg" />';
@@ -224,18 +224,19 @@ var yt_link;
 	}
 }());
 
-var _url = '';
-function modalVideo(url, e){
+var _url;
+function modalVideo(n, e){
+    _url = n;
     // console.log(e.childNodes[0]);
     e.childNodes[0].classList.add('yt-img-clicked');
-    _url = url;
     setTimeout(openModal, 100);
 }
 
 function openModal(){
+    history.pushState({}, '', '#video' + _url)
     document.getElementsByClassName('yt-img-clicked')[0].classList.remove('yt-img-clicked');
     setTimeout(function(){
         document.getElementById('modal-video').style.display='block';
-        document.getElementById("video_embed").src = "https://youtube.com/embed/" + _url + "/?enablejsapi=1";
+        document.getElementById("video_embed").src = "https://youtube.com/embed/" + links_[_url][1] + "/?enablejsapi=1";
     }, 200);
 }

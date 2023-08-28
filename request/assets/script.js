@@ -70,22 +70,24 @@ function search(){
 // Get the modal
 var modal = document.getElementById('modal-request');
 
+function closeModal(){
+    modal.style.display='none';
+}
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+    if (event.target == modal) {
+        history.back();
+        closeModal();
+    }
 }
 
-function closeModal(){
-    document.getElementById('modal-request').style.display='none';
-}
 
 document.addEventListener('keyup', (event) => {
-  var name = event.key;
-  var code = event.code;
-  // Alert the key name and key code on keydown
-  // alert(`Key pressed ${name} \r\n Key code value: ${code}`);
-  if(code === "Escape")
-      closeModal();
+    var name = event.key;
+    var code = event.code;
+    // Alert the key name and key code on keydown
+    // alert(`Key pressed ${name} \r\n Key code value: ${code}`);
+    if(code === "Escape")
+        history.back();
+        closeModal();
 }, false);

@@ -143,23 +143,24 @@ stopAllYouTubeVideos();
 var modal = document.getElementById('modal-video');
 
 function closeModal(){
-    document.getElementById('modal-video').style.display='none';
+    modal.style.display='none';
     stopAllYouTubeVideos();
     // console.log(document.getElementById("video_embed").src);
-    // history.back();
 }
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
+    history.back();
         closeModal();
     }
 }
 document.addEventListener('keyup', (event) => {
-  var name = event.key;
-  var code = event.code;
-  // Alert the key name and key code on keydown
-  // alert(`Key pressed ${name} \r\n Key code value: ${code}`);
-  if(code === "Escape")
-      closeModal();
+    var name = event.key;
+    var code = event.code;
+    // Alert the key name and key code on keydown
+    // alert(`Key pressed ${name} \r\n Key code value: ${code}`);
+    if(code === "Escape")
+        history.back();
+        closeModal();
 }, false);
 

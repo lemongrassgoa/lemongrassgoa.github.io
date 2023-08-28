@@ -181,4 +181,5 @@ var table_target;
 function modalForm(n){
     document.getElementById('modal-request').style.display='block';
     document.getElementById("form_embed").src = formlink + titles[n] + ' - ' + artists[n] + formlink1;
+    history.pushState({}, '', '#form' + (n+1));
 }
