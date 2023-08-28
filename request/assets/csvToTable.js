@@ -28,7 +28,7 @@ const the_array = [
     "_"
 ];
 
-var table_target;
+var table_target, total=0;
 
 (function(){
     
@@ -121,14 +121,16 @@ var table_target;
 	                    table += '</th>';
 	                } else {
                         if(rowCell === 0){
-                            table += '<td class="title">';
-                            table += '<a id="form'+ singleRow + '" target="_blank" onclick="modalForm('+ (singleRow-1) + ');">';
+                            var temp = "form" + singleRow;
+                            // table += '<style>#_'+temp+'::after{content: " '+(singleRow-total)+'"; color: silver; font-size: 75%; vertical-align: super;}</style>';
+                            table += '<td class="title" id="_'+temp+'">';
+                            table += '<a id="'+ temp + '" target="_blank" onclick="modalForm('+ (singleRow-1) + ');">';
                             titles.push(rowCells[rowCell]);
                             
                             table += rowCells[rowCell];
                             
                             table += '</a>'
-                            table += '<img class="tr-hover request-indicator" src="img/hand_left.svg" />';
+                            // table += '<img class="tr-hover request-indicator" src="img/hand_left.svg" />';
                         }
                         else if (rowCell === 1){
                             table += '<td class="artist">';
@@ -166,7 +168,9 @@ var table_target;
                 if(wip){
                     table = table_temp;
                     wip=0;
-                }
+                    total++;
+                    console.log(total);
+               }
 	        }
 	        table += '</tbody>';
 	        table += '</table>';
