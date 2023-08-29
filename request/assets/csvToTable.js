@@ -111,7 +111,7 @@ var table_target, total=0;
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0){
-                            table += '<style>#_form::after{content: "#"; vertical-align: middle;}</style>';
+                            table += '<style>#_form::after{content: "#"; transform: scale(1.2); transform-origin: bottom;}</style>';
                             table += '<th class=" dir-u serial-number" id="_form">';
                         }
                         else if(rowCell === 1)
@@ -124,7 +124,7 @@ var table_target, total=0;
 	                } else {
                         if(rowCell === 0){
                             var temp = "form" + singleRow;
-                            table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'";}</style>';
+                            table += '<style>#_'+temp+'::after{content: "'+(singleRow-total)+'";}</style>';
                             table += '<td class="title serial-number" id="_'+temp+'">';
                             table += '<a id="'+ temp + '" target="_blank" onclick="modalForm('+ (singleRow-1) + ');">';
                             titles.push(rowCells[rowCell]);
