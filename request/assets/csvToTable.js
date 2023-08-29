@@ -111,7 +111,7 @@ var table_target, total=0;
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0){
-                            table += '<style>#_form::after{content: "#"; transform: scale(1.2); transform-origin: bottom;}</style>';
+                            table += '<style>#_form::after{ content: "#"; transform: scale(1.2); transform-origin: bottom; }</style>';
                             table += '<th class=" dir-u serial-number" id="_form">';
                         }
                         else if(rowCell === 1)
