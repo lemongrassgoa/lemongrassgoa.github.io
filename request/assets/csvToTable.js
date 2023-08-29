@@ -110,8 +110,10 @@ var table_target, total=0;
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-                        if(rowCell === 0)
-                            table += '<th class=" dir-u ">';
+                        if(rowCell === 0){
+                            table += '<style>#_form::after{content: "#"; vertical-align: middle;}</style>';
+                            table += '<th class=" dir-u serial-number" id="_form">';
+                        }
                         else if(rowCell === 1)
                             table += '<th class="artist">';
                         else if(rowCell === 2)
@@ -122,8 +124,8 @@ var table_target, total=0;
 	                } else {
                         if(rowCell === 0){
                             var temp = "form" + singleRow;
-                            table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'"; transform: scale(1.5); padding-left: 0.2em; color: rgb(192 192 192 / 40%); float: right; text-shadow: none;}</style>';
-                            table += '<td class="title" id="_'+temp+'">';
+                            table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'";}</style>';
+                            table += '<td class="title serial-number" id="_'+temp+'">';
                             table += '<a id="'+ temp + '" target="_blank" onclick="modalForm('+ (singleRow-1) + ');">';
                             titles.push(rowCells[rowCell]);
                             
