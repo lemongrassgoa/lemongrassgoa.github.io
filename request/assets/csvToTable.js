@@ -111,8 +111,8 @@ var table_target, total=0;
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
                         if(rowCell === 0){
-                            table += '<style>#_form::after{ content: "#"; transform: scale(1.2); transform-origin: bottom; }</style>';
-                            table += '<th class=" dir-u serial-number" id="_form">';
+                            table += '<style>#_form::after{ content: "#"; transform: scale(1.2); transform-origin: bottom; padding-left: 0.3em; color: rgb(192 192 192 / 40%) !important; float: right; text-shadow: none; }</style>';
+                            table += '<th class=" dir-u "><span id="_form"></span>';
                         }
                         else if(rowCell === 1)
                             table += '<th class="artist">';
