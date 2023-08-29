@@ -157,15 +157,10 @@ a:hover{
 }
 .serial-number::after{
     transform: scale(1.5);
-    padding-left: 0.3em;
+    padding-left: 0.2em;
     color: rgb(192 192 192 / 40%) !important;
     float: right;
     text-shadow: none;
-}
-.serial-number{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 @media (max-width: 600px) {
     #form_embed{
