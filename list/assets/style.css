@@ -188,6 +188,10 @@ a {
 }
 
 @media (max-width: 350px) {
+    html, body {
+        font-size: 90%;
+        line-height: 1.1em;
+    }
     #logo{
         display: none;
     }
