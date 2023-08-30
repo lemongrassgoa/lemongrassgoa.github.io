@@ -171,7 +171,6 @@ var table_target, total=0;
                     table = table_temp;
                     wip=0;
                     total++;
-                    console.log(total);
                }
 	        }
 	        table += '</tbody>';

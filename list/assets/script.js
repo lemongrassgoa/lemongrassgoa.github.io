@@ -34,32 +34,16 @@ function search(){
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
-                // tr[i].style.opacity = "1";
-                tr[i].style.transform = "";
-                tr[i].style.visibility = "";
-                // tr[i].style.display = "";
-                tr[i].classList.remove("row-hide");
+                toggleRow(tr[i], 1);
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
-                // tr[i].style.opacity = "1";
-                tr[i].style.transform = "";
-                tr[i].style.visibility = "";
-                // tr[i].style.display = "";
-                tr[i].classList.remove("row-hide");
+                toggleRow(tr[i], 1);
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
-                // tr[i].style.opacity = "1";
-                tr[i].style.transform = "";
-                tr[i].style.visibility = "";
-                // tr[i].style.display = "";
-                tr[i].classList.remove("row-hide");
+                toggleRow(tr[i], 1);
             }
             else {
-                // tr[i].style.opacity = "0";
-                tr[i].style.transform = "scaleY(0)";
-                tr[i].style.visibility = "collapse";
-                // tr[i].style.display = "none";
-                tr[i].classList.add("row-hide");
+                toggleRow(tr[i], 0);
                 results--;
             }
         }
@@ -78,34 +62,38 @@ function show_hide_yt(){
     if(!yt_filter.checked){
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "0";
-            song_links[i].parentElement.style.transform = "scaleY(0)";
-            song_links[i].parentElement.style.visibility = "collapse";
-            // song_links[i].parentElement.style.display = "none";
-            song_links[i].parentElement.classList.add("row-hide");
+            setTimeout(toggleRow, 1, song_links[i].parentElement, 1);
+            if(!song_links[i].classList.contains("yt_link"))
+                setTimeout(toggleRow, 1, song_links[i].parentElement, 0);
         }
         var song_links = document.getElementsByClassName("yt_link");
-        for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "1";
-            song_links[i].parentElement.style.transform = "";
-            song_links[i].parentElement.style.visibility = "";
-            // song_links[i].parentElement.style.display = "";
-            song_links[i].parentElement.classList.remove("row-hide");
-        }
         document.getElementById("yt-checkbox-img").style.filter = "grayscale(1) drop-shadow(2px 2px 1px white)";
         document.getElementById("search-results").innerHTML = song_links.length + " video" + (song_links.length == 1 ? "" : "s");
     }
     else{
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
-            // song_links[i].parentElement.style.opacity = "1";
-            song_links[i].parentElement.style.transform = "";
-            song_links[i].parentElement.style.visibility = "";
-            // song_links[i].parentElement.style.display = "";
-            song_links[i].parentElement.classList.remove("row-hide");
+            setTimeout(toggleRow, 1, song_links[i].parentElement, 1);
+
         }
         document.getElementById("yt-checkbox-img").style.filter = "grayscale(0) drop-shadow(2px 2px 1px black)";
         document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
+    }
+}
+
+function toggleRow(e, x){
+    if(x){
+        // e.style.display = "";
+        // e.style.opacity = "1";
+        e.style.transform = "scaleY(1)";
+        e.style.visibility = "";
+        e.classList.remove("row-hide");
+    }else{
+        // e.style.display = "none";
+        // e.style.opacity = "0";
+        e.style.transform = "scaleY(0)";
+        e.style.visibility = "collapse";
+        e.classList.add("row-hide");
     }
 }
 

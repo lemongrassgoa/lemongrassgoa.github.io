@@ -11,7 +11,7 @@ function onload(){
   
 function search(){
     // Declare variables
-    var input, filter, table, tr, td0, td1, td2, i, txtValue0, txtValue1, txtValue2;
+    var input, filter, table, tr, td0, td1, td2, td3, i, txtValue0, txtValue1, txtValue2, txtValue3;
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
     table = document.getElementById("repertoire-table");
@@ -20,44 +20,54 @@ function search(){
     var results = tr.length-1;
 
     // Loop through all table rows, and hide those that don't match the search query
-    // searching title | artist | year
+    // searching title | artist | year | tags
     for (i = 0; i < tr.length; i++) {
         td0 = tr[i].getElementsByTagName("td")[0];   // title
         td1 = tr[i].getElementsByTagName("td")[1];   // artist
         td2 = tr[i].getElementsByTagName("td")[2];   // year
-        if (td0 || td1 || td2) {
+        td3 = tr[i].getElementsByTagName("td")[12];   // year
+        if (td0 || td1 || td2 || td3) {
             txtValue0 = td0.textContent || td0.innerText;
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
+            txtValue3 = td2.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
-                // tr[i].style.opacity = "";
-                // tr[i].style.visibility = "";
-                tr[i].style.display = "";
-                tr[i].classList.remove("row-hide");
+                toggleRow(tr[i], 1);
             }
             else if (txtValue1.toUpperCase().indexOf(filter) > -1) {
-                // tr[i].style.opacity = "";
-                // tr[i].style.visibility = "";
-                tr[i].style.display = "";
-                tr[i].classList.remove("row-hide");
+                toggleRow(tr[i], 1);
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
-                // tr[i].style.opacity = "";
-                // tr[i].style.visibility = "";
-                tr[i].style.display = "";
-                tr[i].classList.remove("row-hide");
+                toggleRow(tr[i], 1);
+            }
+            else if (txtValue3.toUpperCase().indexOf(filter) > -1) {
+                toggleRow(tr[i], 1);
             }
             else {
-                // tr[i].style.opacity = "0";
-                // tr[i].style.visibility = "collapse";
-                tr[i].style.display = "none";
-                tr[i].classList.add("row-hide");
+                toggleRow(tr[i], 0);
                 results--;
             }
         }
     }
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
 }
+
+function toggleRow(e, x){
+    if(x){
+        // e.style.display = "";
+        // e.style.opacity = "1";
+        e.style.transform = "scaleY(1)";
+        e.style.visibility = "";
+        e.classList.remove("row-hide");
+    }else{
+        // e.style.display = "none";
+        // e.style.opacity = "0";
+        e.style.transform = "scaleY(0)";
+        e.style.visibility = "collapse";
+        e.classList.add("row-hide");
+    }
+}
+
 
 const wip_filter = document.getElementById('wip');
 
