@@ -110,7 +110,7 @@ var table_target, total = 0;
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
-                        /*  * /
+                        /*  */
                         if(rowCell === 11){
                             table += '<th class="tags" style="">';
                             table += rowCells[rowCell];
@@ -148,7 +148,7 @@ var table_target, total = 0;
                                 table += '</td>';
                             }
                         }
-                        /* * /
+                        /* */
                         if(rowCell === 11){
                             table += '<td class="tags" style="width: 1em; font-size: 70%; word-wrap: break-word;">';
                             table += rowCells[rowCell];
