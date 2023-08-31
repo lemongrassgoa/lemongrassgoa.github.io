@@ -118,7 +118,7 @@ var table_target, total = 0;
                         }
                         /*  */
 	                } else {
-                        if(rowCell < 9 && rowCell !== 3){
+                        if((rowCell < 9 && rowCell !== 3)){
                             var wip_format = 'background-color: #000;';
                             if(rowCells[9]){
                                 wip=1;

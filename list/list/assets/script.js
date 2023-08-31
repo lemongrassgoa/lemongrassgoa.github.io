@@ -25,12 +25,12 @@ function search(){
         td0 = tr[i].getElementsByTagName("td")[0];   // title
         td1 = tr[i].getElementsByTagName("td")[1];   // artist
         td2 = tr[i].getElementsByTagName("td")[2];   // year
-        td3 = tr[i].getElementsByTagName("td")[12];   // year
+        td3 = tr[i].getElementsByTagName("td")[8];   // tags
         if (td0 || td1 || td2 || td3) {
             txtValue0 = td0.textContent || td0.innerText;
             txtValue1 = td1.textContent || td1.innerText;
             txtValue2 = td2.textContent || td2.innerText;
-            txtValue3 = td2.textContent || td2.innerText;
+            txtValue3 = td3.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
                 toggleRow(tr[i], 1);
             }
