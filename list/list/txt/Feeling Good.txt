@@ -1,0 +1,80 @@
+Feeling Good
+
+Em           Em7/D      C7         B7
+Birds flying high you know how I feel
+Em           Em7/D      C7         B7
+Sun in the sky you know how I feel
+Em           Em7/D      C7         B7
+Reeds driftin' on by you know how I feel
+ 
+    Em
+    It's a new dawn
+    Em7/D
+    It's a new day
+    C7
+    It's a new life
+    B7        A B
+    F-o-r     me
+    And I'm feeling good
+ 
+Em           Em7/D      C7         B7
+ 
+Em          Em7/D     C7         B7
+Fish in the sea you know how I feel
+Em            Em7/D       C7        B7
+River running free you know how I feel
+Em             Em7/D      C7         B7
+Blossom in the tree you know how I feel
+ 
+    Em
+    It's a new dawn
+    Em7/D
+    It's a new day
+    C7
+    It's a new life
+    B7        A B
+    F-o-r     me
+    And I'm feeling good
+ 
+Em           Em7/D      C7         B7
+ 
+Em                   Em7/D     C7          B7
+Dragonfly out in the sun you know what I mean, don't you know
+Em                     Em7/D     C7         B7
+Butterflies all havin' fun you know what I mean
+Em       Em7/D        C7     B7
+Sleep in peace when day is done
+ 
+That's what I mean
+ 
+    Em
+    And this old world
+    Em7/D
+    Is a new world
+    C7
+    And a bold world
+    B7        A B
+    F-o-r     me
+ 
+Em           Em7/D      C7         B7
+ 
+Em             Em7/D       C7         B7
+Stars when you shine you know how I feel
+Em           Em7/D      C7         B7
+Scent of the pine you know how I feel
+Em            Em7/D        C7         B7
+Oh freedom is mine and I know how I feel
+ 
+Em       Em7/D        C7     B7
+ 
+    Em
+    It's a new dawn
+    Em7/D
+    It's a new day
+    C7
+    It's a new life
+    B7        A B
+    F-o-r     me
+    And I'm feeling good
+ 
+Em           Em7/D      C7         B7

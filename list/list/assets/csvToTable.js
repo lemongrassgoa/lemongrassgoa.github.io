@@ -129,7 +129,8 @@ var table_target, total = 0;
                                     table += '<style>#_'+temp+'::before{content: "'+(singleRow-total)+'"; transform: scale(1.5); padding-left: 0.2em; color: rgb(192 192 192 / 40%); float: right; text-shadow: none;}</style>';
                                 
                                 table += '<td id="_'+temp+'" class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
-                                table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
+                                // table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
+                                table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="txt/'+ rowCells[0] + '.txt">';
                                 table += rowCells[rowCell];
                                 table += '</a>'
                             }

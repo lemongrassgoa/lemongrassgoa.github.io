@@ -1,0 +1,90 @@
+Meghan Trainor
+Dear Future Husband (orig C#)
+
+|   D
+    Dear future husband
+|                Bm
+    Here's a few things you'll need to know if 
+|             G6              A              D
+    you wanna be / My one and only all my life
+
+
+[D]  Take me on a date / I deserve a break
+[Bm] And don't forget the flowers every anniversary
+[G]  'Cause if you'll treat me right
+[A]  I'll be the perfect wife
+[D]  Buying groceries / Buy-buying what you need
+[D]  You got that 9 to 5 / But, baby, so do I
+[Bm] So don't be thinking I'll be home and baking apple pies
+[G]  I never learned to cook
+[A]  But I can write a hook
+[D]  Sing along with me / Sing-sing along with me (hey)
+
+|   D                                     Bm
+    You gotta know how to treat me like a lady
+|                        G       A                    D
+    Even when I'm acting crazy / Tell me everything's alright
+
+|   D
+    Dear future husband
+|                Bm
+    Here's a few things you'll need to know if 
+|             G               A           D
+    you wanna be / My one and only all my life
+|   D
+    Dear future husband
+|                Bm
+    If you wanna get that special lovin'
+|               G         A              D
+    Tell me I'm beautiful each and every night (woo)
+
+[D]  After every fight / Just apologize
+[Bm] And maybe then I'll let you try and rock my body right
+[G]  Even if I was wrong
+[A]  You know I'm never wrong
+[D]  Why disagree? / Why, why disagree?
+
+|   D                                     Bm
+    You gotta know how to treat me like a lady
+|                        G       A                    D
+    Even when I'm acting crazy / Tell me everything's alright
+
+|   E
+    Dear future husband
+|                C#m
+    Here's a few things you'll need to know if 
+|             A               B           E
+    you wanna be / My one and only all my life
+|   E
+    Dear future husband
+|                 C#m
+    Make time for me / Don't leave me lonely
+|                 A              B                E
+    And no, we'll never see your family more than mine
+
+[E]   I'll be sleeping on the left side of the bed (hey)
+[C#m] Open doors for me and you might get some kisses
+[A]   Don't have a dirty mind
+[B]   Just be a classy guy
+[E]   Buy me a ring / Buy-buy me a ring, babe
+
+|   E                                     C#m
+    You gotta know how to treat me like a lady
+|                        A       B                    E
+    Even when I'm acting crazy / Tell me everything's alright
+
+|   E
+    Dear future husband
+|                C#m
+    Here's a few things you'll need to know if 
+|             A               B           E
+    you wanna be / My one and only all my life
+|   E
+    Dear future husband
+|                C#m
+    If you wanna get that special lovin'
+|               A         B              E
+    Tell me I'm beautiful each and every night (that's right)
+
+Oh, whoa
+Future husband, better love me right
