@@ -75,13 +75,101 @@ OUTRO:
 
 
 
-scroll up
-scroll up
-scroll up
-scroll up
-scroll up
-scroll up
-scroll up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,3 +207,29 @@ C       E7      A(7)      Dm
 F  F#-  C   A7/C#   Dm7   G7   C   E7
 
 ---------------------------------------
+
+---------------------------------------
+
+Take Five (VIOLA)
+Dave Brubeck
+
+| Am7  -  -  Em7  -
+
+| FM7  -  -  Dm6  -
+| Em7  -  -  Am7  -
+| Dm7  -  -  G7   -
+| CM7  -  -  C7   -
+
+| FM7  -  -  Dm6  -
+| Em7  -  -  Am7  -
+| Dm7  -  -  G7   -
+| Bm7  -  -  E7   -
+
+| Am7  -  -  Em7  -      (repeat)
+
+
+OUTRO:
+| FM7
+| F#-
+| Dm7-G7 Bm7-E7 (break)
+| Am
