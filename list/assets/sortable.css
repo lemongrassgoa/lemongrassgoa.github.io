@@ -8,20 +8,20 @@
   color: transparent;
   animation: flash 2s 3;
 }
-.sortable thead th:not(.no-sort)::after {
+.sortable thead th:not(.no-sort)::after { /* mouse hover indicator */
   margin-left: 3px;
-  content: ' \021C5';
+  content: '\021C5';
 }
 .sortable thead th:not(.no-sort):hover::after {
   color: inherit;
 }
-.sortable thead th:not(.no-sort).dir-d::after {
+.sortable thead th:not(.no-sort).dir-d::after { /* descending sort indicator */
   color: inherit;
-  content: ' \025BC';
+  content: '\025BC';
 }
-.sortable thead th:not(.no-sort).dir-u::after {
+.sortable thead th:not(.no-sort).dir-u::after { /* ascending sort indicator */
   color: inherit;
-  content: ' \025B2';
+  content: '\025B2';
 }
 .sortable thead th:not(.no-sort).indicator-left::after {
   content: "";
@@ -34,11 +34,11 @@
 }
 .sortable thead th:not(.no-sort).indicator-left.dir-d::before {
   color: inherit;
-  content: ' \025BC';
+  content: '\025BC';
 }
 .sortable thead th:not(.no-sort).indicator-left.dir-u::before {
   color: inherit;
-  content: ' \025B2';
+  content: '\025B2';
 }
 
 .sortable {
