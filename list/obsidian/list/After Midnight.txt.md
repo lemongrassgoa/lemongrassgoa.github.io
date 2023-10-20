@@ -1,0 +1,28 @@
+After Midnight
+J. J. Cale [drum: 16th shuffle 1, bpm: 90]
+
+After midnight, we're gonna let it all hang out
+After midnight, we're gonna chug-a-lug and shout
+
+    We're gonna cause talk and suspicion
+    Give an exhibition
+    Find out what it is all about
+    After midnight, we're gonna let it all hang out
+
+After midnight, gonna shake your tambourine
+After midnight, it's gonna be peaches and cream
+
+    We're gonna cause talk and suspicion
+    Give an exhibition
+    Find out what it is all about
+    After midnight, we're gonna let it all hang out
+    
+(SOLO)
+
+    We're gonna cause talk and suspicion
+    Give an exhibition
+    Find out what it is all about
+    After midnight, we're gonna let it all hang out
+
+
+#blues #blues_rock #folk_rock #roots_rock #singer-songwriter #acoustic #groovy #oldies #retro
