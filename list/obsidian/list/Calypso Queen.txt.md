@@ -53,3 +53,7 @@ But Calypso Rose is still singing on
     They making plot to take down me name
 
 (intro riff)
+
+
+
+#calypso #trinidadian_reggae #groovy #alternative #dance

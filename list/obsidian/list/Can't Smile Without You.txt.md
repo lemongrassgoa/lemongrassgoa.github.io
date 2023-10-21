@@ -38,3 +38,6 @@ leaving your love be [Eb]-hind [E] me
 [Gm]  I feel glad when you're glad
 [Cm]  If you only knew what I'm going through
 [F]   I just can't smile without [Bb] you
+
+
+#adult_standards #mellow_gold #soft_rock #yacht_rock #oldies #retro #love #sweet

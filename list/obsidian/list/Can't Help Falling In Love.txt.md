@@ -20,3 +20,6 @@ If I  can't help falling in love with you?
   Take my   hand / Take my whole life, too
 |   F  G     Am   F          C    G    C
 For I  can't help falling in love with you
+
+
+#rock-and-roll #rockabilly #love #slow #oldies #retro #waltz

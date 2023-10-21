@@ -60,3 +60,7 @@ And tidal waves couldn't save the world from Californication
 |   C            G    Dm    Am   C            G    Dm
     Dream of Californication / Dream of Californication
     Dream of Californication / Dream of Californication
+
+
+
+#alternative_rock #funk_metal #funk_rock #permanent_wave #rock #groovy

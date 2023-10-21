@@ -55,3 +55,7 @@ My lovin' baby  /  is through with me
     Bye-bye my love goodbye
     Bye-bye my love goodbye
     Bye-bye my love goodbye
+
+
+
+#adult_standards #folk_rock #mellow_gold #rock-and-roll #rockabilly #sunshine_pop #oldies #retro #love

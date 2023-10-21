@@ -22,3 +22,6 @@ E7   %   A6   %   E7   %    A6   %
 E7   %   A6   %   E7   %
 
 A   A7/C#   D   Bm(b5)
+
+
+#baiao #bossa_nova #choro #samba #velha_guarda #chamber_ensemble #classical_cello #classical_performance #instrumental

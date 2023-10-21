@@ -22,7 +22,7 @@ But if you feel like I feel / please let me know that it's real
 You're just too good to be true / Can't take my eyes off you
  
 [Bridge]
-Dm      G       C       Am
+Dm7      G7       CM7       Am
 Dm      G       C       A
  
            Dm7               G

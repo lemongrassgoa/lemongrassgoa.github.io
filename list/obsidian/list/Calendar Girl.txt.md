@@ -42,3 +42,7 @@ Every day, Every day of the year
 I love, I love, I love my calendar girl
 Yeah, sweet calendar girl
 I love, I love, I love my calendar girl
+
+
+
+#adult_standards #brill_building_pop #bubblegum_pop #easy_listening #rockabilly #soft_rock #oldies #retro #love #sweet
