@@ -45,3 +45,7 @@ La, la, la, la, la, la, la
 (I love cheap thrills)
 La, la, la, la, la, la
 (I love cheap thrills)
+
+
+
+#australian_dance #australian_pop #pop #groovy #dance #fast

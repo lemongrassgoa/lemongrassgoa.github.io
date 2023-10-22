@@ -72,3 +72,6 @@ You just kinda wasted my precious time
 C               G               C
 But don't think twice, it's all right
 
+
+
+#classic_rock #country_rock #folk #folk_rock #psychedelic_rock #rock #roots_rock #singer-songwriter #acoustic #alternative #love #oldies #retro #folk

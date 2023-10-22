@@ -70,3 +70,6 @@ Baby just give me one reason   Give me just one reason why I should stay
 Because I told you that I loved you
                            E   E7 A A7 E
 And there ain't no more to say
+
+
+#folk #lilith #singer-songwriter #women's_music #alternative #dance #groovy #fast #love

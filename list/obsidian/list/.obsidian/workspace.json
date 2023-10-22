@@ -11,12 +11,8 @@
             "id": "a9a7106ca9ed38f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Careless Whisper.txt.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#singer-songwriter",
+                "query": "tag:#love",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Careless Whisper.txt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Careless Whisper.txt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Careless Whisper.txt.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,32 +140,32 @@
   },
   "active": "a9a7106ca9ed38f8",
   "lastOpenFiles": [
-    "Can't Take My Eyes Off You.txt.md",
-    "A Thousand Years.txt.md",
-    "Careless Whisper.txt.md",
-    "Can't Smile Without You.txt.md",
-    "Can't Help Falling In Love.txt.md",
-    "Calypso Queen.txt.md",
-    "Californication.txt.md",
-    "Calendar Girl.txt.md",
-    "Bye Bye Love.txt.md",
-    "Butterfly.txt.md",
-    "Budapest.txt.md",
-    "Brown Eyed Girl.txt.md",
-    "Breathe (2 am).txt.md",
-    "Breakfast At Tiffany's.txt.md",
-    "Brasileirinho.txt.md",
-    "Brandy.txt.md",
-    "Blowin' In The Wind.txt.md",
-    "Blinding Lights.txt.md",
-    "Blackbird.txt.md",
-    "Bitter Sweet Symphony.txt.md",
-    "Bistro Fada.txt.md",
-    "Biomusicology.txt.md",
-    "Big Yellow Taxi.txt.md",
-    "Big Bang.txt.md",
-    "Better When I'm Dancing.txt.md",
-    "Better Together.txt.md",
+    "La Vie En Rose.txt.md",
+    "La Isla Bonita.txt.md",
+    "L-O-V-E.txt.md",
+    "Kiss Me.txt.md",
+    "Kingdom Come.txt.md",
+    "King Of The Road.txt.md",
+    "Killing Me Softly.txt.md",
+    "Just When I Needed You Most.txt.md",
+    "Just The Way You Are.txt.md",
+    "Just The Two Of Us.txt.md",
+    "Just Give Me A Reason.txt.md",
+    "Jolene.txt.md",
+    "Johnny B Goode.txt.md",
+    "JoCo.txt.md",
+    "Jar Of Hearts.txt.md",
+    "Jailhouse Rock.txt.md",
+    "It's the End of the World As We Know It.txt.md",
+    "It's Probably Me.txt.md",
+    "Iris.txt.md",
+    "Instant Crush.txt.md",
+    "In The Summertime.txt.md",
+    "In The End.txt.md",
+    "In My Life.txt.md",
+    "If I Ain't Got You.txt.md",
+    "I'm Yours.txt.md",
+    "I'm A Believer.txt.md",
     "Untitled.canvas",
     "A Little Less Conversation.txt",
     "A Hard Day's Night.txt",

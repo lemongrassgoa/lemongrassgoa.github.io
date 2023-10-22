@@ -44,3 +44,6 @@ Leave them burning and then you're ... gone
 Looking out for another, anyone will do
 |             E        F#m                  Bm7              E7s4/B
 You're in the mood for dance / And when you get the chance...
+
+
+#europop #swedish_pop #groovy #dance #jive #oldies #retro #fast

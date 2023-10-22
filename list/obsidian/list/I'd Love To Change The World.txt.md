@@ -30,3 +30,5 @@ Senators / stop the war
     I'd love to change the world
     But I don't know what to do
     So I'll leave it up to you
+
+#blues_rock #british_blues #classic_rock #country_rock #electric_blues #folk_rock #hard_rock #progressive_rock #psychedelic_rock #alternative #fast #oldies #retro

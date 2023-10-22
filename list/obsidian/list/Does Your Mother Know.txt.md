@@ -71,3 +71,6 @@ But boy you're only a child
     And I can chat with you baby / Flirt a little maybe
     | C                               G
     Does your mother know that you're out?
+
+
+#europop #swedish_pop #dance #fast #love #groovy #oldies #retro

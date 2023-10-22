@@ -40,3 +40,6 @@ One thing I can say girl / Love you all the time
 Hold me, love me, hold me, love me
 | G                   A           C            G
 Ain't got nothing but love babe / Eight days a week
+
+
+#beatlesque #british_invasion #classic_rock #merseybeat #psychedelic_rock #rock #oldies #retro #love #dance #fast

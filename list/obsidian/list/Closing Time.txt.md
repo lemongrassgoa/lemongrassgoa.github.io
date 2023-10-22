@@ -47,3 +47,7 @@ Time for you to go out to the places you will be from
 
 Closing time
 Every new beginning comes from some other beginning's end
+
+
+
+#pop_rock #post-grunge #alternative

@@ -27,3 +27,5 @@ Keep me searching for a heart of gold.
 You keep me searching and I'm growing old.
 Keep me searching for a heart of gold
 I've been a miner for a heart of gold.
+
+#alternative #oldies #retro #slow #love

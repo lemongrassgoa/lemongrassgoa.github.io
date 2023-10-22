@@ -27,3 +27,6 @@ And it's no coincidence I've come / And I can die when I'm done
 
 Maybe I'm crazy / Maybe you're crazy / Maybe we're crazy
 Probably
+
+
+#atl_hip_hop #neo_soul #alternative #groovy

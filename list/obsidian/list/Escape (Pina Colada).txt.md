@@ -46,3 +46,6 @@ Then we laughed for a moment and I said, "I never knew"
 
 Play 2x more, end on Fmaj7
 | F    F/A - G - F   G7s4   /   C   Em7 - Dm7 - C     C7/E  ..... Fmaj7
+
+
+#yacht_rock #groovy #love #dance #oldies #retro

@@ -98,3 +98,6 @@ When they all should let us be, we belong to you and me
 
 
 OUTRO:  D     F#m7 - Fm7 - Em7     C9  .....  DM7
+
+
+#disco #mellow_gold #soft_rock #retro #oldies #groovy #love #dance

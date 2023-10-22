@@ -61,3 +61,6 @@ You're every song / and I sing along
 So la, la, la, la, la, la, la
 | E  C#m7  F#7   AmM7  Am6   E
 So la, la, la, la, la, la, la
+
+
+#adult_standards #canadian_pop #jazz_pop #lounge #groovy #dance

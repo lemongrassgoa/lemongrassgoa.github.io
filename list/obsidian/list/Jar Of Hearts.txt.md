@@ -59,3 +59,7 @@ I wish I had missed the first time that we kissed
 
 | G          Gm6        D        |
   Who do you think you are?      |   x3
+
+
+
+#pop #alternative #slow #love

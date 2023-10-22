@@ -42,3 +42,5 @@ You know...
     Oh, oh yeah, yeah
 
 You can count on me 'cause I can count on you
+
+#dance_pop #pop #groovy #acoustic #love #fast #sweet

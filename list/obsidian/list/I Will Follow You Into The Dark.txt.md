@@ -45,3 +45,5 @@ VERSE 3: You and me / have seen everything to see
          In the blackest of rooms
          
 (REFRAIN)
+
+#alternative_rock #chamber_pop #indie_rock #indietronica #modern_rock #seattle_indie #washington_indie #acoustic #love #alternative

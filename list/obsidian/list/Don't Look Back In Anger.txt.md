@@ -67,3 +67,6 @@ My soul slides away ...
 [Bbm] Don't look back in anger ...
 F    C    Dm    A7    Bb   Bbm   F    Dm>C>F
 I heard you say ... at least not today.
+
+
+#beatlesque #britpop #madchester #permanent_wave #rock #groovy #slow #alternative #acoustic

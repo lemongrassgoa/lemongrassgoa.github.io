@@ -37,3 +37,6 @@ And don't it make my brown eyes
 Don't it make my brown eyes
 Bb    C7s4    F (intro theme)
 Don't it make my brown eyes blue
+
+
+#classic_country_pop #country #country_rock #mellow_gold #soft_rock #groovy #jazz #slow #love #oldies #retro

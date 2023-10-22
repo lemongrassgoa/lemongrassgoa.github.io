@@ -24,3 +24,6 @@ Everyday words seem to turn into love songs
 Give your heart and soul to me / And life will always be
 |  A7     D
 La vie en rose
+
+
+#adult_standards #dixieland #harlem_renaissance #jazz_trumpet #new_orleans_jazz #soul #swing #vocal_jazz #slow #love #dance #jazz #oldies #retro #acoustic #waltz #sweet

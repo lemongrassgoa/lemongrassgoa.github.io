@@ -56,3 +56,6 @@ for us to work, we didn't break, we didn't burn.
     I won't give up on us, even if the skies get rough.
     |              A      E                       B
     I'm giving you all my love. I'm still looking up.
+
+
+#acoustic_pop #dance_pop #neo_mellow #pop #slow #love #dance #waltz

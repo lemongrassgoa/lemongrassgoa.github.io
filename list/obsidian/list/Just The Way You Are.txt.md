@@ -32,3 +32,7 @@ Girl, you're amazing  Just the way you are
     'Cause you're amazing / Just the way you are
     And when you smile / The whole world stops and stares for a while
     'Cause girl, you're amazing / Just the way you are / Yeah
+
+
+
+#dance_pop #pop #dance #fast #love #groovy

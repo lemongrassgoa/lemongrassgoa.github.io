@@ -58,3 +58,6 @@ There must be fifty ways to leave your lover
     You don't need to discuss much
     Just drop off the key, Lee
     And get yourself free
+
+
+#classic_rock #folk #folk_rock #mellow_gold #permanent_wave #rock #singer-songwriter #soft_rock #oldies #retro #love #groovy

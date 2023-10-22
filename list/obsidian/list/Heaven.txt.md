@@ -71,3 +71,6 @@ You're all that I want
 You're all that I need
 
 OUTRO: | C      Am7      Gs4       Fs2
+
+
+#canadian_pop #canadian_singer-songwriter #classic_canadian_rock #heartland_rock #mellow_gold #soft_rock #slow #dance #love

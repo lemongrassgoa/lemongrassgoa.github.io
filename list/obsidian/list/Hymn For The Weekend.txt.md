@@ -1,5 +1,5 @@
 Hymn For The Weekend
-Coldplay (ft. Beyoncé) [rhythm: Groove 1, bpm: 95]
+Coldplay (ft. Beyoncï¿½) [rhythm: Groove 1, bpm: 95]
 
 (C:)
 Oh, angel sent from up above / You know you make my world light up
@@ -26,7 +26,7 @@ So high, so high
 
 (interlude)  oooh ...
 
-(Chris Martin & Beyoncé:)
+(Chris Martin & Beyoncï¿½:)
 Oh, angel sent from up above / I feel it coursing through my blood
 Life is a drink, your love's about / To make the stars come out
 
@@ -41,13 +41,16 @@ Oh I, oh I, oh I
 I'm feeling drunk and high
 So high, so high
 
-(Beyoncé)
+(Beyoncï¿½)
 I, oh I, oh I
 La la la la la la la
 So high, so high
-(Beyoncé & Coldplay:)
+(Beyoncï¿½ & Coldplay:)
 I, oh I, oh I
 I'm feeling drunk and high
 So high, so high
 
 Then we'll shoot across the sky / Then we'll shoot across the ...
+
+
+#permanent_wave #pop #dance #alternative #groovy #love

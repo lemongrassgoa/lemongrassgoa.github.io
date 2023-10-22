@@ -36,3 +36,6 @@ Saying "Johnny B. Goode tonight"
     Go Johnny go go / Go Johnny go go
     Go Johnny go go / Johnny B. Goode
 
+
+
+#blues #blues_rock #classic_rock #rock #rock-and-roll #rockabilly #soul #dance #fast #oldies #retro #groovy

@@ -34,3 +34,5 @@ Dream A Little Dream Of Me (Sing in E, C capo 4)
   But in your dreams whatever they be
 | C              G#    G  C    E
   Dream a little dream of me
+
+#contemporary_vocal_jazz #love #slow #acoustic #jazz #sweet

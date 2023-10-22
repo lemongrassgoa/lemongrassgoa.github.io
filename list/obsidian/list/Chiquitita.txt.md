@@ -50,3 +50,6 @@ Chiquitita (orig A) (capo 5)
   Chiquitita, tell me the truth / There is no way you can deny it
 | D   C   D                     G - C/G
   I       see that you're oh so sad, so quiet
+
+
+#europop #swedish_pop #oldies #retro #love

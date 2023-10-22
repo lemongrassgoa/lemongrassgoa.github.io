@@ -64,3 +64,6 @@ Gimme, gimme, gimme a man after midnight
 Gimme, gimme, gimme a man after midnight
 
 | Dm - - - | Dm-C-F - - | Am - - - | Dm - - -
+
+
+#europop #swedish_pop #retro #oldies #dance #groovy #love

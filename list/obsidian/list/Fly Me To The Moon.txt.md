@@ -45,3 +45,5 @@ In other words, please be true
 In other words / in other words
 | BbM7  G7/B     C6
   I     love ... you.
+
+#adult_standards #easy_listening #lounge #jazz #love #groovy #dance #oldies #retro

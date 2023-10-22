@@ -31,3 +31,6 @@ And we held each other tight
 And before too long I fell in love with her
 Now I'll never dance with another (Whooh)
 Since I saw her standing there
+
+
+#beatlesque #british_invasion #classic_rock #merseybeat #psychedelic_rock #rock #dance #fast #love #groovy #retro #oldies

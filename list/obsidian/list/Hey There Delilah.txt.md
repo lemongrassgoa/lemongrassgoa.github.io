@@ -65,3 +65,6 @@ You'll know it's all because of you / we can do whatever we want to
 Hey there Delilah here's to you, this one's for you. 
 
 (OUTRO)   (refrain)
+
+
+#modern_rock #neo_mellow #neon_pop_punk #pop_punk #pop_rock #acoustic #love #sweet

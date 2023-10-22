@@ -78,3 +78,6 @@ singing clear and strong ...
     Telling my whole life / with his words
     Killing me softly / with his song
 
+
+
+#love #slow #oldies #retro

@@ -30,3 +30,5 @@ Flightless bird, grounded, bleeding
 Or lost you?
 American mouth
 Big pill stuck going down
+
+#acoustic_pop #chamber_pop #indie_folk #indie_rock #stomp_and_holler #love #slow #alternative

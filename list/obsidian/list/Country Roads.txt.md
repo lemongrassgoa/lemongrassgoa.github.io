@@ -31,3 +31,6 @@ West Virginia, mountain mamma, take me home, country roads
 Take me home now, country roads,
 Take me home now, country roads.
 
+
+
+#classic_country_pop #folk #folk_rock #mellow_gold #singer-songwriter #soft_rock #oldies #retro #groovy

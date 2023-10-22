@@ -46,3 +46,6 @@ I'm in love, I'm a believer!
 I couldn't leave her if I tried.
 
 I'm a believer, I'm a believer yeah yeah
+
+
+#album_rock #beatlesque #bubblegum_pop #classic_rock #folk_rock #heartland_rock #mellow_gold #psychedelic_rock #rock-and-roll #singer-songwriter #soft_rock #sunshine_pop #oldies #retro #fast #dance #groovy #love

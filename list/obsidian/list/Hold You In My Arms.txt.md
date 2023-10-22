@@ -68,3 +68,5 @@ But who really profits from the dying?
       Oh I could hold on forever
 
 | G . . Bm/F# . . Em . . D . . C . . . . . | x2
+
+#acoustic_pop #indie_folk #neo_mellow #stomp_and_holler #acoustic #alternative #love #slow #waltz

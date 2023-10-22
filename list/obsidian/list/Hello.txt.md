@@ -43,3 +43,5 @@ Or is someone loving you?
 Tell me how to win your heart
 For I haven't got a clue
 But let me start by saying / I love you
+
+#soft_rock #love #slow #oldies #retro

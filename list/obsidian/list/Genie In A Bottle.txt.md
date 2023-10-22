@@ -46,3 +46,6 @@ Baby, baby, baby
 |   Em    Am7    B7        CM7 B7
     (I'm a genie in a bottle baby / Gotta rub me the right way honey)
     (I'm a genie in a bottle baby / Come come, come on and let me out)
+
+
+#dance_pop #pop #love #dance #fast #groovy

@@ -47,3 +47,6 @@ And anyone who / tried to deny you must be out of their minds
 (quiet, strum off)
 | A      E         Bm7    A      E       Bm7
   Honey, you are a rock  /  Upon which I stand
+
+
+#permanent_wave #pop #alternative #acoustic #love #slow

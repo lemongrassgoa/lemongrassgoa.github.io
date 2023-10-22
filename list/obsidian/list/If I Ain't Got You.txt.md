@@ -66,3 +66,6 @@ If I ain't got you with me baby
  | 10 - - - - - | 9  - - - - - | 7 - - - - - | 5 - - 5  7  9  | 10 - - - - - | 9  - - - - 8  | 7 - - - - - | 5
  | x  - - - - - | x  - - - - - | x - - - - - | x - - x  x  x  | x  - - - - - | x  - - - - x  | x - - - - - | x
  | x  - - - - - | x  - - - - - | x - - - - - | x - - x  x  x  | x  - - - - - | x  - - - - x  | x - - - - - | x
+
+
+#neo_soul #pop #rnb #jazz #slow #love #waltz

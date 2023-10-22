@@ -49,3 +49,5 @@ You are the god and the weight of her world
     Girls become lovers who turn into mothers
     So mothers, be good to your daughters too
 
+
+#neo_mellow #singer-songwriter #groovy #slow #alternative

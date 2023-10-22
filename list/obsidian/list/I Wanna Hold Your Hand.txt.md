@@ -68,3 +68,6 @@ I wanna hold your hand
     I wanna hold your hand
 | G         A         G (bassline)    D
 I wanna hold your hand
+
+
+#beatlesque #british_invasion #classic_rock #merseybeat #psychedelic_rock #rock #dance #fast #love #groovy #retro #oldies

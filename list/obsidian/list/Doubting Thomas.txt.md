@@ -25,7 +25,7 @@ VERSE 2: Sometimes I pray for a slap in the face
 |              F        C      F                 C
 REFRAIN: I'm a doubting Thomas / I can't keep my promises
 |        F              G            C     C/Bb
-         ‘cause I don't know what's safe
+         ï¿½cause I don't know what's safe
 |        F/A         C/G   G   F  (intro theme)
          Oh, me of lit - tle faith
      
@@ -45,4 +45,5 @@ REFRAIN: I'm a doubting Thomas / I'll take your promise
          though I know nothin's safe
 |        F/A         C  G   F  (intro theme)
          Oh, me of little faith  ...   oh, me of little faith
-         
+
+#bluegrass #instrumental_bluegrass #mandolin #progressive_bluegrass

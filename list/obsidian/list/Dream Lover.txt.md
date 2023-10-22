@@ -58,3 +58,6 @@ That's the only thing to do
 Please, don't make me dream alone
 I beg you, don't make me dream alone
 No, I don't wanna dream alone
+
+
+#adult_standards #easy_listening #lounge #rock-and-roll #vocal_jazz #lover #oldies #retro #dance #sweet

@@ -62,3 +62,6 @@ REFRAIN: Just the two of us
          Building castles in the sky
          Just the two of us
          You and I
+
+
+#contemporary_vocal_jazz #vocal_jazz #brazilian_modern_jazz #jazz #oldies #retro #love

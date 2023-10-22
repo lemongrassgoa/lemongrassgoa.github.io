@@ -70,3 +70,6 @@ I'd have to pack my things and go. (That's right)
 (What you tryin' to do to me?) Don't you come back no more.
 | Am          G                 F        E7         (end on AmM7)
 (Oh, don't treat me like that) Don't you come back no more.
+
+
+#classic_soul #jazz_blues #piano_blues #soul #soul_blues #vocal_jazz #dance #oldies #retro #jive

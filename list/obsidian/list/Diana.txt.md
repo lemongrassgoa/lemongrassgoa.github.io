@@ -33,3 +33,6 @@ I can feel you giving all your charms
     Oh, please, Diana
     Oh, please, Diana
     Oh, please, Diana
+
+
+#adult_standards #canadian_pop #easy_listening #rock-and-roll #dance #groovy #love #sweet #oldies #retro

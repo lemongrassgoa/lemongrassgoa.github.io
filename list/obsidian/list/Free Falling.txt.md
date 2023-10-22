@@ -27,3 +27,5 @@ I wanna free fall out into nothin'
 Gonna leave this world for a while
 
 And I'm free, I'm free fallin'
+
+#album_rock #classic_rock #hard_rock #heartland_rock #mellow_gold #rock #singer-songwriter #soft_rock #alternative #acoustic #oldies #retro #love

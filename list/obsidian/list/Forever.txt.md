@@ -58,3 +58,6 @@ OUTRO: | D (softly)
 
 | Bm    A  D                 Gs2                D
   Stars in flight / Forever tonight / Forever tonight
+
+
+#acoustic_pop #neo_mellow #love #dance #fast

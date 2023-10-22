@@ -50,3 +50,6 @@ All over this land
     It's the song about Love between
     my brothers and my sisters
     All over this land
+
+
+#american_folk_revival #folk #folk_rock #mellow_gold #singer-songwriter #soft_rock #fast #dance #groovy #retro #oldies #folk

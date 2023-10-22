@@ -31,3 +31,6 @@ I know you'd understand
     'Cause ev'ry time I tried to tell you
     The words just came out wrong
     So I'll have to say I love you in a song
+
+
+#classic_rock #country_rock #folk #folk_rock #heartland_rock #mellow_gold #singer-songwriter #soft_rock #acoustic #love #slow #groovy #oldies #retro #sweet #folk

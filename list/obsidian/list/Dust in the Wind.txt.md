@@ -14,7 +14,10 @@ Dust in the wind    /  all we are is dust in the wind  ...  ohhh
 (INSTRUMENTAL)
 
 Now, don't hang  on / nothing lasts forever but the earth and sky
-It slips a  -  way / and all your money won´t another minute buy
+It slips a  -  way / and all your money wonï¿½t another minute buy
 
 Dust in the wind / all we are is dust in the wind
 Dust in the wind / everything is dust in the wind.
+
+
+#album_rock #classic_rock #hard_rock #heartland_rock #mellow_gold #progressive_rock #rock #soft_rock #alternative #acoustic #oldies #retro #love

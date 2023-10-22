@@ -49,3 +49,5 @@ Girls Just Want To Have Fun (orig B)
     |  Em          D          Cadd9
        Girls, they wanna have fun
     Oh girls, just wanna have fun
+
+#acoustic_cover #acoustic_pop #acoustic #alternative #love #retro #oldies

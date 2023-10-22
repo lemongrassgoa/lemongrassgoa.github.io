@@ -30,3 +30,6 @@ And when the world was through
 Then one by one the stars would all go out
 |    F#m7    B7      Em7    A7s  D    G   Gm    D
 Then you and I would simply fly away
+
+
+#folk_rock #mellow_gold #singer-songwriter #soft_rock #love #slow #oldies #retro #sweet

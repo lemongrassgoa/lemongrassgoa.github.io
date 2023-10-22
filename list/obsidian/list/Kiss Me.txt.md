@@ -56,3 +56,6 @@ Em   A   D    D7
     silver moon sparkling
              D   DM7   D7   DM7
     ... So kiss me                   |   x4 
+
+
+#lilith #pop_rock #dance #groovy #love #acoustic #alternative #sweet

@@ -41,3 +41,5 @@ Last thing I remember, I was / Running for the door
 I had to find the passage back / To the place I was before
 "Relax" said the night man / "We are programmed to receive.
 You can check-out any time you like / But you can never leave!"
+
+#album_rock #classic_rock #heartland_rock #mellow_gold #rock #soft_rock #yacht_rock #retro #oldies #groovy

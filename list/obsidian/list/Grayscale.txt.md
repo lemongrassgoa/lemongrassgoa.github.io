@@ -52,3 +52,6 @@ But darlin' I'm grayscale / when I'm far from you
 Yeah, your love is the brightness / Your love is the sea 
 |                    D7                                          G    C  D7  G
 and the world is our forest, oh come / Live in the treetops with me
+
+
+#indie #acoustic #alternative #love #sweet #folk #waltz

@@ -40,3 +40,6 @@ And another who tied me down to loverboy rules
     Well I need someone to hold me / But I'll wait for something more
 
     Yes I gotta have faith....
+
+
+#new_wave_pop #groovy #dance #fast #oldies #retro #love

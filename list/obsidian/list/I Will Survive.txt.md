@@ -53,3 +53,5 @@ I've got all my life to live
 And I've got all my love to give and I'll survive
 I will survive
 I will survive
+
+#classic_soul #jazz_blues #memphis_soul #neo_soul #soul #southern_soul #vocal_jazz #retro #oldies #dance #groovy #love

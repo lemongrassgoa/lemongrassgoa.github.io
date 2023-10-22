@@ -51,3 +51,6 @@ Everything at [A]  once
     All I wanna be, oh oh oh
     All I wanna be is [A] everything
     Everything at [Dm] once
+
+
+#alternative #dance

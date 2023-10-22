@@ -56,3 +56,6 @@ Than waiting to win the lottery
 Besides maybe this time it's different / I mean I really think you like me
 
 | D    F#7    Bm     /    Em    Gm     |  x2
+
+
+#chamber_pop #indie_rock #melancholia #omaha_indie #stomp_and_holler #alternative #acoustic #love #sweet

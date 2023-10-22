@@ -63,3 +63,6 @@ Because I'm happy                                          \
     Clap along if you feel like happiness is the truth     |
     Clap along if you know what happiness is to you        |  x2
     Clap along if you feel like that's what you wanna do   /
+
+
+#dance_pop #pop #dance #fast #love #groovy

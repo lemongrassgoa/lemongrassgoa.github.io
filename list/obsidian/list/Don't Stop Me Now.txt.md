@@ -55,3 +55,6 @@ Don't Stop Me Now (Capo 3) [rhythm: Simple 2, bpm: 160]
  Don't stop me, don't stop me
 
 (VERSE chords)
+
+
+#classic_rock #glam_rock #rock #dance #fast #love #groovy #oldies #retro

@@ -41,3 +41,6 @@ Bring your friends, and we'll all go into town
 (instrumental)
 
 (repeat from top)
+
+
+#british_blues #classic_uk_pop #alternative #dance #groovy #oldies #retro

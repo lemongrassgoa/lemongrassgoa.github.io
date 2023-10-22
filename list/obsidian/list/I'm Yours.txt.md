@@ -33,3 +33,6 @@ Well, open up your mind and see like me / Open up your plans and damn you're fre
 Look into your heart and you'll find that the sky is yours
 So please don't, please don't, please don't / There's no need to complicate
 'Cause our time is short / This oh, this oh, this is our fate / I'm yours
+
+
+#acoustic_pop #dance_pop #neo_mellow #pop #love #groovy #dance

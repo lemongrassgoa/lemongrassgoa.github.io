@@ -34,3 +34,6 @@ And whatever you decide to do, Jolene
     Please don't take him even though you can
 
 Jolene, Jolene
+
+
+#classic_country_pop #country #country_dawn #dance #fast #retro #oldies #alternative #acoustic

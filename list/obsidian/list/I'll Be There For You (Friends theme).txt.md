@@ -58,3 +58,6 @@ When it hasn't been your day, your week, your month, or even your year ...
     I'll be there for you
     I'll be there for you
     I'll be there for you ('Cause you're there for me [F] too)  [G]
+
+
+#pop_rock #dance #fast #love #groovy

@@ -156,3 +156,6 @@ when I'm with you
     'Cause I know it unlocks like a door
 
 (OUTRO)
+
+
+#electro #filter_house #rock #indie_rock #alternative #dance #love

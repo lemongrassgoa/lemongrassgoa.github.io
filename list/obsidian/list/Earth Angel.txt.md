@@ -30,3 +30,6 @@ Oh, Earth Angel, Earth Angel,
 Please be mine?
 My darling dear, Love you all the time.
 I'm just a fool, A fool in love with you.
+
+
+#alternative_rock #chamber_pop #indie_rock #indietronica #modern_rock #seattle_indie #washington_indie #oldies #retro #love #slow #waltz

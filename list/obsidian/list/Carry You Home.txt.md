@@ -30,3 +30,6 @@ BRIDGE:  And they were all born pretty in New York City tonight
          Under the [Am] Stars [G] and [D] Stripes
          
 (REFRAIN)  |  x2
+
+
+ #neo_mellow #pop_rock #love #alternative

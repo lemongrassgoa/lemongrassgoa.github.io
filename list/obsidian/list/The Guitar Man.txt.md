@@ -47,3 +47,5 @@ But he never seems to notice, he's just got to find another place to play
 
 Fade away / Got to play
 Fade away / Got to play
+
+#folk_rock #mellow_gold #singer-songwriter #soft_rock #alternative #slow #love #retro #oldies

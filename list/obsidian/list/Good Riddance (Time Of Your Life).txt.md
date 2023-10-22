@@ -23,3 +23,6 @@ For what it's worth it was worth all the while
     I hope you had the time of your life.
     It's something unpredictable, but in the end is right
     I hope you had the time of your life.
+
+
+#modern_rock #permanent_wave #punk #rock #alternative #acoustic

@@ -46,4 +46,6 @@ Well/Yeah/No we won't come down tonight  |  x3
 
          
 OUTRO:   We can [As4] watch the world go by / [G] up on [D] cloud number nine
-         
+
+
+#canadian_pop #canadian_singer-songwriter #classic_canadian_rock #heartland_rock #mellow_gold #soft_rock #love #dance #sweet #groovy

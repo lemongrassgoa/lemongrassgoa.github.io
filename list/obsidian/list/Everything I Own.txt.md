@@ -32,3 +32,5 @@ And they don't hear the words you long to say
 And I would give any - thing I own / Give up my life, my heart, my home
     I would give every thing I own / Just to have you back again
 
+
+#folk_rock #mellow_gold #singer-songwriter #soft_rock #love #slow #oldies #retro

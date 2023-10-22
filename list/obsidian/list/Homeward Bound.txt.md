@@ -57,3 +57,5 @@ Like emptiness in harmony I need someone to comfort me.
  
 | AM7       A7       A
    Silently for me.
+
+#classic_rock #folk #folk_rock #melancholia #mellow_gold #rock #soft_rock #retro #oldies #groovy #love #acoustic #folk

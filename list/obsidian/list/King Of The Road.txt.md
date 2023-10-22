@@ -81,3 +81,6 @@ Buys an eight by twelve four-bit room.
     I'm a...man of means by no means,
     N.C.
     King of the road.
+
+
+#classic_country_pop #classic_oklahoma_country #nashville_sound #oldies #retro #groovy

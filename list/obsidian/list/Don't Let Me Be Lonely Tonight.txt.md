@@ -45,3 +45,6 @@ VERSE 3: Do me wrong,  do me right, right now baby
          
 (INSTRUMENTAL)
 Em7  A7s4  DM7  B7  |  x4  (end on Csus2)
+
+
+#classic_rock #folk #folk_rock #heartland_rock #mellow_gold #singer-songwriter #soft_rock #groovy #slow #love #oldies #retro

@@ -37,3 +37,5 @@ You won't get much sadder
     Be good to me
     Take care of me
     Bop bop
+
+#dallas_indie #pop_rock #classic_texas_country #red_dirt 

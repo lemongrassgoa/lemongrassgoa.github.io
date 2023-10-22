@@ -51,3 +51,6 @@ INTERLUDE: | C - - - G - - - Am - - - F - G -
     I'm here without you, baby
     But you're still with me in my dreams
     And tonight it's only you and me, yeah.
+
+
+ #alternative_metal #nu_metal #post-grunge #rock #alternative #love

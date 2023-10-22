@@ -47,3 +47,6 @@ Until I'm ready (ready Freddie) / Crazy little thing called love
 This thing / called love / I just / can't handle it
 Ihis thing / called love / I must / get round to it
 I ain't ready / Crazy little thing called love
+
+
+#classic_rock #glam_rock #rock #groovy #dance #fast #oldies #retro

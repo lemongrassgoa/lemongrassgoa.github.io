@@ -56,3 +56,6 @@ Just a man and his will to survive
 
 (OUTRO) 
 ... the eye of the tiger  |  x4
+
+
+#album_rock #glam_metal #hard_rock #soft_rock #groovy #dance #fast #oldies #retro

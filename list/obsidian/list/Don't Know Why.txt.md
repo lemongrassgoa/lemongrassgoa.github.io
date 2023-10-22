@@ -50,3 +50,6 @@ I feel as empty as  a  drum / I don't know why I didn't come.
 I don't know why I didn't come.
   Em7        A7   D7sus4  Gmaj7
 I don't know why I didn't come.
+
+
+#contemporary_vocal_jazz #jazz_pop #vocal_jazz #groovy #slow #love

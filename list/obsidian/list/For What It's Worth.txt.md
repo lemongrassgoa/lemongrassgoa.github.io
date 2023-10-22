@@ -65,3 +65,6 @@ Step out of line, the men come and take you away.
     I think it's time we stop, children, what's that sound?
     | A                   C
     Everybody look what's goin' ...
+
+
+#album_rock #blues_rock #british_blues #classic_rock #country_rock #folk #folk_rock #heartland_rock #mellow_gold #psychedelic_rock #rock #soft_rock #southern_rock #alternative #groovy #dance #oldies #retro #folk #slow

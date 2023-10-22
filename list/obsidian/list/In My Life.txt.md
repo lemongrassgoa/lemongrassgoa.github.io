@@ -35,3 +35,6 @@ When I think of love as something new
 [RIFF]
 
 In my life, I love you more [RIFF outro]
+
+
+#beatlesque #british_invasion #classic_rock #merseybeat #psychedelic_rock #rock #love #dance #groovy
