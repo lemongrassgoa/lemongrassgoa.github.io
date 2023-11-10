@@ -12,7 +12,7 @@ Everybody's looking for something
     Some of them want to abuse you
     Some of them want to be abused
     
-| CM7     B7(s4)     Em      C
+| CM7     B7(s4)     Em      Am
 (oooh)
 | CM7     B7(s4)
 
@@ -21,8 +21,9 @@ Sweet dreams are made of this / Who am I to disagree
 I travel the world and the seven seas
 Everybody's looking for something
 
-| CM7     B7(s4)     Em      C
+| CM7     B7(s4)     Em      Am
 (oooh)
+| CM7     B7(s4)
 
 (ascending bassline)
 | Em/E                         A7/F#
