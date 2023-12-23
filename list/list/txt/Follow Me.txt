@@ -1,5 +1,5 @@
 Uncle Kracker
-Follow Me (orig F) [rhythm: Simple 4, bpm: 115]
+Follow Me (orig F) [rhythm: Simple 4, bpm: 110]
 
 (intro riff) N.C.
 
@@ -76,11 +76,16 @@ And swim through your veins like a fish in the sea
     |         F           Bb  -  C  -  F
     You won't find nobody else like me
 
+    |           F      F/A     Bb        C
     I'm singin, follow me everything is alright
+    | F         F/A             Bb    C
     I'll be the one to tuck you in at night
+    |          F       F/A          Bb    C
     And if you want to leave, I can guarantee
+    |         F           Bb  -  C  -  F
     You won't find nobody else like me
 
+    [single strums]
     I'm singin, follow me everything is alright
     I'll be the one to tuck you in at night
     And if you want to leave, I can guarantee
