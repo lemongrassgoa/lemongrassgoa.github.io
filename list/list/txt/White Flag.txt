@@ -1,14 +1,14 @@
 White Flag
-Dido [rhythm: RnB 2, bpm: 85]
+Dido (orig. Dm) [rhythm: RnB 2, bpm: 85]
 
-INTRO:  F   %   %   G   Am
+INTRO: | F - - - | F - - - | Am - - - | Am - - - |
 
-| Dm       Am
+| Dm                Am
 I know you think that I shouldn't still love you,
 Or tell you that.
 But if I didn't say it, well I'd still have felt it
 Where's the sense in that?
-| C           Gm
+| C                Gm
 I promise I'm not trying to make your life harder
 Or return to where we were  [Am]
 
@@ -18,12 +18,12 @@ Or return to where we were  [Am]
     There will be no white flag above my door
     I'm in love and always will be
 
-| Dm       Am
+| Dm                Am
 I know I left too much mess and destruction
 To come back again
 And I caused nothing but trouble
 I understand if you can't talk to me again
-| C        Gm
+| C                Gm
 And if you live by the rules of "it's over"
 Then I'm sure that that makes sense [Am]
 
