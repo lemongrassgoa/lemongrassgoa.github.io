@@ -10,27 +10,25 @@ function onload(){
 }
   
 function search(){
-    // Declare variables
-    var input, filter, table, tr, td0, td1, td2, td3, i, txtValue0, txtValue1, txtValue2, txtValue3;
-    input = document.getElementById("search");
-    filter = input.value.toUpperCase();
-    table = document.getElementById("repertoire-table");
-    tr = table.getElementsByTagName("tr");
     
-    var results = tr.length-1;
-
+    var input = document.getElementById("search");
+    var filter0 = input.value.toUpperCase();
+    var filter = ((filter0[0] == "-" && filter0.length>1) ? filter0.substring(1) : filter0);
+    var table = document.getElementById("repertoire-table");
+    var tr = table.getElementsByTagName("tr");
+    
     // Loop through all table rows, and hide those that don't match the search query
     // searching title | artist | year | tags
-    for (i = 0; i < tr.length; i++) {
-        td0 = tr[i].getElementsByTagName("td")[0];   // title
-        td1 = tr[i].getElementsByTagName("td")[1];   // artist
-        td2 = tr[i].getElementsByTagName("td")[2];   // year
-        td3 = tr[i].getElementsByTagName("td")[8];   // tags
+    for (var i = 0; i < tr.length; i++) {
+        var td0 = tr[i].getElementsByTagName("td")[0];   // title
+        var td1 = tr[i].getElementsByTagName("td")[1];   // artist
+        var td2 = tr[i].getElementsByTagName("td")[2];   // year
+        var td3 = tr[i].getElementsByTagName("td")[8];   // tags
         if (td0 || td1 || td2 || td3) {
-            txtValue0 = td0.textContent || td0.innerText;
-            txtValue1 = td1.textContent || td1.innerText;
-            txtValue2 = td2.textContent || td2.innerText;
-            txtValue3 = td3.textContent || td2.innerText;
+            var txtValue0 = td0.textContent || td0.innerText;
+            var txtValue1 = td1.textContent || td1.innerText;
+            var txtValue2 = td2.textContent || td2.innerText;
+            var txtValue3 = td3.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
                 toggleRow(tr[i], 1);
             }
@@ -45,10 +43,18 @@ function search(){
             }
             else {
                 toggleRow(tr[i], 0);
-                results--;
             }
         }
     }
+    if(filter0[0]=="-"){
+        for (var i = 1; i < tr.length; i++) {
+            var inVisible = tr[i].classList.contains("row-hide");
+            results = tr.length-1-!inVisible;
+            toggleRow(tr[i], inVisible);
+        }
+    }
+    var hidden = document.getElementsByClassName("row-hide").length;
+    var results = tr.length-1-hidden;
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
 }
 
