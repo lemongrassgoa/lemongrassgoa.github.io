@@ -87,7 +87,7 @@ function wip_filter_click(){
 }
 
 function show_hide_wip(){
-    document.getElementById("search").value = "";
+    document.getElementById("search").value = ""; search();
     if(wip.checked){
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){

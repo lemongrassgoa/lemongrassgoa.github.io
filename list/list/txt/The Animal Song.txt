@@ -1,5 +1,5 @@
 Savage Garden
-The Animal Song (orig F#) [rhythm: Fusion 2, bpm: 120]
+The Animal Song (orig F#) [rhythm: 909 Clap, bpm: 117]
 
 | E    Es4    F#m7   B7s4
 When superstars and cannonballs are running through your head 
@@ -59,4 +59,4 @@ Would you like to take my hand, yeah
     Careless and free (like animals)
     I want to live / I want to run through the jungle 
     |   C#m        A            F#m7       B7s4     E
-    The wind in my hair and the sand at my feet 
+    The wind in my hair ....
