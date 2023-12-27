@@ -1,5 +1,5 @@
 Everywhere
-Fleetwood Mac (orig E)
+Fleetwood Mac (orig E) [rhythm: Simple 1, bpm: 115]
 
 INTRO: | x02440
 
@@ -44,5 +44,4 @@ Before you break my heart
     Oh, I / I want to be with you everywhere
     Oh, I / I want to be with you everywhere
 
-| x02440
-| E
+| E(sus4)

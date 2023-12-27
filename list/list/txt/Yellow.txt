@@ -1,5 +1,5 @@
 Yellow 
-Coldplay
+Coldplay [rhythm: Simple 2, bpm: 87]
 
 INTRO:   G5   Gs4   D    D6   /   C    CM7   G5   Gs4
          
@@ -14,7 +14,8 @@ VERSE 1: Look at the stars / Look how they shine for you
          [C     Em     D]  ...  CM7    G
 REFRAIN: Your skin / Oh yeah, your skin and bones
          Turn in / -to something beautiful
-         You know / you know I love you so / You know I love you so
+         You know / you know I love you so
+         You know I love you so
          
 G5   Gs4   D    D6   /   C    CM7   G5   Gs4
          
@@ -26,7 +27,8 @@ VERSE 2: I swam across / I jumped across for you
          
 REFRAIN: Your skin / Oh yeah, your skin and bones
          Turn in / -to something beautiful
-         You know / For you I bleed myself dry / For you I bleed myself dry
+         You know / For you I bleed myself dry
+         For you I bleed myself dry
          
 G5   Gs4   D    D6   /   C    CM7   G5   Gs4
          
