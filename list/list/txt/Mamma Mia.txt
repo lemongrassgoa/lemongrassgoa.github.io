@@ -1,7 +1,7 @@
 Mamma Mia
-Abba
+Abba [rhythm: Simple 1, bpm: 138]
 
-| INTRO:  D    D+
+| INTRO: |  D    D+
 
 |        D        G
 VERSE 1: I've been cheated by you since I don't know when
@@ -54,5 +54,5 @@ REFRAIN: Mamma mia, here I go again / My my, how can I resist you?
 |        D        Bm                 G  C  G   Em            A         D     D+
          Mamma mia, now I really know / why why, I could never let you go.
          
-| OUTRO:  D   D+
+OUTRO: |  D   D+
          
