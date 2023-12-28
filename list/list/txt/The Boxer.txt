@@ -1,5 +1,5 @@
 The Boxer
-Simon and Garfunkel [rhythm: Pop 1, bpm: 185]
+Simon and Garfunkel (capo 1) [rhythm: Pop 1, bpm: 185]
 
 C                                      Em     Am
 I am just a poor boy though my story's seldom told
@@ -48,7 +48,8 @@ Then I'm laying out my winter clothes and wishing I was gone
       G                G7                           C
 Going home / where the New York City winters aren't bleeding me
 Em        Am      G      C
-Leading me, going home
+Leading me, going home ...
+
        C                                              Am
 In the clearing stands the boxer and a fighter by his trade
       G                      G7

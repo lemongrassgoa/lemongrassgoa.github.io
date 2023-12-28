@@ -1,6 +1,7 @@
 Titanium
 David Guetta ft Sia (orig Eb) [rhythm: Simple 4, bpm: 135]
 
+[single strums]
 C    G/B     Am     %  /  C     Em    Am      %    
 You shout it out / But I can't hear a word you say
 I'm talking loud not saying much
@@ -13,6 +14,7 @@ You shoot me down, but I get up
     You shoot me down but I won't fall, I am titanium
     You shoot me down but I won't fall, I am titanium
 
+[rhythm start]
 C    G/B     Am     %  /  C     Em    Am      %    
 Cut me down / But it's you who have further to fall
 Ghost town, haunted love
@@ -30,6 +32,7 @@ F      G      Em      Am
 Stone-hard, machine gun / Firing at the ones who run
 F      G      Em      %
 Stone-hard, those bulletproof guns
+
 F      G      Em      Am
 You shoot me down but I won't fall, I am titanium
 You shoot me down but I won't fall, I am titanium
