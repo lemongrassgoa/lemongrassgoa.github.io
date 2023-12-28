@@ -6,7 +6,7 @@ var csvtotable = new CsvToTable({
 csvtotable.run();
 
 function onload(){
-    setTimeout(search, 500);
+    setTimeout(search, 100);
 }
   
 function search(){
