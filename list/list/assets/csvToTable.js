@@ -112,7 +112,7 @@ var table_target, total = 0;
                         }
                         /*  */
                         if(rowCell === 11){
-                            table += '<th class="tags" style=" display:;">';
+                            table += '<th class="tags" style=" display: none;">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
@@ -151,7 +151,7 @@ var table_target, total = 0;
                         }
                         /* */
                         if(rowCell === 11){
-                            table += '<td class="tags" style="width: 1em; font-size: 70%; word-wrap: break-word; display:;">';
+                            table += '<td class="tags" style="width: 1em; font-size: 70%; word-wrap: break-word; display: none;">';
                             table += rowCells[rowCell];
                             table += '</td>';
                         }
