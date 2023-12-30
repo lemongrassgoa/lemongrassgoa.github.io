@@ -1,7 +1,7 @@
 Everywhere
 Fleetwood Mac (orig E) [rhythm: Simple 1, bpm: 115]
 
-INTRO: | x02440
+INTRO: | 577600
 
 | E - B - | E - B - | E - B - | C#m7 - A - |
 Can you hear me calling / Out your name?
@@ -28,7 +28,7 @@ Before you break my heart
     Oh, I / I want to be with you everywhere
     (Wanna be with you everywhere)
 
-| x02440
+| 577600
 
 | E - B - | E - B - | E - B - | C#m7 - A - |
 Can you hear me calling / Out your name?
