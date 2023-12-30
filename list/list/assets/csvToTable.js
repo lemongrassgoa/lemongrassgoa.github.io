@@ -130,13 +130,14 @@ var table_target, total = 0;
                                 
                                 table += '<td id="_'+temp+'" class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
                                 // table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
-                                table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="txt/'+ rowCells[0] + '.txt">';
+                                table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="txt/'+ rowCells[0] + '.txt" onclick="addSongCounter(\'_'+temp+'\');">';
                                 table += rowCells[rowCell];
-                                table += '</a>'
+                                table += '</a>';
                             }
                             else {
                                 table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
                                 if(rowCell === 1){
+                                    table += (getCookie(rowCells[0]) < 1) ? '' : '<span> (' + getCookie(rowCells[0]) + ') </span>';
                                     table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="../img/spotify.png" /></a>';
                                 }
                                 for(var i = 0; i < the_array.length-1; i++){
@@ -145,7 +146,6 @@ var table_target, total = 0;
                                 }
                                 
                                 table += rowCells[rowCell];
-                                
                                 table += '</td>';
                             }
                         }
