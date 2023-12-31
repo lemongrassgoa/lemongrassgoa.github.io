@@ -156,6 +156,10 @@ function addSongCounter(song_name){
     let temp0 = getCookie(temp);
     let num_opened = (temp0 == "") ? 0 : parseInt(temp0);
     setCookie(temp, num_opened+1, 365)
+    
+    temp = document.getElementById(song_name).parentElement.childNodes[2];
+    console.log(temp.childNodes);
+    
     // console.log(getCookie(temp));
     // let temp1 = document.getElementById(song_name).innerHTML;
     // console.log(temp1);

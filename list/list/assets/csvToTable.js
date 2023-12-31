@@ -138,15 +138,16 @@ var table_target, total = 0;
                                 table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
                                 if(rowCell === 1){
                                     table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="../img/spotify.png" /></a>';
-                                }
-                                for(var i = 0; i < the_array.length-1; i++){
-                                    if(rowCells[rowCell] == the_array[i])
-                                        table += '<span class="the"></span>';
+                                    for(var i = 0; i < the_array.length-1; i++){
+                                        if(rowCells[rowCell] == the_array[i])
+                                            table += '<span class="the"></span>';
+                                    }
                                 }
                                 
                                 table += rowCells[rowCell];
                                 if(rowCell === 1){
-                                    table += (getCookie(rowCells[0]) < 1) ? '' : '<span> (' + getCookie(rowCells[0]) + ') </span>';
+                                    table += '<style>#_c'+temp+'::before{content: " (' + getCookie(rowCells[0]) + ')";</style>';
+                                    table += (getCookie(rowCells[0]) < 1) ? '' : '<span id="_c'+temp+'"></span>';
                                 }
                                 table += '</td>';
                             }
