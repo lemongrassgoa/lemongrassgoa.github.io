@@ -146,8 +146,10 @@ var table_target, total = 0;
                                 
                                 table += rowCells[rowCell];
                                 if(rowCell === 1){
-                                    table += '<style>#_c'+temp+'::before{content: " (' + getCookie(rowCells[0]) + ')";</style>';
-                                    table += (getCookie(rowCells[0]) < 1) ? '' : '<span id="_c'+temp+'"></span>';
+                                    if(getCookie(rowCells[0]) > 0){
+                                        table += '<style>#_c'+temp+'::before{content: " (' + getCookie(rowCells[0]) + ')";</style>';
+                                        table += '<span id="_c'+temp+'"></span>';
+                                    }
                                 }
                                 table += '</td>';
                             }
