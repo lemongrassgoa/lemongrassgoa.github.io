@@ -137,8 +137,8 @@ var table_target, total = 0;
                             else {
                                 table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
                                 if(rowCell === 1){
-                                    table += (getCookie(rowCells[0]) < 1) ? '' : '<span> (' + getCookie(rowCells[0]) + ') </span>';
                                     table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '" target = "_blank"><img class="spotifylink" src="../img/spotify.png" /></a>';
+                                    table += (getCookie(rowCells[0]) < 1) ? '' : '<span> (' + getCookie(rowCells[0]) + ') </span>';
                                 }
                                 for(var i = 0; i < the_array.length-1; i++){
                                     if(rowCells[rowCell] == the_array[i])
