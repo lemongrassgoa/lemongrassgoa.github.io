@@ -94,24 +94,24 @@ var table_target, total = 0;
 		getCSV.call(this).then(function(response){
 			var allRows = response.split(/\r?\n|\r/).filter(isNotEmpty);
 	        var table = '<table id="repertoire-table" class="sortable asc ">';
-	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+	        for (var singleRow = 0; singleRow < allRows.length; singleRow++) { // iterate through rows
                 var table_temp = table, wip = 0;
-	            if (singleRow === 0) {
+	            if (singleRow === 0) { // header row
 	                table += '<thead id="table-header">';
 	                table += '<tr>';
 	            } else {
 	                table += '<tr>';
 	            }
 	            var rowCells = allRows[singleRow].split(',');
-	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
-	                if(singleRow === 0){
+	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){ // iterate through columns
+	                if(singleRow === 0){ // header row
                         if(rowCell < 9 && rowCell !== 3){
                             table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
                         /*  */
-                        if(rowCell === 11){
+                        if(rowCell === 11){ // tags
                             table += '<th class="tags" style=" display: none;">';
                             table += rowCells[rowCell];
                             table += '</th>';
@@ -178,44 +178,7 @@ var table_target, total = 0;
 	        table += '</tbody>';
 	        table += '</table>';
             
-	        var table2 = '<br /><br /><table style="width: 70%; text-align: center;">';
-            table2 += '<tr> <td colspan="2"> HINDI SONGS </td> </tr>';
-            table2 += '<tr> <td colspan="2"><br /> </td> </tr>';
-            // table2 += '<tr> <td style="width: 25%;"> NAME </td> <td> LINK </td> </tr>';
-            // table2 += '<tr> <td> Allah Ke Bande </td> </tr>';
-            // table2 += '<tr> <td> Bang Bang </td> </tr>';
-            // table2 += '<tr> <td> Darling </td> </tr>';
-            // table2 += '<tr> <td> Dekha Hai Aise Bhi </td> </tr>';
-            // table2 += '<tr> <td> Dilko Tumse Pyar Hua </td> </tr>';
-            // table2 += '<tr> <td> Dooba Dooba </td> </tr>';
-            // table2 += '<tr> <td> Gulabi Aankhen </td> </tr>';
-            // table2 += '<tr> <td> Iktara </td> </tr>';
-            // table2 += '<tr> <td> Kabira </td> </tr>';
-            // table2 += '<tr> <td> Kahin To </td> </tr>';
-            // table2 += '<tr> <td> Kaisi Paheli Zindagani </td> </tr>';
-            // table2 += '<tr> <td> Khaabon Ke Parinday </td> </tr>';
-            // table2 += '<tr> <td> Kyon </td> </tr>';
-            // table2 += '<tr> <td> Main Kya Karoon </td> </tr>';
-            // table2 += '<tr> <td> Oh Sanam </td> </tr>';
-            // table2 += '<tr> <td> Pani Da Rang Male </td> </tr>';
-            // table2 += '<tr> <td> Pyaar Ke Pal </td> </tr>';
-            // table2 += '<tr> <td> Shaam </td> </tr>';
-            // table2 += '<tr> <td> Sooraj Ki Baahon Mein </td> </tr>';
-            // table2 += '<tr> <td> Tum Ho Toh </td> </tr>';
-            // table2 += '<tr> <td> Yaaron Dosti </td> </tr>';
-            // table2 += '<tr> <td> Ye Tumhari Meri Baatein </td> </tr>';
-            table2 += '<tr> <td> Ajeeb dastan hai - G capo 4 </td> </tr>';
-            table2 += '<tr> <td> Gulabi Aankhen </td> </tr>';
-            table2 += '<tr> <td> Iktara </td> </tr>';
-            table2 += '<tr> <td> O sanam </td> </tr>';
-            table2 += '<tr> <td> Kabira </td> </tr>';
-            table2 += '<tr> <td> Shaam </td> </tr>';
-            table2 += '<tr> <td> Tum Ho Toh </td> </tr>';
-            table2 += '</table>';
-
-            // document.getElementById("repertoire-list").innerHTML += table + table2;
-
-            document.getElementById(table_target).innerHTML += table + table2;
+            document.getElementById(table_target).innerHTML += table;
 		}, function(error){
 			console.error(error);
 		});

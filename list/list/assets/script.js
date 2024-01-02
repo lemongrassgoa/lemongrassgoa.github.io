@@ -6,6 +6,7 @@ var csvtotable = new CsvToTable({
 csvtotable.run();
 
 function onload(){
+    loadHindi();
     setTimeout(search, 100);
 }
   
@@ -147,10 +148,6 @@ function checkCookie() {
   }
 }
 
-function getSongCounter(){
-    
-}
-
 function addSongCounter(song_name){
     let temp = document.getElementById(song_name).innerText;
     let temp0 = getCookie(temp);
@@ -164,3 +161,101 @@ function addSongCounter(song_name){
     // let temp1 = document.getElementById(song_name).innerHTML;
     // console.log(temp1);
 }
+
+function openTab(option){
+    console.log(option);
+    if(option == 1){
+        document.getElementById("hindi-list").style.display = "";
+        document.getElementById("repertoire-list").style.display = "none";
+        document.getElementById("tab1").classList.replace("w3-gray", "w3-white");
+        document.getElementById("tab2").classList.replace("w3-white", "w3-gray");
+    }
+    else if(option == 2){
+        document.getElementById("hindi-list").style.display = "none";
+        document.getElementById("repertoire-list").style.display = "";
+        document.getElementById("tab1").classList.replace("w3-white", "w3-gray");
+        document.getElementById("tab2").classList.replace("w3-gray", "w3-white");
+    }
+}
+
+const hindi_list = [
+    // ["Allah Ke Bande          "],
+    // ["Bang Bang               "],
+    // ["Darling                 "],
+    // ["Dekha Hai Aise Bhi      "],
+    // ["Dilko Tumse Pyar Hua    "],
+    // ["Dooba Dooba             "],
+    // ["Gulabi Aankhen          "],
+    // ["Iktara                  "],
+    // ["Kabira                  "],
+    // ["Kahin To                "],
+    // ["Kaisi Paheli Zindagani  "],
+    // ["Khaabon Ke Parinday     "],
+    // ["Kyon                    "],
+    // ["Main Kya Karoon         "],
+    // ["Oh Sanam                "],
+    // ["Pani Da Rang Male       "],
+    // ["Pyaar Ke Pal            "],
+    // ["Shaam                   "],
+    // ["Sooraj Ki Baahon Mein   "],
+    // ["Tum Ho Toh              "],
+    // ["Yaaron Dosti            "],
+    // ["Ye Tumhari Meri Baatein "],
+    ["Ajeeb Dastan Hai Yeh"],
+    ["Gulabi Aankhen"],
+    ["Iktara"],
+    ["O Sanam"],
+    ["Kabira"],
+    ["Shaam"],
+    ["Tum Ho Toh"],
+    ["Mazaak"],
+    ["Tera Woh Pyar"],
+    [" "]
+];
+
+function loadHindi(){
+    // table2 += '<tr> <td style="width: 25%;"> NAME </td> <td> LINK </td> </tr>';
+    // table2 += '<tr> <td> Allah Ke Bande          </td> </tr>';
+    // table2 += '<tr> <td> Bang Bang               </td> </tr>';
+    // table2 += '<tr> <td> Darling                 </td> </tr>';
+    // table2 += '<tr> <td> Dekha Hai Aise Bhi      </td> </tr>';
+    // table2 += '<tr> <td> Dilko Tumse Pyar Hua    </td> </tr>';
+    // table2 += '<tr> <td> Dooba Dooba             </td> </tr>';
+    // table2 += '<tr> <td> Gulabi Aankhen          </td> </tr>';
+    // table2 += '<tr> <td> Iktara                  </td> </tr>';
+    // table2 += '<tr> <td> Kabira                  </td> </tr>';
+    // table2 += '<tr> <td> Kahin To                </td> </tr>';
+    // table2 += '<tr> <td> Kaisi Paheli Zindagani  </td> </tr>';
+    // table2 += '<tr> <td> Khaabon Ke Parinday     </td> </tr>';
+    // table2 += '<tr> <td> Kyon                    </td> </tr>';
+    // table2 += '<tr> <td> Main Kya Karoon         </td> </tr>';
+    // table2 += '<tr> <td> Oh Sanam                </td> </tr>';
+    // table2 += '<tr> <td> Pani Da Rang Male       </td> </tr>';
+    // table2 += '<tr> <td> Pyaar Ke Pal            </td> </tr>';
+    // table2 += '<tr> <td> Shaam                   </td> </tr>';
+    // table2 += '<tr> <td> Sooraj Ki Baahon Mein   </td> </tr>';
+    // table2 += '<tr> <td> Tum Ho Toh              </td> </tr>';
+    // table2 += '<tr> <td> Yaaron Dosti            </td> </tr>';
+    // table2 += '<tr> <td> Ye Tumhari Meri Baatein </td> </tr>';
+    
+    // table2 += '<tr> <td> Ajeeb dastan hai - G capo 4 </td> </tr>';
+    // table2 += '<tr> <td> Gulabi Aankhen             </td> </tr>';
+    // table2 += '<tr> <td> Iktara                     </td> </tr>';
+    // table2 += '<tr> <td> O sanam                    </td> </tr>';
+    // table2 += '<tr> <td> Kabira                     </td> </tr>';
+    // table2 += '<tr> <td> Shaam                      </td> </tr>';
+    // table2 += '<tr> <td> Tum Ho Toh                 </td> </tr>';
+
+    var table2 = '<br /><br /><table style="width: 70%; text-align: center;">';
+    table2 += '<tr> <td colspan="2"> HINDI SONGS </td> </tr>';
+    table2 += '<tr> <td colspan="2"><br /> </td> </tr>';
+    
+    for(var i = 0; i < hindi_list.length-1; i++){
+        table2 += '<tr> <td> <a target="_blank" href="txt/hindi/' + hindi_list[i] + '.txt">' + hindi_list[i] + '</a> </td> </tr>';
+    }
+
+    table2 += '</table>';
+    document.getElementById("hindi-list").innerHTML = table2;
+
+}
+
