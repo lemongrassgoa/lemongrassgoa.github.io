@@ -57,6 +57,10 @@ function search(){
     var hidden = document.getElementsByClassName("row-hide").length;
     var results = tr.length-1-hidden;
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
+
+    if(document.getElementById("repertoire-list").style.display === "none"){
+        openTab(2);
+    }
 }
 
 function toggleRow(e, x){
@@ -163,7 +167,7 @@ function addSongCounter(song_name){
 }
 
 function openTab(option){
-    console.log(option);
+
     if(option == 1){
         document.getElementById("hindi-list").style.display = "";
         document.getElementById("repertoire-list").style.display = "none";
