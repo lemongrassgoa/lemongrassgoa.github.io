@@ -83,14 +83,10 @@ function show_hide_yt(){
 
 function toggleRow(e, x){
     if(x){
-        // e.style.display = "";
-        // e.style.opacity = "1";
         e.style.transform = "scaleY(1)";
         e.style.visibility = "";
         e.classList.remove("row-hide");
     }else{
-        // e.style.display = "none";
-        // e.style.opacity = "0";
         e.style.transform = "scaleY(0)";
         e.style.visibility = "collapse";
         e.classList.add("row-hide");
