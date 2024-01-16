@@ -11,7 +11,7 @@ function onload(){
         document.getElementById("search-results").style.opacity = "1";
         document.getElementById("repertoire-list").style.opacity = "1";
     }, 300);
-    // setInterval(rainbowHeader, 1);
+    setInterval(rainbowHeader, 1);
 }
   
 function search(){
@@ -164,8 +164,8 @@ function rainbowHeader(){
         // (_hue+300)%360 + ", 100%, 50%))";
     e.style['background'] = 
         "linear-gradient(     to right, hsl(" + 
-         _hue     %360 + ", 100%, 50%), hsl(" + 
-        (_hue+70)%360 + ", 100%, 50%))";
+         _hue    %360 + ", 100%, 75%), hsl(" + 
+        (_hue+70)%360 + ", 100%, 75%))";
     e.style['color'] = "transparent";
     e.style['-webkit-background-clip'] = "text";
 }
