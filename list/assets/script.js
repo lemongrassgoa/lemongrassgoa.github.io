@@ -11,7 +11,7 @@ function onload(){
         document.getElementById("search-results").style.opacity = "1";
         document.getElementById("repertoire-list").style.opacity = "1";
     }, 300);
-    setInterval(rainbowHeader, 1);
+    setInterval(rainbowHeader, 20);
 }
   
 function search(){
@@ -151,7 +151,7 @@ document.addEventListener('keyup', (event) => {
 
 var xx = 0;
 function rainbowHeader(){
-    let _hue = xx++/5;
+    let _hue = xx++;
     var e = document.getElementById('titlebar');
     e.style['font-weight'] = "bold";
     // e.style['background'] = 
