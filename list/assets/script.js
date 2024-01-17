@@ -11,7 +11,7 @@ function onload(){
         document.getElementById("search-results").style.opacity = "1";
         document.getElementById("repertoire-list").style.opacity = "1";
     }, 300);
-    setInterval(rainbowHeader, 20);
+    setInterval(rainbowHeader, 25);
 }
   
 function search(){
@@ -151,7 +151,7 @@ document.addEventListener('keyup', (event) => {
 
 var xx = 0;
 function rainbowHeader(){
-    let _hue = xx++;
+    let _hue = xx++, _sat = 100, _lum = 60;
     var e = document.getElementById('titlebar');
     e.style['font-weight'] = "bold";
     // e.style['background'] = 
@@ -164,8 +164,9 @@ function rainbowHeader(){
         // (_hue+300)%360 + ", 100%, 50%))";
     e.style['background'] = 
         "linear-gradient(     to right, hsl(" + 
-         _hue    %360 + ", 100%, 75%), hsl(" + 
-        (_hue+70)%360 + ", 100%, 75%))";
+         _hue    %360 + ", " + _sat + "%, " + _lum + "%), hsl(" + 
+        (_hue+36)%360 + ", " + _sat + "%, " + _lum + "%), hsl(" + 
+        (_hue+72)%360 + ", " + _sat + "%, " + _lum + "%))";
     e.style['color'] = "transparent";
     e.style['-webkit-background-clip'] = "text";
 }
