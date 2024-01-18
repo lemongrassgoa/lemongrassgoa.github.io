@@ -135,7 +135,7 @@ function closeModal(){
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
-    history.back();
+        history.back();
         closeModal();
     }
 }
@@ -163,7 +163,7 @@ function rainbowHeader(){
         // (_hue+240)%360 + ", 100%, 50%), hsl(" + 
         // (_hue+300)%360 + ", 100%, 50%))";
     e.style['background'] = 
-        "linear-gradient(     to right, hsl(" + 
+        "linear-gradient(     to bottom, hsl(" + 
          _hue    %360 + ", " + _sat + "%, " + _lum + "%), hsl(" + 
         (_hue+36)%360 + ", " + _sat + "%, " + _lum + "%), hsl(" + 
         (_hue+72)%360 + ", " + _sat + "%, " + _lum + "%))";
