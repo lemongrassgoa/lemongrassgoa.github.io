@@ -1,54 +1,56 @@
 Mazaak
 Anuv Jain (orig. D)
 
-| Gs2 - - - | D - - /C# | Gs2 - - - | D - As4/C# - D - As4/C# |
+| Cs2 - - - | G - - /F# | Cs2 - - - | G - Ds4/F# - G - Ds4/F# |
 Yeh Bhi Mazaak Hi Toh Hai
 Saalon Se Sadkon Pe
 Sambhal Ke Chal Raha Tha Yun
 
-| Gs2 - - - | D - - /C# | Gs2 - - - | D - As4/C# - D - As4/C# |
+| Cs2 - - - | G - - /F# | Cs2 - - - | G - Ds4/F# - G - Ds4/F# |
 Gaalon Ke Gadhon Mein Tere
 Na Jaane Kyun Main
 Ladkhada Ke Gir Gaya Hu
 
-    | Gs2 - D - | D - - - | Gs2 - D - | As4/C# - D |
+    | Cs2 - G - | G - - - | Cs2 - G - | Ds4/F# - G |
     Muskurao Aur Aise Haso
     Meri Baaton Pe
     Girta Rahun Teri Rahon Mein
-    Aur Inn Mein Hi Kho Jaunga [As4]
+    Aur Inn Mein Hi Kho Jaunga [Ds4]
 
-| Gs2 - - - | D - - /C# | Gs2 - - - | D - As4/C# - D - As4/C# |
+| Cs2 - - - | G - - /F# | Cs2 - - - | G - Ds4/F# - G - Ds4/F# |
 Yeh Bhi Mazaak Hi Toh Hai
 Kaise Ye Raaton Ke
 Iraadon Mein Andhera Tha Yu
 
-| Gs2 - - - | D - - /C# | Gs2 - - - | D - As4/C# - Bm - As4 |
+| Cs2 - - - | G - - /F# | Cs2 - - - | G - Ds4/F# - Em - Ds4 |
 Aadhe Se Chand Si Hansi
 Andheri Raaton Mein
 Ab Noor Ban Gayi Kyun
 
-    | Gs2 - D - | D - - - | Gs2 - D - | As4/C# - D |
+    | Cs2 - G - | G - - - | Cs2 - G - | Ds4/F# - G |
     Ae Chand
     Ab Chandani Banke Giro Zara
     Girte Raho Mere Aas Paas
-    Toh Tera Hi Ho Jaunga [As4]
+    Toh Tera Hi Ho Jaunga [Ds4]
 
-| Bm7 - Gs2 - | D - A - |
+| Em7 - Cs2 - | G - D - |
 Ho Jaunga Tera Ehsaas Hai
 Sansein Hai Jab Tak Yahan
 Ho Jaun Main Tera
 
-| Bm7 - Gs2 - | D - A - |
+| Em7 - Cs2 - | G - D - |
 Yeh Na Mera Andaaz Hai
 Dekho Mein Khud Hans Raha
 Apni Baaton Pe Yahaan Aise
 
-    | Gs2 - D - | D - - - | Gs2 - D - | As4/C# - D |
+    | Cs2 - G - | G - - - | Cs2 - G - | Ds4/F# - G |
     Tum Bhi Hanso Meri Baaton Pe
     Naa Jaane Kya Ho Raha Mujhe
-    Main Tera Hi Ho Jaunga Ho Jaunga
+    Main Tera Hi Ho Jaunga [Ds4]
+    | Cs2 - G - | G - - - | Cs2 - G - | Ds4/F# - G |
+    Ho Jaunga ...
 
-| Gs2 - - - | D - - /C# | Gs2 - - - | D - As4/C# - D - As4/C# |
+| Cs2 - - - | G - - /F# | Cs2 - - - | G - Ds4/F# - G - Ds4/F# |
 Yeh Bhi Mazaak Hi Toh Hai
 Meri Nakal Hai
 Ya Asal Mein Gir Rahe Ho Tum Bhi?
