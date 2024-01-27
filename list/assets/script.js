@@ -64,8 +64,9 @@ function show_hide_yt(){
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
             setTimeout(toggleRow, 1, song_links[i].parentElement, 1);
-            if(!song_links[i].classList.contains("yt_link"))
+            if(!song_links[i].classList.contains("yt_link")){
                 setTimeout(toggleRow, 1, song_links[i].parentElement, 0);
+            }
         }
         var song_links = document.getElementsByClassName("yt_link");
         document.getElementById("yt-checkbox-img").style.filter = "grayscale(1) drop-shadow(2px 2px 1px white)";
@@ -75,7 +76,6 @@ function show_hide_yt(){
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
             setTimeout(toggleRow, 1, song_links[i].parentElement, 1);
-
         }
         document.getElementById("yt-checkbox-img").style.filter = "grayscale(0) drop-shadow(2px 2px 1px black)";
         document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
@@ -91,6 +91,15 @@ function toggleRow(e, x){
         e.style.transform = "scaleY(0)";
         e.style.visibility = "collapse";
         e.classList.add("row-hide");
+    }
+    setTimeout(toggleRow_safari, x ? 1 : 200, e, x);
+}
+
+function toggleRow_safari(e, x){
+    if(x){
+        e.style.display = "";
+    }else{
+        e.style.display = "none";
     }
 }
 
