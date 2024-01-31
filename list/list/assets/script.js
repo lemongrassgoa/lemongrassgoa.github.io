@@ -206,6 +206,7 @@ const hindi_list = [
     // ["Yaaron Dosti            "],
     // ["Ye Tumhari Meri Baatein "],
     ["Ajeeb Dastan Hai Yeh"],
+    ["Baarishein"],
     ["Gulabi Aankhen"],
     ["Iktara"],
     ["O Sanam"],
