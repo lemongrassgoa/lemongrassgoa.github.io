@@ -27,6 +27,7 @@ const links_ = [
     ["Make You Feel My Love",    "pSNBaXiuOfI", 1],
     ["New Shoes",                "yJfxQRy1HCU", 1],
     ["Rocket Man",               "qzWAF1x-FG0", 1],
+    ["You're Beautiful",         "DndihO2WPGA", 1],
     ["Wish You Were Here",       "1qnsTsDFX2Y", 1],
     ["_","_"]
 ];
