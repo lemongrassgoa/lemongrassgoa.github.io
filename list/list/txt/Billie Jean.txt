@@ -11,16 +11,16 @@ Then every head turned with eyes that dreamed of being the one
 Who will dance on the floor in the round
 
 [Bridge]
-People always told me be careful of what you do
+People always told me, be careful what you do
 And don't go around breaking young girls' hearts
-And mother always told me be careful of who you love
-And be careful of what you do 'cause the lie becomes the truth
+And mother always told me, be careful  who you love
+And be careful of what you do, 'cause the lie becomes the truth
 
-[Chorus]
-Billie Jean is not my lover
-She's just a girl who claims that I am the one
-But the kid is not my son
-She says I am the one, but the kid is not my son
+    [Chorus]
+    Billie Jean is not my lover
+    She's just a girl who claims that I am the one
+    But the kid is not my son
+    She says I am the one, but the kid is not my son
 
 For forty days and forty nights, the law was on her side
 But who can stand when she's in demand, her schemes and plans
@@ -32,7 +32,7 @@ She showed a photo of a baby crying, his eyes looked like mine
 Go on dance on the floor in the round, baby
 
 [Bridge]
-People always told me be careful of what you do
+People always told me, be careful  what you do
 And don't go around breaking young girls' hearts
 She came and stood right by me / Then the smell of sweet perfume
 This happened much too soon / She called me to her room
