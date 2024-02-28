@@ -1,5 +1,6 @@
 Michael Jackson
 Billie Jean (orig. F#m)
+(Em capo 2)
 
 | [ Em     F#m/E     G/E     F#m/E ]  ...  Am7
 She was more like a beauty queen from a movie scene
@@ -11,7 +12,7 @@ She told me her name was Billie Jean, as she caused a scene
 Then every head turned with eyes that dreamed of being the one
 Who will dance on the floor in the round
 
-| CM7     Em | CM7     Em | CM7     Em | CM7     B7(s4) |
+| CM7     Em | CM7     Em | CM7     Em | C     B7(s4) |
 People always told me, be careful what you do
 And don't go around breaking young girls' hearts
 And mother always told me, be careful  who you love
@@ -33,7 +34,7 @@ She told my baby we'd danced 'til three, then she looked at me
 She showed a photo of a baby crying, his eyes looked like mine
 Go on dance on the floor in the round, baby
 
-| CM7     Em | CM7     Em | CM7     Em | CM7     B7(s4) |
+| CM7     Em | CM7     Em | CM7     Em | C     B7(s4) |
 People always told me, be careful  what you do
 And don't go around breaking young girls' hearts
 She came and stood right by me / Then the smell of sweet perfume
