@@ -10,6 +10,7 @@ const links_ = [
     ["Hey Soul Sister",          "5L9UUjnicmA", 0],
     ["If I Had A Hammer",        "5OXSHCDvq2M", 0],
     ["Norwegian Wood",           "iXiUKRlUfE4", 0],
+    ["Perfect",                  "dSETYe7MeQ0", 0],
     ["Smooth Operator",          "nz85NleFjFs", 0],
     ["Snow",                     "R41hAQg_hXI", 0],
     ["Superman",                 "IJQls99Ut1s", 0],
