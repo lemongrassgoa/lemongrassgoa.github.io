@@ -1,3 +1,46 @@
+const bpm_adjust = [
+    ["Angels", 2],
+    ["Bachelor Boy", 3],
+    ["Bitter Sweet Symphony", 2],
+    ["Blinding Lights", 2],
+    ["Blowin' In The Wind", 2],
+    ["Careless Whisper", 2],
+    ["Don't Look Back In Anger", 2],
+    ["Earth Angel", 3],
+    ["Flightless Bird American Mouth", 3],
+    ["Girls Just Want To Have Fun", 2],
+    ["Heart Of Gold", 2],
+    ["Hold You In My Arms", 3],
+    ["Lost On You", 2],
+    ["Mary Jane's Last Dance", 2],
+    ["Never Going Back Again", 2],
+    ["One", 2],
+    ["One Of Us", 2],
+    ["Que Sera Sera", 3],
+    ["Piano Man", 3],
+    ["Price Tag", 2],
+    ["Rock 'n' Roll", 2],
+    ["Something Stupid", 2],
+    ["Son of a Preacher Man", 2],
+    ["Superman (Scrubs theme)", 2],
+    ["Sweet Dreams", 2],
+    ["Tears in Heaven", 2],
+    ["The Lazy Song", 2],
+    ["Those Were The Days", 2],
+    ["Time After Time", 2],
+    ["Umbrella", 2],
+    ["Vanilla Twilight", 2],
+    ["Way Back Into Love", 2],
+    ["We Are Young", 2],
+    ["Wellerman (Sea Shanty)", 2],
+    ["When You Say Nothing At All", 2],
+    ["White Flag", 2],
+    ["Wonderwall", 2],
+    ["Yellow", 2],
+    ["Zombie", 2],
+    ["_", "_"]
+];
+
 const the_array = [
     "Archies",
     "Avett Brothers",
@@ -118,7 +161,7 @@ var table_target, total = 0;
                         }
                         /*  */
 	                } else {
-                        if((rowCell < 9 && rowCell !== 3)){
+                        if((rowCell < 9 && rowCell !== 3)){ // skip genre column
                             var wip_format = 'background-color: #000;';
                             if(rowCells[9]){
                                 wip=1;
@@ -142,6 +185,15 @@ var table_target, total = 0;
                                         if(rowCells[rowCell] == the_array[i])
                                             table += '<span class="the"></span>';
                                     }
+                                }
+                                if(rowCell === 4){
+                                    for(var i = 0; i < bpm_adjust.length-1; i++){
+                                        if(rowCells[0] == bpm_adjust[i][0]){
+                                            rowCells[rowCell] = Math.round(rowCells[rowCell]/bpm_adjust[i][1]);
+                                        }
+                                    }
+                                    // if(rowCells[rowCell] == 123)
+                                        // table += rowCells[0];
                                 }
                                 
                                 table += rowCells[rowCell];
