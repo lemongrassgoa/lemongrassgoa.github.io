@@ -1,10 +1,10 @@
 Paradise
 Coldplay [rhythm: Groove 1, BPM: 70]
 
-INTRO: | Am   -   D   -  | Em   -   G   D   |  x3
-       | C    -   G   -  | D    -   -   -   |  x2
-        
-       | Am   -   C   -  | G    -   D   -   |  x4
+| Am   -   D   -  | Em   -   G   D   |  x3
+| C    -   G   -  | D    -   -   -   |  x2
+ 
+| Am   -   C   -  | G    -   D   -   |  x4
 
 (quietly, single strums)
   | Em                  Cadd9  G                D
@@ -13,19 +13,19 @@ INTRO: | Am   -   D   -  | Em   -   G   D   |  x3
 
 |          Am          C          G           D
 Dreamed of para- para- paradise / Para- para- paradise
-Para- para- paradise / Every time she closed her eyes
+           Para- para- paradise / Every time she closed her eyes
 
-  | Em    Cadd9    G    D          |   x2
-    Whoa-oh-oh oh-oooh oh-oh-oh    |
+| Em   -   Cadd9   -  | G    -   D   -   |   x2
+    Whoa-oh-oh oh-oooh oh-oh-oh
 
 (rhythm)
-  | C                   G/B    G                D/A
+  | C                   G/B    G/B              D/A
     When she was just a girl / She expected the world
-  |        C                  Em7/B           G                    D/A  
+  |        C                  Em7             Em7                  D  
     But it flew away from her reach / And the bullets catch in her teeth
-  | Am                C                   G                D
+  | Am7               Cadd9               G                D
     Life goes on / It gets so heavy / The wheel breaks the butterfly
-  | Am            G
+  | Cadd9         G
     Every tear, a waterfall
   |        C                 G                      D
     In the night, the stormy night / She closed her eyes
@@ -47,14 +47,20 @@ Para- para- paradise / Whoa-oh-oh oh-oh-oh
 
 |             Am          C          G           D
 This could be para- para- paradise / Para- para- paradise
-Para- para- paradise / Whoa-oh-oh oh-oh-oh
-Dream of para- para- paradise / Para- para- paradise
-Para- para- paradise / Whoa-oh-oh oh-oh-oh
+Could be para- para- paradise / Whoa-oh-oh oh-oh-oh
+This could be para- para- paradise / Para- para- paradise
+Could be para- para- paradise / Whoa-oh-oh oh-oh-oh
 
 (instrumental)
+
+|             Am          C          G           D
+This could be para- para- paradise / Para- para- paradise
+Could be para- para- paradise / Whoa-oh-oh oh-oh-oh
+This could be para- para- paradise / Para- para- paradise
+Could be para- para- paradise / Whoa-oh-oh oh-oh-oh
 
 (fingerpicking)
   | Am7      D       Bm7      Em
     Oo-oo-oo, oo-oo-oo, oo-oo-oo
-  | As4      A       C(M7)
+  | As4      A       Cadd9
     Oo-oo-oo, oo-oo-oo, oo-oo-oo
