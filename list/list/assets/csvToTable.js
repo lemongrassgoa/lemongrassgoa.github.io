@@ -1,6 +1,6 @@
 const bpm_adjust = [
     ["Angels", 2],
-    ["Bachelor Boy", 3],
+    ["Bachelor Boy", 2],
     ["Bitter Sweet Symphony", 2],
     ["Blinding Lights", 2],
     ["Blowin' In The Wind", 2],
@@ -16,8 +16,8 @@ const bpm_adjust = [
     ["Never Going Back Again", 2],
     ["One", 2],
     ["One Of Us", 2],
-    ["Que Sera Sera", 3],
-    ["Piano Man", 3],
+    ["Que Sera Sera", 2],
+    ["Piano Man", 2],
     ["Price Tag", 2],
     ["Rock 'n' Roll", 2],
     ["Something Stupid", 2],
@@ -37,6 +37,7 @@ const bpm_adjust = [
     ["White Flag", 2],
     ["Wonderwall", 2],
     ["Yellow", 2],
+    ["You've Got To Hide Your Love Away", 2],
     ["Zombie", 2],
     ["_", "_"]
 ];
