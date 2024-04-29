@@ -185,6 +185,24 @@ function openTab(option){
     }
 }
 
+var _tab = 0;
+function language(){
+    if(_tab == 0){ // display Hindi list
+        var input = document.getElementById("search");
+        input.value = ""; search();
+        
+        document.getElementById("hindi-list").style.display = "";
+        document.getElementById("repertoire-list").style.display = "none";
+        document.getElementById("language_select").innerHTML = "Hindi";
+        _tab = 1;
+    }else if(_tab == 1){ // display English list
+        document.getElementById("hindi-list").style.display = "none";
+        document.getElementById("repertoire-list").style.display = "";
+        document.getElementById("language_select").innerHTML = "English";
+        _tab = 0;
+    }
+}
+
 const hindi_list = [
     // ["Allah Ke Bande          "],
     // ["Bang Bang               "],
