@@ -59,7 +59,8 @@ function search(){
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
 
     if(document.getElementById("repertoire-list").style.display === "none"){
-        openTab(2);
+        // openTab(2);
+        language();
     }
 }
 
