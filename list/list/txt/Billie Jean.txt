@@ -6,7 +6,8 @@ Billie Jean (orig. F#m)
 She was more like a beauty queen from a movie scene
 I said don't mind, but what do you mean I am the one
 Who will dance on the floor in the round
-She said I am the one who will dance on the floor in the round
+She said I am the one
+who will dance on the floor in the round
 
 She told me her name was Billie Jean, as she caused a scene
 Then every head turned with eyes that dreamed of being the one
@@ -14,7 +15,7 @@ Who will dance on the floor in the round
 
 | CM7     Em | CM7     Em | CM7     Em | C     B7(s4) |
 People always told me, be careful what you do
-And don't go around breaking young girls' hearts
+And don't go around breaking young girls' hearts (hee)
 And mother always told me, be careful  who you love
 And be careful of what you do, 'cause the lie becomes the truth
 
@@ -36,7 +37,7 @@ Go on dance on the floor in the round, baby
 
 | CM7     Em | CM7     Em | CM7     Em | C     B7(s4) |
 People always told me, be careful  what you do
-And don't go around breaking young girls' hearts
+And don't go around breaking young girls' hearts (hee)
 She came and stood right by me / Then the smell of sweet perfume
 This happened much too soon / She called me to her room
 
@@ -48,15 +49,22 @@ This happened much too soon / She called me to her room
     Billie Jean is not my lover
     She's just a girl who claims that I am the one
     But the kid is not my son
+    She says I am the one
+    But the kid is not my son+
+
+(riff)
+
+She says I am the one, but the kid is not my son
+
+| [ Em     F#m/E     G/E     F#m/E ]  ...  Am7
+    Billie Jean is not my lover
+    She's just a girl who claims that I am the one
+    But the kid is not my son
     She says I am the one, but the kid is not my son
 
-She says I am the one, but the kid is not my son
-
-Billie Jean is not my lover
-She's just a girl who claims that I am the one
-But the kid is not my son
-She says I am the one, but the kid is not my son
-She says I am the one, she says he is my son
+| [ Em     F#m/E     G/E     F#m/E ]
+She says I am the one
+she says he is my son
 She says I am the one
 Billie Jean is not my lover
 Billie Jean is not my lover
