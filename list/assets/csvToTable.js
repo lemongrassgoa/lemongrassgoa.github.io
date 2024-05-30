@@ -21,7 +21,7 @@ const links_ = [
     ["Zombie",                   "3a5HVi8I9As", 0],
     // shorts
     ["A Thousand Miles",         "5ufhpSomAxE", 1],
-    ["All About That Bass",      "ENQJRNgJ0KU", 1],
+    ["All About That Bass",      "kIeY-ennUls", 1],
     ["Budapest",                 "JqvshMcDONY", 1],
     ["Country Roads",            "pHtKLxAnq8U", 1],
     ["Dancing In The Moonlight", "wT6s1rnQ7ck", 1],
