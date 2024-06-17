@@ -1,219 +1,219 @@
 "slow"
-A Thousand Years	Christina Perri	2011
-After Midnight	J J Cale	1966
-All I Have To Do Is Dream	Everly Brothers	1958
-Angels	Robbie Williams	1997
-Annie's Song	John Denver	1974
-April Come She Will	Simon and Garfunkel	1966
-Can't Help Falling In Love	Elvis Presley	1961
-Careless Whisper	George Michael	1984
-Daughters	John Mayer	2004
-Don't Think Twice It's Alright	Bob Dylan	1963
-Dust in the Wind	Kansas	1978
-Earth Angel	Penguins	1954
-Escape (Pina Colada)	Rupert Holmes	1979
-Everything I Own	Bread	1972
-Fare Thee Well (Dink's Song)	Various	2002
-Five Hundred Miles	Peter Paul and Mary	1962
-Free Falling	John Mayer	1989
-Guitar Man	Bread	1972
-Hallelujah	Jeff Buckley	1984
-Heart Of Gold	Neil Young	1972
-Hello	Lionel Richie	1983
-Hero	Enrique Iglesias	2001
-Hey Jude	Beatles	1968
-Homeward Bound	Simon and Garfunkel	1966
-How Deep Is Your Love	Bee Gees	1977
-I Have A Dream	ABBA	1979
-If	Bread	1971
-I'll Have To Say I Love You In A Song	Jim Croce	1973
-Iris	Goo Goo Dolls	1998
-La Vie En Rose	Louis Armstrong	1950
-Leaving On A Jet Plane	John Denver	1966
-Like I'm Gonna Lose You	Meghan Trainor	2015
-Lonely Stranger	Eric Clapton	1992
-Long Goodbyes	Kurt Hunter	2009
-Lucky	Jason Mraz	2009
-Make You Feel My Love	Adele	1997
-Michelle	Beatles	1965
-Nights In White Satin	Moody Blues	1967
-Perfect	Ed Sheeran	2017
-Photographs And Memories	Jim Croce	1972
-Rocket Man	Elton John	1972
-Someone Like You	Adele	2011
-Something Stupid	Frank Sinatra	1967
-Sound Of Silence	Simon and Garfunkel	1964
-Stand By Me	Ben E. King	1961
-Stuck On You	Lionel Richie	1983
-Tears in Heaven	Eric Clapton	1992
-The Boxer	Simon and Garfunkel	1970
-The Scientist	Coldplay	2002
-Thinking Out Loud	Ed Sheeran	2014
-Time In A Bottle	Jim Croce	1972
-To Be With You	Mr Big	2001
-Wake Me Up When September Ends	Green Day	2005
-What A Wonderful World	Louis Armstrong	1967
-What's Up	4 Non Blondes	1993
-Wicked Game	Chris Isaak	1988
-Wild World	Cat Stevens	1970
-Wish You Were Here	Pink Floyd	1975
-With Or Without You	U2	1987
-Wonderful Tonight	Eric Clapton	1977
-Yellow	Coldplay	2000
-Yesterday	Beatles	1965
-You And Me	Lifehouse	2005
-Your Song	Elton John	1970
-You're Beautiful	James Blunt	2005
-You're Still The One	Shania Twain	1997
-Zombie	Cranberries	1994
+A Thousand Years,Christina Perri
+After Midnight,J J Cale
+All I Have To Do Is Dream,Everly Brothers
+Angels,Robbie Williams
+Annie's Song,John Denver
+April Come She Will,Simon and Garfunkel
+Can't Help Falling In Love,Elvis Presley
+Careless Whisper,George Michael
+Daughters,John Mayer
+Don't Think Twice It's Alright,Bob Dylan
+Dust in the Wind,Kansas
+Earth Angel,Penguins
+Escape (Pina Colada),Rupert Holmes
+Everything I Own,Bread
+Fare Thee Well (Dink's Song),Various
+Five Hundred Miles,Peter Paul and Mary
+Free Falling,John Mayer
+Guitar Man,Bread
+Hallelujah,Jeff Buckley
+Heart Of Gold,Neil Young
+Hello,Lionel Richie
+Hero,Enrique Iglesias
+Hey Jude,Beatles
+Homeward Bound,Simon and Garfunkel
+How Deep Is Your Love,Bee Gees
+I Have A Dream,ABBA
+If,Bread
+I'll Have To Say I Love You In A Song,Jim Croce
+Iris,Goo Goo Dolls
+La Vie En Rose,Louis Armstrong
+Leaving On A Jet Plane,John Denver
+Like I'm Gonna Lose You,Meghan Trainor
+Lonely Stranger,Eric Clapton
+Long Goodbyes,Kurt Hunter
+Lucky,Jason Mraz
+Make You Feel My Love,Adele
+Michelle,Beatles
+Nights In White Satin,Moody Blues
+Perfect,Ed Sheeran
+Photographs And Memories,Jim Croce
+Rocket Man,Elton John
+Someone Like You,Adele
+Something Stupid,Frank Sinatra
+Sound Of Silence,Simon and Garfunkel
+Stand By Me,Ben E. King
+Stuck On You,Lionel Richie
+Tears in Heaven,Eric Clapton
+The Boxer,Simon and Garfunkel
+The Scientist,Coldplay
+Thinking Out Loud,Ed Sheeran
+Time In A Bottle,Jim Croce
+To Be With You,Mr Big
+Wake Me Up When September Ends,Green Day
+What A Wonderful World,Louis Armstrong
+What's Up,4 Non Blondes
+Wicked Game,Chris Isaak
+Wild World,Cat Stevens
+Wish You Were Here,Pink Floyd
+With Or Without You,U2
+Wonderful Tonight,Eric Clapton
+Yellow,Coldplay
+Yesterday,Beatles
+You And Me,Lifehouse
+Your Song,Elton John
+You're Beautiful,James Blunt
+You're Still The One,Shania Twain
+Zombie,Cranberries
 
 "medium"
-1973	James Blunt	2007
-A Thousand Miles	Vanessa Carlton	2002
-Adventure Of A Lifetime	Coldplay	2015
-Africa	Toto	1982
-Aicha	Outlandish	2003
-All About You	McFly	2005
-All Star	Smash Mouth	1999
-Bitter Sweet Symphony	Verve	1997
-Blowin' In The Wind	Peter Paul and Mary	1962
-Budapest	George Ezra	2013
-Californication	Red Hot Chili Peppers	1999
-Carry You Home	James Blunt	2008
-Clocks	Coldplay	2002
-Closing Time	Semisonic	1998
-Cloud Number Nine	Bryan Adams	1999
-Count On Me	Bruno Mars	2010
-Country Roads	John Denver	1971
-Crazy	Gnarles Barkley	2006
-Die Die Die	Avett Brothers	2007
-Don't Look Back In Anger	Oasis	1995
-Don't Stop Me Now	Queen	1979
-Drive	Incubus	2000
-Eye Of The Tiger	Survivor	1982
-First Day Of My Life	Bright Eyes	2005
-Flowers	Miley Cyrus	2023
-Follow Me	Uncle Kracker	2000
-For What It's Worth	Buffalo Springfield	1966
-Good Riddance (Time Of Your Life)	Green Day	1997
-Green Eyes	Coldplay	2002
-Have You Ever Seen The Rain	CCR	1971
-Here Without You	3 Doors Down	2002
-Hey There Delilah	Plain White T's	2004
-Hotel California	Eagles	1976
-Hymn For The Weekend	Coldplay	2015
-I Will Follow You Into The Dark	Death Cab for Cutie	2006
-I'd Love To Change The World	Ten Years After	1971
-I'm Yours	Jason Mraz	2008
-Lazy Song	Bruno Mars	2011
-Lemon Tree	Fool's Garden	1995
-Let Her Go	Passenger	2012
-Lost On You	LP	2015
-Love Story	Taylor Swift	2008
-Mary Jane's Last Dance	Tom Petty and The Heartbreakers	1993
-More Than A Friend	Michael Learns To Rock	2000
-More Than Words	Extreme	1991
-Numb	Linkin Park	2003
-Old Yellow Bricks	Arctic Monkeys	2007
-One Love	Blue	2002
-Rock 'n' Roll	Eric Hutchinson	2008
-Rockstar	Nickelback	2005
-Royals	Lorde	2013
-She Will Be Loved	Maroon 5	2004
-Snow (Hey Oh)	Red Hot Chili Peppers	2006
-Spit On A Stranger	Nickel Creek	1999
-Strength Of A Woman	Shaggy	2002
-Sugar (Honey Honey)	Archies	1969
-Superman (Scrubs theme)	Lazlo Bane	2000
-The Joker	Steve Miller Band	2002
-The Tide Is High	Blondie	1980
-The Times They Are A-Changin'	Bob Dylan	1964
-The Way You Make Me Feel	Michael Jackson	1987
-This Love	Maroon 5	2004
-Uptown Girl	Billy Joel	1983
-Vanilla Twilight	Owl City	2010
-Venus	Shocking Blue	1969
-White Flag	Dido	2003
-Wonderwall	Oasis	1995
+1973,James Blunt
+A Thousand Miles,Vanessa Carlton
+Adventure Of A Lifetime,Coldplay
+Africa,Toto
+Aicha,Outlandish
+All About You,McFly
+All Star,Smash Mouth
+Bitter Sweet Symphony,Verve
+Blowin' In The Wind,Peter Paul and Mary
+Budapest,George Ezra
+Californication,Red Hot Chili Peppers
+Carry You Home,James Blunt
+Clocks,Coldplay
+Closing Time,Semisonic
+Cloud Number Nine,Bryan Adams
+Count On Me,Bruno Mars
+Country Roads,John Denver
+Crazy,Gnarles Barkley
+Die Die Die,Avett Brothers
+Don't Look Back In Anger,Oasis
+Don't Stop Me Now,Queen
+Drive,Incubus
+Eye Of The Tiger,Survivor
+First Day Of My Life,Bright Eyes
+Flowers,Miley Cyrus
+Follow Me,Uncle Kracker
+For What It's Worth,Buffalo Springfield
+Good Riddance (Time Of Your Life),Green Day
+Green Eyes,Coldplay
+Have You Ever Seen The Rain,CCR
+Here Without You,3 Doors Down
+Hey There Delilah,Plain White T's
+Hotel California,Eagles
+Hymn For The Weekend,Coldplay
+I Will Follow You Into The Dark,Death Cab for Cutie
+I'd Love To Change The World,Ten Years After
+I'm Yours,Jason Mraz
+Lazy Song,Bruno Mars
+Lemon Tree,Fool's Garden
+Let Her Go,Passenger
+Lost On You,LP
+Love Story,Taylor Swift
+Mary Jane's Last Dance,Tom Petty and The Heartbreakers
+More Than A Friend,Michael Learns To Rock
+More Than Words,Extreme
+Numb,Linkin Park
+Old Yellow Bricks,Arctic Monkeys
+One Love,Blue
+Rock 'n' Roll,Eric Hutchinson
+Rockstar,Nickelback
+Royals,Lorde
+She Will Be Loved,Maroon 5
+Snow (Hey Oh),Red Hot Chili Peppers
+Spit On A Stranger,Nickel Creek
+Strength Of A Woman,Shaggy
+Sugar (Honey Honey),Archies
+Superman (Scrubs theme),Lazlo Bane
+The Joker,Steve Miller Band
+The Tide Is High,Blondie
+The Times They Are A-Changin',Bob Dylan
+The Way You Make Me Feel,Michael Jackson
+This Love,Maroon 5
+Uptown Girl,Billy Joel
+Vanilla Twilight,Owl City
+Venus,Shocking Blue
+White Flag,Dido
+Wonderwall,Oasis
 
 "fast"
-A Hard Day's Night	Beatles	1964
-A Little Less Conversation	Elvis Presley	1968
-A Man For All Seasons	Robbie Williams	2003
-A Sky Full Of Stars	Coldplay	2014
-Are You Gonna Be My Girl	Jet	2003
-Better When I'm Dancing	Meghan Trainor	2015
-Billie Jean	Michael Jackson	1982
-Blinding Lights	Weeknd	2019
-Brown Eyed Girl	Van Morrison	1967
-Butterfly	Jason Mraz	2008
-Cheap Thrills	Sia	2016
-Counting Stars	OneRepublic	2013
-Crazy Little Thing Called Love	Queen	1979
-Dance With Me Tonight	Olly Murs	2011
-Dancing In The Moonlight	Toploader	1999
-Dancing Queen	ABBA	1976
-Does Your Mother Know	ABBA	1979
-Eight Days A Week	Beatles	1964
-Every Breath You Take	The Police	1983
-Every Little Thing She Does Is Magic	Eric Hutchinson	1981
-Everywhere	Fleetwood Mac	1987
-Faith	George Michael	1987
-Great Balls Of Fire	Jerry Lee Lewis	1957
-Hey Soul Sister	Train	2002
-If I Had A Hammer	Peter Paul and Mary	1962
-I Saw Her Standing There	Beatles	1968
-I Wanna Hold Your Hand	Beatles	1963
-I Will Survive	Gloria Gaynor	1978
-I'll Be There For You (Friends theme)	Rembrandts	1995
-I'm A Believer	Monkees	1967
-Johnny B Goode	Chuck Berry	1958
-Just The Way You Are	Bruno Mars	2010
-Levitating	Dua Lipa	2020
-Long Train Running	Doobie Brothers	1973
-Love You Like A Love Song	Selena Gomez	2011
-Mamma Mia	ABBA	1975
-New Light	John Mayer	2011
-New Shoes	Paolo Nutini	2006
-Price Tag	Jessie J	2011
-Rhythm Of Love	Plain White T's	2010
-Rolling In The Deep	Adele	2011
-Seven Nation Army	White Stripes	2003
-She Bangs	Ricky Martin	1998
-Stuck In The Middle With You	Stealer's Wheel	1972
-Sweet Child Of Mine	Guns n Roses	1987
-Sweet Sweet Smile	Carpenters	1977
-Ten Guitars	Engelbert Humperdinck	1966
-The Animal Song	Savage Garden	1999
-Top Of The World	Carpenters	1972
-Toxic	Britney Spears	2003
-Viva La Vida	Coldplay	2008
-Watermelon Sugar	Harry Styles	2019
-You Belong To Me	Bryan Adams	2015
-You've Got To Hide Your Love Away	Beatles	1965
+A Hard Day's Night,Beatles
+A Little Less Conversation,Elvis Presley
+A Man For All Seasons,Robbie Williams
+A Sky Full Of Stars,Coldplay
+Are You Gonna Be My Girl,Jet
+Better When I'm Dancing,Meghan Trainor
+Billie Jean,Michael Jackson
+Blinding Lights,Weeknd
+Brown Eyed Girl,Van Morrison
+Butterfly,Jason Mraz
+Cheap Thrills,Sia
+Counting Stars,OneRepublic
+Crazy Little Thing Called Love,Queen
+Dance With Me Tonight,Olly Murs
+Dancing In The Moonlight,Toploader
+Dancing Queen,ABBA
+Does Your Mother Know,ABBA
+Eight Days A Week,Beatles
+Every Breath You Take,The Police
+Every Little Thing She Does Is Magic,Eric Hutchinson
+Everywhere,Fleetwood Mac
+Faith,George Michael
+Great Balls Of Fire,Jerry Lee Lewis
+Hey Soul Sister,Train
+If I Had A Hammer,Peter Paul and Mary
+I Saw Her Standing There,Beatles
+I Wanna Hold Your Hand,Beatles
+I Will Survive,Gloria Gaynor
+I'll Be There For You (Friends theme),Rembrandts
+I'm A Believer,Monkees
+Johnny B Goode,Chuck Berry
+Just The Way You Are,Bruno Mars
+Levitating,Dua Lipa
+Long Train Running,Doobie Brothers
+Love You Like A Love Song,Selena Gomez
+Mamma Mia,ABBA
+New Light,John Mayer
+New Shoes,Paolo Nutini
+Price Tag,Jessie J
+Rhythm Of Love,Plain White T's
+Rolling In The Deep,Adele
+Seven Nation Army,White Stripes
+She Bangs,Ricky Martin
+Stuck In The Middle With You,Stealer's Wheel
+Sweet Child Of Mine,Guns n Roses
+Sweet Sweet Smile,Carpenters
+Ten Guitars,Engelbert Humperdinck
+The Animal Song,Savage Garden
+Top Of The World,Carpenters
+Toxic,Britney Spears
+Viva La Vida,Coldplay
+Watermelon Sugar,Harry Styles
+You Belong To Me,Bryan Adams
+You've Got To Hide Your Love Away,Beatles
 
 "jazz"
-Antonio's Song	Till Brönner	1977
-Bistro Fada	Stephane Wrembel	2011
-Blackbird	Beatles	1968
-Don't Know Why	Norah Jones	2002
-Dream A Little Dream Of Me	Laura Fygi	2002
-Fly Me To The Moon	Frank Sinatra	1954
-Smooth Operator	Sade	1984
-Sway	Michael Buble	1953
-Take Five	Dave Brubeck	1959
+Antonio's Song,Till Brönner
+Bistro Fada,Stephane Wrembel
+Blackbird,Beatles
+Don't Know Why,Norah Jones
+Dream A Little Dream Of Me,Laura Fygi
+Fly Me To The Moon,Frank Sinatra
+Smooth Operator,Sade
+Sway,Michael Buble
+Take Five,Dave Brubeck
 
 "classic"
-Bachelor Boy	Cliff Richard	1962
-Brandy	Looking Glass	1972
-Bye Bye Love	Everly Brothers	1957
-Dream Lover	Bobby Darin	1959
-In The Summertime	Mungo Jerry	1970
-Living Doll	Cliff Richard and The Shadows	1959
-Lucky Lips	Cliff Richard	1957
-Norwegian Wood	Beatles	1965
-Oh Carol	Neil Sedaka	1995
-Poetry In Motion	Johnny Tillotson	1960
-Que Sera Sera	Various	1956
-Ring Of Fire	Johnny Cash	1962
-Summer Holiday	Cliff Richard	1962
+Bachelor Boy,Cliff Richard
+Brandy,Looking Glass
+Bye Bye Love,Everly Brothers
+Dream Lover,Bobby Darin
+In The Summertime,Mungo Jerry
+Living Doll,Cliff Richard and The Shadows
+Lucky Lips,Cliff Richard
+Norwegian Wood,Beatles
+Oh Carol,Neil Sedaka
+Poetry In Motion,Johnny Tillotson
+Que Sera Sera,Various
+Ring Of Fire,Johnny Cash
+Summer Holiday,Cliff Richard
