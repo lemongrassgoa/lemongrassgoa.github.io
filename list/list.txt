@@ -1,4 +1,4 @@
-"slow"
+------ SLOW ------
 A Thousand Years
 After Midnight
 All I Have To Do Is Dream
@@ -67,7 +67,7 @@ You're Beautiful
 You're Still The One
 Zombie
 
-"medium"
+------ MEDIUM ------
 1973
 A Thousand Miles
 Adventure Of A Lifetime
@@ -137,7 +137,7 @@ Venus
 White Flag
 Wonderwall
 
-"fast"
+------ FAST ------
 A Hard Day's Night
 A Little Less Conversation
 A Man For All Seasons
@@ -193,7 +193,7 @@ Watermelon Sugar
 You Belong To Me
 You've Got To Hide Your Love Away
 
-"jazz"
+------ JAZZ ------
 Antonio's Song
 Bistro Fada
 Blackbird
@@ -204,7 +204,7 @@ Smooth Operator
 Sway
 Take Five
 
-"classic"
+------ CLASSIC ------
 Bachelor Boy
 Brandy
 Bye Bye Love
@@ -218,3 +218,25 @@ Poetry In Motion
 Que Sera Sera
 Ring Of Fire
 Summer Holiday
+
+
+------ LOOPER ------
+Bittersweet Symphony (mandolin, C)
+Careless Whisper (viola, Dm)
+Cheap Thrills (viola, F#m)
+Clocks
+Dancing In The Moonlight (mandolin, C)
+Escape (viola, C)
+Price Tag (viola, C)
+Shape of You (viola, Bm)
+Smells Like Teen Spirit
+Snow
+Viva La Vida
+What's Up
+With Or Without You
+Zombie
+-Blinding Lights
+-Halo
+-Havana
+-Stand By Me
+-Watermelon Sugar
