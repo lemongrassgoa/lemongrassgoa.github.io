@@ -239,6 +239,7 @@ Zombie (viola, Em)
 
 - Attention
 - Blinding Lights
+- Closing Time
 - Halo
 - Havana
 - Stand By Me
