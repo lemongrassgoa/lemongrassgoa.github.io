@@ -33,6 +33,7 @@ Leaving On A Jet Plane
 Like I'm Gonna Lose You
 Lonely Stranger
 Long Goodbyes
+Lost On You
 Lucky
 Make You Feel My Love
 Michelle
@@ -108,7 +109,6 @@ I'm Yours
 Lazy Song
 Lemon Tree
 Let Her Go
-Lost On You
 Love Story
 Mary Jane's Last Dance
 More Than A Friend
@@ -243,5 +243,11 @@ Zombie (viola, Em)
 - Dance Monkey
 - Halo
 - Havana
+- Just The Two Of Us
+- Mr Brightside
+- Radioactive
+- Rasputin
+- Shotgun
 - Stand By Me
+- Sweet Dreams
 - Watermelon Sugar
