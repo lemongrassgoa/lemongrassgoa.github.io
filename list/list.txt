@@ -6,10 +6,7 @@ Angels
 Annie's Song
 April Come She Will
 Can't Help Falling In Love
-Careless Whisper
-Daughters
 Don't Think Twice It's Alright
-Dust in the Wind
 Earth Angel
 Escape (Pina Colada)
 Everything I Own
@@ -18,8 +15,6 @@ Five Hundred Miles
 Free Falling
 Guitar Man
 Hallelujah
-Heart Of Gold
-Hello
 Hero
 Hey Jude
 Homeward Bound
@@ -27,36 +22,27 @@ How Deep Is Your Love
 I Have A Dream
 If
 I'll Have To Say I Love You In A Song
-Iris
 La Vie En Rose
 Leaving On A Jet Plane
 Like I'm Gonna Lose You
 Lonely Stranger
 Long Goodbyes
-Lost On You
 Lucky
 Make You Feel My Love
-Michelle
-Nights In White Satin
 Perfect
 Photographs And Memories
 Rocket Man
 Someone Like You
 Something Stupid
-Sound Of Silence
 Stand By Me
 Stuck On You
 Tears in Heaven
 The Boxer
-The Scientist
 Thinking Out Loud
-Time In A Bottle
 To Be With You
 Wake Me Up When September Ends
 What A Wonderful World
 What's Up
-Wicked Game
-Wild World
 Wish You Were Here
 With Or Without You
 Wonderful Tonight
@@ -66,32 +52,40 @@ You And Me
 Your Song
 You're Beautiful
 You're Still The One
+-- MINOR --
+Careless Whisper
+Daughters
+Dust in the Wind
+Heart Of Gold
+Hello
+Iris
+Lost On You
+Michelle
+Nights In White Satin
+Sound Of Silence
+The Scientist
+Time In A Bottle
+Wicked Game
+Wild World
 Zombie
 
 ------ MEDIUM ------
-1973
 A Thousand Miles
-Adventure Of A Lifetime
 Africa
-Aicha
 All About You
 All Star
 Bitter Sweet Symphony
 Blowin' In The Wind
 Budapest
-Californication
 Carry You Home
 Clocks
 Closing Time
 Cloud Number Nine
 Count On Me
 Country Roads
-Crazy
 Die Die Die
 Don't Look Back In Anger
 Don't Stop Me Now
-Drive
-Eye Of The Tiger
 First Day Of My Life
 Flowers
 Follow Me
@@ -99,10 +93,7 @@ For What It's Worth
 Good Riddance (Time Of Your Life)
 Green Eyes
 Have You Ever Seen The Rain
-Here Without You
 Hey There Delilah
-Hotel California
-Hymn For The Weekend
 I Will Follow You Into The Dark
 I'd Love To Change The World
 I'm Yours
@@ -110,18 +101,11 @@ Lazy Song
 Lemon Tree
 Let Her Go
 Love Story
-Mary Jane's Last Dance
 More Than A Friend
 More Than Words
-Numb
 Old Yellow Bricks
-One Love
 Rock 'n' Roll
-Rockstar
 Royals
-She Will Be Loved
-Smells Like Teen Spirit
-Snow (Hey Oh)
 Spit On A Stranger
 Strength Of A Woman
 Sugar (Honey Honey)
@@ -130,26 +114,36 @@ The Joker
 The Tide Is High
 The Times They Are A-Changin'
 The Way You Make Me Feel
-This Love
 Uptown Girl
 Vanilla Twilight
-Venus
 White Flag
+-- MINOR --
+1973
+Adventure Of A Lifetime
+Aicha
+Californication
+Crazy
+Drive
+Here Without You
+Hotel California
+Hymn For The Weekend
+Mary Jane's Last Dance
+Numb
+One Love
+Rockstar
+She Will Be Loved
+Smells Like Teen Spirit
+Snow (Hey Oh)
+This Love
+Venus
 Wonderwall
 
 ------ FAST ------
 A Hard Day's Night
 A Little Less Conversation
-A Man For All Seasons
 A Sky Full Of Stars
-Are You Gonna Be My Girl
 Better When I'm Dancing
-Billie Jean
-Blinding Lights
 Brown Eyed Girl
-Butterfly
-Cheap Thrills
-Counting Stars
 Crazy Little Thing Called Love
 Dance With Me Tonight
 Dancing In The Moonlight
@@ -165,33 +159,42 @@ Hey Soul Sister
 If I Had A Hammer
 I Saw Her Standing There
 I Wanna Hold Your Hand
-I Will Survive
 I'll Be There For You (Friends theme)
 I'm A Believer
 Johnny B Goode
 Just The Way You Are
-Levitating
-Long Train Running
-Love You Like A Love Song
 Mamma Mia
-New Light
 New Shoes
 Price Tag
 Rhythm Of Love
-Rolling In The Deep
-Seven Nation Army
-She Bangs
 Stuck In The Middle With You
 Sweet Child Of Mine
 Sweet Sweet Smile
 Ten Guitars
 The Animal Song
 Top Of The World
-Toxic
 Viva La Vida
-Watermelon Sugar
 You Belong To Me
 You've Got To Hide Your Love Away
+-- MINOR --
+A Man For All Seasons
+Are You Gonna Be My Girl
+Billie Jean
+Blinding Lights
+Butterfly
+Cheap Thrills
+Counting Stars
+Eye Of The Tiger
+I Will Survive
+Levitating
+Long Train Running
+Love You Like A Love Song
+New Light
+Rolling In The Deep
+Seven Nation Army
+She Bangs
+Toxic
+Watermelon Sugar
 
 ------ JAZZ ------
 Antonio's Song
