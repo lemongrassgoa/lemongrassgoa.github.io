@@ -95,15 +95,12 @@ Green Eyes
 Have You Ever Seen The Rain
 Hey There Delilah
 I Will Follow You Into The Dark
-I'd Love To Change The World
 I'm Yours
 Lazy Song
-Lemon Tree
 Let Her Go
 Love Story
 More Than A Friend
 More Than Words
-Old Yellow Bricks
 Rock 'n' Roll
 Royals
 Spit On A Stranger
@@ -116,17 +113,19 @@ The Times They Are A-Changin'
 The Way You Make Me Feel
 Uptown Girl
 Vanilla Twilight
-White Flag
 -- MINOR --
 1973
 Adventure Of A Lifetime
 Aicha
+Billie Jean
 Californication
 Crazy
 Drive
 Here Without You
 Hotel California
 Hymn For The Weekend
+I'd Love To Change The World
+Lemon Tree
 Mary Jane's Last Dance
 Numb
 One Love
@@ -136,6 +135,7 @@ Smells Like Teen Spirit
 Snow (Hey Oh)
 This Love
 Venus
+White Flag
 Wonderwall
 
 ------ FAST ------
@@ -179,7 +179,6 @@ You've Got To Hide Your Love Away
 -- MINOR --
 A Man For All Seasons
 Are You Gonna Be My Girl
-Billie Jean
 Blinding Lights
 Butterfly
 Cheap Thrills
@@ -190,6 +189,7 @@ Levitating
 Long Train Running
 Love You Like A Love Song
 New Light
+Old Yellow Bricks
 Rolling In The Deep
 Seven Nation Army
 She Bangs
