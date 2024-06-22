@@ -22,7 +22,7 @@ th, td{
 }
 tr{
     transform: scaleY(1);
-    transition: background-color 200ms linear, transform 200ms ease-in-out, visibility 200ms ease-in-out;
+    transition: background-color 200ms linear, transform 200ms ease-in-out, visibility 200ms ease-in-out, font-size 200ms ease-in-out, font-weight 200ms ease-in-out;
     transform-origin: center top;
 }
 tr:hover {
@@ -33,6 +33,9 @@ tr:hover {
 .tr-hover:hover {
     text-shadow: 2px 2px 2px black;
     opacity: 1;
+    /* transform: scale(1.06) !important; */
+    font-size: 110% !important;
+    font-weight: bold !important;
 }
 a {
     color: gold;
