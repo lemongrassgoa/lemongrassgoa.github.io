@@ -76,6 +76,7 @@ All About You
 All Star
 Bitter Sweet Symphony
 Blowin' In The Wind
+Brandy
 Budapest
 Carry You Home
 Clocks
@@ -209,7 +210,6 @@ Take Five
 
 ------ CLASSIC ------
 Bachelor Boy
-Brandy
 Bye Bye Love
 Dream Lover
 In The Summertime
