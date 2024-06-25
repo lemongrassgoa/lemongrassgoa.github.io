@@ -231,6 +231,7 @@ Cheap Thrills (viola, F#m)
 Clocks (mandolin, G)
 Dancing In The Moonlight (mandolin, C)
 Escape (viola, C)
+Just The Two Of Us (viola, Am)
 Price Tag (viola, C)
 Shape of You (viola, Bm)
 Smells Like Teen Spirit (viola, C)
@@ -246,16 +247,18 @@ Zombie (viola, Em)
 - Blinding Lights
 - Closing Time
 - Dance Monkey
+- Free Fallin'
 - Halo
 - Happy
 - Havana
-- Just The Two Of Us
 - Mr Brightside
 - Radioactive
-- Rasputin
+- *Rasputin (beat, riff)
+- *Royals (beat, chorus)
 - Saturday Night
 - Shotgun
 - Sky Full Of Stars
 - Stand By Me
 - Sweet Dreams
+- Sweet Home Alabama
 - Watermelon Sugar
