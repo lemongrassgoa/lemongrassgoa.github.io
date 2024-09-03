@@ -1,0 +1,11 @@
+#logo {
+    transition: transform .2s;
+    pointer-events:none;
+    /* position: fixed;  */
+	margin: 10px;
+    height: 100px;
+    background-image: radial-gradient(rgba(0,0,0,1) , rgba(0,0,0,0.75) 45%, rgba(0,0,0,0) 70%);
+}
+#logo:hover {
+    transform: scale(1.1);
+}

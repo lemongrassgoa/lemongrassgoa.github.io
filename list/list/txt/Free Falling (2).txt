@@ -1,0 +1,33 @@
+Tom Petty
+Free Falling
+
+She's a good girl, loves her mama
+Loves Jesus and America too
+She's a good girl, crazy 'bout Elvis
+Loves horses and her boyfriend too
+
+It's a long day living in Reseda
+There's a freeway runnin' through the yard
+And I'm a bad boy 'cause I don't even miss her
+I'm a bad boy for breakin' her heart
+
+And I'm free, free fallin'
+Yeah I'm free, free fallin'
+
+All the vampires walkin' through the valley
+Move west down Ventura boulevard
+And all the bad boys are standing in the shadows
+All the good girls are home with broken hearts
+
+And I'm free, free fallin'
+Yeah I'm free, free fallin'
+Free fallin', now I'm free fallin', now I'm
+Free fallin', now I'm free fallin', now I'm
+
+I want to glide down over Mulholland
+I want to write her name in the sky
+Gonna free fall out into nothin'
+Gonna leave this world for a while
+
+And I'm free, free fallin'
+Yeah I'm free, free fallin'

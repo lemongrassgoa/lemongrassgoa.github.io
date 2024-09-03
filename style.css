@@ -1,0 +1,191 @@
+/* @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400"); */
+/* @import url("https://fonts.googleapis.com/css?family=Lato"); */
+/* @import url("https://fonts.googleapis.com/css?family=Oxanium"); */
+/* @import url("https://fonts.googleapis.com/css?family=Chakra+Petch"); */
+/* @import url("https://fonts.googleapis.com/css?family=Ubuntu"); */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+/* @import url("https://fonts.googleapis.com/css?family=Neuton"); */
+/* @import url("https://fonts.googleapis.com/css?family=Marmelad"); */
+/* @import url("https://fonts.googleapis.com/css?family=Overlock"); */
+/* @import url("https://fonts.googleapis.com/css?family=Baloo+Chettan+2"); */
+@import url("https://fonts.googleapis.com/css?family=Bellota");
+/* @import url("https://fonts.googleapis.com/css?family=Sniglet"); */
+/* @import url("https://fonts.googleapis.com/css?family=Coda"); */
+/* @import url("https://fonts.googleapis.com/css?family=Fondamento"); */
+/* @import url("https://fonts.googleapis.com/css?family=Pangolin"); */
+/* @import url("https://fonts.googleapis.com/css?family=Kelly+Slab"); */
+/* @import url("https://fonts.googleapis.com/css?family=Mirza"); */
+/* @import url("https://fonts.googleapis.com/css?family=Expletus+Sans"); */
+/* @import url("https://fonts.googleapis.com/css?family=Voces"); */
+
+html {
+    font-family: "Comfortaa", "Trebuchet MS";
+    /* background-color: #ffffff; */
+}
+
+body, h1, h2 {
+    font-family: inherit;
+}
+
+.mySlides {
+    display: block;
+}
+
+#banner{
+    display: none;
+    /* transition: filter .5s; */
+    width:100%;
+    /* filter: blur(1px); */
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 15%);
+            mask-image: linear-gradient(to top, transparent 1%, black 15%);
+}
+#banner:hover{
+    /* filter: blur(0px); */
+}
+
+.personal-photo{
+    pointer-events:none;
+    width: 100%;
+    transition: filter .2s;
+    /* filter: drop-shadow(0px 0px 1px #fff); */
+    transform: scale(1.1);
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 15%);
+            mask-image: linear-gradient(to top, transparent 1%, black 15%);
+}
+.personal-photo:hover{
+    filter: drop-shadow(0px 0px 2px #fff);
+}
+
+.button{
+    transition: transform .2s, box-shadow .2s, color .2s;
+    font-family: "Georgia";
+    font-size: 115%;
+	text-align:center;
+    padding: 1em;
+    text-decoration: none;
+	position:fixed;
+	width:200px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color: #085;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 3px 3px 4px #333;
+    z-index: 5;
+}
+.button:hover{
+	color:#000;
+    transform: scale(1.1);
+	box-shadow: 4px 4px 5px #666;
+}
+.button:active{
+    transform: scale(1);
+}
+.my-float{
+	margin-top:22px;
+}
+.hovereffect{
+    transition: transform .2s;
+}
+.hovereffect:hover{
+    transform: scale(1.1);
+}
+
+h1 {
+    font-family: "Bellota", "Trebuchet MS";
+    font-style: bold;
+}
+
+.name {
+    font-family: "Bellota", "Trebuchet MS";
+    font-size: 150%;
+}
+
+#logo {
+    /* pointer-events:none; */
+    position: fixed; 
+    bottom: 20px;
+    left: 20px;
+    height: 60px;
+    /* background-image: radial-gradient(rgba(255,255,255,0.5) 40%, rgba(0,0,0,0) 70%); */
+    z-index: 9;
+}
+
+#watermark {
+    pointer-events:none;
+    width: 450px;
+}
+
+#upcoming_events {
+    width: 70%;
+    height: 300px;
+    filter: invert() contrast(1.4) hue-rotate(180deg);
+    clip-path: inset(9% 2% 9% 5%);
+    transform: scale(1.5);
+    margin-left  : 15%;
+    margin-top   : 10%;
+    margin-bottom: 5%;
+}
+
+#gallery{
+    width: 80%;
+    height: 85vh;
+    pointer-events: none;
+}
+
+@media (max-width: 600px) {
+    
+    .personal-photo{
+        width: 50%;
+        padding-top: 3em;
+        /* display: none; */
+    }
+
+    #logo {
+        height: 40px;
+    }
+    
+    #watermark {
+        width: 80%;
+    }
+    
+    #banner{
+        display: block;
+    }
+    
+    .band_about {
+        display: none;
+    }
+
+    #upcoming_events {
+        width: 80%;
+        height: 300px;
+        filter: invert() grayscale(0) contrast(1.5) hue-rotate(180deg);
+        clip-path: inset(10% 1% 10% 3%);
+        transform: scale(1);
+        margin-left  : 10%;
+        margin-top   : 0%;
+        margin-bottom: 0%;
+    }
+    #gallery{
+        width: 100%;
+    }
+}
+
+.social {
+    text-decoration: none;
+    padding: 3px;
+    margin: 6px;
+    border-radius: 3px;
+    transition: background-color .2s ease-in-out;
+}
+.fb-link:hover{
+    background-color: #3C5A98;
+}
+.insta-link:hover{
+    background-color: #C13584;
+}
+.yt-link:hover{
+    background-color: #BF2E25;
+}

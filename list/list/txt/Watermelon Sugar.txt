@@ -1,0 +1,49 @@
+Watermelon Sugar
+Harry Styles [rhythm: Groove 1, bpm: 100]
+
+Tastes like strawberries / On a summer evenin'
+And it sounds just like a song
+I want more berries / And that summer feelin'
+It's so wonderful and warm
+
+Breathe me in / Breathe me out
+I don't know if I could ever go without
+I'm just thinking out loud
+I don't know if I could ever go without
+
+Watermelon sugar high x4
+Watermelon sugar
+
+Strawberries on a summer evenin'
+Baby, you're the end of June
+I want your belly / And that summer feelin'
+Getting washed away in you
+Breathe me in / Breathe me out
+I don't know if I could ever go without
+
+Watermelon sugar high x8
+
+I just wanna taste it
+I just wanna taste it
+Watermelon sugar high
+
+Tastes like strawberries / On a summer evenin'
+And it sounds just like a song
+I want more berries / And that summer feelin'
+I don't know if I could ever go without
+
+Watermelon sugar high
+Watermelon sugar high
+Watermelon sugar high (Sugar)
+Watermelon sugar high (Sugar)
+Watermelon sugar high
+Watermelon sugar high
+Watermelon sugar high
+Watermelon sugar high
+I just wanna taste it
+I just wanna taste it (Woo)
+Watermelon sugar high
+I just wanna taste it
+I just wanna taste it (Ooh)
+Watermelon sugar high
+Watermelon sugar

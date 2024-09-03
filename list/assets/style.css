@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Itim");
+
+html, body {
+    font-family: "Ubuntu", "Tahoma", system-ui;
+    background-color: #1f2424;
+    line-height: 1.2em;
+    /* color: gray; */
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+table {
+    cursor: default;
+}
+thead{
+    z-index: 1;
+}
+th, td{
+    vertical-align: middle;
+}
+tr{
+    transform: scaleY(1);
+    transition: background-color 200ms linear, transform 200ms ease-in-out, visibility 200ms ease-in-out, font-size 200ms ease-in-out, font-weight 200ms ease-in-out;
+    transform-origin: center top;
+}
+tr:hover {
+    background-color: rgba(127,155,157, 0.4) !important;
+}
+.tr-hover{
+}
+.tr-hover:hover {
+    text-shadow: 2px 2px 2px black;
+    opacity: 1;
+    /* transform: scale(1.06) !important; */
+    /* font-size: 110% !important; */
+    /* font-weight: bold !important; */
+}
+a {
+    color: gold;
+}
+#logo{
+    height: 3.5em;
+    transform: scale(1.8);
+    z-index: 3;
+    margin-left: 1em;
+}
+#spotify{
+    z-index: 3;
+    height: 3em;
+    margin-right: 1em;
+}
+::placeholder{
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+:focus::placeholder{
+    opacity: 0.2; 
+}
+#search{ /* search bar field */
+    text-align: center;
+    border-radius: 0.7em;
+    color: black;
+    margin: 1em;
+    padding: 0.3em;
+    border: none;
+    width: 425px;
+    /* filter: grayscale(1); */
+}
+#search:focus{
+    outline: none;
+}
+#search-bar{  /* search bar div */
+    font-family: "Itim", "Tahoma", system-ui;
+    background-color: #1f2424;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 6em;
+    z-index: 1;
+}
+#search-results{
+    transform: scale(1.2);
+    position: fixed;
+    margin-top: 4em;
+    color: gray;
+    cursor: default;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#titlebar{
+    transform: scale(1.2);
+    position: fixed;
+    margin-top: -4em;
+    color: silver;
+    cursor: default;
+}
+#table-header{ /* table header */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 6em;
+}
+#repertoire-list{
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.title {
+    font-style: italic;
+}
+.title:hover{
+}
+/* add the word "The" before marked artist names without affecting sorting order */
+.the{}    
+    .the:before{
+        content: "The ";
+    }
+
+.yt-img{
+    height: 1.2em;
+    float: right;
+    z-index: 1;
+    cursor: default;
+    filter: drop-shadow(3px 3px 1px black);
+    padding-left: 0.5em;
+    transition: transform 100ms ease-in;
+    transform: scale(1);
+    opacity: 1;
+}
+.yt-img:hover{
+    /* filter: drop-shadow(3px 3px 1px black) opacity(1); */
+}
+.yt-img-clicked{
+    transform: scale(1.8);
+}
+.yt-short{
+    /* clip-path: polygon(55% 0, 90% 0, 75% 100%, 40% 100%); */
+}
+#yt-checkbox-img{
+    transition: filter 300ms;
+    transform: scale(1.2);
+    filter: drop-shadow(2px 2px 1px black);
+    float: right;
+}
+#yt_filter{
+    display: none;
+}
+#yt_filter + label:before{
+    height: 1.3em;
+}
+#yt_filter_label{
+    float:right;
+}
+#yt_filter:checked + label:before{
+    height: 1.3em;
+}
+#video_embed{
+    width: 100%;
+    height: 70vh;
+    padding: 1em 1em 3.5em 1em;
+    vertical-align: middle;
+}
+#upButton{
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    transition: filter 300ms ease-in;
+}
+#upButton:hover{
+    filter: invert(1);
+}
+
+@keyframes pulse{
+    50%  { transform: scale(1.8); }
+}
+#modalClose{
+    transform: scale(1.5); 
+    transform-origin: bottom right;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 350px) {
+    html, body {
+        font-size: 90%;
+        line-height: 1.1em;
+    }
+    #logo{
+        display: none;
+    }
+    #spotify{
+        display: none;
+    }
+}
+

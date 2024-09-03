@@ -1,0 +1,102 @@
+Britney Spears
+Toxic [drum: Simple 4, bpm: 140]
+
+|(intro riff)    Am
+
+|N.C.               Am
+Baby, can't you see / I'm calling?
+A guy like you / should wear a warning
+|C              E            Am (riff)
+It's dangerous, I'm falling
+|Am
+There's no escape, I can't wait
+I need a hit, baby, give me it
+|C               E              Am (riff)
+You're dangerous, I'm loving it
+
+|    Am
+    Too high, can't come down
+    Losing my head, spinnin' 'round and 'round
+|    C     E                      Am (riff) (N.C. 8 beats)
+        ...  Do you feel me now?
+
+|          Am                      C7
+    With a taste of your lips, I'm on a ride
+|   B7              Bb7
+      You're toxic, I'm slippin' under
+|          Am                C7
+    With a taste of a poison paradise
+|         FM7  (riff)
+    I'm addicted to you
+|	          E7               Bb7     Am      C7
+    Don't you know that you're toxic?
+|         B7
+    And I love what you do
+|	          Bb7no5                   Am      C7
+    Don't you know that you're toxic?
+
+|FM7 (riff)      E7 - Bb7
+ 
+|N.C.               Am
+It's getting late / to give you up
+I took a sip / from my devil's cup
+|C            E             Am (riff backwards)
+Slowly, it's taking over me
+
+|   Am
+    Too high, can't come down
+    It's in the air and it's all around
+|    C     E7                      Am (riff) (N.C. 8 beats)
+        ...  Can you feel me now?
+
+|          Am                      C7
+    With a taste of your lips, I'm on a ride
+|   B7              Bb7
+      You're toxic, I'm slippin' under
+|          Am                C7
+    With a taste of a poison paradise
+|          FM7  (riff)
+    I'm addicted to you
+|	          E7               Bb7     Am      C7
+    Don't you know that you're toxic?
+|         B7
+    And I love what you do
+|	          Bb7no5                   Am      C7
+    Don't you know that you're toxic?
+|	FM7 (riff)    E7               N.C.
+	... Don't you know that you're toxic?
+
+|Am      C7      B7      Bb7
+|Am      C7      FM7     E7      Am ...
+
+| (single) Am                      C7       (rhythm)
+    With a taste of your lips, I'm on a ride
+|   B7              Bb7
+      You're toxic, I'm slippin' under
+|          Am                C7
+    With a taste of a poison paradise
+|         FM7  (riff)
+    I'm addicted to you
+|	          E7               Bb7
+    Don't you know that you're toxic?
+
+|          Am                      C7
+    With a taste of your lips, I'm on a ride
+|   B7              Bb7
+      You're toxic, I'm slippin' under
+|          Am                C7
+    With a taste of a poison paradise
+|         FM7  (riff)
+    I'm addicted to you
+|	          E7               Bb7no5
+    Don't you know that you're toxic?
+
+(OUTRO)
+|Am                C7
+ Intoxicate me now, with your lovin' now
+|B7                     Bb7
+  I think I'm ready now (I think I'm ready now)
+|Am                 C7
+ Intoxicate me now, with your lovin' now
+|FM7   (riff)                N.C.
+  I think I'm ready now

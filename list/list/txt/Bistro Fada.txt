@@ -1,0 +1,235 @@
+Bireli Lagrene
+Made In France
+
+| Em  E7   Am6   %   B7   %   Em    B7
+| Em  E7   Am6   %   B7   %   Em    %
+
+| Am7   D7   GM7   CM7   F#m7b5   B7   Em    E
+| Am7   D7   GM7   CM7   Eb - D - C# - C - B - Bb - A
+
+| B7   C7
+---------------------------------------
+
+Stephane Wrembel
+Bistro Fada (Midnight in Paris)
+
+| Em   Em/G   F#m7b5    B7  |  x2
+
+------ A
+
+| Em       %       %        B7           \
+| B7       %       %        Em   B7      |   
+| Em       %       E    E7  Am           |
+| Am7      Em      Cb5  B7  Em  (B7)     /
+
+------ B
+
+| B7      Em      B7      Em     x4
+
+------ C
+
+| G       B+7     E(7)      Am
+
+| D(7)    G       F#7       B7   D7
+
+| G       B7      E(7)      Am
+
+| C  C#-  G   E7/G#   Am7   D7   G   B7
+
+---------------------------------------
+
+Take Five
+Dave Brubeck
+
+| Em7  -  -  Bm7  -
+
+| CM7  -  -  Am6  -
+| Bm7  -  -  Em7  -
+| Am7  -  -  D7   -
+| GM7  -  -  G7   -
+
+| CM7  -  -  Am6  -
+| Bm7  -  -  Em7  -
+| Am7  -  -  D7   -
+| F#m7 -  -  B7   -
+
+| Em7  -  -  Bm7  -      (repeat)
+
+
+OUTRO:
+| CM7
+| C#-
+| Am7-D7 F#m7-B7 (break)
+| Em
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stephane Wrembel
+Bistro Fada (VIOLA)
+
+Am   Am/C   Bm7b5    E7  |  x2
+
+------ A
+
+Am       %       %         E7           \
+E7       %       %         Am   E7      |   
+Am       %       A     A7  Dm           |
+Dm7      Am      F7b5  E7  Am  (E7)     /
+
+------ B
+
+E7      Am      E7      Am     x4
+
+------ C
+
+C       E7      A(7)      Dm
+
+G(7)    C       B7        E7   G7
+
+C       E7      A(7)      Dm
+
+F  F#-  C   A7/C#   Dm7   G7   C   E7
+
+---------------------------------------
+
+---------------------------------------
+
+Take Five (VIOLA)
+Dave Brubeck
+
+| Am7  -  -  Em7  -
+
+| FM7  -  -  Dm6  -
+| Em7  -  -  Am7  -
+| Dm7  -  -  G7   -
+| CM7  -  -  C7   -
+
+| FM7  -  -  Dm6  -
+| Em7  -  -  Am7  -
+| Dm7  -  -  G7   -
+| Bm7  -  -  E7   -
+
+| Am7  -  -  Em7  -      (repeat)
+
+
+OUTRO:
+| FM7
+| F#-
+| Dm7-G7 Bm7-E7 (break)
+| Am

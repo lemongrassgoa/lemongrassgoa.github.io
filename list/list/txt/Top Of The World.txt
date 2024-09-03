@@ -1,0 +1,50 @@
+Top Of The World
+The Carpenters (Capo 3)  [rhythm: Pop 1, bpm: 175]
+
+INTRO: G     G7(+) C    C#-7  
+       G/D - Em7 - Am - D7   G   C ...
+
+G               D      C    G
+Such a feelin's comin' over me
+         Bm             Am    D7      G(7)
+There is wonder in most every thing I see
+      C            D            Bm7       E7
+Not a cloud in the sky, got the sun in my eyes
+      Am7         Am7b5            D7       (D+)
+And I won't be surprised if it's a dream
+
+G            D        C        G
+Everything I want the world to be
+       Bm            Am    D7     G   G7
+Is now comin' true especially for me
+        C         D             Bm7           E7
+And the reason is clear, it's because you are here
+           Am7              Am7b5            D-D6-D7
+You're the nearest thing to Heaven that I've seen
+
+               G                          C
+    I'm on the / top of the world lookin' / down on creation
+            G         Am     D7    G     Dm7-G7
+    And the only explanation I can find
+           C              D          G                 C
+    Is the love that I've found ever since you've been around
+                G      Em     Am  D7     G
+    Your love's put me at the top of the world
+
+G                D        C          G
+Somethin' in the wind has learned my name
+         Bm              Am         D7      G(7)
+And it's tellin' me that things are not the same
+       C             D             Bm7          E7
+In the leaves on the trees and the touch of the breeze
+          Am7               Am7b5         D7      (D+)
+There's a pleasin' sense of happiness for me
+
+G             D        C     G
+There is only one wish on my mind
+          Bm               Am        D7     G   G7
+When this day is through I hope that I will find
+       C           D           Bm7              E7
+That tomorrow will be just the same for you and me
+      Am7          Am7b5           D-D6-D7
+All I need will be mine if you are here

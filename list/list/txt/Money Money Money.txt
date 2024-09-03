@@ -1,0 +1,60 @@
+ABBA
+Money Money Money
+
+INTRO: Am      F7      Dm7  E7   Am
+
+Am                                  E7/G#
+I work all night, I work all day to pay the bills I have to pay
+E7       Am
+Ain't it sad?
+Am                                  E7/G#
+And still there never seems to be a single penny left for me
+E7         Am
+That's too bad
+Am                           F
+In my dreams I have a plan / If I got me a wealthy man
+  Dm                            B7/D#                           E
+I wouldn't have to work at all, I'd fool around and have a ball ...
+
+    Am                  B7              E7                  Am
+    Money, money, money / Must be funny / In the rich man's world
+    Money, money, money / Always sunny  / In the rich man's world
+      Dm   E7    A7                       Dm
+    A-ha - a   /   All the things I could do
+    F7   E7   Am                 Dm7      E7         Am   (intro)  B7
+    If   I    had a little money / It's a rich man's world
+    Dm7      E7         Am
+      It's a rich man's world
+
+Am                                  E7/G#
+A man like that is hard to find but I can't get him off my mind
+E7       Am
+Ain't it sad?
+Am                             E7/G#
+And if he happens to be free I bet he wouldn't fancy me
+E7         Am
+That's too bad
+Am                               F
+So I must leave, I'll have to go / To Las Vegas or Monaco
+    Dm                          B7/D#                        E
+And win a fortune in a game, my life will never be the same
+
+    Am                  B7              E7                  Am
+    Money, money, money / Must be funny / In the rich man's world
+    Money, money, money / Always sunny  / In the rich man's world
+      Dm   E7    A7                       Dm
+    A-ha - a   /   All the things I could do
+    F7   E7   Am                 Dm7      E7         Am      /Bb
+    If   I    had a little money / It's a rich man's world
+ 
+    Bm                  C#7             F#7                 Bm
+    Money, money, money / Must be funny / In the rich man's world
+    Money, money, money / Always sunny  / In the rich man's world
+      Em   F#7   B7                       Em
+    A-ha - a   /   All the things I could do
+    G7   F#7  Bm                 Em7      F#7        Bm   (intro) C#7
+    If   I    had a little money / It's a rich man's world
+    Em7      F#7        Bm
+      It's a rich man's world
+
+OUTRO: Bm      G7      Em7  F#7   Bm
