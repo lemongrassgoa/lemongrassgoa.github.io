@@ -1,4 +1,4 @@
------- SLOW ------
+=================== SLOW ===================
 A Thousand Years - Christina Perri
 After Midnight - J J Cale
 All I Have To Do Is Dream - Everly Brothers
@@ -52,7 +52,7 @@ You And Me - Lifehouse
 Your Song - Elton John
 You're Beautiful - James Blunt
 You're Still The One - Shania Twain
--- MINOR --
+----------- MINOR -----------
 Aicha - Outlandish
 Careless Whisper - George Michael
 Daughters - John Mayer
@@ -70,7 +70,7 @@ Wicked Game - Chris Isaak
 Wild World - Cat Stevens
 Zombie - Cranberries
 
------- MEDIUM ------
+=================== MEDIUM ===================
 A Thousand Miles - Vanessa Carlton
 Africa - Toto
 All About You - McFly
@@ -116,7 +116,7 @@ The Tide Is High - Blondie
 The Times They Are A-Changin' - Bob Dylan
 Uptown Girl - Billy Joel
 Vanilla Twilight - Owl City
--- MINOR --
+----------- MINOR -----------
 1973 - James Blunt
 Adventure Of A Lifetime - Coldplay
 Billie Jean - Michael Jackson
@@ -142,7 +142,7 @@ Venus - Shocking Blue
 White Flag - Dido
 Wonderwall - Oasis
 
------- FAST ------
+=================== FAST ===================
 A Hard Day's Night - Beatles
 A Little Less Conversation - Elvis Presley
 A Little More - Eric Hutchinson
@@ -178,7 +178,7 @@ Top Of The World - Carpenters
 Viva La Vida - Coldplay
 You Belong To Me - Bryan Adams
 You've Got To Hide Your Love Away - Beatles
--- MINOR --
+----------- MINOR -----------
 A Man For All Seasons - Robbie Williams
 Are You Gonna Be My Girl - Jet
 Blinding Lights - Weeknd
@@ -198,7 +198,7 @@ She Bangs - Ricky Martin
 Toxic - Britney Spears
 Watermelon Sugar - Harry Styles
 
------- JAZZ ------
+------ JAZZY ------
 Antonio's Song - Till Brönner
 Bistro Fada - Stephane Wrembel
 Blackbird - Beatles
