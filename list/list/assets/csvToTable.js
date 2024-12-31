@@ -61,6 +61,7 @@ const the_array = [
     "Red Hot Chili Peppers",
     "Rembrandts",
     "Steve Miller Band",
+    "Strokes",
     "Verve",
     "Weeknd",
     "White Stripes",
