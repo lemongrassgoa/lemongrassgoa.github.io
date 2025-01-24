@@ -8,7 +8,6 @@ const links_ = [
     ["Does Your Mother Know",    "UaIfr62co04", 0],
     ["Flowers",                  "fJpvw_NO4qw", 0],
     ["Fly Me To The Moon",       "hgdjepk5hco", 0],
-    ["Hey Soul Sister",          "5L9UUjnicmA", 0],
     ["If I Had A Hammer",        "ZxqRFqaa3NY", 0],
     ["Mamma Mia",                "P09oCbD8aJ8", 0],
     ["Norwegian Wood",           "iXiUKRlUfE4", 0],
@@ -19,7 +18,6 @@ const links_ = [
     ["Superman",                 "IJQls99Ut1s", 0],
     ["The Boxer",                "BdTnrxEp12E", 0],
     ["Wild World",               "7paD6uZtEoY", 0],
-    ["Zombie",                   "3a5HVi8I9As", 0],
     // shorts
     ["A Thousand Miles",         "5ufhpSomAxE", 1],
     ["All About That Bass",      "6l3Ny8JpKc4", 1],
