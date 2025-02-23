@@ -225,6 +225,7 @@ Summer Holiday - Cliff Richard
 
 
 ------ LOOPER ------
+Adventure Of A Lifetime
 Believer (mandolin)
 Bittersweet Symphony (mandolin, C)
 Careless Whisper (viola, Dm)
@@ -244,15 +245,18 @@ With Or Without You (oct mandolin, C)
 Zombie (viola, Em)
 
 -- WIP --
+- 7 Years
 - At My Worst
 - Attention
 - Blinding Lights
 - Closing Time
+- Counting Stars
 - Dance Monkey
 - Free Fallin'
 - Halo
 - *Happy (beat, chorus backing)
 - Havana
+- Levitating
 - Life After Life
 - Mr Brightside
 - Radioactive
