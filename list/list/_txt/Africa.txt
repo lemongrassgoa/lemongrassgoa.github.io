@@ -1,9 +1,9 @@
 Africa
 Toto (play capo 1) [rhythm: Conga/Hi-hat, bpm: 96]
 
-INTRO: |  G      F#m/A    Bm  |  x4
+INTRO: |  G      F#m    Bm  |  x4
 
-| A   C#m7   F#m    F#m/E   G   D/E   F#m7   [G     F#m/A  Bm]
+| A   C#m7   F#m    F#m/E   G   D/E   F#m7   [G     F#m  Bm]
 I hear the drums echoing tonight
 But she hears only whispers of some quiet conversation
 She's coming in twelve-thirty flight
@@ -12,7 +12,8 @@ that guide me towards salvation
 I stopped an old man along the way
 Hoping to find some old forgotten words or ancient melodies
 He turned to me as if to say:
-"Hurry boy, it's waiting there for you"
+"Hurry boy, it's waiting there for you" 
+                 [G     F#m  Bm ....]
 
 |   Em                Cadd9           G        D
     It's gonna take a lot to drag me away from you
@@ -25,13 +26,14 @@ He turned to me as if to say:
     
 INTRO   x2
 
-| A   C#m7   F#m    F#m/E   G   D/E   F#m7   [G     F#m/A  Bm]
+| A   C#m7   F#m    F#m/E   G   D/E   F#m7   [G     F#m  Bm]
 The wild dogs cry out in the night
 As they grow restless longing for some solitary company
 I know that I must do what's right
 Sure as Kilimanjaro rises like Olympus above the Serengeti
 I seek to cure what's deep inside
 frightened of this thing that I've become
+                   [G     F#m  Bm ....]
 
 |   Em                Cadd9           G        D
     It's gonna take a lot to drag me away from you
