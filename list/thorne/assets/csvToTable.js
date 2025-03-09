@@ -150,7 +150,7 @@ var table_target, total = 0;
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){ // iterate through columns
 	                if(singleRow === 0){ // header row
-                        if(rowCell < 9 && rowCell !== 3){
+                        if(rowCell < 3){
                             table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
@@ -163,7 +163,7 @@ var table_target, total = 0;
                         }
                         /*  */
 	                } else {
-                        if((rowCell < 9 && rowCell !== 3)){ // skip genre column
+                        if((rowCell < 3)){ // skip genre column
                             var wip_format = 'background-color: #000;';
                             if(rowCells[9]){
                                 wip=1;
