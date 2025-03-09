@@ -63,6 +63,7 @@ a {
     left: 5em;
     color: silver;
     transform: scale(1.2);
+	top: 0px;
 }
 #table-header{ /* table header */
     position: sticky;
@@ -150,7 +151,7 @@ a {
 }
 #upButton{
     height: 40px;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
     position: fixed;
 }
@@ -178,13 +179,18 @@ dialog::backdrop {
 }
 
 .tab-bar{
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    right: 0px;
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
     /* position: sticky; */
     /* position: -webkit-sticky; */
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    /* top: 0; */
+    /* left: 0; */
+    /* writing-mode: vertical-rl; */
 }
 
 #repertoire-list{

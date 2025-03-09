@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;" data-bs-theme="">
 <head>
-    <title>WEDDING LIST</title>
+    <title>Lemongrass Repertoire List</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Our complete repertoire list">
     <meta name="author" content="Lemongrass Acoustic Trio">
     <meta name="keywords" content="lemongrass, acoustic, trio, band, music, musician, mandolin, mandolinist, guitar, guitarist, viola, violist, instrumental, easy listening, wedding, restaurant, hotel, cool, classical, pop, jazz, blues, singer, voice, vocals, vocalist, repertoire, list, request">
-    <link rel="icon" type="image/x-icon" href="../../favicon.pngg" />
+    <link rel="icon" type="image/x-icon" href="../../favicon.png" />
     
     <script src="assets/csvToTable.js" type="text/javascript"></script>
 
@@ -17,15 +17,27 @@
     <link href="assets/w3.css"  rel="stylesheet"/>
     <!-- <link href="assets/bootstrap.css"  rel="stylesheet"/> -->
     <link href="assets/style.css"  rel="stylesheet"/>
+
+    <link rel="stylesheet" href="assets/player.css" />
 </head>
 <body onload="onload();">
 
 <center>
     <div id="search-bar">
         <span id="search-results"></span>
+        <button type="button" id="language_select" onclick="language();">English</button>
         <input type="text" class="w3-animate-top" id="search" onkeyup="search();" placeholder="&#x1F50E;&#xFE0E; Title | Artist | Year | Tags" style="text-align: center;" />
-        &nbsp;WIP&nbsp;<input type="checkbox" id="wip"></input>
+        &nbsp;Show WIP&nbsp;<input type="checkbox" id="wip"></input>
+        &nbsp;Hide WIP&nbsp;<input type="checkbox" id="hidewip"></input>
     </div>
+    <!--  -- >
+    <div class="tab-bar">
+    <span class="tab-bar w3-small w3-bar w3-animate-opacity" id="tabs">
+        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(1)" id="tab1">Hindi</button>
+        <button class="w3-bar-item w3-button w3-white" onclick="openTab(2)" id="tab2">English</button>
+    </span>
+    </div>
+    <!--  -->
     <!-- Repertoire table -->
     <div id="repertoire-list" class="w3-animate-opacity">
     </div>
@@ -38,14 +50,111 @@
         Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
         &copy; <script>document.write(new Date().getFullYear())</script> Anand Lobo. All rights reserved.
     </p>
-    <div class="tab-bar" style="display:none;">
-    <span class="tab-bar w3-small w3-bar w3-animate-opacity" id="tabs">
-        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(1)" id="tab1">Hindi</button>
-        <button class="w3-bar-item w3-button w3-white" onclick="openTab(2)" id="tab2">English</button>
-    </span>
-    </div>
 </center>
     <a href="#"><img src="../img/up.svg" id="upButton" alt="Return to top" class="w3-animate-right" /></a>
     <!-- <script src="assets/bootstrap.js" type="text/javascript"></script> -->
     <script src="assets/script.js" type="text/javascript"></script>
+
+<article class="player-container theme">
+
+    <figure class="player">
+
+        <header class="controls-box">
+            <button class="previous-track-btn"><span class="screen-reader-text">Previous track button</span></button>
+            <button class="main-toggle-btn large-play-btn">
+                <span class="screen-reader-text">Play/Pause button</span>
+            </button>
+            <button class="next-track-btn"><span class="screen-reader-text">Next track button</span></button>
+            <button class="toggle-loop-btn"><span class="screen-reader-text">Toggle repeat current track on/off</span></button>
+        </header>
+        <!-- /.controls-box -->
+
+        <div class="info-box">
+            <div class="track-info-box">
+                <div class="track-title-text"></div>
+            </div>
+            <!-- /.track-info-box -->
+
+            <div class="progress-box">
+                <div class="progress">
+                    <div class="progress-buffer"></div>
+                    <div class="progress-indicator"></div>
+                </div>
+            </div>
+            <!-- /.progress-box -->
+
+            <div class="track-info-box audio-time">
+                <time class="current-time">00:00</time> /
+                <time class="duration">00:00</time>
+            </div>
+            <!-- /.audio-time -->
+
+            <div class="volume-box">
+                <div class="volume">
+                    <div class="volume-indicator"></div>
+                </div>
+            </div>
+            <!-- /.volume-box -->
+        </div>
+        <!-- /.info-box -->
+
+        <audio id="audio" preload="none" volume="0.5" data-loop-track="false" data-change-page-title="false">
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/1BV0m40U0M4t1SLIsDnwZl_inst.mp3" data-track-title="1973"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/3RIm56NRLSZYo1xgHlbPH4_inst.mp3" data-track-title="A Man For All Seasons"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/4w1lzcaoZ1IC2K5TwjalRP_inst.mp3" data-track-title="A Thousand Miles"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/69uxyAqqPIsUyTO8txoP2M_inst.mp3" data-track-title="Adventure Of A Lifetime"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/2374M0fQpWi3dLnB54qaLX_inst.mp3" data-track-title="Africa"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5WHnE8MsLFHqSUwecrs7WO_inst.mp3" data-track-title="Besame Mucho"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5ChkMS8OtdzJeqyybCc9R5_inst.mp3" data-track-title="Billlie Jean"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/08T5wMbEnPN8ghT8o24KY6_inst.mp3" data-track-title="Bistro Fada"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/57iDDD9N9tTWe75x6qhStw_inst.mp3" data-track-title="Bitter Sweet Symphony"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5jgFfDIR6FR0gvlA56Nakr_inst.mp3" data-track-title="Blackbird"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/48UPSzbZjgc449aqz8bxox_inst.mp3" data-track-title="Californication"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/4jDmJ51x1o9NZB5Nxxc7gY_inst.mp3" data-track-title="Careless Whisper"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/3hWOGUIOcqKDoVpFBLp9Qc_inst.mp3" data-track-title="Copacabana"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/2NpKgRCZfFb8fVmvk16iMx_inst.mp3" data-track-title="Crazy Little Thing Called Love"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5IMtdHjJ1OtkxbGe4zfUxQ_inst.mp3" data-track-title="Escape (Pina Colada)"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/1prZ0pr6XoRCxcrC3MCL0M_inst.mp3" data-track-title="Everywhere"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/2KH16WveTQWT6KOG9Rg6e2_inst.mp3" data-track-title="Eye Of The Tiger"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/6Qb7gtV6Q4MnUjSbkFcopl_inst.mp3" data-track-title="Fifty Ways To Leave Your Lover"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5USZyz6dnBEn1oLsKcAKQy_inst.mp3" data-track-title="Hallelujah"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5DnT9a5IM3eMjKgXTWVJvi_inst.mp3" data-track-title="Have You Ever Seen The Rain"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/1eT2CjXwFXNx6oY5ydvzKU_inst.mp3" data-track-title="Hey Jude"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/3XVBdLihbNbxUwZosxcGuJ_inst.mp3" data-track-title="If I Ain't Got You"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/4AaCr2lbXtxJQRpSpObAqe_inst.mp3" data-track-title="If I Had A Hammer"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5FC0XyIOkvY1h5bo9t44TL_inst.mp3" data-track-title="I'll Be There For You (Friends theme)"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/2cGxRwrMyEAp8dEbuZaVv6_inst.mp3" data-track-title="Instant Crush"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/0e4os6wHr1jbFn4yPtSEOe_inst.mp3" data-track-title="Layla"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/31AOj9sFz2gM0O3hMARRBx_inst.mp3" data-track-title="Losing My Religion"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/2TxCwUlqaOH3TIyJqGgR91_inst.mp3" data-track-title="Mamma Mia"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/70C4NyhjD5OZUMzvWZ3njJ_inst.mp3" data-track-title="Piano Man"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5mvKuE9Lf9ARVXVXA32kK9_inst.mp3" data-track-title="Price Tag"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/2grjqo0Frpf2okIBiifQKs_inst.mp3" data-track-title="September"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/3dPQuX8Gs42Y7b454ybpMR_inst.mp3" data-track-title="Seven Nation Army"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/5ghIJDpPoe3CfHMGu71E6T_inst.mp3" data-track-title="Smells Like Teen Spirit"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/2aibwv5hGXSgw7Yru8IYTO_inst.mp3" data-track-title="Snow (Hey Oh)"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/6cr6UDpkjEaMQ80OjWqEBQ_inst.mp3" data-track-title="Sultans Of Swing"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/7snQQk1zcKl8gZ92AnueZW_inst.mp3" data-track-title="Sweet Child Of Mine"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/7utRJ4BeYx85khzP3lKoBX_inst.mp3" data-track-title="Tears in Heaven"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/0jWgAnTrNZmOGmqgvHhZEm_inst.mp3" data-track-title="What's Up"/>
+            <source src="https://github.com/lemongrassgoa/audio/raw/main/inst/7EZC6E7UjZe63f1jRmkWxt_inst.mp3" data-track-title="Zombie"/>
+            Your browser does not support HTML5 audio. :(
+
+        </audio>
+
+        <details class="play-list">
+            <summary class="play-list-btn"><span class="screen-reader-text">Toggle playlist</span></summary>
+
+            <ol class="play-list-popout">
+                <h2 class="play-list-title">Playlist</h2>
+            </ol>
+        </details>
+
+    </figure>
+    <!-- /.player -->
+
+</article>
+<script type="text/javascript" src="assets/player.js"></script>
+    
+</body>
 </html>

@@ -1,3 +1,47 @@
+const bpm_adjust = [
+    ["Angels", 2],
+    ["Bachelor Boy", 2],
+    ["Bitter Sweet Symphony", 2],
+    ["Blinding Lights", 2],
+    ["Blowin' In The Wind", 2],
+    ["Careless Whisper", 2],
+    ["Don't Look Back In Anger", 2],
+    ["Earth Angel", 3],
+    ["Flightless Bird American Mouth", 3],
+    ["Girls Just Want To Have Fun", 2],
+    ["Heart Of Gold", 2],
+    ["Hold You In My Arms", 3],
+    ["Lost On You", 2],
+    ["Mary Jane's Last Dance", 2],
+    ["Never Going Back Again", 2],
+    ["One", 2],
+    ["One Of Us", 2],
+    ["Que Sera Sera", 2],
+    ["Piano Man", 2],
+    ["Price Tag", 2],
+    ["Rock 'n' Roll", 2],
+    ["Something Stupid", 2],
+    ["Son of a Preacher Man", 2],
+    ["Superman (Scrubs theme)", 2],
+    ["Sweet Dreams", 2],
+    ["Tears in Heaven", 2],
+    ["The Lazy Song", 2],
+    ["Those Were The Days", 2],
+    ["Time After Time", 2],
+    ["Umbrella", 2],
+    ["Vanilla Twilight", 2],
+    ["Way Back Into Love", 2],
+    ["We Are Young", 2],
+    ["Wellerman (Sea Shanty)", 2],
+    ["When You Say Nothing At All", 2],
+    ["White Flag", 2],
+    ["Wonderwall", 2],
+    ["Yellow", 2],
+    ["You've Got To Hide Your Love Away", 2],
+    ["Zombie", 2],
+    ["_", "_"]
+];
+
 const the_array = [
     "Archies",
     "Avett Brothers",
@@ -17,6 +61,7 @@ const the_array = [
     "Red Hot Chili Peppers",
     "Rembrandts",
     "Steve Miller Band",
+    "Strokes",
     "Verve",
     "Weeknd",
     "White Stripes",
@@ -118,7 +163,7 @@ var table_target, total = 0;
                         }
                         /*  */
 	                } else {
-                        if((rowCell < 9 && rowCell !== 3)){
+                        if((rowCell < 9 && rowCell !== 3)){ // skip genre column
                             var wip_format = 'background-color: #000;';
                             if(rowCells[9]){
                                 wip=1;
@@ -130,7 +175,7 @@ var table_target, total = 0;
                                 
                                 table += '<td id="_'+temp+'" class="title' + (rowCells[9] ? ' wip' : '') + '" style="' + (rowCells[9] ? wip_format : '') + '">';
                                 // table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="http://localhost:81/'+ rowCells[10] + '">';
-                                table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="../list/txt/'+ rowCells[0] + '.txt" onclick="addSongCounter(\'_'+temp+'\');">';
+                                table += '<a class="songlink" style="text-decoration: none;" target="_blank" href="../list/_txt/'+ rowCells[0] + '.txt" onclick="addSongCounter(\'_'+temp+'\');">';
                                 table += rowCells[rowCell];
                                 table += '</a>';
                             }
@@ -142,6 +187,15 @@ var table_target, total = 0;
                                         if(rowCells[rowCell] == the_array[i])
                                             table += '<span class="the"></span>';
                                     }
+                                }
+                                if(rowCell === 4){
+                                    for(var i = 0; i < bpm_adjust.length-1; i++){
+                                        if(rowCells[0] == bpm_adjust[i][0]){
+                                            rowCells[rowCell] = Math.round(rowCells[rowCell]/bpm_adjust[i][1]);
+                                        }
+                                    }
+                                    // if(rowCells[rowCell] == 123)
+                                        // table += rowCells[0];
                                 }
                                 
                                 table += rowCells[rowCell];
@@ -160,6 +214,15 @@ var table_target, total = 0;
                             table += rowCells[rowCell];
                             table += '</td>';
                         }
+                        if(rowCell == 12){
+                            // let _audioplayer = document.getElementById("audio");
+                            // let _t = document.createElement("source");
+                            // _t.setAttribute("src", "mp3/" + rowCells[rowCell] + ".mp3");
+                            // _t.setAttribute("data-track-title", rowCells[0]);
+                            // _audioplayer.appendChild(_t);
+                            // console.info(_audioplayer);
+                        }
+
                         /* */
 	                }
 	            }

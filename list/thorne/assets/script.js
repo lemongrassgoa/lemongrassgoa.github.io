@@ -59,7 +59,8 @@ function search(){
     document.getElementById("search-results").innerHTML =  results + " song" + (results == 1 ? "" : "s");
 
     if(document.getElementById("repertoire-list").style.display === "none"){
-        openTab(2);
+        // openTab(2);
+        language();
     }
 }
 
@@ -86,33 +87,55 @@ wip_filter.addEventListener( 'change', () => {
     show_hide_wip();
 });
 
-function wip_filter_click(){
-    wip_filter.checked = !wip_filter.checked;
-    show_hide_wip();
-}
-
 function show_hide_wip(){
+    var song_links = document.getElementsByClassName("title");
+    for(var i = 0; i < song_links.length; i++){
+        song_links[i].parentElement.style.display = "";
+        song_links[i].parentElement.classList.remove("row-hide");
+    }
+    document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
+
     document.getElementById("search").value = ""; search();
     if(wip.checked){
+        document.getElementById('hidewip').checked = 0;
         var song_links = document.getElementsByClassName("title");
         for(var i = 0; i < song_links.length; i++){
             song_links[i].parentElement.style.display = "none";
             song_links[i].parentElement.classList.add("row-hide");
         }
-        var song_links = document.getElementsByClassName("wip");
+        song_links = document.getElementsByClassName("wip");
         for(var i = 0; i < song_links.length; i++){
             song_links[i].parentElement.style.display = "";
             song_links[i].parentElement.classList.remove("row-hide");
         }
         document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
     }
-    else{
-        var song_links = document.getElementsByClassName("title");
-        for(var i = 0; i < song_links.length; i++){
-            song_links[i].parentElement.style.display = "";
-            song_links[i].parentElement.classList.remove("row-hide");
+}
+
+const wip_filter2 = document.getElementById('hidewip');
+
+wip_filter2.addEventListener( 'change', () => {
+    show_hide_wip2();
+});
+
+function show_hide_wip2(){
+    var song_links1 = document.getElementsByClassName("title");
+    for(var i = 0; i < song_links1.length; i++){
+        song_links1[i].parentElement.style.display = "";
+        song_links1[i].parentElement.classList.remove("row-hide");
+    }
+    document.getElementById("search-results").innerHTML = song_links1.length + " song" + (song_links1.length == 1 ? "" : "s");
+
+    document.getElementById("search").value = ""; search();
+    if(hidewip.checked){
+        document.getElementById('wip').checked = 0;
+        var song_links2 = document.getElementsByClassName("wip");
+        for(var i = 0; i < song_links2.length; i++){
+            song_links2[i].parentElement.style.display = "none";
+            song_links2[i].parentElement.classList.add("row-hide");
         }
-        document.getElementById("search-results").innerHTML = song_links.length + " song" + (song_links.length == 1 ? "" : "s");
+        var _t = song_links1.length - song_links2.length;
+        document.getElementById("search-results").innerHTML = _t + " song" + (_t == 1 ? "" : "s");
     }
 }
 
@@ -185,6 +208,24 @@ function openTab(option){
     }
 }
 
+var _tab = 0;
+function language(){
+    if(_tab == 0){ // display Hindi list
+        var input = document.getElementById("search");
+        input.value = ""; search();
+        
+        document.getElementById("hindi-list").style.display = "";
+        document.getElementById("repertoire-list").style.display = "none";
+        document.getElementById("language_select").innerHTML = "Hindi";
+        _tab = 1;
+    }else if(_tab == 1){ // display English list
+        document.getElementById("hindi-list").style.display = "none";
+        document.getElementById("repertoire-list").style.display = "";
+        document.getElementById("language_select").innerHTML = "English";
+        _tab = 0;
+    }
+}
+
 const hindi_list = [
     // ["Allah Ke Bande          "],
     // ["Bang Bang               "],
@@ -236,7 +277,7 @@ function loadHindi(){
     table2 += '<tr> <td colspan="2"><br /> </td> </tr>';
     
     for(var i = 0; i < hindi_list.length-1; i++){
-        table2 += '<tr> <td> <a target="_blank" href="../list/txt/hindi/' + hindi_list[i] + '.txt">' + hindi_list[i] + '</a> </td> </tr>';
+        table2 += '<tr> <td> <a target="_blank" href="txt/hindi/' + hindi_list[i] + '.txt">' + hindi_list[i] + '</a> </td> </tr>';
     }
 
     table2 += '</table>';
