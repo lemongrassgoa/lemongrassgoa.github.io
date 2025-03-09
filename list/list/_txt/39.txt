@@ -3,7 +3,7 @@ Queen (orig. G#)
 
 (intro riff)
 | F  - - - | -   -   -   -  | Dm - - - | A - - - |
-| Eb - - - | Ab  Eb  F   Bb | C
+| Eb - - - | G#  Eb  F   Bb | C
 
 | C - - - | G - - - | Am - - - | F - - - |
 | C - - - | G - - - | F  - - - | C - - - |
@@ -14,7 +14,7 @@ In the year of '39, assembled here the volunteers
 In the days when lands were few
 |        Am          Am/G         F
 Here the ship sailed out into the blue and sunny morn
-|   G                   C
+|   G/C                 C
 The sweetest sight ever seen
 |       G                           G#dim
 And the night followed day, and the story tellers say
@@ -22,7 +22,7 @@ And the night followed day, and the story tellers say
 That the score brave souls inside
 |   C                         G
 For many a lonely day sailed across the milky seas
-| F            Am    F     G       F     C      G ....
+| F            Am    F     G       F     C      G ....... 
   Ne'er looked back, never feared, never cried
 
     |         C                          F
@@ -35,9 +35,9 @@ For many a lonely day sailed across the milky seas
     In the land that our grandchildren knew
 
 (interlude)
-| Ab - - - | Fm7 - - - | D  - - - | - - - - |
+| G# - - - | Fm7 - - - | D  - - - | - - - - |
 | F  - - - | Dm  - F - | Fm - - - | A - - - | 
-| Eb - - - | Ab  Eb  F   Bb | C
+| Eb - - - | G#  Eb  F   Bb | C
 
 |      G                  Am
 In the year of '39 came a ship in from the blue
@@ -53,7 +53,7 @@ For the Earth is old and grey, little darling, we'll away
 But my love, this cannot be
 |      C                               G
 Oh, so many years have gone though I'm older but a year
-|    F        Am    F         G     F      C     G ....
+|    F        Am    F         G     F      C     G ....... 
 Your mother's eyes, from your eyes, cry to me
 
     |         C                          F
@@ -62,7 +62,7 @@ Your mother's eyes, from your eyes, cry to me
     Don't you hear me calling you
     |          C       E7/B     Am     G       F     Em        Dm  
     Write your letters in  the  sand / For the day I take your hand
-    |      C/E           G             C    G ....
+    |      C/E           G             C    G .....
     In the land that our grandchildren knew
 
 |         C                          F
@@ -72,7 +72,7 @@ Don't you hear me calling you
 |        C       E7/B     Am     G      F       Em        Dm  
 All your letters in  the  sand / Cannot heal me like your hand
 |      C/E           G           C
-For my life / Still ahead / Pity me
+For my life / Still ahead / Pity me [N.C.]
 
 (outro riff)
 | C - - - | G - - - | Am - - - | F - - - |
