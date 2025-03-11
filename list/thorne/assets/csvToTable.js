@@ -217,7 +217,7 @@ var table_target, total = 0;
                         if(rowCell == 12){
                             let _audioplayer = document.getElementById("audio");
                             let _t = document.createElement("source");
-                            _t.setAttribute("src", "../../../audio/mp3/" + rowCells[rowCell] + ".mp3");
+                            _t.setAttribute("src", "https://github.com/lemongrassgoa/audio/raw/main/mp3/" + rowCells[rowCell] + ".mp3");
                             _t.setAttribute("data-track-title", rowCells[0]);
                             _audioplayer.appendChild(_t);
                             console.info(_t);
