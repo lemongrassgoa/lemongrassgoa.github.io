@@ -6,7 +6,6 @@ var csvtotable = new CsvToTable({
 csvtotable.run();
 
 function onload(){
-    loadHindi();
     setTimeout(search, 100);
 }
   
@@ -29,7 +28,6 @@ function search(){
             var txtValue0 = td0.textContent || td0.innerText;
             var txtValue1 = td1.textContent || td1.innerText;
             var txtValue2 = td2.textContent || td2.innerText;
-            var txtValue3 = td3.textContent || td2.innerText;
             if (txtValue0.toUpperCase().indexOf(filter) > -1) {
                 toggleRow(tr[i], 1);
             }
@@ -37,9 +35,6 @@ function search(){
                 toggleRow(tr[i], 1);
             }
             else if (txtValue2.toUpperCase().indexOf(filter) > -1) {
-                toggleRow(tr[i], 1);
-            }
-            else if (txtValue3.toUpperCase().indexOf(filter) > -1) {
                 toggleRow(tr[i], 1);
             }
             else {
@@ -187,101 +182,5 @@ function addSongCounter(song_name){
     // console.log(getCookie(temp));
     // let temp1 = document.getElementById(song_name).innerHTML;
     // console.log(temp1);
-}
-
-function openTab(option){
-
-    if(option == 1){ // open Hindi tab
-        var input = document.getElementById("search");
-        input.value = ""; search();
-        
-        document.getElementById("hindi-list").style.display = "";
-        document.getElementById("repertoire-list").style.display = "none";
-        document.getElementById("tab1").classList.replace("w3-gray", "w3-white");
-        document.getElementById("tab2").classList.replace("w3-white", "w3-gray");
-    }
-    else if(option == 2){ // open English tab (default)
-        document.getElementById("hindi-list").style.display = "none";
-        document.getElementById("repertoire-list").style.display = "";
-        document.getElementById("tab1").classList.replace("w3-white", "w3-gray");
-        document.getElementById("tab2").classList.replace("w3-gray", "w3-white");
-    }
-}
-
-var _tab = 0;
-function language(){
-    if(_tab == 0){ // display Hindi list
-        var input = document.getElementById("search");
-        input.value = ""; search();
-        
-        document.getElementById("hindi-list").style.display = "";
-        document.getElementById("repertoire-list").style.display = "none";
-        document.getElementById("language_select").innerHTML = "Hindi";
-        _tab = 1;
-    }else if(_tab == 1){ // display English list
-        document.getElementById("hindi-list").style.display = "none";
-        document.getElementById("repertoire-list").style.display = "";
-        document.getElementById("language_select").innerHTML = "English";
-        _tab = 0;
-    }
-}
-
-const hindi_list = [
-    // ["Allah Ke Bande          "],
-    // ["Bang Bang               "],
-    // ["Darling                 "],
-    // ["Dekha Hai Aise Bhi      "],
-    // ["Dilko Tumse Pyar Hua    "],
-    // ["Dooba Dooba             "],
-    // ["Gulabi Aankhen          "],
-    // ["Iktara                  "],
-    // ["Kabira                  "],
-    // ["Kahin To                "],
-    // ["Kaisi Paheli Zindagani  "],
-    // ["Khaabon Ke Parinday     "],
-    // ["Kyon                    "],
-    // ["Main Kya Karoon         "],
-    // ["Oh Sanam                "],
-    // ["Pani Da Rang Male       "],
-    // ["Pyaar Ke Pal            "],
-    // ["Shaam                   "],
-    // ["Sooraj Ki Baahon Mein   "],
-    // ["Tum Ho Toh              "],
-    // ["Yaaron Dosti            "],
-    // ["Ye Tumhari Meri Baatein "],
-
-    ["Aadat"],
-    ["Ajeeb Dastan Hai Yeh"],
-    ["Baarishein"],
-    ["Gallan Goodiyaan"],
-    ["Gulabi Aankhen"],
-    ["It's The Time To Disco"],
-    ["Iktara"],
-    ["O Sanam"],
-    ["Kabira"],
-    ["Kaisi Paheli Zindagani"],
-    ["London Thumakda"],
-    ["Senorita"],
-    ["Shaam"],
-    ["Sooraj Ki Baahon Mein"],
-    ["Tum Ho Toh"],
-    ["Mazaak"],
-    ["Tera Woh Pyar"],
-    [" "]
-];
-
-function loadHindi(){
-
-    var table2 = '<br /><br /><table style="width: 70%; text-align: center;">';
-    table2 += '<tr> <td colspan="2"> HINDI SONGS </td> </tr>';
-    table2 += '<tr> <td colspan="2"><br /> </td> </tr>';
-    
-    for(var i = 0; i < hindi_list.length-1; i++){
-        table2 += '<tr> <td> <a target="_blank" href="txt/hindi/' + hindi_list[i] + '.txt">' + hindi_list[i] + '</a> </td> </tr>';
-    }
-
-    table2 += '</table>';
-    document.getElementById("hindi-list").innerHTML = table2;
-
 }
 
