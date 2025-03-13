@@ -215,12 +215,12 @@ var table_target, total = 0;
                             table += '</td>';
                         }
                         if(rowCell == 12){
-                            // let _audioplayer = document.getElementById("audio");
-                            // let _t = document.createElement("source");
-                            // _t.setAttribute("src", "mp3/" + rowCells[rowCell] + ".mp3");
-                            // _t.setAttribute("data-track-title", rowCells[0]);
-                            // _audioplayer.appendChild(_t);
-                            // console.info(_audioplayer);
+                            let _audioplayer = document.getElementById("audio");
+                            let _t = document.createElement("source");
+                            _t.setAttribute("src", "https://github.com/lemongrassgoa/audio/raw/main/mp3/" + rowCells[rowCell] + ".mp3");
+                            _t.setAttribute("data-track-title", rowCells[0]);
+                            _audioplayer.appendChild(_t);
+                            console.info(_t);
                         }
 
                         /* */
@@ -242,6 +242,7 @@ var table_target, total = 0;
 	        table += '</table>';
             
             document.getElementById(table_target).innerHTML += table;
+            var player = new AudioPlayer();
 		}, function(error){
 			console.error(error);
 		});
