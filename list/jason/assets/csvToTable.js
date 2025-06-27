@@ -151,7 +151,7 @@ var table_target, total = 0;
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){ // iterate through columns
 	                if(singleRow === 0){ // header row
                         if(rowCell < 9 && rowCell !== 3){
-                            table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
+                            table += '<th style="' + (rowCell > 3 ? 'display:none;' : '') + '" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
                         }
@@ -180,7 +180,7 @@ var table_target, total = 0;
                                 table += '</a>';
                             }
                             else {
-                                table += '<td style="' + (rowCells[9] ? wip_format : '') + '">'; 
+                                table += '<td style="' + (rowCells[9] ? wip_format : '') + (rowCell > 3 ? 'display:none;' : '') + '">'; 
                                 if(rowCell === 1){
                                     table += '<a href="https://open.spotify.com/track/' + rowCells[12] + '?context=spotify:playlist:38NWp40zBVTosn0nsWW5k9" target = "_blank"><img class="spotifylink" src="../img/spotify.png" /></a>';
                                     for(var i = 0; i < the_array.length-1; i++){
