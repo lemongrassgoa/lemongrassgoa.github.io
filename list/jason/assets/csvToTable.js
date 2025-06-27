@@ -150,7 +150,7 @@ var table_target, total = 0;
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){ // iterate through columns
 	                if(singleRow === 0){ // header row
-                        if(rowCell < 3){
+                        if(rowCell < 9 && rowCell !== 3){
                             table += '<th style="" class="' + ((rowCell === 0) ? ' dir-u ' : '') + '">';
                             table += rowCells[rowCell];
                             table += '</th>';
@@ -163,7 +163,7 @@ var table_target, total = 0;
                         }
                         /*  */
 	                } else {
-                        if((rowCell < 3)){ // skip genre column
+                        if((rowCell < 9 && rowCell !== 3)){ // skip genre column
                             var wip_format = 'background-color: #000;';
                             if(rowCells[9]){
                                 wip=1;
@@ -220,7 +220,11 @@ var table_target, total = 0;
                             _t.setAttribute("src", "https://github.com/lemongrassgoa/audio/raw/main/mp3/" + rowCells[rowCell] + ".mp3");
                             _t.setAttribute("data-track-title", rowCells[0]);
                             _audioplayer.appendChild(_t);
-                            // console.info(_t);
+                            _t = document.createElement("source");
+                            _t.setAttribute("src", "https://github.com/lemongrassgoa/audio/raw/main/inst/" + rowCells[rowCell] + "_inst.mp3");
+                            _t.setAttribute("data-track-title", "[inst] "+ rowCells[0]);
+                            _audioplayer.appendChild(_t);
+                            // console.info(_audioplayer);
                         }
 
                         /* */
@@ -248,4 +252,3 @@ var table_target, total = 0;
 		});
 	}
 }());
-

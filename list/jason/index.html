@@ -25,13 +25,26 @@
 <center>
     <div id="search-bar">
         <span id="search-results"></span>
+        <button type="button" id="language_select" onclick="language();">English</button>
         <input type="text" class="w3-animate-top" id="search" onkeyup="search();" placeholder="&#x1F50E;&#xFE0E; Title | Artist | Year | Tags" style="text-align: center;" />
         &nbsp;Show WIP&nbsp;<input type="checkbox" id="wip"></input>
         &nbsp;Hide WIP&nbsp;<input type="checkbox" id="hidewip"></input>
     </div>
+    <!--  -- >
+    <div class="tab-bar">
+    <span class="tab-bar w3-small w3-bar w3-animate-opacity" id="tabs">
+        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(1)" id="tab1">Hindi</button>
+        <button class="w3-bar-item w3-button w3-white" onclick="openTab(2)" id="tab2">English</button>
+    </span>
+    </div>
+    <!--  -->
     <!-- Repertoire table -->
     <div id="repertoire-list" class="w3-animate-opacity">
     </div>
+    <!-- Hindi table -->
+    <div id="hindi-list" class="w3-animate-opacity" style="display: none;">
+    </div>
+    
 
     <p class="" style="color: gray;"><br />
         Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
@@ -85,7 +98,7 @@
         </div>
         <!-- /.info-box -->
 
-        <audio id="audio" preload="none" volume="0.5" data-loop-track="false" data-change-page-title="false">
+        <audio id="audio" preload="none" volume="0.15" data-loop-track="false" data-change-page-title="false">
             Your browser does not support HTML5 audio. :(
 
         </audio>
