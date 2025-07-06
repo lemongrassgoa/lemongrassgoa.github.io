@@ -1,5 +1,5 @@
 Queen
-Don't Stop Me Now (Capo 3) [rhythm: Simple 2, bpm: 160]
+Don't Stop Me Now (orig F, capo 3) [rhythm: Simple 2, bpm: 160]
 
 |  D                        C#m7   F#7    Bm                 Em(7)   A    A+
  Tonight / I'm gonna have myself / a real good time / I feel ali-i-ive
@@ -26,7 +26,7 @@ Don't Stop Me Now (Capo 3) [rhythm: Simple 2, bpm: 160]
 |D     Em   F#m  Bm                        Em              B7
  Don't stop me   now / If you wanna have a good time, just give me a call
 |Em    Bm   A  Em7   
- Don't stop me now ('cause I'm having a good time)  |   A7                  Bb
+ Don't stop me now ('cause I'm having a good time)  |   A7                  F/G
  Don't stop me now (yes I'm having a good time)   /   I don't wanna stop at all, yeah
 
 (VERSE 2)
@@ -54,4 +54,4 @@ Don't Stop Me Now (Capo 3) [rhythm: Simple 2, bpm: 160]
 |A5    G5   A5  A5    G5   A5 
  Don't stop me, don't stop me
 
-(VERSE chords)
+(SOLO) (VERSE 1 chords)
