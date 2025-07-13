@@ -1,5 +1,5 @@
 Britney Spears
-Toxic (orig. Cm) [drum: Simple 4, bpm: 140]
+Toxic [drum: Simple 4, bpm: 140]
 
 |(intro riff)    Am
 
@@ -67,10 +67,10 @@ Slowly, it's taking over me
 	... Don't you know that you're toxic?
 
 |Am      C7      B7      Bb7
-|Am      C7      FM7     E7      Am ...
+|Am      C7      FM7     E7 - Bb7 ... (2 bars percussive)
 
-| (single) Am                      C7       (rhythm)
-    With a taste of your lips, I'm on a ride
+|      N.C.                                  (rhythm)
+       ... taste of your lips, I'm on a ride
 |   B7              Bb7
       You're toxic, I'm slippin' under
 |          Am                C7
