@@ -1,7 +1,7 @@
 Michael Franks
 Antonio's Song (Capo 3) [drum: Bossa 2, bpm: 105]
 
-INTRO: |  [Am7     Dm7  E7]     ...   Am7    Em7
+INTRO: |  [Am7   %   Dm7   E7]    ...   Am7 - Em7
 
 | Am7                  Dm7     Am7               A7
   Antonio lives life's frevo / Antonio prays for truth
@@ -13,42 +13,42 @@ INTRO: |  [Am7     Dm7  E7]     ...   Am7    Em7
   The blankets they give the Indians / Only make them die
 
 |                Am7                     Dm7
-    But sing the Song / Forgotten for so long 
+    But sing the song / Forgotten for so long 
 |               /C    Bm7(b5)     E7             Am7     Dm7 E7
-    And let the Music flow / Like Light into the Rainbow 
+    And let the music flow / Like light into the rainbow 
 |               Am7                                Dm7
-    We know the Dance / we have, we still have the chance 
+    We know the dance / we have, we still have the chance 
 |                  /C         Bm7(b5)     E7             Am7     Dm7 E7
-    To break these chains and flow / Like Light into the Rainbow 
+    To break these chains and flow / Like light into the rainbow 
 
-INTERLUDE: |   Am7      Dm7       Am7      A7
-           |   Dm7  G7  CM7  FM7  Bm7(b5)  Em7-E7
+INTERLUDE: | Am7 -  -  -  | Dm7 -  -  -  | Am7  -  -  - | A7 -  -  - | 
+           | Dm7 -  G7 -  | CM7 - FM7 -  | Bm7(b5) - - -| Em7 - E7 - |
 
 |                Am7                     Dm7
-    But sing the Song / Forgotten for so long 
+    But sing the song / Forgotten for so long 
 |               /C    Bm7(b5)     E7             Am7     Dm7 E7
-    And let the Music flow / Like Light into the Rainbow 
+    And let the music flow / Like light into the rainbow 
 |               Am7                                Dm7
-    We know the Dance / we have, we still have the chance 
+    We know the dance / we have, we still have the chance 
 |                  /C         Bm7(b5)     E7             Am7     Dm7 E7
-    To break these chains and flow / Like Light into the Rainbow 
+    To break these chains and flow / Like light into the rainbow 
 
 | Am7               Dm7      Am7               A7
   Antonio loves the desert / Antonio prays for rain 
 | Dm7                Am7               Bm7(b5)        E7(sus)
-  Antonio knows that Pleasure / Is the child of Pain 
+  Antonio knows that pleasure / Is the child of pain 
 | Am7                Dm7         Am7                 A7
-  And lost in La Califusa / When most of my hope was gone 
+  And lost in la Califusa / When most of my hope was gone 
 | Dm7             Am7             Bm7(b5)      Em7-E7
  Antonio's samba led me / To the Amazon
 
 |                Am7                     Dm7
-    But sing the Song / Forgotten for so long 
+    But sing the song / Forgotten for so long 
 |               /C    Bm7(b5)     E7             Am7     Dm7 E7
-    And let the Music flow / Like Light into the Rainbow 
+    And let the music flow / Like light into the rainbow 
 |               Am7                                Dm7
-    We know the Dance / we have, we still have the chance 
+    We know the dance / we have, we still have the chance 
 |                  /C         Bm7(b5)     E7             Am7     Dm7 E7
-    To break these chains and flow / Like Light into the Rainbow 
+    To break these chains and flow / Like light into the rainbow 
 
 (instrumental refrain)
