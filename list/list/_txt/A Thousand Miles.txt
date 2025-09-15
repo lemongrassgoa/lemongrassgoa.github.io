@@ -14,7 +14,7 @@ Making a way through the crowd
     If I could fall / into the sky
     Do you think time / would pass me by
     'Cause you know I'd walk a thousand miles
-    If I could [Em]just [Cadd2]see [D]you / tonight
+    If I could [Em]just [D/F#]see [D]you / tonight
 
 It's always times like these when I think of you
 And I wonder if you ever think of me
@@ -28,12 +28,13 @@ Living in your precious memory
     If I could fall / into the sky
     Do you think time / would pass me by
     'Cause you know I'd walk a thousand miles
-    If I could [Em]just [Cadd2]see [D]you / tonight
+    If I could [Em]just [D/F#]see [D]you / tonight
 
+Em      D/F#        G       Am7
 And I, I ... don't want to let you go
 I, I ... drown in your memory
 I, I ... don't want to let this go
-| Em7   Cadd2   Ds4
+| Em7   D/F#    Ds4
   I,    I       don't....
 
 Making my way downtown, walking fast
@@ -48,28 +49,12 @@ Making a way through the crowd
     If I could fall / into the sky
     Do you think time / would pass me by
     'Cause you know I'd walk a thousand miles
-    If I could [Em]just [Cadd2]see [D]you, ohh ....
+    If I could [Em]just [D/F#]see [D]you, ohh ....
     
     If I could fall / into the sky
     Do you think time / would pass me by
     'Cause you know I'd walk a thousand miles
-    If I could [Em]just [Cadd2]see [D]you 
-    If I could [Em]just [Cadd2]hold [D]you
+    If I could [Em]just [D/F#]see [D]you 
+    If I could [Em]just [D/F#]hold [D]you
     tonight
 
-
-
- E ||---| 3 |---| 3 |---| 3 |---| 3 |---|
- B ||---| 3 |---| 3 |---| 3 |---| 3 |---|
- G ||---| 0 |---| 2 |---| 0 |---| 0 |---|
- D ||---| 2 |---| 0 |---| 0 |---| 2 |---|
- A ||---| 3 |---|---|---| 2 |---| 3 |---|
- E ||---|---|---|---|---|---|---|---|---|
-
-
- E ||---| 3 |---| 3 |---| 3 |---|       | 3 | 3 | 3 |---|
- B ||---| 3 |---| 3 |---| 3 |---|       | 3 | 3 | 3 |---|
- G ||---| 0 |---| 0 |---| 2 |---|       | 0 | 0 | 2 |---|
- D ||---| 2 |---| 0 |---| 0 |---|  ...  | 2 | 2 | 0 |---| 
- A ||---| 3 |---|-2-|---|---|---|       | 2 | 3 |---|---|
- E ||---|---|---|---|---|---|---|       |---|---|---|---|

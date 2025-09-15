@@ -1,7 +1,7 @@
 Britney Spears
 Toxic [drum: Simple 4, bpm: 140]
 
-|(intro riff)    Am
+INTRO: 4 measures rhythm | 4 measures Am
 
 |N.C.               Am
 Baby, can't you see / I'm calling?
