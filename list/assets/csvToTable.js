@@ -42,6 +42,7 @@ const the_array = [
     "Bee Gees",
     "Carpenters",
     "Cranberries",
+    "Cure",
     "Doobie Brothers",
     "Eagles",
     "Everly Brothers",
