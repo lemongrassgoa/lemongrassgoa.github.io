@@ -150,6 +150,7 @@ A Sky Full Of Stars - Coldplay
 Better When I'm Dancing - Meghan Trainor
 Brown Eyed Girl - Van Morrison
 Crazy Little Thing Called Love - Queen
+Dance With Me Tonight - Olly Murs
 Dancing In The Moonlight - Toploader
 Dancing Queen - ABBA
 Does Your Mother Know - ABBA
@@ -205,9 +206,11 @@ Blackbird - Beatles
 Don't Know Why - Norah Jones
 Dream A Little Dream Of Me - Laura Fygi
 Fly Me To The Moon - Frank Sinatra
+Quando Quando Quando - Engelbert Humperdinck
 Smooth Operator - Sade
 Sway - Michael Buble
 Take Five - Dave Brubeck
+Til There Was You - Beatles
 
 ------ CLASSIC ------
 Bachelor Boy - Cliff Richard
@@ -223,6 +226,28 @@ Que Sera Sera - Various
 Ring Of Fire - Johnny Cash
 Summer Holiday - Cliff Richard
 
+
+------ MEDLEYS ------
+/ Stuck In The Middle With You - Stealer's Wheel
+| Mamma Mia - ABBA
+| Sweet Child Of Mine - Guns n Roses
+| Crazy Little Thing Called Love - Queen
+| I Saw Her Standing There - Beatles
+| Sweet Sweet Smile - Carpenters
+| Dance With Me Tonight - Olly Murs
+\ Dear Future Husband - Meghan Trainor
+
+/ Dream A Little Dream Of Me - Laura Fygi
+\ Don't It Make My Brown Eyes Blue - Crystal Gayle
+
+/ Bistro Fada
+\ Take Five
+
+/ 'Til You're Home - David Hodges
+| A Thousand Years - Christina Perri
+| Can't Help Falling In Love - Elvis Presley
+| You And Me - Lifehouse
+\ Iris - Goo Goo Dolls
 
 ------ LOOPER ------
 Adventure Of A Lifetime

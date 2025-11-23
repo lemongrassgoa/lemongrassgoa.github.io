@@ -46,9 +46,10 @@ Dear Future Husband (orig C#)
 
 |   D                                     Bm
     You gotta know how to treat me like a lady
-|                        G       A                    D
+|                        G       A                    D         (B7)
     Even when I'm acting crazy / Tell me everything's alright
 
+(KEY CHANGE)
 |   E
     Dear future husband
 |                C#m
