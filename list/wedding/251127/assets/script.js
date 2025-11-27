@@ -1,6 +1,6 @@
 // Generate HTML table from CSV
 var csvtotable = new CsvToTable({
-    csvFile: '../../list/jason.csv',
+    csvFile: 'jason.csv',
     target: 'repertoire-list'
 });
 csvtotable.run();
