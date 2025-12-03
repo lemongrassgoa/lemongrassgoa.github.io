@@ -34,11 +34,12 @@ body, h1, h2 {
 #banner{
     pointer-events: none;
     display: ;
-    /* transition: filter .5s; */
+    transition: filter 1.5s, opacity 1.5s;
     width:100%;
-    /* filter: blur(1px); */
     -webkit-mask-image: linear-gradient(to top, transparent 1%, black 15%);
             mask-image: linear-gradient(to top, transparent 1%, black 15%);
+    filter: blur(100px);
+    opacity: 0;
 }
 #banner:hover{
     /* filter: blur(0px); */

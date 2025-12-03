@@ -46,3 +46,8 @@ var yymmdd = "day-" + yy + (mm<10 ? "0": "") + mm + (dd<10 ? "0": "") + dd;
 console.log(yymmdd);
 
 document.getElementById('today').innerHTML = "Today: " + d.toDateString();
+
+function bodyLoad(){
+    document.getElementById('banner').style.opacity = '1';
+    document.getElementById('banner').style.filter = 'blur(0px)';
+}
