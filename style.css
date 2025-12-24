@@ -19,6 +19,7 @@
 /* @import url("https://fonts.googleapis.com/css?family=Voces"); */
 
 html {
+    scroll-behavior: smooth !important; 
     font-family: "Comfortaa", "Trebuchet MS";
     /* background-color: #ffffff; */
 }
