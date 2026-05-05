@@ -3,7 +3,8 @@ Toto (play capo 1) [rhythm: Conga/Hi-hat, bpm: 96]
 
 INTRO: |  G      F#m    Bm  |  x4
 
-| A   C#m7   F#m    F#m/E   G   D/E   F#m7   [G     F#m  Bm]
+									DM7s2/F#
+| A   C#m7   F#m    A/E   G/D   D/E   F#m7   [G     F#m  Bm]
 I hear the drums echoing tonight
 But she hears only whispers of some quiet conversation
 She's coming in twelve-thirty flight
@@ -26,7 +27,7 @@ He turned to me as if to say:
     
 INTRO   x2
 
-| A   C#m7   F#m    F#m/E   G   D/E   F#m7   [G     F#m  Bm]
+| A   C#m7   F#m    A/E   G/D   D/E   F#m7   [G     F#m  Bm]
 The wild dogs cry out in the night
 As they grow restless longing for some solitary company
 I know that I must do what's right
@@ -47,7 +48,7 @@ frightened of this thing that I've become
 INTRO   x2
 
 (instrumental verse)
-| A   C#m7   F#m    F#m/E   G   D/E   F#m7   [G     F#m/A  Bm]
+| A   C#m7   F#m    A/E   G/D   D/E   F#m7   [G     F#m/A  Bm]
 ... Hurry boy, she's waiting there for you
 
 |   Em                Cadd9           G        D
