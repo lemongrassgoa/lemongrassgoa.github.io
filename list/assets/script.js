@@ -10,7 +10,7 @@ function onload(){
     setTimeout(function(){
         document.getElementById("search-results").style.opacity = "1";
         document.getElementById("repertoire-list").style.opacity = "1";
-    }, 300);
+    }, 30);
     setInterval(rainbowHeader, 25);
 }
   
