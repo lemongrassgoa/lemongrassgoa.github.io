@@ -6,13 +6,14 @@
    xml:space="preserve"
    id="svg2"
    version="1.1"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo_QUARTET.svg"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
-   inkscape:export-filename="logo.png"
+   inkscape:export-filename="logo_QUARTET.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -26,15 +27,15 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
-   inkscape:zoom="0.11013969"
-   inkscape:cx="2741.9726"
-   inkscape:cy="1874.8918"
+   inkscape:zoom="0.11313708"
+   inkscape:cx="1140.2097"
+   inkscape:cy="2196.4505"
    inkscape:window-width="1920"
    inkscape:window-height="1009"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg2" />
+   inkscape:current-layer="g16" />
     <metadata
    id="metadata8">
         <rdf:RDF>
@@ -53,7 +54,8 @@
    transform="matrix(1.3333333,0,0,-1.3333333,0,5181.0133)">
         <g
    id="g12"
-   transform="scale(0.1)">
+   transform="scale(0.1)"
+   sodipodi:insensitive="true">
             <g
    id="border"
    transform="scale(2.3839)">
@@ -64,7 +66,7 @@
             </g>
             <g
    id="base"
-   transform="matrix(1.83418,0,0,1.83418,-210,1755)">
+   transform="matrix(1.83418,0,0,1.83418,-195,1755)">
                 <path
    id="path2"
    style="fill:#1f5e2d;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -72,7 +74,7 @@
             </g>
             <g
    id="root1"
-   transform="matrix(1.24413,0,0,1.24413,-210,1755)">
+   transform="matrix(1.24413,0,0,1.24413,-195,1755)">
                 <path
    id="path3"
    style="fill:#1f5e2d;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -80,7 +82,7 @@
             </g>
             <g
    id="root2"
-   transform="matrix(1.37329,0,0,1.37329,-210,1755)">
+   transform="matrix(1.37329,0,0,1.37329,-195,1755)">
                 <path
    id="path4"
    style="fill:#1f5e2d;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -88,7 +90,7 @@
             </g>
             <g
    id="blade1"
-   transform="matrix(1.36111,0,0,1.36111,-210,1755)">
+   transform="matrix(1.36111,0,0,1.36111,-195,1755)">
                 <path
    id="path5"
    style="fill:#2b9d41;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -96,7 +98,7 @@
             </g>
             <g
    id="blade2"
-   transform="matrix(1.62582,0,0,1.62582,-210,1755)">
+   transform="matrix(1.62582,0,0,1.62582,-195,1755)">
                 <path
    id="path6"
    style="fill:#2b9d41;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -104,7 +106,7 @@
             </g>
             <g
    id="blade3"
-   transform="matrix(2.00952,0,0,2.00952,-210,1755)">
+   transform="matrix(2.00952,0,0,2.00952,-195,1755)">
                 <path
    id="path7"
    style="fill:#2b9d41;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -112,7 +114,7 @@
             </g>
             <g
    id="blade4"
-   transform="matrix(1.99107,0,0,1.99107,-210,1755)">
+   transform="matrix(1.99107,0,0,1.99107,-195,1755)">
                 <path
    id="path8"
    style="fill:#2b9d41;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -120,7 +122,7 @@
             </g>
             <g
    id="blade5"
-   transform="matrix(2.05584,0,0,2.05584,-210,1755)">
+   transform="matrix(2.05584,0,0,2.05584,-195,1755)">
                 <path
    id="path9"
    style="fill:#2b9d41;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -128,7 +130,7 @@
             </g>
             <g
    id="blade6"
-   transform="matrix(1.91815,0,0,1.91815,-210,1755)">
+   transform="matrix(1.91815,0,0,1.91815,-195,1755)">
                 <path
    id="path10"
    style="fill:#2b9d41;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -136,12 +138,39 @@
             </g>
             <g
    id="blade7"
-   transform="matrix(1.56194,0,0,1.56194,-210,1755)">
+   transform="matrix(1.56194,0,0,1.56194,-195,1755)">
                 <path
    id="path11"
    style="fill:#2b9d41;fill-opacity:1;fill-rule:evenodd;stroke:none"
    d="m 13997.3,9657.75 c 550.1,1921.55 1316.4,3434.45 2302.7,4546.45 -1072.8,-1752.5 -1776.2,-3917.7 -2110.2,-6491.57 -51.1,239.7 -90.3,475.47 -117.9,703.38 283,1489.3 585.5,2613.19 907.8,3379.39 -408.7,-903.8 -727,-1890.09 -954.9,-2970.71 -23.6,290.78 -35.4,569.78 -27.5,833.06 v 0" />
             </g>
-        </g>
+        </g><g
+   id="g16"
+   transform="matrix(-0.00537592,1.2376954,1.2376954,0.00537592,-1249.2174,-1268.9475)"
+   sodipodi:insensitive="true"><ellipse
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:8.53811;stroke-dasharray:none;stroke-opacity:0"
+     id="path16"
+     transform="scale(1,-1)"
+     ry="1167.4395"
+     rx="1169.5322"
+     cy="-2595.3816"
+     cx="2590.5046" /><path
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:7.7839;stroke-dasharray:none;stroke-opacity:0"
+     d="m 2594.939,4160.0926 -8.8688,-3139.1678"
+     id="path13" /><path
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:7.76762;stroke-dasharray:none;stroke-opacity:0"
+     d="m 1027.4791,2594.9715 3126.051,-8.9256"
+     id="path14" /><text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:363.576px;line-height:0.1;font-family:Sofia;-inkscape-font-specification:'Sofia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:60.5959px;writing-mode:lr-tb;direction:rtl;text-anchor:middle;fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:3.0298;stroke-dasharray:none;stroke-opacity:1"
+     id="text16"
+     x="-54.456497"
+     y="0"><textPath
+       xlink:href="#path16"
+       startOffset="50%"
+       id="textPath16"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:363.576px;font-family:Sofia;-inkscape-font-specification:'Sofia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:60.5959px;writing-mode:lr-tb;direction:ltr;fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:3.0298;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:insensitive="true"
+       dx="100">String Quartet</textPath></text></g>
     </g>
 </svg>
