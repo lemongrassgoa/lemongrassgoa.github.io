@@ -27,9 +27,9 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
-   inkscape:zoom="0.08"
-   inkscape:cx="2350"
-   inkscape:cy="2543.75"
+   inkscape:zoom="0.16"
+   inkscape:cx="2031.25"
+   inkscape:cy="2728.125"
    inkscape:window-width="1920"
    inkscape:window-height="1009"
    inkscape:window-x="-8"
@@ -149,11 +149,11 @@
    id="g16"
    transform="matrix(-0.00537592,1.2376954,1.2376954,0.00537592,-1249.2174,-1268.9475)"
    sodipodi:insensitive="true"><ellipse
-     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:8.53811;stroke-dasharray:none;stroke-opacity:0"
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:8.70369;stroke-dasharray:none;stroke-opacity:0"
      id="path16"
      transform="scale(1,-1)"
-     ry="1167.4395"
-     rx="1169.5322"
+     ry="1190.0801"
+     rx="1192.2135"
      cy="-2595.3816"
      cx="2590.5046" /><path
      style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:7.7839;stroke-dasharray:none;stroke-opacity:0"
@@ -172,6 +172,7 @@
        id="textPath16"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:363.576px;font-family:Sofia;-inkscape-font-specification:'Sofia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:60.5959px;writing-mode:lr-tb;direction:ltr;fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:3.0298;stroke-dasharray:none;stroke-opacity:1"
        dx="100"
-       sodipodi:insensitive="true">Acoustic Trio</textPath></text></g>
+       sodipodi:insensitive="true"
+       dy="50">Acoustic Trio</textPath></text></g>
     </g>
 </svg>

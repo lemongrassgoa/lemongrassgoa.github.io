@@ -27,9 +27,9 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
-   inkscape:zoom="0.11313708"
-   inkscape:cx="1140.2097"
-   inkscape:cy="2196.4505"
+   inkscape:zoom="0.15999999"
+   inkscape:cx="1862.5001"
+   inkscape:cy="2646.8751"
    inkscape:window-width="1920"
    inkscape:window-height="1009"
    inkscape:window-x="-8"
@@ -171,6 +171,7 @@
        id="textPath16"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:363.576px;font-family:Sofia;-inkscape-font-specification:'Sofia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:60.5959px;writing-mode:lr-tb;direction:ltr;fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:3.0298;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:insensitive="true"
-       dx="100">String Quartet</textPath></text></g>
+       dx="100"
+       dy="50">String Quartet</textPath></text></g>
     </g>
 </svg>
