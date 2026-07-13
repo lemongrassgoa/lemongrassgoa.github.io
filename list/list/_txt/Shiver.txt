@@ -9,7 +9,8 @@ INTRO: | Fs2 - - C | Fs2 - - C |
 
      Fs2                                                     C
 So I look in your direction / But you pay me no attention do you
-I know you don't listen to me / 'Cause you say you see straight through me, don't you?
+I know you don't listen to me
+'Cause you say you see straight through me, don't you?
 
            Dm                     Dm7                      G                    
 But on and on / from the moment I wake / 'Til the moment I sleep
@@ -66,7 +67,5 @@ I will always be waiting
 | Bb              Am        |   And I'll always be waiting for you
 
 Fs2
-So I look in your direction
-But you pay me no attention
-And you know how much I need you
-But you never even see me
+So I look in your direction / But you pay me no attention
+And you know how much I need you / But you never even see me
