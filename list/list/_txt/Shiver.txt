@@ -19,12 +19,12 @@ I'll be there by your side / Just you try and stop me
                    Dm                        C    ... C7
 I'll be waiting in line / Just to see if you care
 
-| Am  -  Ab+  -  Am   -  Ab+
-Oh, did you want me to change? / Well I changed for good
-| Am  -  Ab+  -  C/G  -  Fs2
-And I want you to know / That you'll always get your way
-| Am  -  Ab+  -  F#m7b5   ...   Fs2
-I wanted to say
+| Am  -  Ab+  -  Am   -  Ab+                                                    | Am    -  E7/B  -  Am/C   -  E7/B
+Oh, did you want me to change? / Well I changed for good                        Oh, did you want me to change? / Well I changed for good
+| Am  -  Ab+  -  C/G  -  Fs2                                                    | Am    -  E7/B  -    C    -  Dm7
+And I want you to know / That you'll always get your way                        And I want you to know / That you'll always get your way
+| Am  -  Ab+  -  F#m7b5   ...   Fs2                                             | Am/C  -  E7/B  -  F#m7b5/Bb   ...   FM7/Bb
+I wanted to say                                                                 I wanted to say
 
 | C     Gm7       Bb    Am  |   Don't you shiver
 | C     Gm7       Bb    Am  |   Shiver
