@@ -249,8 +249,7 @@ Summer Holiday - Cliff Richard
 
 ------ LOOPER ------
 Adventure Of A Lifetime
--All About That Bass
-- Attention
+- All About That Bass
 Believer (mandolin)
 Bittersweet Symphony (mandolin, C)
 - Blinding Lights
@@ -261,6 +260,7 @@ Clocks (mandolin, G)
 - Counting Stars
 Dancing In The Moonlight (mandolin, C)
 - Demons
+- Do I Wanna Know
 Escape (viola, C)
 - Feel Good Inc. (bass riff)
 Fireflies (riff + rhythm)
@@ -273,6 +273,7 @@ Hotel California (verse)
 Just Like Heaven
 Just The Two Of Us (viola, Am)
 Just The Way You Are
+- Kryptonite
 Levitating
 Like I'm Gonna Lose You
 - Moves Like Jagger
@@ -296,6 +297,7 @@ Snow (mandolin, Am)
 Stand By Me
 - Stuck On You (?)
 Sugar
+- Sunday Morning
 - Sweet Dreams
 - Sweet Home Alabama
 - Take 5
@@ -308,3 +310,4 @@ Viva La Vida (viola, G)
 What's Up (viola, F)
 With Or Without You (oct mandolin, C)
 Zombie (viola, Em)
+ 
