@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body, html {
+    font-family: "Ubuntu", "Trebuchet MS";
+    background-color: #333333;
+    line-height: 1.2;
+}
+
+div {
+    color: white;
+}
+
+a{
+    color: gold;
+    cursor:pointer;
+}
+a:hover{
+    color: gold;
+}
+
+table {
+    cursor: default;
+    padding-bottom: 2em;
+}
+tr{
+    transition: visibility 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+#search-bar{
+    width: 100%;
+    top: -1px;
+    padding-top: 0.5em;
+    padding-bottom: 3em;
+    position: sticky;
+    position: -webkit-sticky;
+    height: 3em;
+    background-color: #333333;
+    z-index: 2;
+    line-height: 1.5;
+}
+
+#search{
+    text-align: center;
+    border-radius: 1em;
+    width: 40%;
+    color: black;
+}
+#clear-search{
+    /* font-size: 80%; */
+    border-radius: 1em;
+    color: black;
+}
+
+.button{
+    display: none;
+    transition: transform .2s, box-shadow .2s, color .2s;
+    font-size: 100%;
+	text-align: center;
+    padding: 1em;
+    text-decoration: none;
+	position: fixed;
+	width:150px;
+	height:50px;
+	top:10px;
+	right:10px;
+	background-color: #085;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 3px 3px 4px #333;
+    z-index: 5;
+}
+.button:hover{
+	/* color:#000; */
+    transform: scale(1.1);
+	box-shadow: 4px 4px 5px #666;
+}
+.button:active{
+    transform: scale(1);
+}
+.button1{
+    line-height: 1.5;
+    display:block;
+    transition: transform .2s, box-shadow .2s, color .2s;
+    font-size: 80%;
+	text-align: left;
+    padding-top: 0.2em;
+    padding-left: 1.25em;
+    text-decoration: none;
+	position: fixed;
+	width:100px;
+	height:40px;
+	top:10px;
+	right:10px;
+	background-color: #085;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 3px 3px 4px #333;
+    z-index: 5;
+}
+.button1:hover{
+	/* color:#000; */
+    transform: scale(1.1);
+	box-shadow: 4px 4px 5px #666;
+}
+.button1:active{
+    transform: scale(1);
+}
+
+#spotify {
+    pointer-events:none;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+	height: 40px;
+    /* background-image: radial-gradient(rgba(255,255,255,0.5) 40%, rgba(0,0,0,0) 70%); */
+    z-index: 6;
+}
+#logo {
+    transition: transform .2s;
+    pointer-events:none;
+    /* position: fixed;  */
+	margin: 10px;
+    height: 100px;
+    background-image: radial-gradient(rgba(0,0,0,1) , rgba(0,0,0,0.75) 45%, rgba(0,0,0,0) 70%);
+}
+#logo:hover {
+    transform: scale(1.1);
+}
+#upi_qr{
+    top: 20px;
+    left: 20px;
+	position: fixed;
+    height: 100px;
+}
+.upi{
+    pointer-events:none;
+    text-align: justify;
+    position: fixed;
+    top: 120px;
+    left: 15px;
+    width: 115px;
+    color: #ffffff;
+    font-size: 75%;
+}
+
+.year, .genre {
+    /* display: ; */
+}
+
+#upButton{
+    height: 30px;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+#tapToSort {
+    /* position: fixed; */
+    font-size: 75%;
+    /* padding-right: 2em; */
+    /* margin-top: 0.5em; */
+}
+
+.tooltip-sort {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 3.4em;
+    z-index: 10;
+}
+
+#yt_filter {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+#yt_filter_img {
+    padding-left: 5px; 
+    padding-bottom: 5px;
+    /* transform: scale(1.2); */
+    height: 1.5em;
+}
+
+.yt-img-animate {
+    /* transition: transform .2s; */
+    animation: pulse 2s infinite;
+    height: 1em;
+    vertical-align: middle;
+}
+.yt-img{
+    float: right;
+    padding-left: 0.3em;
+}
+.yt-short{
+    float: left;
+    padding-right: 0.3em;
+}
+
+.the{}
+    .the:before{
+        content: "The ";
+    }
+
+@media (max-width: 600px) {
+    .genre, .energy, .dance {
+        display: none;
+    }
+    .button{
+        /* transform: scale(0.85); */
+        /* top:5px; */
+        /* right:5px; */
+        display:none;
+    }
+    .button1{
+        position: fixed;
+        /* transform: scale(0.65); */
+        top: 10px;
+        right: 10px;
+        width: 40px;
+    }
+    .my-float{
+        display:none;
+    }
+    /* #tapToSort { */
+        /* padding-right: 0em; */
+    /* } */
+}
+
+#video_embed{
+    width:360px;
+    height:240px;
+    display:block;
+    margin:auto;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(1);   }
+    70%  { transform: scale(1.2); }
+    100% { transform: scale(1);   }
+}
+
+.tab-bar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0px;
+}
+
+#repertoire-list{
+    display: initial;
+}
+#hindi-list{
+    display: none;
+}
+#classical-list{
+    display: none;
+}

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Itim");
+
+html, body {
+    font-family: "Ubuntu", monospace;
+    background-color: #1f2424;
+    line-height: 1.2em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+table {
+    cursor: default;
+}
+thead{
+    z-index: 1;
+}
+th, td{
+    vertical-align: middle;
+}
+a {
+    color: gold;
+    cursor: default;
+}
+.spotifylink{
+    height: 1em;
+    float: right;
+    margin-left: 0.5em;
+    transform: scale(1.5);
+    /* transform-origin: top; */
+}
+#search{ /* search bar field */
+    text-align: center;
+    border-radius: 0.7em;
+    color: black;
+    margin: 0.5em;
+    padding: 0.3em;
+    border: none;
+    width: 50%;
+}
+#search:focus{
+    outline: none;
+}
+#search-bar{  /* search bar div */
+    font-family: "Itim", monospace;
+    background-color: #1f2424;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3em;
+    z-index: 1;
+}
+#search-results{
+    position: fixed;
+    margin-top: 1em;
+    left: 5em;
+    color: silver;
+    transform: scale(1.2);
+	top: 0px;
+}
+#table-header{ /* table header */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 3em;
+}
+#sortTooltip{
+    /* display: none; */
+    /* animation: fadeout 4s 2; */
+    opacity: 0;
+    color: #333;
+    font-size: smaller;
+    float: right;
+    margin-right: 10%;
+}
+.title {
+    font-style: italic;
+}
+/* add the word "The" before marked artist names without affecting sorting order */
+.the{}    
+    .the:before{
+        content: "The ";
+    }
+
+@media (max-width: 600px) {
+    #search-bar{
+        
+    }
+    #logo{
+        /* margin-left: 0.5em; */
+    }
+    #spotify{
+        margin-right: 0.5em;
+    }
+}
+
+@media (max-width: 350px) {
+    #logo{
+        display: none;
+    }
+    #spotify{
+        display: none;
+    }
+    #sortTooltip{
+        display: none;
+    }
+}
+
+@keyframes fadeout {
+    0%   { opacity: 0; }
+    50%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+.yt-img{
+    filter: invert(1);
+    height: 1.2em;
+    float: right;
+    z-index: 0;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px cyan) invert(1);
+    transform: scale(1.4);
+    margin-left: 1em;
+    /* display: none; */
+}
+.yt_link{
+    /* display: block; */
+}
+#yt-checkbox-img{
+    filter: invert(1);
+    transform: scale(1.5);
+    animation: pulse 2s 3;
+}
+#yt_filter{
+    display: none;
+}
+#yt_filter + label:before{
+    height: 1.3em;
+}
+#yt_filter:checked + label:before{
+    height: 1.3em;
+}
+#video_embed{
+    height: 90%;
+    width: 90%;
+}
+#upButton{
+    height: 40px;
+    bottom: 40px;
+    right: 20px;
+    position: fixed;
+}
+
+dialog {
+    border: none;
+    background-color: #333;
+    height: 70vh;
+    width: 90vw;
+}
+dialog::backdrop {
+    background-color: black;
+    opacity: 0.4;
+    display: none;
+}
+#yt-modal-close{
+    margin-top: 1em;
+    /* padding: 0.5em; */
+}
+
+@keyframes pulse{
+    0%   { transform: scale(1.5); }
+    70%  { transform: scale(1.8); }
+    100% { transform: scale(1.5); }
+}
+
+.tab-bar{
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    /* position: sticky; */
+    /* position: -webkit-sticky; */
+    /* top: 0; */
+    /* left: 0; */
+    /* writing-mode: vertical-rl; */
+}
+
+#repertoire-list{
+    display: initial;
+}
+#hindi-list{
+    display: initial;
+}
