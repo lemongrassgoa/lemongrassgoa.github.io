@@ -3,7 +3,7 @@ Billy Joel (orig. D)
 
 INTRO: | D - Gm6/D      D - G/D - Ds4   | x2
 
-| D        Bm6      GM7          Bm-D7
+| D        G#-      GM7          Bm-D7
   Don't go changing / to try and please me
 | GM7       Gm7            D/F#   Am7-D7
   You never let me down be-fore,  mm-hmm
@@ -12,7 +12,8 @@ INTRO: | D - Gm6/D      D - G/D - Ds4   | x2
 | E9s4        E9         G/A
   And I don't see you anymore
 
-| D             Bm6      GM7            Bm-D9
+(rhythm start)
+| D             G#-      GM7            Bm-D9
     I would not leave you / in times of trouble
 | GM7        Gm7                  D/F#   Am7-D7
     We never could have come this far
@@ -21,8 +22,9 @@ INTRO: | D - Gm6/D      D - G/D - Ds4   | x2
 | Em7             G/A              (intro chords)
     I'll take you just the way you are
 
-(rhythm start)
-| D        Bm6     GM7        Bm-D7
+| D - Gm6/D      D - G/D - Ds4   | x2
+
+| D        G#-     GM7        Bm-D7
   Don't go trying  / some new fashion
 | GM7              Gm7           D/F#   Am7-D7
   Don't change the color of your hair
@@ -31,17 +33,18 @@ INTRO: | D - Gm6/D      D - G/D - Ds4   | x2
 | E9s4       E9                G/A
   Although I might not seem to care
 
-| D              Bm6    GM7     Bm-D9
+| D              G#-    GM7     Bm-D9
     I don't want clever / conversation
 | GM7       Gm7               D/F#   Am7-D7
     I never want to work that hard
 | GM7           Gm      D/F#          Bm7
     I just want someone /  that I can talk to
-| Em7             G/A              (intro chords) ... DM7 D7
+| Em7             G/A
     I want you just the way you are
 
-(BRIDGE)
+| D - Gm6/D      D - G/D - Ds4   | x2 ... DM7 D7
 
+(BRIDGE)
 | GM7         A6                 F#m7    B7
     I need to know that you will always  be
 | Em7            A7s4           D   D/C
@@ -52,7 +55,7 @@ INTRO: | D - Gm6/D      D - G/D - Ds4   | x2
     The way that I believe in you
 
 
-| D          Bm6     GM7              Bm-D9
+| D          G#-     GM7              Bm-D9
     I said I love you / and that's forever
 | GM7          Gm7              D/F#   Am7-D7
     And this I promise from the heart
@@ -62,20 +65,20 @@ INTRO: | D - Gm6/D      D - G/D - Ds4   | x2
     I love you just the way you are
     
 (interlude)
-| D         Bm6     GM7     Bm-D7
+| D         G#-     GM7     Bm-D7
 | GM7       Gm7     D/F#    Am7-D7
 | GM7       Gm7     D/F#    Bm7
 | E9s4      E9      G/A
 
-| D              Bm6    GM7     Bm-D9
+| D              G#-    GM7     Bm-D9
     I don't want clever / conversation
 | GM7       Gm7               D/F#   Am7-D7
     I never want to work that hard
 | GM7           Gm      D/F#          Bm7
     I just want someone /  that I can talk to
-| Em7             G/A              (intro chords)
-    I want you just the way you are
-
+| Em7             G/A              Bb    C    Am7
+    I want you just the way you are ...
+| D7              Gm            G/A       DM7
 
 
 
