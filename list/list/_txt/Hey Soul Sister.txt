@@ -1,7 +1,7 @@
 Train
 Hey, Soul Sister Capo 4 [rhythm: Groove 1, bpm: 110]
 
-    | D     A                Bm               G
+    | D  -  -  -  | A  -  -  -  | Bm  -  -  -  | G  -  -  -  |
         Hey-ay, Hey-ay-AY-ay-ay, Hey-ay-AY-ay-ay
 
 | D  -  -  -  | A  -  -  -  | Bm  -  -  -  | G  -  -  -  |
@@ -17,7 +17,7 @@ I knew when we collided, you're the one I have decided who's one of my kind
     Hey soul sister I don't want to miss a [G] single thing you do ...  [A]
     [D] tonight
 
-    | D     A                Bm               G
+    | D  -  -  -  | A  -  -  -  | Bm  -  -  -  | G  -  -  -  |
         Hey-ay, Hey-ay-AY-ay-ay, Hey-ay-AY-ay-ay
 
 | D  -  -  -  | A  -  -  -  | Bm  -  -  -  | G  -  -  -  |
@@ -48,3 +48,8 @@ I want the world to see you be with me
     | G  -  -  -  | A  -  D  A  |
     Hey soul sister I don't want to miss a [G] single thing you do ...  [A]
     [D] tonight
+
+    | D  -  -  -  | A  -  -  -  | Bm  -  -  -  | G  -  G/A  -  |
+        Hey-ay, Hey-ay-AY-ay-ay, Hey-ay-AY-ay-ay  /  Tonight
+    | D  -  -  -  | A  -  -  -  | Bm  -  -  -  | G  -  A  -  |  D
+        Hey-ay, Hey-ay-AY-ay-ay, Hey-ay-AY-ay-ay  /  Tonight
