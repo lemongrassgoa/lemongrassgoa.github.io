@@ -27,6 +27,8 @@ REFRAIN: Well, I know what I've been told / You gotta know just when to fold
          |   G       A               D ...
          No, I know, I'm no Superman / I'm no Superman
 
+        | D               Dsus2    Gsus2              G/A
+
 (instrumental)
 | Em   | %     | A    | %   | Em    | %
 | Bm   | Bm/A  | E/G# | E7
