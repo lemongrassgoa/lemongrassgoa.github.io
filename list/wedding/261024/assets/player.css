@@ -1,0 +1,358 @@
+@charset "UTF-8";
+.player-container.theme {
+    --font-family: 'Segoe UI';
+    /* colors */
+    --text-color: #333;
+    --background-color: #eee;
+    --background-image: url();
+    --border-color: rgba(0, 0, 0, 0.4);
+    --playback-bar-color: #aaa;
+    --progress-indicator-color: var(--background-color);
+    --track-title-color: #444;
+    /* button backgrounds */
+    --play-button: url(https://raw.githubusercontent.com/vexx32/audioplayer/main/themes/default/play.svg) top left/contain;
+    --pause-button: url(https://raw.githubusercontent.com/vexx32/audioplayer/main/themes/default/pause.svg) top left/contain;
+    --previous-button: url(https://raw.githubusercontent.com/vexx32/audioplayer/main/themes/default/previous.svg) top left/contain;
+    --next-button: url(https://raw.githubusercontent.com/vexx32/audioplayer/main/themes/default/next.svg) top left/contain;
+    --loop-button-off: url(https://raw.githubusercontent.com/vexx32/audioplayer/main/themes/default/loop-off.svg) top left/contain;
+    --loop-button-on: url(https://raw.githubusercontent.com/vexx32/audioplayer/main/themes/default/loop-on.svg) top left/contain;
+    --playlist-button: url(https://raw.githubusercontent.com/vexx32/audioplayer/main/themes/default/playlist.svg) top left/contain;
+    /* button text */
+    --button-text-color: #000;
+    --button-font: var(--font-family);
+    --play-button-text: '';
+    --pause-button-text: '';
+    --previous-button-text: '';
+    --next-button-text: '';
+    --loop-button-off-text: '';
+    --loop-button-on-text: '';
+    --playlist-button-text: '';
+}
+
+.player-container {
+    font-family: var(--font-family), sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    border-top: 2px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.player-container .screen-reader-text:not(:focus):not(:active) {
+    /* Reusable, toolbox kind of class */
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.player-container .disabled {
+    color: #888;
+    cursor: default;
+}
+
+.player-container .show {
+    display: inline-block !important;
+}
+
+.player-container .player {
+    height: 2rem;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 0.5rem;
+    align-content: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-position: top left;
+}
+
+.player-container .player .controls-box {
+    grid-column: 1 / 2;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
+    column-gap: 1.25rem;
+}
+
+.player-container .player .controls-box button,
+.player-container .player .play-list .play-list-btn {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    color: var(--button-text-color);
+    font-family: var(--button-font);
+}
+
+.player-container .player .controls-box button:focus {
+    outline-style: auto;
+    outline-color: rgba(0, 100, 230, 0.35);
+}
+
+.player-container .player .controls-box .main-toggle-btn.large-play-btn {
+    background: var(--play-button);
+}
+
+.player-container .player .controls-box .main-toggle-btn.large-play-btn::before {
+    content: var(--play-button-text);
+}
+
+.player-container .player .controls-box .main-toggle-btn.large-pause-btn {
+    background: var(--pause-button);
+}
+
+.player-container .player .controls-box .main-toggle-btn.large-pause-btn::before {
+    content: var(--pause-button-text);
+}
+
+.player-container .player .controls-box .previous-track-btn {
+    background: var(--previous-button);
+}
+
+.player-container .player .controls-box .previous-track-btn::before {
+    content: var(--previous-button-text);
+}
+
+.player-container .player .controls-box .next-track-btn {
+    background: var(--next-button);
+}
+
+.player-container .player .controls-box .next-track-btn::before {
+    content: var(--next-button-text);
+}
+
+.player-container .player .controls-box .toggle-loop-btn {
+    background: var(--loop-button-off);
+}
+
+.player-container .player .controls-box .toggle-loop-btn::before {
+    content: var(--loop-button-off-text);
+}
+
+.player-container .player .controls-box .toggle-loop-btn.on {
+    background: var(--loop-button-on);
+}
+
+.player-container .player .controls-box .toggle-loop-btn.on::before {
+    content: var(--loop-button-on-text);
+}
+
+.player-container .player .play-list .play-list-btn {
+    background: var(--playlist-button);
+}
+
+.player-container .player .play-list .play-list-btn::before {
+    content: var(--playlist-button-text);
+}
+
+.player-container .player .info-box .volume-box {
+    padding: 0.05em 0;
+    width: 8em;
+}
+
+.player-container .player .info-box {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.player-container .player .info-box .track-info-box {
+    visibility: hidden;
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 0.2em;
+    color: var(--track-title-color);
+    text-shadow: 2px 2px var(--background-color), 2px -2px var(--background-color), -2px 2px var(--background-color), -2px -2px var(--background-color), 2px 0 var(--background-color), 0 2px var(--background-color), -2px 0 var(--background-color), 0 -2px var(--background-color);
+}
+
+.player-container .player .info-box .track-info-box .track-title-text {
+    pointer-events: none;
+}
+
+.player-container .player .info-box .audio-time {
+    pointer-events: none;
+    width: 80px;
+    visibility: visible;
+}
+
+.player-container .player .info-box .track-info-box:before,
+.player-container .player .info-box .track-info-box:after {
+    content: " ";
+    display: table;
+}
+
+.player-container .player .info-box .track-info-box:after {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.player-container .player .info-box .progress-box {
+    position: relative;
+    padding: 0.05rem 0;
+}
+
+.player-container .player .info-box .progress-box .progress {
+    background: var(--background-color);
+    border: 1px solid var(--border-color);
+    height: 0.6rem;
+    position: relative;
+    border-radius: 4px;
+}
+
+.player-container .player .info-box .progress-box .progress .progress-buffer {
+    background: var(--playback-bar-color);
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+}
+
+.player-container .player .info-box .progress-box .progress .progress-indicator {
+    background: var(--progress-indicator-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    top: -0.1rem;
+    width: 2rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+}
+
+.player-container .player .info-box .volume-box .volume {
+    background: var(--background-color);
+    border: 1px solid var(--border-color);
+    height: 0.6rem;
+    position: relative;
+    border-radius: 4px;
+}
+
+.player-container .player .info-box .volume-box .volume .volume-indicator {
+    background: var(--progress-indicator-color);
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    cursor: pointer;
+    left: calc(100% - 0.5rem);
+    position: absolute;
+    top: -0.1rem;
+    width: 0.5rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+}
+
+.player-container .player:before,
+.player-container .player:after {
+    content: " ";
+    display: table;
+}
+
+.player-container .player:after {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.player-container .player .play-list {
+    grid-column: 3 / 4;
+    width: 26px;
+    height: 26px;
+}
+
+.player-container .player .play-list .play-list-popout {
+    list-style-type: decimal;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--border-color);
+    border-right: none;
+    border-bottom-color: transparent;
+    border-top-left-radius: 4px;
+    background-color: var(--background-color);
+    font-size: 0.8em;
+    margin: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    width: 15rem;
+    max-height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 1rem 0 2rem;
+}
+
+.player-container .player .play-list .play-list-popout::-webkit-scrollbar {
+    background-color: inherit;
+}
+
+.player-container .player .play-list .play-list-popout::-webkit-scrollbar-thumb {
+    background-color: inherit;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.player-container .player .play-list .play-list-popout .play-list-title {
+    position: sticky;
+    background-color: inherit;
+    top: 0;
+    font-size: 1.25em;
+    font-style: italic;
+    padding: 0.25em 2em;
+    margin: 0 -2em;
+    box-shadow: 0 1px 1px -1px var(--border-color);
+}
+
+.player-container .player .play-list .play-list-popout .play-list-row {
+    margin: 10px 0;
+    text-overflow: ellipsis;
+}
+
+.player-container .play-list .play-list-popout .play-list-row .playlist-track {
+    color: var(--track-title-color);
+    text-decoration: none;
+}
+
+.player-container .play-list .play-list-popout .play-list-row .playlist-track:hover {
+    text-decoration: underline;
+}
+
+.player-container .play-list .play-list-popout .play-list-row .playlist-track.active-track {
+    font-weight: bold;
+}
+
+.player-container .play-list .play-list-popout .play-list-row:after {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+details.play-list>summary {
+    list-style: none;
+}
+
+details.play-list>summary::-webkit-details-marker {
+    display: none;
+}
