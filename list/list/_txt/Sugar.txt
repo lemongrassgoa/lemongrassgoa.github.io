@@ -1,5 +1,7 @@
 Sugar
-Maroon 5 (Em capo 2) [rhythm: Simple 4, bpm: 120]
+Maroon 5 (orig. F#) [rhythm: Simple 4, bpm: 120]
+
+| FM7     Am7      Dm7      C
 
 I'm hurting, baby, I'm broken down
 I need your loving, loving / I need it now
