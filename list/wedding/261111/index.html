@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;" data-bs-theme="">
+<head>
+    <title>Lemongrass Repertoire List</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Our complete repertoire list">
+    <meta name="author" content="Lemongrass Acoustic Trio">
+    <meta name="keywords" content="lemongrass, acoustic, trio, band, music, musician, mandolin, mandolinist, guitar, guitarist, viola, violist, instrumental, easy listening, wedding, restaurant, hotel, cool, classical, pop, jazz, blues, singer, voice, vocals, vocalist, repertoire, list, request">
+    <link rel="icon" type="image/x-icon" href="../../favicon.png" />
+    
+    <script src="assets/csvToTable.js" type="text/javascript"></script>
+
+    <script src="assets/sortable.js" type="text/javascript"></script>
+    <link href="assets/sortable.css" rel="stylesheet" />
+
+    <link href="assets/w3.css"  rel="stylesheet"/>
+    <!-- <link href="assets/bootstrap.css"  rel="stylesheet"/> -->
+    <link href="assets/style.css"  rel="stylesheet"/>
+
+    <link rel="stylesheet" href="assets/player.css" />
+</head>
+<body onload="onload();">
+
+<center>
+    <div id="search-bar">
+        <span id="search-results"></span>
+
+        <input type="text" class="w3-animate-top" id="search" onkeyup="search();" placeholder="&#x1F50E;&#xFE0E; Title | Artist | Year | Tags" style="text-align: center;" />
+        &nbsp;Show WIP&nbsp;<input type="checkbox" id="wip"></input>
+        &nbsp;Hide WIP&nbsp;<input type="checkbox" id="hidewip"></input>
+    </div>
+    <!--  -- >
+    <div class="tab-bar">
+    <span class="tab-bar w3-small w3-bar w3-animate-opacity" id="tabs">
+        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(1)" id="tab1">Hindi</button>
+        <button class="w3-bar-item w3-button w3-white" onclick="openTab(2)" id="tab2">English</button>
+    </span>
+    </div>
+    <!--  -->
+    <!-- Repertoire table -->
+    <div id="repertoire-list" class="w3-animate-opacity">
+    </div>
+
+    <p class="" style="color: gray;"><br />
+        Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
+        &copy; <script>document.write(new Date().getFullYear())</script> Anand Lobo. All rights reserved.
+    </p>
+</center>
+    <a href="#"><img src="../../img/up.svg" id="upButton" alt="Return to top" class="w3-animate-right" /></a>
+    <!-- <script src="assets/bootstrap.js" type="text/javascript"></script> -->
+    <script src="assets/script.js" type="text/javascript"></script>
+
+<article class="player-container theme">
+
+    <figure class="player">
+
+        <header class="controls-box">
+            <button class="previous-track-btn"><span class="screen-reader-text">Previous track button</span></button>
+            <button class="main-toggle-btn large-play-btn">
+                <span class="screen-reader-text">Play/Pause button</span>
+            </button>
+            <button class="next-track-btn"><span class="screen-reader-text">Next track button</span></button>
+            <button class="toggle-loop-btn"><span class="screen-reader-text">Toggle repeat current track on/off</span></button>
+        </header>
+        <!-- /.controls-box -->
+
+        <div class="info-box">
+            <div class="track-info-box">
+                <div class="track-title-text"></div>
+            </div>
+            <!-- /.track-info-box -->
+
+            <div class="progress-box">
+                <div class="progress">
+                    <div class="progress-buffer"></div>
+                    <div class="progress-indicator"></div>
+                </div>
+            </div>
+            <!-- /.progress-box -->
+
+            <div class="track-info-box audio-time">
+                <time class="current-time">00:00</time> /
+                <time class="duration">00:00</time>
+            </div>
+            <!-- /.audio-time -->
+
+            <div class="volume-box">
+                <div class="volume">
+                    <div class="volume-indicator"></div>
+                </div>
+            </div>
+            <!-- /.volume-box -->
+        </div>
+        <!-- /.info-box -->
+
+        <audio id="audio" preload="none" volume="0.15" data-loop-track="false" data-change-page-title="false">
+            Your browser does not support HTML5 audio. :(
+
+        </audio>
+
+        <details class="play-list">
+            <summary class="play-list-btn"><span class="screen-reader-text">Toggle playlist</span></summary>
+
+            <ol class="play-list-popout">
+                <!-- <h2 class="play-list-title">Playlist</h2> -->
+            </ol>
+        </details>
+
+    </figure>
+    <!-- /.player -->
+
+</article>
+<script type="text/javascript" src="assets/player.js"></script>
+    
+</body>
+</html>
