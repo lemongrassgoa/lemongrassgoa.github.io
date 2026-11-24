@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Our complete repertoire list">
+    <meta name="author" content="Lemongrass Acoustic Trio">
+    <meta name="keywords" content="lemongrass, acoustic, trio, band, music, musician, mandolin, mandolinist, guitar, guitarist, viola, violist, instrumental, easy listening, wedding, restaurant, hotel, cool, classical, pop, jazz, blues, singer, voice, vocals, vocalist, repertoire, list, request">
+    <title>Lemongrass Repertoire List</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.png" />
+    
+    <script src="js/csvToTable.js" type="text/javascript"></script>
+    <script src="sortable/sortable.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="sortable/sortable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body onload="search();" onfocus="stopAllYouTubeVideos();">
+
+<a href="../request/" class="button w3-animate-right">
+    <i class="my-float">Request a song!</i>
+</a>
+<a href="https://open.spotify.com/playlist/38NWp40zBVTosn0nsWW5k9" class="button1 w3-animate-right" target="_blank">
+    <i class="my-float">Spotify<br />Playlist</i>
+    <img src="spotify.png" id="spotify" alt="" class="w3-animate-right" />
+</a>
+<!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: rgba(0,0,0,50%);">
+                <div class="modal-body">
+                    <iframe id="video_embed" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Loading…</iframe>
+                    <!-- <p>Scroll down to sumbit the form!</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+<center>
+    <div id="banner">
+        <!-- <a href="../"><img src="logo.png" id="logo" alt=""  class="w3-animate-top" /></a><br /> -->
+        <a href="upi://pay?pa=anandrlobo@okaxis&pn=Lemongrass Trio&cu=INR&mam=100"><img src="logo.png" id="logo" alt=""  class="w3-animate-top" /></a>
+    </div>
+    <div>
+        <input type="checkbox" id="yt_filter"><img id="yt_filter_img" class="" style="" src="youtube.svg" height="20" onclick="yt_filter_click();" /> </input>
+    </div>
+    <!-- Search bar -->
+    <div id="search-bar">
+        Search: <input type="text" id="search" onkeyup="search();" placeholder="Title | Artist | Year" />
+        <button id="clear-search" onclick="clearSearch();">Clear search</button> <br />
+        <div id="tapToSort">Tap headers to sort!</div>
+    </div>
+    <!-- Hindi table -->
+    <div id="hindi-list" class="w3-animate-opacity music-table">
+    </div>
+    <!-- Repertoire table -->
+    <div id="repertoire-list" class="w3-animate-opacity music-table">
+    </div>
+    <!-- Classical table -->
+    <div id="classical-list" class="w3-animate-opacity music-table">
+    </div>
+    <!-- Selector -->
+    <a href="#"><img src="up.svg" id="upButton" alt="Return to top" class="w3-animate-right" /></a>
+</center>
+
+<p class="w3-small w3-center" style="color: black;"><br />
+    Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
+    &copy; <script>document.write(new Date().getFullYear())</script> Anand Lobo. All rights reserved.
+</p>
+<!--  -- >
+    <div class="tab-bar">
+    <span class="tab-bar w3-small w3-bar w3-animate-opacity" id="tabs">
+        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(1)" id="tab1">Hindi</button>
+        <button class="w3-bar-item w3-button w3-white" onclick="openTab(2)" id="tab2">English</button>
+        <button class="w3-bar-item w3-button w3-gray" onclick="openTab(3)" id="tab3">Classical</button>
+    </span>
+    </div>
+<!--  -->
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lemongrass Acoustic Trio song request page">
+    <meta name="author" content="Lemongrass Acoustic Trio">
+    <meta name="keywords" content="lemongrass, acoustic, trio, band, music, musician, mandolin, mandolinist, guitar, guitarist, viola, violist, instrumental, easy listening, wedding, restaurant, hotel, cool, classical, pop, jazz, blues, singer, voice, vocals, vocalist, repertoire, list, request">
+    <title>Lemongrass Song Requests</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.png" />
+    
+    <script src="js/csvToTable.js" type="text/javascript"></script>
+    <script src="sortable/sortable.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="sortable/sortable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <link rel="image_src" href="../images/logo.png" /> -->
+
+</head>
+<body>
+
+<center>
+<!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content" style="background-color: rgba(0,0,0,50%);">
+                <div class="modal-body">
+                    <iframe id="form_embed" src="https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <!-- <p>Scroll down to sumbit the form!</p> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="banner">
+        <!-- <a href="../"><img src="../images/logo.png" id="logo" alt=""  class="w3-animate-top" /></a><br /> -->
+        <a href="upi://pay?pa=anandrlobo@okaxis&pn=Lemongrass Trio&cu=INR&mam=100"><img src="../images/logo.png" id="logo" alt=""  class="w3-animate-top" /></a>
+    </div>
+<!--  -- >
+<a href="upi://pay?pa=anandrlobo@okaxis&pn=Anand Lobo&tn=Lemongrass Trio&cu=INR&mam=100" target="_blank" class="w3-animate-left">
+    <img id="upi_qr" src="../images/upi_qr.svg" />
+    <p class="upi">Tap here to leave us a tip via UPI!</p>
+</a>
+<!--  -->
+    <div id="search-bar">
+        Search: <input type="text" id="search" onkeyup="search()" placeholder="Title | Artist | Year" />
+        <button id="clear-search" onclick="clearSearch();">Clear search</button> <br />
+        <!-- <div id="tapToRequest"> Click a song name to request! &ensp; | &ensp; Tap the table headers to sort <br /> -->
+        <div id="tapToRequest"> Tap the table headers to sort &ensp; | &ensp; Click a song name to request! <br />
+            <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3F4cYKwqj41kLHsW_SQRp-AeeLZGUlbCRDQlyvVgBN0EhCg/viewform" target="_blank" style="color: orange;">Click here if your song is not in our list!</a> -->
+        </div>
+    </div>
+    <div id="repertoire-list" class="w3-animate-opacity">
+    </div>
+    <a href="#"><img src="up.svg" id="upButton" alt="Return to top" class="w3-animate-right" /></a>
+</center>
+
+<p class="w3-small w3-center" style="color: black;"><br />
+    Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
+    &copy; <script>document.write(new Date().getFullYear())</script> Anand Lobo. All rights reserved.
+</p>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

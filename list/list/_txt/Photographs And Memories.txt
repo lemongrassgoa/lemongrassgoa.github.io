@@ -1,0 +1,21 @@
+Jim Croce
+Photographs And Memories
+
+Photographs and memories / Christmas cards you sent to me
+All that I have are these to remember you
+Memories that come at night / Take me to another time
+Back to a happier day, when I called you mine
+
+But we sure had a good time / When we started way back when
+Morning walks and bedroom talks / Oh, how I loved you then
+
+Summer skies and lullabies / Nights we couldn't say goodbye
+And of all of the things that we knew / Not a dream survived
+
+(instrumental)
+
+Photographs and memories / All the love you gave to me
+Somehow it just can't be true / It's all I've left of you
+
+But we sure had a good time / When we started way back when
+Morning walks and bedroom talks / Oh, how I loved you then

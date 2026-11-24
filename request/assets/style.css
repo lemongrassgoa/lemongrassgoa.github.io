@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Itim");
+
+html, body {
+    font-family: "Ubuntu", monospace;
+    background-color: #1f2424;
+    line-height: 1.2em;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+table {
+    cursor: default;
+}
+thead{
+    z-index: 1;
+}
+th, td{
+    vertical-align: middle;
+}
+tr{
+    transform: scaleY(1);
+    transition: background-color 200ms linear, transform 300ms ease-in-out, visibility 200ms ease-in-out, opacity 100ms ease-in-out;
+    transform-origin: center top;
+}
+tbody > tr:hover {
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(127,155,157, 0.4) !important;
+}
+.tr-hover{
+}
+.tr-hover:hover .request-indicator {
+    opacity: 1;
+}
+a {
+    color: gold;
+    cursor: default;
+}
+a:hover{
+    color: gold;
+    text-decoration: none;
+}
+#logo{
+    height: 3.5em;
+    transform: scale(1.8);
+    z-index: 3;
+    margin-left: 1em;
+}
+#spotify{
+    z-index: 3;
+    height: 3em;
+    margin-right: 1em;
+}
+
+::placeholder{
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+:focus::placeholder{
+    opacity: 0.2; 
+}
+#search{ /* search bar field */
+    text-align: center;
+    border-radius: 0.7em;
+    color: black;
+    margin: 1em;
+    padding: 0.3em;
+    border: none;
+    width: 425px;
+    /* filter: grayscale(1); */
+}
+#search:focus{
+    outline: none;
+}
+#search-bar{  /* search bar div */
+    font-family: "Itim", monospace;
+    background-color: #1f2424;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 6em;
+    z-index: 1;
+}
+#search-results{
+    position: fixed;
+    margin-top: 4em;
+    color: gray;
+    transform: scale(1.2);
+    opacity: 0;
+    transition: opacity 1s;
+}
+#titlebar{
+    position: fixed;
+    margin-top: -4em;
+    color: silver;
+    transform: scale(1.2);
+}
+#table-header{ /* table header */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 6em;
+}
+#repertoire-list{
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.title {
+    font-style: italic;
+}
+/* add the word "The" before marked artist names without affecting sorting order */
+.the{}    
+    .the:before{
+        content: "The ";
+    }
+
+#form_embed{
+    width: 100%;
+    height: 70vh;
+    filter: invert(1);
+    padding: 1em 1em 3.5em 1em;
+    /* clip-path: inset(0em 0em 7em 0em); */
+}
+#upButton{
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    transition: filter 300ms ease-in;
+}
+#upButton:hover{
+    filter: invert(1);
+}
+
+#modalClose{
+    transform: scale(1.5); 
+    transform-origin: bottom right;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+/* */
+.request-indicator{
+    background-color: transparent !important;
+    height: 1em;
+    transform-origin: center left;
+    transform: scale(1.5);
+    opacity: 0;
+    filter: invert(1);
+    margin-left: 0.5em;
+    vertical-align: middle;
+}
+.serial-number::after{
+    transform: scale(1.5);
+    padding-left: 0.2em;
+    color: rgb(192 192 192 / 40%) !important;
+    float: right;
+    text-shadow: none;
+}
+@media (max-width: 600px) {
+    #form_embed{
+        height: 75vh;
+    }
+}
+@media (max-width: 450px) {
+    body {
+        font-size: 85%;
+        line-height: 1.1em;
+    }
+    .request-indicator{
+        display: none;
+    }
+    .serial-number::after{
+        transform: scale(1.2);
+    }
+}
+

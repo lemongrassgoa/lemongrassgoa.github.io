@@ -1,0 +1,38 @@
+Fastball
+The Way (orig F#m)
+
+| Em      Am7      B7     Em
+They made up their minds / And they started packing 
+They left before the sun came up that day 
+| E7      Am      Em  B7  Em
+An exit to eternal summer slacking 
+But where were they going without ever 
+Knowing the way? 
+
+| Em      Am7      B7     Em
+They drank up the wine /And they got to talking 
+They now had more important things to say 
+| E7      Am      Em  B7  Em
+And when the car broke down they started walking 
+Where were they going without ever 
+Knowing the way?  [D]
+
+    | G       D       Em      
+    Anyone can see the road that they walk on 
+    Is paved in gold 
+    And it's always summer 
+    They'll never get cold 
+    They'll never get hungry 
+    They'll never get old and grey 
+    You can see their shadows wandering off somewhere 
+    They won't make it home 
+    But they really don't care 
+    They wanted the highway 
+    They're happier there today, today 
+
+Their children woke up 
+And they couldn't find them 
+They left before the sun came up that day 
+They just drove off and left it all behind 'em 
+But where were they going without ever 
+Knowing the way?

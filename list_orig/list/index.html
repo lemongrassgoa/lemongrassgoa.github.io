@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Our complete repertoire list">
+    <meta name="author" content="Lemongrass Acoustic Trio">
+    <meta name="keywords" content="lemongrass, acoustic, trio, band, music, musician, mandolin, mandolinist, guitar, guitarist, viola, violist, instrumental, easy listening, wedding, restaurant, hotel, cool, classical, pop, jazz, blues, singer, voice, vocals, vocalist, repertoire, list, request">
+    <title>Lemongrass Repertoire List</title>
+    <link rel="icon" type="image/x-icon" href="../../favicon.png" />
+    
+    <!-- <script src="data/audioMotion-analyzer.js"></script> -->
+    <!-- <script src="data/websockets.js"></script> -->
+    <!-- <script src="data/script.js" type="module"></script> -->
+
+    <script src="js/csvToTable.js" type="text/javascript"></script>
+    <script src="sortable/sortable.js" type="text/javascript"></script>
+    
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="sortable/sortable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="image_src" href="logo.png" />
+
+</head>
+<body onload="search();">
+<center>
+
+<div id="container"></div>
+
+<!-- <audio id="audio" controls crossorigin></audio> -->
+
+<!-- <label> -->
+    <!-- <input type="checkbox" id="lores" style="display: none;">Lo-res ON/OFF</input> -->
+<!-- </label> -->
+
+<!-- <label> -->
+    <!-- <input type="checkbox" id="mic">Audio ON/OFF</input> -->
+<!-- </label> -->
+    <div id="search-bar">
+        Search: <input type="text" id="search" onkeyup="search();" placeholder="Title | Artist | Year | Tag" />
+        <button id="clear-search" onclick="clearSearch();">Clear search</button>
+        &nbsp;WIP&nbsp;<input type="checkbox" id="wip"></input>
+    </div>
+    
+    <div id="repertoire-list" class="w3-animate-opacity">
+
+    </div>
+    <a href="#"><img src="../up.svg" id="upButton" alt="Return to top" class="w3-animate-right" /></a>
+</center>
+
+<p class="w3-small w3-center"><br />
+    Powered by <a href="https://www.github.io" target="_blank" style="color: inherit;">Github Pages</a><br />
+    &copy; <script>document.write(new Date().getFullYear())</script> Anand Lobo. All rights reserved.
+</p>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

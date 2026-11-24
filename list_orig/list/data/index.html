@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="audioMotion-analyzer.js"></script>
+    <script src="websockets.js"></script>
+    <script type="module" src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- analyzer container -->
+<div id="container"></div>
+
+<!-- audio element -->
+<audio id="audio" controls crossorigin></audio>
+
+<!-- <label>Upload audio file -->
+  <!-- <input id="upload" type="file" accept="audio/*"> -->
+<!-- </label> -->
+
+<label>
+    <input type="checkbox" id="mic">Audio ON/OFF</input>
+</label>
+<label>
+    <input type="checkbox" id="lores">Lo-res ON/OFF</input>
+</label>
+
+<!-- <button id="live">Play live stream</button> -->
+
+<div class="info"><a href="https://audiomotion.dev">audioMotion-analyzer</a> <span id="version"></span></div>
+</body>
+</html>

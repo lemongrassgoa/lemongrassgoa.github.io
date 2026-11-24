@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Itim");
+
+html, body {
+    font-family: "Ubuntu", sans-serif;
+}
+table {
+    cursor: default;
+}
+a {
+    text-decoration: none;
+}
+#logo{
+    height: 50px;
+}
+#spotify{
+    height: 50px;    
+}
+#upButton{
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}

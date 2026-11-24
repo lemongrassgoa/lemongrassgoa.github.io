@@ -1,0 +1,1470 @@
+<html>
+<head>
+</head>
+<style>
+.lab-container {
+    padding: 5rem 2rem;
+  }
+
+  #menu {
+    background-color: #07c;
+  }
+
+  #menu a {
+    text-decoration: none;
+  }
+
+  #menu .main-menu {
+    display: none;
+  }
+
+  #tm:checked + .main-menu {
+    display: block;
+  }
+
+  #menu input[type="checkbox"],
+  #menu ul span.drop-icon {
+    display: none;
+  }
+
+  #menu li,
+  #toggle-menu,
+  #menu .sub-menu {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .05);
+  }
+
+  #menu li,
+  #toggle-menu {
+    border-width: 0 0 1px;
+  }
+
+  #menu .sub-menu {
+    background-color: #444;
+    border-width: 1px 1px 0;
+    margin: 0 1em;
+  }
+
+  #menu .sub-menu li:last-child {
+    border-width: 0;
+  }
+
+  #menu li,
+  #toggle-menu,
+  #menu a {
+    position: relative;
+    display: block;
+    color: white;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
+  }
+
+  #menu {
+    background-color: #09c;
+  }
+
+  #toggle-menu {
+    background: #333;
+  }
+
+  #toggle-menu,
+  #menu a {
+    padding: 0.5em 1em;
+  }
+
+  #menu a {
+    transition: all .125s ease-in-out;
+    -webkit-transition: all .125s ease-in-out;
+  }
+
+  #menu a:hover {
+    background-color: white;
+    color: #09c;
+  }
+
+  #menu .sub-menu {
+    display: none;
+  }
+
+  #menu input[type="checkbox"]:checked + .sub-menu {
+    display: block;
+  }
+
+  #menu .sub-menu a:hover {
+    color: #444;
+  }
+
+  #toggle-menu .drop-icon,
+  #menu li label.drop-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #menu label.drop-icon, #toggle-menu span.drop-icon {
+    padding: 0.1em;
+    font-size: 1em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .125);
+    text-shadow: 0 0 0 transparent;
+    color: rgba(255, 255, 255, .75);
+  }
+
+  @media only screen and (min-width: 1024px) {
+    #menu {
+      padding-inline: 1rem;
+    }
+    #menu .main-menu {
+      display: flex;
+    }
+
+    #toggle-menu,
+    #menu label.drop-icon {
+      display: none;
+    }
+
+    #menu ul span.drop-icon {
+      display: inline-block;
+    }
+
+    #menu li {
+      border-width: 0 1px 0 0;
+    }
+
+    #menu .sub-menu {
+      border-width: 0;
+      margin: 0;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 15em;
+      z-index: 3000;
+    }
+
+    #menu .sub-menu,
+    #menu input[type="checkbox"]:checked + .sub-menu {
+      display: none;
+    }
+
+    #menu .sub-menu li {
+      border-width: 0 0 1px;
+    }
+
+    #menu .sub-menu .sub-menu {
+      top: 0;
+      left: 100%;
+    }
+
+    #menu .sub-menu .drop-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0.2em;
+    }
+
+    #menu li:hover > input[type="checkbox"] + .sub-menu {
+      display: block;
+    }
+  }
+</style>
+<div class="lab-container">
+  <nav id="menu">
+    <label for="tm" id="toggle-menu">Navigation <span class="drop-icon">▾</span></label>
+    <input type="checkbox" id="tm"/>
+    <ul class="main-menu cf">
+      <!-- <li><a href="#">Sample</a></li> -->
+      <li>
+      <a href="">MENU
+        <span class="drop-icon">▾</span>
+        <label title="Toggle Drop-down" class="drop-icon" for="sm3">▾</label>
+      </a>
+        <input type="checkbox" id="sm3"/>
+        <ul class="sub-menu">
+          <li>
+          <a href="">INPUT
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="Input">▾</label>
+          </a>
+            <input type="checkbox" id="Input"/>
+            <ul class="sub-menu">
+              <li>
+              <a href="">SETUP
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="SETUP">▾</label>
+              </a>
+                <input type="checkbox" id="SETUP"/>
+                <ul class="sub-menu">
+                  <li><a href="">MIC1_PHANTOM</a></li>
+                  <li><a href="">MIC2_PHANTOM</a></li>
+                  <li><a href="">INST1_GAIN</a></li>
+                  <li><a href="">INST2_GAIN</a></li>
+                  <li><a href="">MIC_STEREO_LINK</a></li>
+                  <li><a href="">INST1_STEREO_LINK</a></li>
+                  <li><a href="">INST2_STEREO_LINK</a></li>
+                </ul>
+              </li>
+              <li>
+              <a href="">EQ
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="EQ">▾</label>
+              </a>
+                <input type="checkbox" id="EQ"/>
+                <ul class="sub-menu">
+                  <li>
+                  <a href="">MIC (1/2)
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="MIC1">▾</label>
+                  </a>
+                    <input type="checkbox" id="MIC1"/>
+                    <ul class="sub-menu">
+                      <li><a href="">SW</a></li>
+                      <li><a href="">LO_GAIN</a></li>
+                      <li><a href="">HI_GAIN</a></li>
+                      <li><a href="">LO_MID_FREQ</a></li>
+                      <li><a href="">LO_MID_Q</a></li>
+                      <li><a href="">LO_MID_GAIN</a></li>
+                      <li><a href="">HI_MID_FREQ</a></li>
+                      <li><a href="">HI_MID_Q</a></li>
+                      <li><a href="">HI_MID_GAIN</a></li>
+                      <li><a href="">LEVEL</a></li>
+                      <li><a href="">LO_CUT</a></li>
+                      <li><a href="">HI_CUT</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                  <a href="">INST1 (L/R)
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="INST1_L_R">▾</label>
+                  </a>
+                    <input type="checkbox" id="INST1_L_R"/>
+                    <ul class="sub-menu">
+                      <li><a href="">SW</a></li>
+                      <li><a href="">LO_GAIN</a></li>
+                      <li><a href="">HI_GAIN</a></li>
+                      <li><a href="">LO_MID_FREQ</a></li>
+                      <li><a href="">LO_MID_Q</a></li>
+                      <li><a href="">LO_MID_GAIN</a></li>
+                      <li><a href="">HI_MID_FREQ</a></li>
+                      <li><a href="">HI_MID_Q</a></li>
+                      <li><a href="">HI_MID_GAIN</a></li>
+                      <li><a href="">LEVEL</a></li>
+                      <li><a href="">LO_CUT</a></li>
+                      <li><a href="">HI_CUT</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                  <a href="">INST2 (L/R)
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="">▾</label>
+                  </a>
+                    <input type="checkbox" id=""/>
+                    <ul class="sub-menu">
+                      <li><a href="">SW</a></li>
+                      <li><a href="">LO_GAIN</a></li>
+                      <li><a href="">HI_GAIN</a></li>
+                      <li><a href="">LO_MID_FREQ</a></li>
+                      <li><a href="">LO_MID_Q</a></li>
+                      <li><a href="">LO_MID_GAIN</a></li>
+                      <li><a href="">HI_MID_FREQ</a></li>
+                      <li><a href="">HI_MID_Q</a></li>
+                      <li><a href="">HI_MID_GAIN</a></li>
+                      <li><a href="">LEVEL</a></li>
+                      <li><a href="">LO_CUT</a></li>
+                      <li><a href="">HI_CUT</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+              <a href="">DYNAMICS
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="DYNAMICS">▾</label>
+              </a>
+                <input type="checkbox" id="DYNAMICS"/>
+                <ul class="sub-menu">
+                  <li><a href="">MIC1_COMPRESSOR</a></li>
+                  <li><a href="">MIC1_NOISE_GATE</a></li>
+                  <li><a href="">MIC2_COMPRESSOR</a></li>
+                  <li><a href="">MIC2_NOISE_GATE</a></li>
+                  <li><a href="">INST1_NOISE_GATE</a></li>
+                  <li><a href="">INST2_NOISE_GATE</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+          <a href="">OUTPUT
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="Output">▾</label>
+          </a>
+            <input type="checkbox" id="Output"/>
+            <ul class="sub-menu">
+              <li>
+              <a href="">SETUP
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="SETUP">▾</label>
+              </a>
+                <input type="checkbox" id="SETUP"/>
+                <ul class="sub-menu">
+                  <li><a href="">OUTPUT_KNOB</a></li>
+                  <li><a href="">MAIN_OUT_STEREO_LINK</a></li>
+                  <li><a href="">SUB1_STEREO_LINK</a></li>
+                  <li><a href="">SUB2_STEREO_LINK</a></li>
+                  <li><a href="">MAIN_PREF</a></li>
+                  <li><a href="">SUB1_PREF</a></li>
+                  <li><a href="">SUB2_PREF</a></li>
+                  <li><a href="">PHONES_PREF</a></li>
+                  <li><a href="">RHYTHM_PREF</a></li>
+                  <li><a href="">MFX_PREF</a></li>
+                </ul>
+              </li>
+              <li>
+              <a href="">ROUTING
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="ROUTING">▾</label>
+              </a>
+                <input type="checkbox" id="ROUTING"/>
+                <ul class="sub-menu">
+                  <li>
+                  <a href="">TRACKS 1-6
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="TRACK">▾</label>
+                  </a>
+                    <input type="checkbox" id="TRACK"/>
+                    <ul class="sub-menu">
+                      <li><a href="">MAIN_L_R</a></li>
+                      <li><a href="">SUB1_L_R</a></li>
+                      <li><a href="">SUB2_L_R</a></li>
+                      <li><a href="">PHONES</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                  <a href="">INPUT / RHYTHM
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="INPUT_RHYTHM">▾</label>
+                  </a>
+                    <input type="checkbox" id="INPUT_RHYTHM"/>
+                    <ul class="sub-menu">
+                      <li><a href="">MAIN_L_R</a></li>
+                      <li><a href="">SUB1_L_R</a></li>
+                      <li><a href="">SUB2_L_R</a></li>
+                      <li><a href="">PHONES</a></li>
+                      <li><a href="">RHYTHM_OUT</a></li>
+                      <li><a href="">INPUT_THRU</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">PHONES OUT</a></li>
+                </ul>
+              </li>
+              <li>
+              <a href="">EQ
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="EQ">▾</label>
+              </a>
+                <input type="checkbox" id="EQ"/>
+                <ul class="sub-menu">
+                  <li>
+                  <a href="">MAIN (L/R)
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="MAIN_L_R">▾</label>
+                  </a>
+                    <input type="checkbox" id="MAIN_L_R"/>
+                    <ul class="sub-menu">
+                      <li><a href="">SW</a></li>
+                      <li><a href="">LO_GAIN</a></li>
+                      <li><a href="">HI_GAIN</a></li>
+                      <li><a href="">LO_MID_FREQ</a></li>
+                      <li><a href="">LO_MID_Q</a></li>
+                      <li><a href="">LO_MID_GAIN</a></li>
+                      <li><a href="">HI_MID_FREQ</a></li>
+                      <li><a href="">HI_MID_Q</a></li>
+                      <li><a href="">HI_MID_GAIN</a></li>
+                      <li><a href="">LEVEL</a></li>
+                      <li><a href="">LO_CUT</a></li>
+                      <li><a href="">HI_CUT</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                  <a href="">SUB1 (L/R)
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="">▾</label>
+                  </a>
+                    <input type="checkbox" id=""/>
+                    <ul class="sub-menu">
+                      <li><a href="">SW</a></li>
+                      <li><a href="">LO_GAIN</a></li>
+                      <li><a href="">HI_GAIN</a></li>
+                      <li><a href="">LO_MID_FREQ</a></li>
+                      <li><a href="">LO_MID_Q</a></li>
+                      <li><a href="">LO_MID_GAIN</a></li>
+                      <li><a href="">HI_MID_FREQ</a></li>
+                      <li><a href="">HI_MID_Q</a></li>
+                      <li><a href="">HI_MID_GAIN</a></li>
+                      <li><a href="">LEVEL</a></li>
+                      <li><a href="">LO_CUT</a></li>
+                      <li><a href="">HI_CUT</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                  <a href="">SUB2 (L/R)
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="">▾</label>
+                  </a>
+                    <input type="checkbox" id=""/>
+                    <ul class="sub-menu">
+                      <li><a href="">SW</a></li>
+                      <li><a href="">LO_GAIN</a></li>
+                      <li><a href="">HI_GAIN</a></li>
+                      <li><a href="">LO_MID_FREQ</a></li>
+                      <li><a href="">LO_MID_Q</a></li>
+                      <li><a href="">LO_MID_GAIN</a></li>
+                      <li><a href="">HI_MID_FREQ</a></li>
+                      <li><a href="">HI_MID_Q</a></li>
+                      <li><a href="">HI_MID_GAIN</a></li>
+                      <li><a href="">LEVEL</a></li>
+                      <li><a href="">LO_CUT</a></li>
+                      <li><a href="">HI_CUT</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+              <a href="">MASTER_FX
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="MASTER_FX">▾</label>
+              </a>
+                <input type="checkbox" id="MASTER_FX"/>
+                <ul class="sub-menu">
+                  <li><a href="">COMP</a></li>
+                  <li><a href="">REVERB</a></li>
+                  <li><a href="">INSERT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+          <a href="">MIXER
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="Mixer">▾</label>
+          </a>
+            <input type="checkbox" id="Mixer"/>
+            <ul class="sub-menu">
+              <li><a href="">MIC (1/2)</a></li>
+              <li><a href="">INST1 (L/R)</a></li>
+              <li><a href="">INST2 (L/R)</a></li>
+              <li><a href="">&nbsp;</a></li>
+              <li><a href="">TRACK 1-6</a></li>
+              <li><a href="">&nbsp;</a></li>
+              <li><a href="">MAIN (L/R)</a></li>
+              <li><a href="">SUB1 (L/R)</a></li>
+              <li><a href="">SUB2 (L/R)</a></li>
+              <li><a href="">&nbsp;</a></li>
+              <li><a href="">LOOP OUT</a></li>
+              <li><a href="">RHYTHM OUT</a></li>
+              <li><a href="">PHONES OUT</a></li>
+              <li><a href="">MASTER OUT</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">CTL_FUNC
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="CTL_FUNC">▾</label>
+          </a>
+            <input type="checkbox" id="CTL_FUNC"/>
+            <ul class="sub-menu">
+              <li>
+              <a href="">PEDAL MODE 1-3
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="PEDAL_MODE_1_3">▾</label>
+              </a>
+                <input type="checkbox" id="PEDAL_MODE_1_3"/>
+                <ul class="sub-menu">
+                  <li>
+                  <a href="">PEDAL 1-9
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="PEDAL_1_9">▾</label>
+                  </a>
+                    <input type="checkbox" id="PEDAL_1_9"/>
+                    <ul class="sub-menu">
+                      <li>
+                      <a href="">TRACK 1-6<br>CURRENT TRACK
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="TRACK_1_6">▾</label>
+                      </a>
+                        <input type="checkbox" id="TRACK_1_6"/>
+                        <ul class="sub-menu">
+                          <li><a href="">REC/PLAY 1</a></li>
+                          <li><a href="">REC/PLAY 2</a></li>
+                          <li><a href="">REC/PLAY 3</a></li>
+                          <li><a href="">REC/PLAY 4</a></li>
+                          <li><a href="">MOMENT PLAY</a></li>
+                          <li><a href="">PLAY/STOP 1</a></li>
+                          <li><a href="">PLAY/STOP 2</a></li>
+                          <li><a href="">PLAY/STOP 3</a></li>
+                          <li><a href="">STOP 1</a></li>
+                          <li><a href="">STOP 2</a></li>
+                          <li><a href="">STOP 3</a></li>
+                          <li><a href="">STOP 4</a></li>
+                          <li><a href="">STOP 5</a></li>
+                          <li><a href="">CLEAR</a></li>
+                          <li><a href="">REVERSE</a></li>
+                          <li><a href="">UNDO/REDO</a></li>
+                          <li><a href="">MARK BACK 1</a></li>
+                          <li><a href="">MARK BACK 2</a></li>
+                          <li><a href="">RECORD BACK</a></li>
+                          <li><a href="">MARK SET 1</a></li>
+                          <li><a href="">MARK SET 2</a></li>
+                          <li><a href="">MARK CLEAR</a></li>
+                          <li><a href="">HALF SPEED</a></li>
+                          <li><a href="">HALF SPEED (MOMENT)</a></li>
+                          <li><a href="">DOUBLE SPEED</a></li>
+                          <li><a href="">DOUBLE SPEED (MOMENT)</a></li>
+                          <li><a href="">TRACK FX ON/OFF</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">CURRENT TRACK INC 1</a></li>
+                      <li><a href="">CURRENT TRACK INC 2</a></li>
+                      <li><a href="">CURRENT TRACK DEC 1</a></li>
+                      <li><a href="">CURRENT TRACK DEC 2</a></li>
+                      <li><a href="">CURRENT TRACK SELECT</a></li>
+                      <li><a href="">ALL START/STOP 1</a></li>
+                      <li><a href="">ALL START/STOP 2</a></li>
+                      <li><a href="">ALL START/STOP 3</a></li>
+                      <li><a href="">ALL START/STOP 4</a></li>
+                      <li><a href="">ALL START/STOP 5</a></li>
+                      <li><a href="">ALL START/STOP 6</a></li>
+                      <li><a href="">ALL CLEAR 1</a></li>
+                      <li><a href="">ALL CLEAR 2</a></li>
+                      <li><a href="">TAP TEMPO</a></li>
+                      <li><a href="">TEMPO DOUBLE</a></li>
+                      <li><a href="">TEMPO HALF</a></li>
+                      <li><a href="">PEDAL MODE</a></li>
+                      <li><a href="">PEDAL MODE INC</a></li>
+                      <li><a href="">INPUT FX</a></li>
+                      <li><a href="">INPUT FX A</a></li>
+                      <li><a href="">INPUT FX B</a></li>
+                      <li><a href="">INPUT FX C</a></li>
+                      <li><a href="">INPUT FX D</a></li>
+                      <li><a href="">INPUT FX CURRENT</a></li>
+                      <li><a href="">TRACK FX</a></li>
+                      <li><a href="">TRACK FX A</a></li>
+                      <li><a href="">TRACK FX B</a></li>
+                      <li><a href="">TRACK FX C</a></li>
+                      <li><a href="">TRACK FX D</a></li>
+                      <li><a href="">TRACK FX CURRENT</a></li>
+                      <li><a href="">RHYTHM START/STOP</a></li>
+                      <li><a href="">RHYTHM START</a></li>
+                      <li><a href="">RHYTHM STOP</a></li>
+                      <li><a href="">MEMORY INC 1</a></li>
+                      <li><a href="">MEMORY INC 2</a></li>
+                      <li><a href="">MEMORY DEC 1</a></li>
+                      <li><a href="">MEMORY DEC 2</a></li>
+                      <li><a href="">MEMORY WRITE</a></li>
+                      <li><a href="">MIC IN MUTE</a></li>
+                      <li><a href="">MIC 1 MUTE</a></li>
+                      <li><a href="">MIC 2 MUTE</a></li>
+                      <li><a href="">LED</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+              <a href="">CTL / EXP
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="CTL_EXP">▾</label>
+              </a>
+                <input type="checkbox" id="CTL_EXP"/>
+                <ul class="sub-menu">
+                  <li>
+                  <a href="">CTL_1_4
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="CTL_1_4">▾</label>
+                  </a>
+                    <input type="checkbox" id="CTL_1_4"/>
+                    <ul class="sub-menu">
+                      <li>
+                      <a href="">TRACK 1-6<br>CURRENT TRACK
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="TRACK_1_6">▾</label>
+                      </a>
+                        <input type="checkbox" id="TRACK_1_6"/>
+                        <ul class="sub-menu">
+                          <li><a href="">REC/PLAY 1</a></li>
+                          <li><a href="">REC/PLAY 2</a></li>
+                          <li><a href="">REC/PLAY 3</a></li>
+                          <li><a href="">REC/PLAY 4</a></li>
+                          <li><a href="">MOMENT PLAY</a></li>
+                          <li><a href="">PLAY/STOP 1</a></li>
+                          <li><a href="">PLAY/STOP 2</a></li>
+                          <li><a href="">PLAY/STOP 3</a></li>
+                          <li><a href="">STOP 1</a></li>
+                          <li><a href="">STOP 2</a></li>
+                          <li><a href="">STOP 3</a></li>
+                          <li><a href="">STOP 4</a></li>
+                          <li><a href="">STOP 5</a></li>
+                          <li><a href="">CLEAR</a></li>
+                          <li><a href="">REVERSE</a></li>
+                          <li><a href="">UNDO/REDO</a></li>
+                          <li><a href="">MARK BACK 1</a></li>
+                          <li><a href="">MARK BACK 2</a></li>
+                          <li><a href="">RECORD BACK</a></li>
+                          <li><a href="">MARK SET 1</a></li>
+                          <li><a href="">MARK SET 2</a></li>
+                          <li><a href="">MARK CLEAR</a></li>
+                          <li><a href="">HALF SPEED</a></li>
+                          <li><a href="">HALF SPEED (MOMENT)</a></li>
+                          <li><a href="">DOUBLE SPEED</a></li>
+                          <li><a href="">DOUBLE SPEED (MOMENT)</a></li>
+                          <li><a href="">TRACK FX ON/OFF</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">CURRENT TRACK INC 1</a></li>
+                      <li><a href="">CURRENT TRACK INC 2</a></li>
+                      <li><a href="">CURRENT TRACK DEC 1</a></li>
+                      <li><a href="">CURRENT TRACK DEC 2</a></li>
+                      <li><a href="">CURRENT TRACK SELECT</a></li>
+                      <li><a href="">ALL START/STOP 1</a></li>
+                      <li><a href="">ALL START/STOP 2</a></li>
+                      <li><a href="">ALL START/STOP 3</a></li>
+                      <li><a href="">ALL START/STOP 4</a></li>
+                      <li><a href="">ALL START/STOP 5</a></li>
+                      <li><a href="">ALL START/STOP 6</a></li>
+                      <li><a href="">ALL CLEAR 1</a></li>
+                      <li><a href="">ALL CLEAR 2</a></li>
+                      <li><a href="">TAP TEMPO</a></li>
+                      <li><a href="">TEMPO DOUBLE</a></li>
+                      <li><a href="">TEMPO HALF</a></li>
+                      <li><a href="">PEDAL MODE</a></li>
+                      <li><a href="">PEDAL MODE INC</a></li>
+                      <li><a href="">INPUT FX</a></li>
+                      <li><a href="">INPUT FX A</a></li>
+                      <li><a href="">INPUT FX B</a></li>
+                      <li><a href="">INPUT FX C</a></li>
+                      <li><a href="">INPUT FX D</a></li>
+                      <li><a href="">INPUT FX CURRENT</a></li>
+                      <li><a href="">TRACK FX</a></li>
+                      <li><a href="">TRACK FX A</a></li>
+                      <li><a href="">TRACK FX B</a></li>
+                      <li><a href="">TRACK FX C</a></li>
+                      <li><a href="">TRACK FX D</a></li>
+                      <li><a href="">TRACK FX CURRENT</a></li>
+                      <li><a href="">RHYTHM START/STOP</a></li>
+                      <li><a href="">RHYTHM START</a></li>
+                      <li><a href="">RHYTHM STOP</a></li>
+                      <li><a href="">MEMORY INC 1</a></li>
+                      <li><a href="">MEMORY INC 2</a></li>
+                      <li><a href="">MEMORY DEC 1</a></li>
+                      <li><a href="">MEMORY DEC 2</a></li>
+                      <li><a href="">MEMORY WRITE</a></li>
+                      <li><a href="">MIC IN MUTE</a></li>
+                      <li><a href="">MIC 1 MUTE</a></li>
+                      <li><a href="">MIC 2 MUTE</a></li>
+                      <li><a href="">LED</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                  <a href="">EXP_1_2
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="EXP_1_2">▾</label>
+                  </a>
+                    <input type="checkbox" id="EXP_1_2"/>
+                    <ul class="sub-menu">
+                      <li>
+                      <a href="">TRACK 1-6<br>CURRENT TRACK
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="TRACK_1_6">▾</label>
+                      </a>
+                        <input type="checkbox" id="TRACK_1_6"/>
+                        <ul class="sub-menu">
+                          <li><a href="">LEVEL 1</a></li>
+                          <li><a href="">LEVEL 2</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">TEMPO UP</a></li>
+                      <li><a href="">TEMPO DOWN</a></li>
+                      <li><a href="">IN FX A CTL</a></li>
+                      <li><a href="">IN FX B CTL</a></li>
+                      <li><a href="">IN FX C CTL</a></li>
+                      <li><a href="">IN FX D CTL</a></li>
+                      <li><a href="">IN FX CUR CTL</a></li>
+                      <li><a href="">TR FX A CTL</a></li>
+                      <li><a href="">TR FX B CTL</a></li>
+                      <li><a href="">TR FX C CTL</a></li>
+                      <li><a href="">TR FX D CTL</a></li>
+                      <li><a href="">TR FX CUR CTL</a></li>
+                      <li><a href="">RHYTHM LEVEL 1</a></li>
+                      <li><a href="">RHYTHM LEVEL 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+              <a href="">PREFERENCES
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="PREFERENCES">▾</label>
+              </a>
+                <input type="checkbox" id="PREFERENCES"/>
+                <ul class="sub-menu">
+                  <li><a href="">MODE 1-3</a></li>
+                  <li><a href="">ALL_CLEAR</a></li>
+                  <li><a href="">CTL 1-4</a></li>
+                  <li><a href="">EXP 1-2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+          <a href="">ASSIGN
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="ASSIGN">▾</label>
+          </a>
+            <input type="checkbox" id="ASSIGN"/>
+            <ul class="sub-menu">
+              <li>
+              <a href="">ASSIGN 1-16
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="">▾</label>
+              </a>
+                <input type="checkbox" id=""/>
+                <ul class="sub-menu">
+                  <li><a href="">SW</a></li>
+                  <li>
+                  <a href="">SOURCE
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="SOURCE">▾</label>
+                  </a>
+                    <input type="checkbox" id="SOURCE"/>
+                    <ul class="sub-menu">
+                      <li><a href="">TRACK 1 REC/DUB</a></li>
+                      <li><a href="">TRACK 2 REC/DUB</a></li>
+                      <li><a href="">TRACK 3 REC/DUB</a></li>
+                      <li><a href="">TRACK 4 REC/DUB</a></li>
+                      <li><a href="">TRACK 5 REC/DUB</a></li>
+                      <li><a href="">TRACK 6 REC/DUB</a></li>
+                      <li><a href="">TRACK 1 PLAY/STOP</a></li>
+                      <li><a href="">TRACK 2 PLAY/STOP</a></li>
+                      <li><a href="">TRACK 3 PLAY/STOP</a></li>
+                      <li><a href="">TRACK 4 PLAY/STOP</a></li>
+                      <li><a href="">TRACK 5 PLAY/STOP</a></li>
+                      <li><a href="">TRACK 6 PLAY/STOP</a></li>
+                      <li><a href="">SYNC START/STOP</a></li>
+                      <li><a href="">PEDAL 1 MODE 1</a></li>
+                      <li><a href="">PEDAL 2 MODE 1</a></li>
+                      <li><a href="">PEDAL 3 MODE 1</a></li>
+                      <li><a href="">PEDAL 4 MODE 1</a></li>
+                      <li><a href="">PEDAL 5 MODE 1</a></li>
+                      <li><a href="">PEDAL 6 MODE 1</a></li>
+                      <li><a href="">PEDAL 7 MODE 1</a></li>
+                      <li><a href="">PEDAL 8 MODE 1</a></li>
+                      <li><a href="">PEDAL 9 MODE 1</a></li>
+                      <li><a href="">PEDAL 1 MODE 2</a></li>
+                      <li><a href="">PEDAL 2 MODE 2</a></li>
+                      <li><a href="">PEDAL 3 MODE 2</a></li>
+                      <li><a href="">PEDAL 4 MODE 2</a></li>
+                      <li><a href="">PEDAL 5 MODE 2</a></li>
+                      <li><a href="">PEDAL 6 MODE 2</a></li>
+                      <li><a href="">PEDAL 7 MODE 2</a></li>
+                      <li><a href="">PEDAL 8 MODE 2</a></li>
+                      <li><a href="">PEDAL 9 MODE 2</a></li>
+                      <li><a href="">PEDAL 1 MODE 3</a></li>
+                      <li><a href="">PEDAL 2 MODE 3</a></li>
+                      <li><a href="">PEDAL 3 MODE 3</a></li>
+                      <li><a href="">PEDAL 4 MODE 3</a></li>
+                      <li><a href="">PEDAL 5 MODE 3</a></li>
+                      <li><a href="">PEDAL 6 MODE 3</a></li>
+                      <li><a href="">PEDAL 7 MODE 3</a></li>
+                      <li><a href="">PEDAL 8 MODE 3</a></li>
+                      <li><a href="">PEDAL 9 MODE 3</a></li>
+                      <li><a href="">CTL 1</a></li>
+                      <li><a href="">CTL 2</a></li>
+                      <li><a href="">CTL 3</a></li>
+                      <li><a href="">CTL 4</a></li>
+                      <li><a href="">EXP 1</a></li>
+                      <li><a href="">EXP 2</a></li>
+                      <li><a href="">MIDI CC# 01</a></li>
+                      <li><a href="">MIDI CC# 02</a></li>
+                      <li><a href="">MIDI CC# 03</a></li>
+                      <li><a href="">MIDI CC# 04</a></li>
+                      <li><a href="">MIDI CC# 05</a></li>
+                      <li><a href="">MIDI CC# 06</a></li>
+                      <li><a href="">MIDI CC# 07</a></li>
+                      <li><a href="">MIDI CC# 08</a></li>
+                      <li><a href="">MIDI CC# 09</a></li>
+                      <li><a href="">MIDI CC# 10</a></li>
+                      <li><a href="">MIDI CC# 11</a></li>
+                      <li><a href="">MIDI CC# 12</a></li>
+                      <li><a href="">MIDI CC# 13</a></li>
+                      <li><a href="">MIDI CC# 14</a></li>
+                      <li><a href="">MIDI CC# 15</a></li>
+                      <li><a href="">MIDI CC# 16</a></li>
+                      <li><a href="">MIDI CC# 17</a></li>
+                      <li><a href="">MIDI CC# 18</a></li>
+                      <li><a href="">MIDI CC# 19</a></li>
+                      <li><a href="">MIDI CC# 20</a></li>
+                      <li><a href="">MIDI CC# 21</a></li>
+                      <li><a href="">MIDI CC# 22</a></li>
+                      <li><a href="">MIDI CC# 23</a></li>
+                      <li><a href="">MIDI CC# 24</a></li>
+                      <li><a href="">MIDI CC# 25</a></li>
+                      <li><a href="">MIDI CC# 26</a></li>
+                      <li><a href="">MIDI CC# 27</a></li>
+                      <li><a href="">MIDI CC# 28</a></li>
+                      <li><a href="">MIDI CC# 29</a></li>
+                      <li><a href="">MIDI CC# 30</a></li>
+                      <li><a href="">MIDI CC# 31</a></li>
+                      <li><a href="">MIDI CC# 64</a></li>
+                      <li><a href="">MIDI CC# 65</a></li>
+                      <li><a href="">MIDI CC# 66</a></li>
+                      <li><a href="">MIDI CC# 67</a></li>
+                      <li><a href="">MIDI CC# 68</a></li>
+                      <li><a href="">MIDI CC# 69</a></li>
+                      <li><a href="">MIDI CC# 70</a></li>
+                      <li><a href="">MIDI CC# 71</a></li>
+                      <li><a href="">MIDI CC# 72</a></li>
+                      <li><a href="">MIDI CC# 73</a></li>
+                      <li><a href="">MIDI CC# 74</a></li>
+                      <li><a href="">MIDI CC# 75</a></li>
+                      <li><a href="">MIDI CC# 76</a></li>
+                      <li><a href="">MIDI CC# 77</a></li>
+                      <li><a href="">MIDI CC# 78</a></li>
+                      <li><a href="">MIDI CC# 79</a></li>
+                      <li><a href="">MIDI CC# 80</a></li>
+                      <li><a href="">MIDI CC# 81</a></li>
+                      <li><a href="">MIDI CC# 82</a></li>
+                      <li><a href="">MIDI CC# 83</a></li>
+                      <li><a href="">MIDI CC# 84</a></li>
+                      <li><a href="">MIDI CC# 85</a></li>
+                      <li><a href="">MIDI CC# 86</a></li>
+                      <li><a href="">MIDI CC# 87</a></li>
+                      <li><a href="">MIDI CC# 88</a></li>
+                      <li><a href="">MIDI CC# 89</a></li>
+                      <li><a href="">MIDI CC# 90</a></li>
+                      <li><a href="">MIDI CC# 91</a></li>
+                      <li><a href="">MIDI CC# 92</a></li>
+                      <li><a href="">MIDI CC# 93</a></li>
+                      <li><a href="">MIDI CC# 94</a></li>
+                      <li><a href="">MIDI CC# 95</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">MODE</a></li>
+                  <li><a href="">ACT_LO</a></li>
+                  <li><a href="">ACT_HI</a></li>
+                  <li>
+                  <a href="">TARGET
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="TARGET">▾</label>
+                  </a>
+                    <input type="checkbox" id="TARGET"/>
+                    <ul class="sub-menu">
+                      <li>
+                      <a href="">TRACK 1-6<br />CURRENT TRACK
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="TRACK_1_6">▾</label>
+                      </a>
+                        <input type="checkbox" id="TRACK_1_6"/>
+                        <ul class="sub-menu">
+                          <li><a href="">REC/PLAY</a></li>
+                          <li><a href="">PLAY/STOP</a></li>
+                          <li><a href="">STOP</a></li>
+                          <li><a href="">CLEAR</a></li>
+                          <li><a href="">REVERSE</a></li>
+                          <li><a href="">UNDO/REDO</a></li>
+                          <li><a href="">MARK BACK</a></li>
+                          <li><a href="">RECORD BACK</a></li>
+                          <li><a href="">MARK SET</a></li>
+                          <li><a href="">MARK CLEAR</a></li>
+                          <li><a href="">LEVEL</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">CURRENT TRACK - INC</a></li>
+                      <li><a href="">CURRENT TRACK - DEC</a></li>
+                      <li><a href="">CURRENT TRACK - SELECT</a></li>
+                      <li><a href="">ALL START/STOP</a></li>
+                      <li><a href="">ALL START/STOP (IMMEDIATE)</a></li>
+                      <li><a href="">TAP TEMPO</a></li>
+                      <li><a href="">SET TEMPO</a></li>
+                      <li><a href="">INPUT FX</a></li>
+                      <li><a href="">INPUT FX TARGET INC</a></li>
+                      <li><a href="">INPUT FX TARGET DEC</a></li>
+                      <li><a href="">INPUT FX BANK INC</a></li>
+                      <li><a href="">INPUT FX BANK DEC</a></li>
+                      <li><a href="">INPUT FX SWITCH MODE</a></li>
+                      <li>
+                      <a href="">INPUT FX A-D<br />INPUT FX AA-AD<br />INPUT FX BA-BD<br />INPUT FX CA-CD<br />INPUT FX DA-DD<br />INPUT FX CURRENT
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="INPUT_FX_AA_DD">▾</label>
+                      </a>
+                        <input type="checkbox" id="INPUT_FX_AA_DD"/>
+                        <ul class="sub-menu">
+                          <li><a href="">ON/OFF</a></li>
+                          <li><a href="">CTL</a></li>
+                          <li><a href="">TYPE</a></li>
+                          <li><a href="">TYPE INC</a></li>
+                          <li><a href="">TYPE DEC</a></li>
+                          <li><a href="">SWITCH MODE</a></li>
+                          <li><a href="">PARAM 1</a></li>
+                          <li><a href="">PARAM 2</a></li>
+                          <li><a href="">PARAM 3</a></li>
+                          <li><a href="">PARAM 4</a></li>
+                          <li><a href="">SEQ</a></li>
+                          <li><a href="">SEQ SYNC</a></li>
+                          <li><a href="">SEQ RETRIG</a></li>
+                          <li><a href="">SEQ RATE</a></li>
+                          <li><a href="">SEQ MAX</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">TRACK FX</a></li>
+                      <li><a href="">TRACK FX TARGET INC</a></li>
+                      <li><a href="">TRACK FX TARGET DEC</a></li>
+                      <li><a href="">TRACK FX BANK INC</a></li>
+                      <li><a href="">TRACK FX BANK DEC</a></li>
+                      <li><a href="">TRACK FX SWITCH MODE</a></li>
+                      <li>
+                      <a href="">TRACK FX A-D<br />TRACK FX AA-AD<br />TRACK FX BA-BD<br />TRACK FX CA-CD<br />TRACK FX DA-DD<br />TRACK FX CURRENT
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="TRACK_FX_AA_DD">▾</label>
+                      </a>
+                        <input type="checkbox" id="TRACK_FX_AA_DD"/>
+                        <ul class="sub-menu">
+                          <li><a href="">ON/OFF</a></li>
+                          <li><a href="">CTL</a></li>
+                          <li><a href="">TYPE</a></li>
+                          <li><a href="">TYPE INC</a></li>
+                          <li><a href="">TYPE DEC</a></li>
+                          <li><a href="">SWITCH MODE</a></li>
+                          <li><a href="">PARAM 1</a></li>
+                          <li><a href="">PARAM 2</a></li>
+                          <li><a href="">PARAM 3</a></li>
+                          <li><a href="">PARAM 4</a></li>
+                          <li><a href="">SEQ</a></li>
+                          <li><a href="">SEQ SYNC</a></li>
+                          <li><a href="">SEQ RETRIG</a></li>
+                          <li><a href="">SEQ RATE</a></li>
+                          <li><a href="">SEQ MAX</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="">RHYTHM START/STOP</a></li>
+                      <li><a href="">RHYTHM START</a></li>
+                      <li><a href="">RHYTHM STOP</a></li>
+                      <li><a href="">RHYTHM LEVEL</a></li>
+                      <li><a href="">MIC IN MUTE</a></li>
+                      <li><a href="">MIC 1 MUTE</a></li>
+                      <li><a href="">MIC 2 MUTE</a></li>
+                      <li><a href="">TRACK 1-6</a></li>
+                      <li><a href="">DUB MODE</a></li>
+                      <li><a href="">AUTO REC</a></li>
+                      <li><a href="">BOUNCE</a></li>
+                      <li><a href="">RHYTHM VARIATION</a></li>
+                      <li><a href="">RHYTHM KIT</a></li>
+                      <li><a href="">MIC 1 LEVEL</a></li>
+                      <li><a href="">MIC 2 LEVEL</a></li>
+                      <li><a href="">INST 1 L LEVEL</a></li>
+                      <li><a href="">INST 1 L MUTE</a></li>
+                      <li><a href="">INST 1 R LEVEL</a></li>
+                      <li><a href="">INST 1 R MUTE</a></li>
+                      <li><a href="">INST 2 L LEVEL</a></li>
+                      <li><a href="">INST 2 L MUTE</a></li>
+                      <li><a href="">INST 2 R LEVEL</a></li>
+                      <li><a href="">INST 2 R MUTE</a></li>
+                      <li><a href="">LOOP LEVEL</a></li>
+                      <li><a href="">MAIN L LEVEL</a></li>
+                      <li><a href="">MAIN R LEVEL</a></li>
+                      <li><a href="">SUB 1 L LEVEL</a></li>
+                      <li><a href="">SUB 1 R LEVEL</a></li>
+                      <li><a href="">SUB 2 L LEVEL</a></li>
+                      <li><a href="">SUB 2 R LEVEL</a></li>
+                      <li><a href="">PHONES LEVEL</a></li>
+                      <li><a href="">MASTER LEVEL</a></li>
+                      <li><a href="">INST 1 GAIN</a></li>
+                      <li><a href="">INST 2 GAIN</a></li>
+                      <li><a href="">EQ MIC 1</a></li>
+                      <li><a href="">EQ MIC 2</a></li>
+                      <li><a href="">EQ INST 1 L</a></li>
+                      <li><a href="">EQ INST 1 R</a></li>
+                      <li><a href="">EQ INST 2 L</a></li>
+                      <li><a href="">EQ INST 2 R</a></li>
+                      <li><a href="">INPUT THRU</a></li>
+                      <li><a href="">EQ MAIN L</a></li>
+                      <li><a href="">EQ MAIN R</a></li>
+                      <li><a href="">EQ SUB 1 L</a></li>
+                      <li><a href="">EQ SUB 1 R</a></li>
+                      <li><a href="">EQ SUB 2 L</a></li>
+                      <li><a href="">EQ SUB 2 R</a></li>
+                      <li><a href="">PEDAL MODE</a></li>
+                      <li><a href="">MIDI CC# 000</a></li>
+                      <li><a href="">MIDI CC# 001</a></li>
+                      <li><a href="">MIDI CC# 002</a></li>
+                      <li><a href="">MIDI CC# 003</a></li>
+                      <li><a href="">MIDI CC# 004</a></li>
+                      <li><a href="">MIDI CC# 005</a></li>
+                      <li><a href="">MIDI CC# 006</a></li>
+                      <li><a href="">MIDI CC# 007</a></li>
+                      <li><a href="">MIDI CC# 008</a></li>
+                      <li><a href="">MIDI CC# 009</a></li>
+                      <li><a href="">MIDI CC# 010</a></li>
+                      <li><a href="">MIDI CC# 011</a></li>
+                      <li><a href="">MIDI CC# 012</a></li>
+                      <li><a href="">MIDI CC# 013</a></li>
+                      <li><a href="">MIDI CC# 014</a></li>
+                      <li><a href="">MIDI CC# 015</a></li>
+                      <li><a href="">MIDI CC# 016</a></li>
+                      <li><a href="">MIDI CC# 017</a></li>
+                      <li><a href="">MIDI CC# 018</a></li>
+                      <li><a href="">MIDI CC# 019</a></li>
+                      <li><a href="">MIDI CC# 020</a></li>
+                      <li><a href="">MIDI CC# 021</a></li>
+                      <li><a href="">MIDI CC# 022</a></li>
+                      <li><a href="">MIDI CC# 023</a></li>
+                      <li><a href="">MIDI CC# 024</a></li>
+                      <li><a href="">MIDI CC# 025</a></li>
+                      <li><a href="">MIDI CC# 026</a></li>
+                      <li><a href="">MIDI CC# 027</a></li>
+                      <li><a href="">MIDI CC# 028</a></li>
+                      <li><a href="">MIDI CC# 029</a></li>
+                      <li><a href="">MIDI CC# 030</a></li>
+                      <li><a href="">MIDI CC# 031</a></li>
+                      <li><a href="">MIDI CC# 032</a></li>
+                      <li><a href="">MIDI CC# 033</a></li>
+                      <li><a href="">MIDI CC# 034</a></li>
+                      <li><a href="">MIDI CC# 035</a></li>
+                      <li><a href="">MIDI CC# 036</a></li>
+                      <li><a href="">MIDI CC# 037</a></li>
+                      <li><a href="">MIDI CC# 038</a></li>
+                      <li><a href="">MIDI CC# 039</a></li>
+                      <li><a href="">MIDI CC# 040</a></li>
+                      <li><a href="">MIDI CC# 041</a></li>
+                      <li><a href="">MIDI CC# 042</a></li>
+                      <li><a href="">MIDI CC# 043</a></li>
+                      <li><a href="">MIDI CC# 044</a></li>
+                      <li><a href="">MIDI CC# 045</a></li>
+                      <li><a href="">MIDI CC# 046</a></li>
+                      <li><a href="">MIDI CC# 047</a></li>
+                      <li><a href="">MIDI CC# 048</a></li>
+                      <li><a href="">MIDI CC# 049</a></li>
+                      <li><a href="">MIDI CC# 050</a></li>
+                      <li><a href="">MIDI CC# 051</a></li>
+                      <li><a href="">MIDI CC# 052</a></li>
+                      <li><a href="">MIDI CC# 053</a></li>
+                      <li><a href="">MIDI CC# 054</a></li>
+                      <li><a href="">MIDI CC# 055</a></li>
+                      <li><a href="">MIDI CC# 056</a></li>
+                      <li><a href="">MIDI CC# 057</a></li>
+                      <li><a href="">MIDI CC# 058</a></li>
+                      <li><a href="">MIDI CC# 059</a></li>
+                      <li><a href="">MIDI CC# 060</a></li>
+                      <li><a href="">MIDI CC# 061</a></li>
+                      <li><a href="">MIDI CC# 062</a></li>
+                      <li><a href="">MIDI CC# 063</a></li>
+                      <li><a href="">MIDI CC# 064</a></li>
+                      <li><a href="">MIDI CC# 065</a></li>
+                      <li><a href="">MIDI CC# 066</a></li>
+                      <li><a href="">MIDI CC# 067</a></li>
+                      <li><a href="">MIDI CC# 068</a></li>
+                      <li><a href="">MIDI CC# 069</a></li>
+                      <li><a href="">MIDI CC# 070</a></li>
+                      <li><a href="">MIDI CC# 071</a></li>
+                      <li><a href="">MIDI CC# 072</a></li>
+                      <li><a href="">MIDI CC# 073</a></li>
+                      <li><a href="">MIDI CC# 074</a></li>
+                      <li><a href="">MIDI CC# 075</a></li>
+                      <li><a href="">MIDI CC# 076</a></li>
+                      <li><a href="">MIDI CC# 077</a></li>
+                      <li><a href="">MIDI CC# 078</a></li>
+                      <li><a href="">MIDI CC# 079</a></li>
+                      <li><a href="">MIDI CC# 080</a></li>
+                      <li><a href="">MIDI CC# 081</a></li>
+                      <li><a href="">MIDI CC# 082</a></li>
+                      <li><a href="">MIDI CC# 083</a></li>
+                      <li><a href="">MIDI CC# 084</a></li>
+                      <li><a href="">MIDI CC# 085</a></li>
+                      <li><a href="">MIDI CC# 086</a></li>
+                      <li><a href="">MIDI CC# 087</a></li>
+                      <li><a href="">MIDI CC# 088</a></li>
+                      <li><a href="">MIDI CC# 089</a></li>
+                      <li><a href="">MIDI CC# 090</a></li>
+                      <li><a href="">MIDI CC# 091</a></li>
+                      <li><a href="">MIDI CC# 092</a></li>
+                      <li><a href="">MIDI CC# 093</a></li>
+                      <li><a href="">MIDI CC# 094</a></li>
+                      <li><a href="">MIDI CC# 095</a></li>
+                      <li><a href="">MIDI CC# 096</a></li>
+                      <li><a href="">MIDI CC# 097</a></li>
+                      <li><a href="">MIDI CC# 098</a></li>
+                      <li><a href="">MIDI CC# 099</a></li>
+                      <li><a href="">MIDI CC# 100</a></li>
+                      <li><a href="">MIDI CC# 101</a></li>
+                      <li><a href="">MIDI CC# 102</a></li>
+                      <li><a href="">MIDI CC# 103</a></li>
+                      <li><a href="">MIDI CC# 104</a></li>
+                      <li><a href="">MIDI CC# 105</a></li>
+                      <li><a href="">MIDI CC# 106</a></li>
+                      <li><a href="">MIDI CC# 107</a></li>
+                      <li><a href="">MIDI CC# 108</a></li>
+                      <li><a href="">MIDI CC# 109</a></li>
+                      <li><a href="">MIDI CC# 110</a></li>
+                      <li><a href="">MIDI CC# 111</a></li>
+                      <li><a href="">MIDI CC# 112</a></li>
+                      <li><a href="">MIDI CC# 113</a></li>
+                      <li><a href="">MIDI CC# 114</a></li>
+                      <li><a href="">MIDI CC# 115</a></li>
+                      <li><a href="">MIDI CC# 116</a></li>
+                      <li><a href="">MIDI CC# 117</a></li>
+                      <li><a href="">MIDI CC# 118</a></li>
+                      <li><a href="">MIDI CC# 119</a></li>
+                      <li><a href="">MIDI CC# 120</a></li>
+                      <li><a href="">MIDI CC# 121</a></li>
+                      <li><a href="">MIDI CC# 122</a></li>
+                      <li><a href="">MIDI CC# 123</a></li>
+                      <li><a href="">MIDI CC# 124</a></li>
+                      <li><a href="">MIDI CC# 125</a></li>
+                      <li><a href="">MIDI CC# 126</a></li>
+                      <li><a href="">MIDI CC# 127</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">MIN</a></li>
+                  <li><a href="">MAX</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+          <a href="">USB
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="USB">▾</label>
+          </a>
+            <input type="checkbox" id="USB"/>
+            <ul class="sub-menu">
+              <li><a href="">STORAGE</a></li>
+              <li><a href="">AUDIO MODE</a></li>
+              <li><a href="">AUDIO ROUTING</a></li>
+              <li><a href="">INPUT LEVEL</a></li>
+              <li><a href="">OUTPUT LEVEL</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">MIDI
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="MIDI">▾</label>
+          </a>
+            <input type="checkbox" id="MIDI"/>
+            <ul class="sub-menu">
+              <li><a href="">RX_CH_CTL</a></li>
+              <li><a href="">RX_CH_RHYTHM</a></li>
+              <li><a href="">RX_CH_VOICE</a></li>
+              <li><a href="">TX_CH</a></li>
+              <li><a href="">SYNC_CLOCK</a></li>
+              <li><a href="">SYNC_OUT</a></li>
+              <li><a href="">SYNC_START</a></li>
+              <li><a href="">PC OUT</a></li>
+              <li><a href="">MIDI_THRU</a></li>
+              <li><a href="">USB_THRU</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">SETUP
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="SETUP">▾</label>
+          </a>
+            <input type="checkbox" id="SETUP"/>
+            <ul class="sub-menu">
+              <li><a href="">CONTRAST</a></li>
+              <li><a href="">DISPLAY MODE</a></li>
+              <li><a href="">LOOP INDICATOR</a></li>
+              <li><a href="">ORB INDICATOR</a></li>
+              <li><a href="">AUTO_OFF</a></li>
+              <li><a href="">MEMORY_MIN</a></li>
+              <li><a href="">MEMORY_MAX</a></li>
+              <li><a href="">KNOB 1 - 4</a></li>
+              <li><a href="">LOOP_REC</a></li>
+              <li><a href="">LOOP_PLAY</a></li>
+              <li><a href="">LOOP_DUB</a></li>
+              <li><a href="">LOOP_STOP</a></li>
+              <li><a href="">LOOP_BLANK</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">FACTORY_RESET
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="FACTORY_RESET">▾</label>
+          </a>
+            <input type="checkbox" id="FACTORY_RESET"/>
+            <ul class="sub-menu">
+              <li><a href="">MEMORY</a></li>
+              <li><a href="">SYSTEM</a></li>
+              <li><a href="">BOTH</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      
+      <li>
+      <a href="">LOOP
+        <span class="drop-icon">▾</span>
+        <label title="Toggle Drop-down" class="drop-icon" for="LOOP">▾</label>
+      </a>
+        <input type="checkbox" id="LOOP"/>
+        <ul class="sub-menu">
+          <li>
+          <a href="">TRACK 1-6
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="TRACK">▾</label>
+          </a>
+            <input type="checkbox" id="TRACK"/>
+            <ul class="sub-menu">
+              <li><a href="">REVERSE</a></li>
+              <li><a href="">1-SHOT</a></li>
+              <li><a href="">PAN</a></li>
+              <li><a href="">PLAY_LEVEL</a></li>
+              <li><a href="">START_MODE</a></li>
+              <li><a href="">STOP_MODE</a></li>
+              <li><a href="">DUB_MODE</a></li>
+              <li><a href="">FX</a></li>
+              <li><a href="">PLAY_MODE</a></li>
+              <li><a href="">MEASURES</a></li>
+              <li><a href="">LOOP_SYNC_SW</a></li>
+              <li><a href="">LOOP_SYNC_MODE</a></li>
+              <li><a href="">TEMPO_SYNC_SW</a></li>
+              <li><a href="">TEMPO_SYNC_MODE</a></li>
+              <li><a href="">TEMPO_SYNC_SPEED</a></li>
+              <li><a href="">BOUNCE IN</a></li>
+              <li><a href="">INPUT</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">REC
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="REC">▾</label>
+          </a>
+            <input type="checkbox" id="REC"/>
+            <ul class="sub-menu">
+              <li><a href="">REC_ACTION</a></li>
+              <li><a href="">QUANTIZE</a></li>
+              <li><a href="">AUTO_REC_SW</a></li>
+              <li><a href="">AUTO_REC_SENS</a></li>
+              <li><a href="">BOUNCE_SW</a></li>
+              <li><a href="">BOUNCE_TRACK</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">PLAY
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="PLAY">▾</label>
+          </a>
+            <input type="checkbox" id="PLAY"/>
+            <ul class="sub-menu">
+              <li><a href="">SINGLE_TRACK_CHANGE</a></li>
+              <li><a href="">CURRENT_TRACK</a></li>
+              <li><a href="">FADE_IN_TIME</a></li>
+              <li><a href="">FADE_OUT_TIME</a></li>
+              <li><a href="">ALL_START_TRACKS</a></li>
+              <li><a href="">ALL_STOP_TRACKS</a></li>
+              <li><a href="">LOOP_LENGTH</a></li>
+              <li><a href="">SPEED_CHANGE</a></li>
+              <li><a href="">SYNC_ADJUST</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">INPUT FX
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="INPUT_FX">▾</label>
+          </a>
+            <input type="checkbox" id="INPUT_FX"/>
+            <ul class="sub-menu">
+              <li>
+              <a href="">FX A-D
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="FX_A_D">▾</label>
+              </a>
+                <input type="checkbox" id="FX_A_D"/>
+                <ul class="sub-menu">
+                  <li><a href="">SW</a></li>
+                  <li><a href="">SW_MODE</a></li>
+                  <li><a href="">INSERT</a></li>
+                  <li>
+                  <a href="">FX_TYPE
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="FX_TYPE">▾</label>
+                  </a>
+                    <input type="checkbox" id="FX_TYPE"/>
+                    <ul class="sub-menu">
+                      <li><a href="">LPF</a></li>
+                      <li><a href="">BPF</a></li>
+                      <li><a href="">HPF</a></li>
+                      <li><a href="">PHASER</a></li>
+                      <li><a href="">FLANGER</a></li>
+                      <li><a href="">SYNTH</a></li>
+                      <li><a href="">LOFI</a></li>
+                      <li><a href="">RADIO</a></li>
+                      <li><a href="">RING_MODULATOR</a></li>
+                      <li><a href="">G2B</a></li>
+                      <li><a href="">SUSTAINER</a></li>
+                      <li><a href="">AUTO_RIFF</a></li>
+                      <li><a href="">SLOW_GEAR</a></li>
+                      <li><a href="">TRANSPOSE</a></li>
+                      <li><a href="">PITCH_BEND</a></li>
+                      <li><a href="">ROBOT</a></li>
+                      <li><a href="">ELECTRIC</a></li>
+                      <li><a href="">HARMONIST_MANUAL</a></li>
+                      <li><a href="">HARMONIST_AUTO</a></li>
+                      <li><a href="">VOCODER</a></li>
+                      <li><a href="">OSC_VOCODER</a></li>
+                      <li><a href="">OSC_BOT</a></li>
+                      <li><a href="">PREAMP</a></li>
+                      <li><a href="">DIST</a></li>
+                      <li><a href="">DYNAMICS</a></li>
+                      <li><a href="">EQ</a></li>
+                      <li><a href="">ISOLATOR</a></li>
+                      <li><a href="">OCTAVE</a></li>
+                      <li><a href="">AUTO_PAN</a></li>
+                      <li><a href="">MANUAL_PAN</a></li>
+                      <li><a href="">STEREO_ENHANCE</a></li>
+                      <li><a href="">TREMOLO</a></li>
+                      <li><a href="">VIBRATO</a></li>
+                      <li><a href="">PATTERN_SLICER</a></li>
+                      <li><a href="">STEP_SLICER</a></li>
+                      <li><a href="">DELAY</a></li>
+                      <li><a href="">PANNING_DELAY</a></li>
+                      <li><a href="">REVERSE_DELAY</a></li>
+                      <li><a href="">MOD_DELAY</a></li>
+                      <li><a href="">TAPE_ECHO</a></li>
+                      <li><a href="">TAPE_ECHO_V505V2</a></li>
+                      <li><a href="">GRANULAR_DELAY</a></li>
+                      <li><a href="">WARP</a></li>
+                      <li><a href="">TWIST</a></li>
+                      <li><a href="">ROLL</a></li>
+                      <li><a href="">ROLL_V505V2</a></li>
+                      <li><a href="">FREEZE</a></li>
+                      <li><a href="">CHORUS</a></li>
+                      <li><a href="">REVERB</a></li>
+                      <li><a href="">GATE_REVERB</a></li>
+                      <li><a href="">REVERSE_REVERB</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">FX_PARAMS</a></li>
+                  <li><a href="">SEQ_PARAMS</a></li>
+                </ul>
+              </li>
+              <li><a href="">FX_BANK</a></li>
+              <li><a href="">FX_SW</a></li>
+              <li><a href="">FX_MODE</a></li>
+              <li><a href="">FX_TARGET</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">TRACK FX
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="TRACK_FX">▾</label>
+          </a>
+            <input type="checkbox" id="TRACK_FX"/>
+            <ul class="sub-menu">
+              <li>
+              <a href="">FX A-D
+                <span class="drop-icon">▸</span>
+                <label title="Toggle Drop-down" class="drop-icon" for="FX_A_D">▾</label>
+              </a>
+                <input type="checkbox" id="FX_A_D"/>
+                <ul class="sub-menu">
+                  <li><a href="">SW</a></li>
+                  <li><a href="">SW_MODE</a></li>
+                  <li><a href="">INSERT</a></li>
+                  <li>
+                  <a href="">FX_TYPE
+                    <span class="drop-icon">▸</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="FX_TYPE">▾</label>
+                  </a>
+                    <input type="checkbox" id="FX_TYPE"/>
+                    <ul class="sub-menu">
+                      <li><a href="">LPF</a></li>
+                      <li><a href="">BPF</a></li>
+                      <li><a href="">HPF</a></li>
+                      <li><a href="">PHASER</a></li>
+                      <li><a href="">FLANGER</a></li>
+                      <li><a href="">SYNTH</a></li>
+                      <li><a href="">LOFI</a></li>
+                      <li><a href="">RADIO</a></li>
+                      <li><a href="">RING_MODULATOR</a></li>
+                      <li><a href="">G2B</a></li>
+                      <li><a href="">SUSTAINER</a></li>
+                      <li><a href="">AUTO_RIFF</a></li>
+                      <li><a href="">SLOW_GEAR</a></li>
+                      <li><a href="">TRANSPOSE</a></li>
+                      <li><a href="">PITCH_BEND</a></li>
+                      <li><a href="">ROBOT</a></li>
+                      <li><a href="">ELECTRIC</a></li>
+                      <li><a href="">HARMONIST_MANUAL</a></li>
+                      <li><a href="">HARMONIST_AUTO</a></li>
+                      <li><a href="">VOCODER</a></li>
+                      <li><a href="">OSC_VOCODER</a></li>
+                      <li><a href="">OSC_BOT</a></li>
+                      <li><a href="">PREAMP</a></li>
+                      <li><a href="">DIST</a></li>
+                      <li><a href="">DYNAMICS</a></li>
+                      <li><a href="">EQ</a></li>
+                      <li><a href="">ISOLATOR</a></li>
+                      <li><a href="">OCTAVE</a></li>
+                      <li><a href="">AUTO_PAN</a></li>
+                      <li><a href="">MANUAL_PAN</a></li>
+                      <li><a href="">STEREO_ENHANCE</a></li>
+                      <li><a href="">TREMOLO</a></li>
+                      <li><a href="">VIBRATO</a></li>
+                      <li><a href="">PATTERN_SLICER</a></li>
+                      <li><a href="">STEP_SLICER</a></li>
+                      <li><a href="">DELAY</a></li>
+                      <li><a href="">PANNING_DELAY</a></li>
+                      <li><a href="">REVERSE_DELAY</a></li>
+                      <li><a href="">MOD_DELAY</a></li>
+                      <li><a href="">TAPE_ECHO</a></li>
+                      <li><a href="">TAPE_ECHO_V505V2</a></li>
+                      <li><a href="">GRANULAR_DELAY</a></li>
+                      <li><a href="">WARP</a></li>
+                      <li><a href="">TWIST</a></li>
+                      <li><a href="">ROLL</a></li>
+                      <li><a href="">ROLL_V505V2</a></li>
+                      <li><a href="">FREEZE</a></li>
+                      <li><a href="">CHORUS</a></li>
+                      <li><a href="">REVERB</a></li>
+                      <li><a href="">GATE_REVERB</a></li>
+                      <li><a href="">REVERSE_REVERB</a></li>
+                      <li><a href="">BEAT_SCATTER</a></li>
+                      <li><a href="">BEAT_REPEAT</a></li>
+                      <li><a href="">BEAT_SHIFT</a></li>
+                      <li><a href="">VINYL_FLICK</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">FX_PARAMS</a></li>
+                  <li><a href="">SEQ_PARAMS</a></li>
+                </ul>
+              </li>
+              <li><a href="">FX_BANK</a></li>
+              <li><a href="">FX_SW</a></li>
+              <li><a href="">FX_MODE</a></li>
+              <li><a href="">FX_TARGET</a></li>
+            </ul>
+          </li>
+          <li>
+          <a href="">RHYTHM
+            <span class="drop-icon">▸</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="RHYTHM">▾</label>
+          </a>
+            <input type="checkbox" id="RHYTHM"/>
+            <ul class="sub-menu">
+              <li><a href="">GENRE</a></li>
+              <li><a href="">PATTERN</a></li>
+              <li><a href="">VARIATION</a></li>
+              <li><a href="">KIT</a></li>
+              <li><a href="">BEAT</a></li>
+              <li><a href="">START_TRIG</a></li>
+              <li><a href="">STOP_TRIG</a></li>
+              <li><a href="">INTRO_REC</a></li>
+              <li><a href="">INTRO_PLAY</a></li>
+              <li><a href="">ENDING</a></li>
+              <li><a href="">FILL</a></li>
+              <li><a href="">VARIATION_CHANGE</a></li>
+            </ul>
+          </li>
+          <li><a href="">NAME</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
+</html>
