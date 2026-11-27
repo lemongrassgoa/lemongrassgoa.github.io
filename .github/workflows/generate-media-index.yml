@@ -1,0 +1,108 @@
+
+name: Generate Quartet Media Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'quartet/**'
+      - '.github/workflows/generate-media-index.yml'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate media index
+        run: |
+          python3 <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+          from urllib.parse import quote
+
+          owner = "lemongrassgoa"
+          repo = "lemongrassgoa.github.io"
+          branch = "main"
+
+          root = Path("quartet")
+
+          if not root.is_dir():
+              raise SystemExit("quartet directory not found")
+
+          allowed = {".mp4", ".pdf"}
+
+          files = []
+
+          for file in sorted(root.rglob("*")):
+              if not file.is_file():
+                  continue
+
+              if file.suffix.lower() not in allowed:
+                  continue
+
+              relative = file.as_posix()
+
+              encoded = quote(relative, safe="/")
+
+              files.append({
+                  "name": file.name,
+                  "path": relative,
+                  "extension": file.suffix.lower(),
+                  "size": file.stat().st_size,
+                  "url": (
+                      f"https://raw.githubusercontent.com/"
+                      f"{owner}/{repo}/{branch}/{encoded}"
+                  ),
+                  "page": (
+                      f"https://github.com/{owner}/{repo}/blob/"
+                      f"{branch}/{encoded}"
+                  )
+              })
+
+          manifest = {
+              "repository": f"{owner}/{repo}",
+              "branch": branch,
+              "folder": "quartet",
+              "generatedAt": datetime.now(
+                  timezone.utc
+              ).isoformat(),
+              "total": len(files),
+              "files": files
+          }
+
+          output = root / "media-index.json"
+
+          output.write_text(
+              json.dumps(manifest, indent=2),
+              encoding="utf-8"
+          )
+
+          print(f"Generated {len(files)} media entries")
+          print(f"Output: {output}")
+          PY
+
+      - name: Commit updated index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add quartet/media-index.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to media index"
+            exit 0
+          fi
+
+          git commit -m "Update quartet media index"
+          git push

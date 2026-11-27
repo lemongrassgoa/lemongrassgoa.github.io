@@ -4,120 +4,189 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GitHub Filtered Repository Explorer</title>
+<title>Quartet Media Library</title>
 
 <style>
+:root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --blue: #58a6ff;
+    --green: #238636;
+}
+
+* { box-sizing: border-box; }
+
 body {
     margin: 0;
-    background: #0d1117;
-    color: #e6edf3;
+    background: var(--bg);
+    color: var(--text);
     font-family: Arial, sans-serif;
 }
 
 header {
-    padding: 20px;
-    background: #161b22;
-    border-bottom: 1px solid #30363d;
+    padding: 22px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
 }
+
+header h2 { margin: 0; }
 
 .container {
-    max-width: 1100px;
-    margin: 30px auto;
-    padding: 0 20px;
+    max-width: 1250px;
+    margin: 25px auto;
+    padding: 0 18px;
 }
 
-.controls {
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr auto;
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+}
+
+input, select, button {
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--panel);
+    color: var(--text);
 }
 
 input {
-    min-width: 0;
-    padding: 12px;
-    background: #161b22;
-    color: white;
-    border: 1px solid #30363d;
-    border-radius: 6px;
+    flex: 1;
+    min-width: 180px;
 }
 
 button {
-    padding: 12px 20px;
-    background: #238636;
-    color: white;
-    border: 0;
-    border-radius: 6px;
+    background: var(--green);
+    border: none;
     cursor: pointer;
 }
 
-button:hover { background: #2ea043; }
+button:hover { opacity: .85; }
 
-.info {
-    color: #8b949e;
-    margin: 15px 0;
-    font-size: 13px;
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.stat {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 15px 20px;
+    flex: 1;
+    min-width: 120px;
+}
+
+.stat strong {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.stat small, .muted {
+    color: var(--muted);
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 550px;
+}
+
+.sidebar {
+    background: var(--panel);
+    border-right: 1px solid var(--border);
+}
+
+.sidebar-header, .viewer-header {
+    padding: 15px;
+    border-bottom: 1px solid var(--border);
+    font-weight: bold;
 }
 
 .file-list {
-    border: 1px solid #30363d;
-    border-radius: 8px;
-    overflow: hidden;
+    max-height: 700px;
+    overflow-y: auto;
 }
 
 .file {
-    display: flex;
-    justify-content: space-between;
-    padding: 13px 15px;
-    border-bottom: 1px solid #30363d;
+    padding: 13px;
+    border-bottom: 1px solid var(--border);
     cursor: pointer;
     font-size: 13px;
-    gap: 15px;
-}
-
-.file:hover { background: #161b22; }
-
-.file-path {
     overflow-wrap: anywhere;
 }
 
-.file-size {
-    color: #8b949e;
-    white-space: nowrap;
+.file:hover, .file.active {
+    background: #21262d;
+}
+
+.file small {
+    display: block;
+    color: var(--muted);
+    margin-top: 6px;
 }
 
 .viewer {
-    margin-top: 20px;
-    border: 1px solid #30363d;
-    border-radius: 8px;
-    overflow: hidden;
+    min-width: 0;
 }
 
 .viewer-header {
-    padding: 12px 15px;
-    background: #161b22;
-    border-bottom: 1px solid #30363d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    overflow-wrap: anywhere;
 }
 
-pre {
+.viewer-header a {
+    color: var(--blue);
+    font-size: 12px;
+}
+
+#preview {
     padding: 15px;
-    overflow: auto;
-    max-height: 600px;
-    font-size: 13px;
-    line-height: 1.6;
-    white-space: pre;
+}
+
+#preview iframe {
+    width: 100%;
+    height: 650px;
+    border: none;
+    background: white;
+}
+
+#preview video {
+    width: 100%;
+    max-height: 650px;
+    background: black;
 }
 
 .placeholder {
-    padding: 40px;
+    padding: 70px 15px;
     text-align: center;
-    color: #8b949e;
+    color: var(--muted);
 }
 
-.error { color: #f85149; }
+.status {
+    color: var(--muted);
+    font-size: 12px;
+    margin: 12px 0;
+}
 
-@media(max-width: 750px) {
-    .controls { grid-template-columns: 1fr; }
+@media(max-width: 800px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { border-right: 0; border-bottom: 1px solid var(--border); }
+    .file-list { max-height: 350px; }
 }
 </style>
 </head>
@@ -125,73 +194,87 @@ pre {
 <body>
 
 <header>
-    <h2>🐙 GitHub Filtered Explorer</h2>
+    <h2>🎬 Quartet Media Library</h2>
 </header>
 
 <div class="container">
 
-    <div class="controls">
-        <input id="repo" value="lemongrassgoa/lemongrassgoa.github.io"
-               placeholder="owner/repository">
+    <div class="toolbar">
+        <input
+            id="search"
+            placeholder="Search files or folders..."
+            oninput="renderFiles()"
+        >
 
-        <input id="folder" value="quartets"
-               placeholder="Subfolder path">
+        <select id="typeFilter" onchange="renderFiles()">
+            <option value="all">All files</option>
+            <option value=".mp4">Videos only</option>
+            <option value=".pdf">PDFs only</option>
+        </select>
 
-        <input id="extension" value=".pdf"
-               placeholder=".js">
-
-        <button onclick="startSearch()">Search</button>
+        <button onclick="loadIndex()">↻ Refresh</button>
     </div>
 
-    <div class="info" id="status">
-        Configure your repository, subfolder and file type.
-    </div>
+    <div class="stats">
+        <div class="stat">
+            <strong id="totalCount">0</strong>
+            <small>Total files</small>
+        </div>
 
-    <div class="file-list" id="files">
-        <div class="placeholder">
-            Matching files will appear here.
+        <div class="stat">
+            <strong id="videoCount">0</strong>
+            <small>Videos</small>
+        </div>
+
+        <div class="stat">
+            <strong id="pdfCount">0</strong>
+            <small>PDFs</small>
         </div>
     </div>
 
-    <div class="viewer">
-        <div class="viewer-header" id="fileTitle">
-            File Preview
-        </div>
+    <div class="status" id="status">
+        Loading media index...
+    </div>
 
-        <div id="preview">
-            <div class="placeholder">
-                Select a file to view its contents.
+    <div class="layout">
+
+        <div class="sidebar">
+            <div class="sidebar-header">
+                📁 Quartet Media Files
+            </div>
+
+            <div class="file-list" id="fileList">
+                <div class="placeholder">Loading...</div>
             </div>
         </div>
+
+        <div class="viewer">
+
+            <div class="viewer-header">
+                <span id="fileTitle">Media Preview</span>
+                <a id="openLink" target="_blank" hidden>
+                    Open original ↗
+                </a>
+            </div>
+
+            <div id="preview">
+                <div class="placeholder">
+                    Select a video or PDF to preview.
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
 </div>
 
 <script>
-const API = "https://api.github.com";
 
-let owner = "";
-let repository = "";
-let branch = "";
-let extension = "";
-let allFiles = [];
-let selectedFile = null;
+const INDEX_URL = "./quartet/media-index.json";
 
-async function apiFetch(url) {
-    const response = await fetch(url);
-
-    if (!response.ok) {
-        if (response.status === 403)
-            throw new Error("GitHub API rate limit exceeded.");
-
-        if (response.status === 404)
-            throw new Error("Repository or folder not found.");
-
-        throw new Error("GitHub API error: " + response.status);
-    }
-
-    return response.json();
-}
+let files = [];
+let selectedIndex = -1;
 
 function escapeHTML(value) {
     return String(value).replace(/[&<>"']/g, c => ({
@@ -204,166 +287,170 @@ function escapeHTML(value) {
 }
 
 function formatSize(bytes) {
+    if (!bytes) return "0 B";
     if (bytes < 1024) return bytes + " B";
     if (bytes < 1048576)
         return (bytes / 1024).toFixed(1) + " KB";
+
     return (bytes / 1048576).toFixed(1) + " MB";
 }
 
-async function startSearch() {
+async function loadIndex() {
+
+    const status = document.getElementById("status");
+
+    status.textContent = "Loading media index...";
+
     try {
-        const repoValue = document.getElementById("repo")
-            .value.trim()
-            .replace(/^https?:\/\/github\.com\//, "")
-            .replace(/\/$/, "")
-            .replace(/\.git$/, "");
 
-        const parts = repoValue.split("/");
+        const response = await fetch(
+            INDEX_URL + "?t=" + Date.now(),
+            { cache: "no-store" }
+        );
 
-        if (parts.length !== 2)
-            throw new Error("Enter a valid owner/repository.");
+        if (!response.ok) {
+            throw new Error(
+                "Media index unavailable: HTTP " +
+                response.status
+            );
+        }
 
-        owner = parts[0];
-        repository = parts[1];
+        const data = await response.json();
 
-        const folder = document.getElementById("folder")
-            .value.trim().replace(/^\/+|\/+$/g, "");
+        files = data.files || [];
 
-        extension = document.getElementById("extension")
-            .value.trim().toLowerCase();
+        selectedIndex = -1;
 
-        if (!extension)
-            throw new Error("Enter a file extension.");
+        document.getElementById("totalCount").textContent =
+            data.total ?? files.length;
 
-        if (!extension.startsWith("."))
-            extension = "." + extension;
+        document.getElementById("videoCount").textContent =
+            files.filter(f => f.extension === ".mp4").length;
 
-        allFiles = [];
+        document.getElementById("pdfCount").textContent =
+            files.filter(f => f.extension === ".pdf").length;
 
-        document.getElementById("files").innerHTML =
-            '<div class="placeholder">Scanning repository...</div>';
+        status.textContent =
+            `Repository: ${data.repository} | ` +
+            `Last generated: ${new Date(data.generatedAt).toLocaleString()}`;
 
-        document.getElementById("preview").innerHTML = "";
         document.getElementById("fileTitle").textContent =
-            "File Preview";
+            "Media Preview";
 
-        const info = await apiFetch(
-            `${API}/repos/${owner}/${repository}`
-        );
+        document.getElementById("openLink").hidden = true;
 
-        branch = info.default_branch;
-
-        await scanFolder(folder);
-
-        allFiles.sort((a, b) =>
-            a.path.localeCompare(b.path)
-        );
+        document.getElementById("preview").innerHTML =
+            '<div class="placeholder">Select a media file.</div>';
 
         renderFiles();
 
-        document.getElementById("status").textContent =
-            `${allFiles.length} matching files found in ${folder || "repository root"} (${extension})`;
-
     } catch (error) {
-        showError(error.message);
-    }
-}
 
-async function scanFolder(path) {
-    const encodedPath = path
-        ? path.split("/").map(encodeURIComponent).join("/")
-        : "";
+        status.textContent = error.message;
 
-    const url =
-        `${API}/repos/${owner}/${repository}/contents/${encodedPath}` +
-        `?ref=${encodeURIComponent(branch)}`;
+        document.getElementById("fileList").innerHTML =
+            `<div class="placeholder">${escapeHTML(error.message)}</div>`;
 
-    const entries = await apiFetch(url);
-
-    if (!Array.isArray(entries))
-        throw new Error("Specified path is not a folder.");
-
-    for (const entry of entries) {
-
-        if (entry.type === "dir") {
-            await scanFolder(entry.path);
-        }
-
-        else if (
-            entry.type === "file" &&
-            entry.name.toLowerCase().endsWith(extension)
-        ) {
-            allFiles.push({
-                name: entry.name,
-                path: entry.path,
-                size: entry.size,
-                download_url: entry.download_url
-            });
-
-            document.getElementById("status").textContent =
-                `Scanning... ${allFiles.length} matching files found`;
-        }
     }
 }
 
 function renderFiles() {
-    const container = document.getElementById("files");
 
-    if (!allFiles.length) {
-        container.innerHTML =
+    const search = document.getElementById("search")
+        .value.toLowerCase();
+
+    const type = document.getElementById("typeFilter").value;
+
+    const filtered = files
+        .map((file, index) => ({ ...file, index }))
+        .filter(file => {
+
+            const matchesSearch =
+                file.path.toLowerCase().includes(search);
+
+            const matchesType =
+                type === "all" || file.extension === type;
+
+            return matchesSearch && matchesType;
+
+        });
+
+    const list = document.getElementById("fileList");
+
+    if (!filtered.length) {
+        list.innerHTML =
             '<div class="placeholder">No matching files found.</div>';
         return;
     }
 
-    container.innerHTML = allFiles.map((file, index) => `
-        <div class="file" onclick="openFile(${index})">
-            <span class="file-path">
-                📄 ${escapeHTML(file.path)}
-            </span>
-            <span class="file-size">
-                ${formatSize(file.size)}
-            </span>
-        </div>
-    `).join("");
+    list.innerHTML = filtered.map(file => {
+
+        const icon = file.extension === ".mp4"
+            ? "🎬" : "📕";
+
+        return `
+            <div class="file ${selectedIndex === file.index ? "active" : ""}"
+                 data-index="${file.index}"
+                 onclick="openFile(${file.index})">
+
+                ${icon} ${escapeHTML(file.name)}
+
+                <small>${escapeHTML(file.path)}</small>
+
+                <small>${formatSize(file.size)}</small>
+
+            </div>
+        `;
+
+    }).join("");
 }
 
-async function openFile(index) {
-    try {
-        const file = allFiles[index];
+function openFile(index) {
 
-        selectedFile = file;
+    const file = files[index];
 
-        document.getElementById("fileTitle").textContent =
-            file.path;
+    if (!file) return;
 
-        document.getElementById("preview").innerHTML =
-            '<div class="placeholder">Loading file...</div>';
+    selectedIndex = index;
 
-        // Download raw file content
-        const response = await fetch(file.download_url);
+    const preview = document.getElementById("preview");
 
-        if (!response.ok)
-            throw new Error("Unable to download file.");
+    document.getElementById("fileTitle").textContent =
+        file.name;
 
-        const content = await response.text();
+    const openLink = document.getElementById("openLink");
 
-        document.getElementById("preview").innerHTML =
-            `<pre>${escapeHTML(content)}</pre>`;
+    openLink.href = file.page;
+    openLink.hidden = false;
 
-    } catch (error) {
-        showError(error.message);
+    if (file.extension === ".mp4") {
+
+        preview.innerHTML = `
+            <video controls autoplay preload="metadata">
+                <source
+                    src="${escapeHTML(file.url)}"
+                    type="video/mp4">
+                Your browser cannot play this video.
+            </video>
+        `;
+
+    } else if (file.extension === ".pdf") {
+
+        preview.innerHTML = `
+            <iframe
+                src="${escapeHTML(file.url)}"
+                title="${escapeHTML(file.name)}">
+            </iframe>
+        `;
+
     }
+
+    renderFiles();
 }
 
-function showError(message) {
-    document.getElementById("files").innerHTML =
-        `<div class="placeholder error">${escapeHTML(message)}</div>`;
+// Initial load
+loadIndex();
 
-    document.getElementById("status").textContent = "Search failed.";
-}
-
-// Run automatically on load
-startSearch();
 </script>
 
 </body>
