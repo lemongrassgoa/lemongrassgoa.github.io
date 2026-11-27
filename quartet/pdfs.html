@@ -283,12 +283,19 @@ function renderFiles() {
     return;
   }
 
+//  list.innerHTML = filtered.map(file => `
+//    <div class="file ${selectedPath === file.path ? "active" : ""}"
+//         data-path="${escapeHTML(file.path)}"
+//         onclick="openFileByPath('${escapeHTML(file.path).replace(/&#39;/g, "\\'")}')">
+//      ${escapeHTML(file.name)}
+//      <small>${escapeHTML(file.path)} · ${formatSize(file.size)}</small>
+//    </div>
+//  `).join("");
   list.innerHTML = filtered.map(file => `
     <div class="file ${selectedPath === file.path ? "active" : ""}"
          data-path="${escapeHTML(file.path)}"
          onclick="openFileByPath('${escapeHTML(file.path).replace(/&#39;/g, "\\'")}')">
       ${escapeHTML(file.name)}
-      <small>${escapeHTML(file.path)} · ${formatSize(file.size)}</small>
     </div>
   `).join("");
 }
