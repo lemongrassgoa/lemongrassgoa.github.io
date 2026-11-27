@@ -2,7 +2,7 @@
   "repository": "lemongrassgoa/lemongrassgoa.github.io",
   "branch": "main",
   "folder": "quartet",
-  "generatedAt": "2026-11-27T18:25:35.440456+00:00",
+  "generatedAt": "2026-11-27T18:42:33.926292+00:00",
   "total": 169,
   "files": [
     {
@@ -926,20 +926,20 @@
       "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_english/COLDPLAY%20Yellow.pdf"
     },
     {
-      "name": "COUNTING CROWS Accidentally In Love - Score_and_Parts.pdf",
-      "path": "quartet/pdfs_english/COUNTING CROWS Accidentally In Love - Score_and_Parts.pdf",
+      "name": "COUNTING CROWS Accidentally In Love.pdf",
+      "path": "quartet/pdfs_english/COUNTING CROWS Accidentally In Love.pdf",
       "extension": ".pdf",
-      "size": 361353,
-      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love%20-%20Score_and_Parts.pdf",
-      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love%20-%20Score_and_Parts.pdf"
+      "size": 203076,
+      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love.pdf",
+      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love.pdf"
     },
     {
-      "name": "COUNTING CROWS Accidentally In Love.mp4",
-      "path": "quartet/pdfs_english/COUNTING CROWS Accidentally In Love.mp4",
+      "name": "COUNTING CROWS Accidentally In Love_enc.mp4",
+      "path": "quartet/pdfs_english/COUNTING CROWS Accidentally In Love_enc.mp4",
       "extension": ".mp4",
-      "size": 6592000,
-      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love.mp4",
-      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love.mp4"
+      "size": 7010357,
+      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love_enc.mp4",
+      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_english/COUNTING%20CROWS%20Accidentally%20In%20Love_enc.mp4"
     },
     {
       "name": "DISNEY Under The Sea.mp4",
