@@ -2,8 +2,8 @@
   "repository": "lemongrassgoa/lemongrassgoa.github.io",
   "branch": "main",
   "folder": "quartet",
-  "generatedAt": "2026-11-27T06:48:27.629828+00:00",
-  "total": 172,
+  "generatedAt": "2026-11-27T06:54:04.847922+00:00",
+  "total": 169,
   "files": [
     {
       "name": "Thank You For The Music (String Quartet).mp4",
@@ -438,36 +438,12 @@
       "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_classical/BEETHOVEN%20Piano%20Sonata%20No%208%20Op.%2013%20-%202.%20Pathetique.pdf"
     },
     {
-      "name": "BEETHOVEN Sextet Op 71 Quartet-Cello.pdf",
-      "path": "quartet/pdfs_classical/BEETHOVEN Sextet Op 71 Quartet-Cello.pdf",
+      "name": "BEETHOVEN Sextet Op 71.pdf",
+      "path": "quartet/pdfs_classical/BEETHOVEN Sextet Op 71.pdf",
       "extension": ".pdf",
-      "size": 101668,
-      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Cello.pdf",
-      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Cello.pdf"
-    },
-    {
-      "name": "BEETHOVEN Sextet Op 71 Quartet-Viola.pdf",
-      "path": "quartet/pdfs_classical/BEETHOVEN Sextet Op 71 Quartet-Viola.pdf",
-      "extension": ".pdf",
-      "size": 128297,
-      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Viola.pdf",
-      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Viola.pdf"
-    },
-    {
-      "name": "BEETHOVEN Sextet Op 71 Quartet-Violin_1.pdf",
-      "path": "quartet/pdfs_classical/BEETHOVEN Sextet Op 71 Quartet-Violin_1.pdf",
-      "extension": ".pdf",
-      "size": 129321,
-      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Violin_1.pdf",
-      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Violin_1.pdf"
-    },
-    {
-      "name": "BEETHOVEN Sextet Op 71 Quartet-Violin_2.pdf",
-      "path": "quartet/pdfs_classical/BEETHOVEN Sextet Op 71 Quartet-Violin_2.pdf",
-      "extension": ".pdf",
-      "size": 113394,
-      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Violin_2.pdf",
-      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071%20Quartet-Violin_2.pdf"
+      "size": 329813,
+      "url": "https://raw.githubusercontent.com/lemongrassgoa/lemongrassgoa.github.io/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071.pdf",
+      "page": "https://github.com/lemongrassgoa/lemongrassgoa.github.io/blob/main/quartet/pdfs_classical/BEETHOVEN%20Sextet%20Op%2071.pdf"
     },
     {
       "name": "BEETHOVEN WoO 10 - 2 Minuet in G.mp4",
