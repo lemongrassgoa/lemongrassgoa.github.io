@@ -98,14 +98,6 @@ button:disabled {
   max-height: 70vh;
   background: black;
 }
-#preview .pdf-viewer-frame {
-  display: block;
-  width: 100%;
-  height: 75vh;
-  min-height: 520px;
-  border: 0;
-  background: #525659;
-}
 #pdfPages {
   display: grid;
   justify-items: center;
@@ -175,15 +167,20 @@ button:disabled {
   </div>
 </main>
 
+<!-- PDF.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
 <script>
 const INDEX_URL = "media-index.json";
-const PDF_VIEWER_URL =
-  "https://cdn.jsdelivr.net/npm/pdfjs-dist-viewer-min@3.11.174/build/minified/web/viewer.html";
+const PDF_WORKER_URL =
+  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 
 let files = [];
 let selectedPath = "";
 let selectedType = ".pdf";
 let currentPdfLoadingTask = null;
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = PDF_WORKER_URL;
 
 function escapeHTML(value) {
   return String(value).replace(/[&<>"']/g, c => ({
@@ -332,14 +329,46 @@ async function openFile(file) {
   }
 
   if (file.extension.toLowerCase() === ".pdf") {
-    const viewerUrl = PDF_VIEWER_URL + "?file=" + encodeURIComponent(file.url);
-    preview.innerHTML = `
-      <iframe
-        class="pdf-viewer-frame"
-        src="${escapeHTML(viewerUrl)}"
-        title="PDF viewer: ${escapeHTML(file.name)}"
-        loading="eager">
-      </iframe>`;
+    preview.innerHTML = '<div id="pdfPages"></div>';
+
+    try {
+      currentPdfLoadingTask = pdfjsLib.getDocument(file.url);
+      const pdf = await currentPdfLoadingTask.promise;
+
+      // Ignore a render if another file was selected meanwhile.
+      if (selectedPath !== file.path) return;
+
+      const pagesContainer = document.getElementById("pdfPages");
+      if (!pagesContainer) return;
+
+      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+        if (selectedPath !== file.path) return;
+
+        const page = await pdf.getPage(pageNumber);
+        const containerWidth = Math.max(280, pagesContainer.clientWidth - 24);
+        const baseViewport = page.getViewport({ scale: 1 });
+        const scale = Math.min(1.6, containerWidth / baseViewport.width);
+        const viewport = page.getViewport({ scale });
+
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+
+        canvas.width = Math.floor(viewport.width);
+        canvas.height = Math.floor(viewport.height);
+        canvas.setAttribute("aria-label", "PDF page " + pageNumber);
+        pagesContainer.appendChild(canvas);
+
+        await page.render({
+          canvasContext: context,
+          viewport: viewport
+        }).promise;
+      }
+    } catch (error) {
+      if (selectedPath !== file.path) return;
+      preview.innerHTML =
+        '<div class="message">Unable to render PDF: ' +
+        escapeHTML(error.message) + '</div>';
+    }
   }
 }
 
