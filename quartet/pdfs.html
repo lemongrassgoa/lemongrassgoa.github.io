@@ -67,10 +67,10 @@ button:disabled {
   background: #161b22;
   border-right: 1px solid #30363d;
   overflow-y: auto;
-  max-height: 75vh;
+ /* max-height: 75vh; */
 }
 .file {
-  padding: 11px 12px;
+  padding: 5px;
   border-bottom: 1px solid #30363d;
   cursor: pointer;
   overflow-wrap: anywhere;
@@ -307,7 +307,7 @@ function openFileByPath(path) {
 
 async function openFile(file) {
   selectedPath = file.path;
-  document.getElementById("fileTitle").textContent = file.path;
+  document.getElementById("fileTitle").textContent = file.name;
   document.getElementById("downloadButton").disabled = false;
   renderFiles();
 
