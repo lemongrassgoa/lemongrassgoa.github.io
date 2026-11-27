@@ -1,457 +1,405 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quartet Media Library</title>
+<title>Quartet Media</title>
 
 <style>
-:root {
-    --bg: #0d1117;
-    --panel: #161b22;
-    --border: #30363d;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --blue: #58a6ff;
-    --green: #238636;
-}
-
 * { box-sizing: border-box; }
-
 body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0d1117;
+  color: #e6edf3;
+  font: 14px Arial, sans-serif;
 }
-
 header {
-    padding: 22px;
-    background: var(--panel);
-    border-bottom: 1px solid var(--border);
+  padding: 14px 18px;
+  border-bottom: 1px solid #30363d;
+  font-size: 17px;
+  font-weight: 600;
 }
-
-header h2 { margin: 0; }
-
-.container {
-    max-width: 1250px;
-    margin: 25px auto;
-    padding: 0 18px;
+main {
+  max-width: 1100px;
+  margin: 18px auto;
+  padding: 0 14px;
 }
-
 .toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
 }
-
-input, select, button {
-    padding: 12px;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    background: var(--panel);
-    color: var(--text);
+.search {
+  flex: 1;
+  min-width: 180px;
+  padding: 9px 11px;
+  color: inherit;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 5px;
 }
-
-input {
-    flex: 1;
-    min-width: 180px;
-}
-
 button {
-    background: var(--green);
-    border: none;
-    cursor: pointer;
+  padding: 9px 12px;
+  color: inherit;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
-button:hover { opacity: .85; }
-
-.stats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin: 20px 0;
+button.active {
+  background: #30363d;
+  border-color: #8b949e;
 }
-
-.stat {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 15px 20px;
-    flex: 1;
-    min-width: 120px;
+button:disabled {
+  opacity: .4;
+  cursor: not-allowed;
 }
-
-.stat strong {
-    display: block;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-.stat small, .muted {
-    color: var(--muted);
-}
-
 .layout {
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-    min-height: 550px;
+  display: grid;
+  grid-template-columns: minmax(220px, 340px) 1fr;
+  min-height: 65vh;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  overflow: hidden;
 }
-
-.sidebar {
-    background: var(--panel);
-    border-right: 1px solid var(--border);
+.files {
+  background: #161b22;
+  border-right: 1px solid #30363d;
+  overflow-y: auto;
+  max-height: 75vh;
 }
-
-.sidebar-header, .viewer-header {
-    padding: 15px;
-    border-bottom: 1px solid var(--border);
-    font-weight: bold;
-}
-
-.file-list {
-    max-height: 700px;
-    overflow-y: auto;
-}
-
 .file {
-    padding: 13px;
-    border-bottom: 1px solid var(--border);
-    cursor: pointer;
-    font-size: 13px;
-    overflow-wrap: anywhere;
+  padding: 11px 12px;
+  border-bottom: 1px solid #30363d;
+  cursor: pointer;
+  overflow-wrap: anywhere;
 }
-
-.file:hover, .file.active {
-    background: #21262d;
-}
-
+.file:hover, .file.active { background: #21262d; }
 .file small {
-    display: block;
-    color: var(--muted);
-    margin-top: 6px;
+  display: block;
+  margin-top: 5px;
+  color: #8b949e;
 }
-
-.viewer {
-    min-width: 0;
+.viewer { min-width: 0; }
+.viewer-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 11px 13px;
+  border-bottom: 1px solid #30363d;
+  overflow-wrap: anywhere;
 }
-
-.viewer-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    overflow-wrap: anywhere;
-}
-
-.viewer-header a {
-    color: var(--blue);
-    font-size: 12px;
-}
-
-#preview {
-    padding: 15px;
-}
-
-#preview iframe {
-    width: 100%;
-    height: 650px;
-    border: none;
-    background: white;
-}
-
+#fileTitle { min-width: 0; overflow-wrap: anywhere; }
+#preview { padding: 12px; }
 #preview video {
-    width: 100%;
-    max-height: 650px;
-    background: black;
+  width: 100%;
+  max-height: 70vh;
+  background: black;
 }
-
-.placeholder {
-    padding: 70px 15px;
-    text-align: center;
-    color: var(--muted);
+#pdfPages {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
 }
-
+#pdfPages canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: white;
+}
+.message {
+  padding: 28px 12px;
+  color: #8b949e;
+  text-align: center;
+}
 .status {
-    color: var(--muted);
-    font-size: 12px;
-    margin: 12px 0;
+  min-height: 18px;
+  margin: 0 0 10px;
+  color: #8b949e;
+  font-size: 12px;
 }
-
-@media(max-width: 800px) {
-    .layout { grid-template-columns: 1fr; }
-    .sidebar { border-right: 0; border-bottom: 1px solid var(--border); }
-    .file-list { max-height: 350px; }
+@media (max-width: 700px) {
+  .layout { grid-template-columns: 1fr; }
+  .files {
+    max-height: 32vh;
+    border-right: 0;
+    border-bottom: 1px solid #30363d;
+  }
 }
 </style>
 </head>
 
 <body>
+<header>Quartet Media</header>
 
-<header>
-    <h2>🎬 Quartet Media Library</h2>
-</header>
+<main>
+  <div class="toolbar">
+    <button id="pdfButton" class="active" type="button" onclick="setType('.pdf')">PDF</button>
+    <button id="mp4Button" type="button" onclick="setType('.mp4')">MP4</button>
+    <input
+      id="search"
+      class="search"
+      type="search"
+      placeholder="Search files…"
+      oninput="renderFiles()"
+      aria-label="Search files"
+    >
+    <button id="downloadButton" type="button" onclick="downloadSelected()" disabled>Download</button>
+  </div>
 
-<div class="container">
+  <div id="status" class="status" aria-live="polite">Loading media index…</div>
 
-    <div class="toolbar">
-        <input
-            id="search"
-            placeholder="Search files or folders..."
-            oninput="renderFiles()"
-        >
-
-        <select id="typeFilter" onchange="renderFiles()">
-            <option value="all">All files</option>
-            <option value=".mp4">Videos only</option>
-            <option value=".pdf">PDFs only</option>
-        </select>
-
-        <button onclick="loadIndex()">↻ Refresh</button>
+  <div class="layout">
+    <div class="files" id="fileList">
+      <div class="message">Loading…</div>
     </div>
 
-    <div class="stats">
-        <div class="stat">
-            <strong id="totalCount">0</strong>
-            <small>Total files</small>
-        </div>
+    <section class="viewer">
+      <div class="viewer-title">
+        <span id="fileTitle">Select a file</span>
+      </div>
+      <div id="preview">
+        <div class="message">Choose a PDF or MP4 file.</div>
+      </div>
+    </section>
+  </div>
+</main>
 
-        <div class="stat">
-            <strong id="videoCount">0</strong>
-            <small>Videos</small>
-        </div>
-
-        <div class="stat">
-            <strong id="pdfCount">0</strong>
-            <small>PDFs</small>
-        </div>
-    </div>
-
-    <div class="status" id="status">
-        Loading media index...
-    </div>
-
-    <div class="layout">
-
-        <div class="sidebar">
-            <div class="sidebar-header">
-                📁 Quartet Media Files
-            </div>
-
-            <div class="file-list" id="fileList">
-                <div class="placeholder">Loading...</div>
-            </div>
-        </div>
-
-        <div class="viewer">
-
-            <div class="viewer-header">
-                <span id="fileTitle">Media Preview</span>
-                <a id="openLink" target="_blank" hidden>
-                    Open original ↗
-                </a>
-            </div>
-
-            <div id="preview">
-                <div class="placeholder">
-                    Select a video or PDF to preview.
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
+<!-- PDF.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
 <script>
-
 const INDEX_URL = "media-index.json";
+const PDF_WORKER_URL =
+  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 
 let files = [];
-let selectedIndex = -1;
+let selectedPath = "";
+let selectedType = ".pdf";
+let currentPdfLoadingTask = null;
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = PDF_WORKER_URL;
 
 function escapeHTML(value) {
-    return String(value).replace(/[&<>"']/g, c => ({
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#39;"
-    })[c]);
+  return String(value).replace(/[&<>"']/g, c => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[c]);
 }
 
 function formatSize(bytes) {
-    if (!bytes) return "0 B";
-    if (bytes < 1024) return bytes + " B";
-    if (bytes < 1048576)
-        return (bytes / 1024).toFixed(1) + " KB";
+  if (!bytes) return "0 B";
+  if (bytes < 1024) return bytes + " B";
+  if (bytes < 1048576) return (bytes / 1024).toFixed(1) + " KB";
+  return (bytes / 1048576).toFixed(1) + " MB";
+}
 
-    return (bytes / 1048576).toFixed(1) + " MB";
+/*
+ * Only include files inside a direct child folder of quartet
+ * whose folder name begins with "pdfs_".
+ *
+ * Example included:
+ * quartet/pdfs_programme/file.pdf
+ * quartet/pdfs_programme/subfolder/video.mp4
+ *
+ * Example excluded:
+ * quartet/videos/file.mp4
+ * quartet/file.pdf
+ */
+function isInPdfsFolder(file) {
+  const parts = String(file.path || "").split("/");
+  return parts.length >= 3 &&
+         parts[0] === "quartet" &&
+         parts[1].startsWith("pdfs_");
 }
 
 async function loadIndex() {
+  const status = document.getElementById("status");
+  status.textContent = "Loading media index…";
 
-    const status = document.getElementById("status");
+  try {
+    const response = await fetch(INDEX_URL + "?t=" + Date.now(), {
+      cache: "no-store"
+    });
 
-    status.textContent = "Loading media index...";
-
-    try {
-
-        const response = await fetch(
-            INDEX_URL + "?t=" + Date.now(),
-            { cache: "no-store" }
-        );
-
-        if (!response.ok) {
-            throw new Error(
-                "Media index unavailable: HTTP " +
-                response.status
-            );
-        }
-
-        const data = await response.json();
-
-        files = data.files || [];
-
-        selectedIndex = -1;
-
-        document.getElementById("totalCount").textContent =
-            data.total ?? files.length;
-
-        document.getElementById("videoCount").textContent =
-            files.filter(f => f.extension === ".mp4").length;
-
-        document.getElementById("pdfCount").textContent =
-            files.filter(f => f.extension === ".pdf").length;
-
-        status.textContent =
-            `Repository: ${data.repository} | ` +
-            `Last generated: ${new Date(data.generatedAt).toLocaleString()}`;
-
-        document.getElementById("fileTitle").textContent =
-            "Media Preview";
-
-        document.getElementById("openLink").hidden = true;
-
-        document.getElementById("preview").innerHTML =
-            '<div class="placeholder">Select a media file.</div>';
-
-        renderFiles();
-
-    } catch (error) {
-
-        status.textContent = error.message;
-
-        document.getElementById("fileList").innerHTML =
-            `<div class="placeholder">${escapeHTML(error.message)}</div>`;
-
+    if (!response.ok) {
+      throw new Error("Media index unavailable (HTTP " + response.status + ").");
     }
+
+    const data = await response.json();
+
+    files = (data.files || []).filter(file =>
+      isInPdfsFolder(file) &&
+      [".pdf", ".mp4"].includes(String(file.extension).toLowerCase())
+    );
+
+    selectedPath = "";
+    document.getElementById("downloadButton").disabled = true;
+    document.getElementById("fileTitle").textContent = "Select a file";
+    document.getElementById("preview").innerHTML =
+      '<div class="message">Choose a PDF or MP4 file.</div>';
+
+    renderFiles();
+    status.textContent = files.length + " files in pdfs_ folders";
+  } catch (error) {
+    status.textContent = error.message;
+    document.getElementById("fileList").innerHTML =
+      '<div class="message">' + escapeHTML(error.message) + '</div>';
+  }
+}
+
+function setType(type) {
+  selectedType = type;
+  selectedPath = "";
+
+  document.getElementById("pdfButton").classList.toggle("active", type === ".pdf");
+  document.getElementById("mp4Button").classList.toggle("active", type === ".mp4");
+  document.getElementById("downloadButton").disabled = true;
+  document.getElementById("fileTitle").textContent = "Select a file";
+  document.getElementById("preview").innerHTML =
+    '<div class="message">Choose a ' + (type === ".pdf" ? "PDF" : "MP4") + ' file.</div>';
+
+  renderFiles();
 }
 
 function renderFiles() {
+  const query = document.getElementById("search").value.trim().toLowerCase();
 
-    const search = document.getElementById("search")
-        .value.toLowerCase();
+  const filtered = files.filter(file =>
+    String(file.extension).toLowerCase() === selectedType &&
+    String(file.path).toLowerCase().includes(query)
+  );
 
-    const type = document.getElementById("typeFilter").value;
+  const list = document.getElementById("fileList");
 
-    const filtered = files
-        .map((file, index) => ({ ...file, index }))
-        .filter(file => {
+  if (!filtered.length) {
+    list.innerHTML = '<div class="message">No matching ' +
+      (selectedType === ".pdf" ? "PDF" : "MP4") + ' files.</div>';
+    return;
+  }
 
-            const matchesSearch =
-                file.path.toLowerCase().includes(search);
-
-            const matchesType =
-                type === "all" || file.extension === type;
-
-            return matchesSearch && matchesType;
-
-        });
-
-    const list = document.getElementById("fileList");
-
-    if (!filtered.length) {
-        list.innerHTML =
-            '<div class="placeholder">No matching files found.</div>';
-        return;
-    }
-
-    list.innerHTML = filtered.map(file => {
-
-        const icon = file.extension === ".mp4"
-            ? "🎬" : "📕";
-
-        return `
-            <div class="file ${selectedIndex === file.index ? "active" : ""}"
-                 data-index="${file.index}"
-                 onclick="openFile(${file.index})">
-
-                ${icon} ${escapeHTML(file.name)}
-
-                <small>${escapeHTML(file.path)}</small>
-
-                <small>${formatSize(file.size)}</small>
-
-            </div>
-        `;
-
-    }).join("");
+  list.innerHTML = filtered.map(file => `
+    <div class="file ${selectedPath === file.path ? "active" : ""}"
+         data-path="${escapeHTML(file.path)}"
+         onclick="openFileByPath('${escapeHTML(file.path).replace(/&#39;/g, "\\'")}')">
+      ${escapeHTML(file.name)}
+      <small>${escapeHTML(file.path)} · ${formatSize(file.size)}</small>
+    </div>
+  `).join("");
 }
 
-function openFile(index) {
-
-    const file = files[index];
-
-    if (!file) return;
-
-    selectedIndex = index;
-
-    const preview = document.getElementById("preview");
-
-    document.getElementById("fileTitle").textContent =
-        file.name;
-
-    const openLink = document.getElementById("openLink");
-
-    openLink.href = file.page;
-    openLink.hidden = false;
-
-    if (file.extension === ".mp4") {
-
-        preview.innerHTML = `
-            <video controls autoplay preload="metadata">
-                <source
-                    src="${escapeHTML(file.url)}"
-                    type="video/mp4">
-                Your browser cannot play this video.
-            </video>
-        `;
-
-    } else if (file.extension === ".pdf") {
-
-        preview.innerHTML = `
-            <iframe
-                src="${escapeHTML(file.url)}"
-                title="${escapeHTML(file.name)}">
-            </iframe>
-        `;
-
-    }
-
-    renderFiles();
+function openFileByPath(path) {
+  const file = files.find(item => item.path === path);
+  if (file) openFile(file);
 }
 
-// Initial load
+async function openFile(file) {
+  selectedPath = file.path;
+  document.getElementById("fileTitle").textContent = file.path;
+  document.getElementById("downloadButton").disabled = false;
+  renderFiles();
+
+  const preview = document.getElementById("preview");
+  preview.innerHTML = '<div class="message">Loading…</div>';
+
+  if (currentPdfLoadingTask) {
+    try { await currentPdfLoadingTask.destroy(); } catch (_) {}
+    currentPdfLoadingTask = null;
+  }
+
+  if (file.extension.toLowerCase() === ".mp4") {
+    preview.innerHTML = `
+      <video controls autoplay preload="metadata">
+        <source src="${escapeHTML(file.url)}" type="video/mp4">
+        Your browser cannot play this video.
+      </video>`;
+    return;
+  }
+
+  if (file.extension.toLowerCase() === ".pdf") {
+    preview.innerHTML = '<div id="pdfPages"></div>';
+
+    try {
+      currentPdfLoadingTask = pdfjsLib.getDocument(file.url);
+      const pdf = await currentPdfLoadingTask.promise;
+
+      // Ignore a render if another file was selected meanwhile.
+      if (selectedPath !== file.path) return;
+
+      const pagesContainer = document.getElementById("pdfPages");
+      if (!pagesContainer) return;
+
+      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+        if (selectedPath !== file.path) return;
+
+        const page = await pdf.getPage(pageNumber);
+        const containerWidth = Math.max(280, pagesContainer.clientWidth - 24);
+        const baseViewport = page.getViewport({ scale: 1 });
+        const scale = Math.min(1.6, containerWidth / baseViewport.width);
+        const viewport = page.getViewport({ scale });
+
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+
+        canvas.width = Math.floor(viewport.width);
+        canvas.height = Math.floor(viewport.height);
+        canvas.setAttribute("aria-label", "PDF page " + pageNumber);
+        pagesContainer.appendChild(canvas);
+
+        await page.render({
+          canvasContext: context,
+          viewport: viewport
+        }).promise;
+      }
+    } catch (error) {
+      if (selectedPath !== file.path) return;
+      preview.innerHTML =
+        '<div class="message">Unable to render PDF: ' +
+        escapeHTML(error.message) + '</div>';
+    }
+  }
+}
+
+async function downloadSelected() {
+  const file = files.find(item => item.path === selectedPath);
+  if (!file) return;
+
+  const button = document.getElementById("downloadButton");
+  const status = document.getElementById("status");
+  button.disabled = true;
+  status.textContent = "Preparing download…";
+
+  try {
+    const response = await fetch(file.url);
+    if (!response.ok) throw new Error("Download failed (HTTP " + response.status + ").");
+
+    const blob = await response.blob();
+    const objectUrl = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+
+    link.href = objectUrl;
+    link.download = file.name;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+    setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+    status.textContent = "Download started";
+  } catch (error) {
+    status.textContent = error.message;
+    // Fallback: open the raw file if the browser blocks the download fetch.
+    window.open(file.url, "_blank", "noopener");
+  } finally {
+    button.disabled = false;
+  }
+}
+
 loadIndex();
-
 </script>
-
 </body>
 </html>
